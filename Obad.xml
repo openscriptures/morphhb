@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace">
+  <osisText xml:lang="he" osisIDWork="WLC">
+    <header>
+      <revisionDesc resp="dt">
+        <date>2008.08.08</date>
+        <p>Convert the Westminster Leningrad Codex files from TEI markup to OSIS book files.</p>
+      </revisionDesc>
+      <work osisWork="WLC" xml:lang="he">
+        <title>Westminster Leningrad Codex</title>
+        <contributor role="edt">David Troidl</contributor>
+        <contributor role="edt">Christopher V. Kimball</contributor>
+        <date>2007.9.16</date>
+        <identifier type="URL">http://www.tanach.us/Tanach.xml</identifier>
+        <rights>Public Domain</rights>
+      </work>
+      <work osisWork="BHS" xml:lang="he">
+        <title>BHS unaccented with Strongs</title>
+        <contributor role="edt">Joseph Planeta</contributor>
+        <contributor role="edt">Rev. Graham Nind</contributor>
+        <description>Unaccented Biblia Hebraica Stuttgartensia Hebrew with Strong's numbers by Rev. Graham.</description>
+        <identifier type="URL">http://www.faithofgod.net/</identifier>
+        <identifier type="URL">http://www.grahamnind.dsl.pipex.com/files</identifier>
+        <rights>Public Domain</rights>
+      </work>
+      <work osisWork="Strong" xml:lang="en">
+        <title>A Concise Dictionary of the Words in the Hebrew Bible</title>
+        <title type="sub">with their Renderings in the King James Version</title>
+        <contributor role="edt">David Troidl</contributor>
+        <contributor role="edt">David Instone-Brewer</contributor>
+        <creator role="edt">James Strong, LL.D., S.T.D.</creator>
+        <date>1894</date>
+        <description resp="dib">The data came from several PD sources which were full of errors. I cleaned them by comparing them to each other and (where necessary) looking at the original.</description>
+        <publisher>Hunt &amp;amp; Eaton</publisher>
+        <identifier type="URL">www.2LetterLookup.com</identifier>
+        <source>The exhaustive concordance of the Bible:</source>
+        <rights>Public Domain</rights>
+      </work>
+      <workPrefix path="//w/@lemma" osisWork="Strong" />
+    </header>
+    <div type="book" osisID="Obad">
+      <chapter osisID="Obad.1">
+        <verse osisID="Obad.1.1">
+          <w lemma="2377">חֲז֖וֹן</w>
+          <w lemma="5662">עֹֽבַדְיָ֑ה</w>
+          <w lemma="3541">כֹּֽה־</w>
+          <w lemma="559">אָמַר֩</w>
+          <w lemma="136">אֲדֹנָ֨/י</w>
+          <w lemma="3068">יְהוִ֜ה</w>
+          <w lemma="123">לֶ/אֱד֗וֹם</w>
+          <w lemma="8052">שְׁמוּעָ֨ה</w>
+          <w lemma="8085">שָׁמַ֜עְנוּ</w>
+          <w lemma="853">מֵ/אֵ֤ת</w>
+          <w lemma="3069">יְהוָה֙</w>
+          <w lemma="6735">וְ/צִיר֙</w>
+          <w lemma="1471">בַּ/גּוֹיִ֣ם</w>
+          <w lemma="7971">שֻׁלָּ֔ח</w>
+          <w lemma="6965">ק֛וּמוּ</w>
+          <w lemma="6965">וְ/נָק֥וּמָה</w>
+          <w lemma="5921">עָלֶ֖י/הָ</w>
+          <w lemma="4421">לַ/מִּלְחָמָֽה׃</w>
+        </verse>
+        <verse osisID="Obad.1.2">
+          <w lemma="2009">הִנֵּ֥ה</w>
+          <w lemma="6996">קָטֹ֛ן</w>
+          <w lemma="5414">נְתַתִּ֖י/ךָ</w>
+          <w lemma="1471">בַּ/גּוֹיִ֑ם</w>
+          <w lemma="959">בָּז֥וּי</w>
+          <w lemma="859">אַתָּ֖ה</w>
+          <w lemma="3966">מְאֹֽד׃</w>
+        </verse>
+        <verse osisID="Obad.1.3">
+          <w lemma="2087">זְד֤וֹן</w>
+          <w lemma="3820">לִבְּ/ךָ֙</w>
+          <w lemma="5377">הִשִּׁיאֶ֔/ךָ</w>
+          <w lemma="7931">שֹׁכְנִ֥י</w>
+          <w lemma="2288">בְ/חַגְוֵי־</w>
+          <w lemma="5553">סֶּ֖לַע</w>
+          <w lemma="4791">מְר֣וֹם</w>
+          <w lemma="7674">שִׁבְתּ֑/וֹ</w>
+          <w lemma="559">אֹמֵ֣ר</w>
+          <w lemma="3820">בְּ/לִבּ֔/וֹ</w>
+          <w lemma="4310">מִ֥י</w>
+          <w lemma="3381">יוֹרִדֵ֖/נִי</w>
+          <w lemma="776">אָֽרֶץ׃</w>
+        </verse>
+        <verse osisID="Obad.1.4">
+          <w lemma="518">אִם־</w>
+          <w lemma="1361">תַּגְבִּ֣יהַּ</w>
+          <w lemma="5404">כַּ/נֶּ֔שֶׁר</w>
+          <w lemma="518">וְ/אִם־</w>
+          <w lemma="996">בֵּ֥ין</w>
+          <w lemma="3556">כּֽוֹכָבִ֖ים</w>
+          <w lemma="7760">שִׂ֣ים</w>
+          <w lemma="7064">קִנֶּ֑/ךָ</w>
+          <w lemma="8033">מִ/שָּׁ֥ם</w>
+          <w lemma="3381">אוֹרִֽידְ/ךָ֖</w>
+          <w lemma="5002">נְאֻם־</w>
+          <w lemma="3068">יְהוָֽה׃</w>
+        </verse>
+        <verse osisID="Obad.1.5">
+          <w lemma="518">אִם־</w>
+          <w lemma="1590">גַּנָּבִ֤ים</w>
+          <w lemma="935">בָּאֽוּ־</w>
+          <w lemma="0">לְ/ךָ֙</w>
+          <w lemma="518">אִם־</w>
+          <w lemma="7703">שׁ֣וֹדְדֵי</w>
+          <w lemma="3915">לַ֔יְלָה</w>
+          <w lemma="349">אֵ֣יךְ</w>
+          <w lemma="1820">נִדְמֵ֔יתָה</w>
+          <w lemma="3808">הֲ/ל֥וֹא</w>
+          <w lemma="1589">יִגְנְב֖וּ</w>
+          <w lemma="1767">דַּיָּ֑/ם</w>
+          <w lemma="518">אִם־</w>
+          <w lemma="1219">בֹּֽצְרִים֙</w>
+          <w lemma="935">בָּ֣אוּ</w>
+          <w lemma="0">לָ֔/ךְ</w>
+          <w lemma="3808">הֲ/ל֖וֹא</w>
+          <w lemma="7604">יַשְׁאִ֥ירוּ</w>
+          <w lemma="5955">עֹלֵלֽוֹת׃</w>
+        </verse>
+        <verse osisID="Obad.1.6">
+          <w lemma="349">אֵ֚יךְ</w>
+          <w lemma="2664">נֶחְפְּשׂ֣וּ</w>
+          <w lemma="6215">עֵשָׂ֔ו</w>
+          <w lemma="1158">נִבְע֖וּ</w>
+          <w lemma="4710">מַצְפֻּנָֽי/ו׃</w>
+        </verse>
+        <verse osisID="Obad.1.7">
+          <w lemma="5704">עַֽד־</w>
+          <w lemma="1366">הַ/גְּב֣וּל</w>
+          <w lemma="7971">שִׁלְּח֗וּ/ךָ</w>
+          <w lemma="3605">כֹּ֚ל</w>
+          <w lemma="582">אַנְשֵׁ֣י</w>
+          <w lemma="1285">בְרִיתֶ֔/ךָ</w>
+          <w lemma="5377">הִשִּׁיא֛וּ/ךָ</w>
+          <w lemma="3201">יָכְל֥וּ</w>
+          <w lemma="0">לְ/ךָ֖</w>
+          <w lemma="582">אַנְשֵׁ֣י</w>
+          <w lemma="7965">שְׁלֹמֶ֑/ךָ</w>
+          <w lemma="3899">לַחְמְ/ךָ֗</w>
+          <w lemma="7760">יָשִׂ֤ימוּ</w>
+          <w lemma="4204">מָזוֹר֙</w>
+          <w lemma="8478">תַּחְתֶּ֔י/ךָ</w>
+          <w lemma="369">אֵ֥ין</w>
+          <w lemma="8394">תְּבוּנָ֖ה</w>
+          <w lemma="0">בּֽ/וֹ׃</w>
+        </verse>
+        <verse osisID="Obad.1.8">
+          <w lemma="3808">הֲ/ל֛וֹא</w>
+          <w lemma="3117">בַּ/יּ֥וֹם</w>
+          <w lemma="1931">הַ/ה֖וּא</w>
+          <w lemma="5002">נְאֻם</w>
+          <note>1</note>
+          <w lemma="3068">יְהוָ֑ה</w>
+          <w lemma="6">וְ/הַאֲבַדְתִּ֤י</w>
+          <w lemma="2450">חֲכָמִים֙</w>
+          <w lemma="123">מֵֽ/אֱד֔וֹם</w>
+          <w lemma="8394">וּ/תְבוּנָ֖ה</w>
+          <w lemma="2022">מֵ/הַ֥ר</w>
+          <w lemma="6215">עֵשָֽׂו׃</w>
+        </verse>
+        <verse osisID="Obad.1.9">
+          <w lemma="2865">וְ/חַתּ֥וּ</w>
+          <w lemma="1368">גִבּוֹרֶ֖י/ךָ</w>
+          <w lemma="8487">תֵּימָ֑ן</w>
+          <w lemma="4616">לְמַ֧עַן</w>
+          <w lemma="3772">יִכָּֽרֶת־</w>
+          <w lemma="376">אִ֛ישׁ</w>
+          <w lemma="2022">מֵ/הַ֥ר</w>
+          <w lemma="6215">עֵשָׂ֖ו</w>
+          <w lemma="6993">מִ/קָּֽטֶל׃</w>
+        </verse>
+        <verse osisID="Obad.1.10">
+          <w lemma="2555">מֵ/חֲמַ֛ס</w>
+          <w lemma="251">אָחִ֥י/ךָ</w>
+          <w lemma="3290">יַעֲקֹ֖ב</w>
+          <w lemma="3680">תְּכַסְּ/ךָ֣</w>
+          <w lemma="955">בוּשָׁ֑ה</w>
+          <w lemma="3772">וְ/נִכְרַ֖תָּ</w>
+          <w lemma="5769">לְ/עוֹלָֽם׃</w>
+        </verse>
+        <verse osisID="Obad.1.11">
+          <w lemma="3117">בְּ/יוֹם֙</w>
+          <w lemma="5975">עֲמָֽדְ/ךָ֣</w>
+          <w lemma="5048">מִ/נֶּ֔גֶד</w>
+          <w lemma="3117">בְּ/י֛וֹם</w>
+          <w lemma="7617">שְׁב֥וֹת</w>
+          <w lemma="2114">זָרִ֖ים</w>
+          <w lemma="2428">חֵיל֑/וֹ</w>
+          <w lemma="5237">וְ/נָכְרִ֞ים</w>
+          <w lemma="935">בָּ֣אוּ</w>
+          <w POS="ketiv">שער/ו</w>
+          <w lemma="8179" POS="qere">שְׁעָרָ֗י/ו</w>
+          <w lemma="5921">וְ/עַל־</w>
+          <w lemma="3389">יְרוּשָׁלִַ֙ם֙</w>
+          <w lemma="3032">יַדּ֣וּ</w>
+          <w lemma="1486">גוֹרָ֔ל</w>
+          <w lemma="1571">גַּם־</w>
+          <w lemma="859">אַתָּ֖ה</w>
+          <w lemma="259">כְּ/אַחַ֥ד</w>
+          <w lemma="1992">מֵ/הֶֽם׃</w>
+        </verse>
+        <verse osisID="Obad.1.12">
+          <w lemma="408">וְ/אַל־</w>
+          <w lemma="7200">תֵּ֤רֶא</w>
+          <w lemma="3117">בְ/יוֹם־</w>
+          <w lemma="251">אָחִ֙י/ךָ֙</w>
+          <w lemma="3117">בְּ/י֣וֹם</w>
+          <w lemma="5237">נָכְר֔/וֹ</w>
+          <w lemma="408">וְ/אַל־</w>
+          <w lemma="8055">תִּשְׂמַ֥ח</w>
+          <w lemma="1121">לִ/בְנֵֽי־</w>
+          <w lemma="3063">יְהוּדָ֖ה</w>
+          <w lemma="3117">בְּ/י֣וֹם</w>
+          <w lemma="6">אָבְדָ֑/ם</w>
+          <w lemma="408">וְ/אַל־</w>
+          <w lemma="1431">תַּגְדֵּ֥ל</w>
+          <w lemma="6310">פִּ֖י/ךָ</w>
+          <w lemma="3117">בְּ/י֥וֹם</w>
+          <w lemma="6869">צָרָֽה׃</w>
+        </verse>
+        <verse osisID="Obad.1.13">
+          <w lemma="408">אַל־</w>
+          <w lemma="935">תָּב֤וֹא</w>
+          <w lemma="8179">בְ/שַֽׁעַר־</w>
+          <w lemma="5971">עַמִּ/י֙</w>
+          <w lemma="3117">בְּ/י֣וֹם</w>
+          <w lemma="343">אֵידָ֔/ם</w>
+          <w lemma="408">אַל־</w>
+          <w lemma="7200">תֵּ֧רֶא</w>
+          <w lemma="1571">גַם־</w>
+          <w lemma="859">אַתָּ֛ה</w>
+          <w lemma="7451">בְּ/רָעָת֖/וֹ</w>
+          <w lemma="3117">בְּ/י֣וֹם</w>
+          <w lemma="343">אֵיד֑/וֹ</w>
+          <w lemma="408">וְ/אַל־</w>
+          <w lemma="7971">תִּשְׁלַ֥חְנָה</w>
+          <w lemma="2428">בְ/חֵיל֖/וֹ</w>
+          <w lemma="3117">בְּ/י֥וֹם</w>
+          <w lemma="343">אֵידֽ/וֹ׃</w>
+        </verse>
+        <verse osisID="Obad.1.14">
+          <w lemma="408">וְ/אַֽל־</w>
+          <w lemma="5975">תַּעֲמֹד֙</w>
+          <w lemma="5921">עַל־</w>
+          <w lemma="6563">הַ/פֶּ֔רֶק</w>
+          <w lemma="3772">לְ/הַכְרִ֖ית</w>
+          <w lemma="853">אֶת־</w>
+          <w lemma="6412">פְּלִיטָ֑י/ו</w>
+          <w lemma="408">וְ/אַל־</w>
+          <w lemma="5462">תַּסְגֵּ֥ר</w>
+          <w lemma="8300">שְׂרִידָ֖י/ו</w>
+          <w lemma="3117">בְּ/י֥וֹם</w>
+          <w lemma="6869">צָרָֽה׃</w>
+        </verse>
+        <verse osisID="Obad.1.15">
+          <w lemma="3588">כִּֽי־</w>
+          <w lemma="7138">קָר֥וֹב</w>
+          <w lemma="3117">יוֹם־</w>
+          <w lemma="3068">יְהוָ֖ה</w>
+          <w lemma="5921">עַל־</w>
+          <w lemma="3605">כָּל־</w>
+          <w lemma="1471">הַ/גּוֹיִ֑ם</w>
+          <w lemma="834">כַּ/אֲשֶׁ֤ר</w>
+          <w lemma="6213">עָשִׂ֙יתָ֙</w>
+          <w lemma="6213">יֵעָ֣שֶׂה</w>
+          <w lemma="0">לָּ֔/ךְ</w>
+          <w lemma="1576">גְּמֻלְ/ךָ֖</w>
+          <w lemma="7725">יָשׁ֥וּב</w>
+          <w lemma="7218">בְּ/רֹאשֶֽׁ/ךָ׃</w>
+        </verse>
+        <verse osisID="Obad.1.16">
+          <w lemma="3588">כִּ֗י</w>
+          <w lemma="834">כַּֽ/אֲשֶׁ֤ר</w>
+          <w lemma="8354">שְׁתִיתֶם֙</w>
+          <w lemma="5921">עַל־</w>
+          <w lemma="2022">הַ֣ר</w>
+          <w lemma="6944">קָדְשִׁ֔/י</w>
+          <w lemma="8354">יִשְׁתּ֥וּ</w>
+          <w lemma="3605">כָֽל־</w>
+          <w lemma="1471">הַ/גּוֹיִ֖ם</w>
+          <w lemma="8548">תָּמִ֑יד</w>
+          <w lemma="8354">וְ/שָׁת֣וּ</w>
+          <w lemma="3886">וְ/לָע֔וּ</w>
+          <w lemma="1961">וְ/הָי֖וּ</w>
+          <w lemma="3808">כְּ/ל֥וֹא</w>
+          <w lemma="1961">הָיֽוּ׃</w>
+        </verse>
+        <verse osisID="Obad.1.17">
+          <w lemma="2022">וּ/בְ/הַ֥ר</w>
+          <w lemma="6726">צִיּ֛וֹן</w>
+          <w lemma="1961">תִּהְיֶ֥ה</w>
+          <w lemma="6413">פְלֵיטָ֖ה</w>
+          <w lemma="1961">וְ/הָ֣יָה</w>
+          <w lemma="6944">קֹ֑דֶשׁ</w>
+          <w lemma="3423">וְ/יָֽרְשׁוּ֙</w>
+          <note>1</note>
+          <w lemma="1004">בֵּ֣ית</w>
+          <w lemma="3290">יַֽעֲקֹ֔ב</w>
+          <w lemma="853">אֵ֖ת</w>
+          <w lemma="4180">מוֹרָֽשֵׁי/הֶם׃</w>
+          <note>1</note>
+        </verse>
+        <verse osisID="Obad.1.18">
+          <w lemma="1961">וְ/הָיָה֩</w>
+          <w lemma="1004">בֵית־</w>
+          <w lemma="3290">יַעֲקֹ֨ב</w>
+          <w lemma="784">אֵ֜שׁ</w>
+          <w lemma="1004">וּ/בֵ֧ית</w>
+          <w lemma="3130">יוֹסֵ֣ף</w>
+          <w lemma="3852">לֶהָבָ֗ה</w>
+          <w lemma="1004">וּ/בֵ֤ית</w>
+          <w lemma="6215">עֵשָׂו֙</w>
+          <w lemma="7179">לְ/קַ֔שׁ</w>
+          <w lemma="1814">וְ/דָלְק֥וּ</w>
+          <w lemma="0">בָ/הֶ֖ם</w>
+          <w lemma="398">וַ/אֲכָל֑וּ/ם</w>
+          <w lemma="3808">וְ/לֹֽא־</w>
+          <w lemma="1961">יִֽהְיֶ֤ה</w>
+          <note>3</note>
+          <w lemma="8300">שָׂרִיד֙</w>
+          <w lemma="1004">לְ/בֵ֣ית</w>
+          <w lemma="6215">עֵשָׂ֔ו</w>
+          <w lemma="3588">כִּ֥י</w>
+          <w lemma="3068">יְהוָ֖ה</w>
+          <w lemma="1696">דִּבֵּֽר׃</w>
+        </verse>
+        <verse osisID="Obad.1.19">
+          <w lemma="3423">וְ/יָרְשׁ֨וּ</w>
+          <w lemma="5045">הַ/נֶּ֜גֶב</w>
+          <w lemma="853">אֶת־</w>
+          <w lemma="2022">הַ֣ר</w>
+          <w lemma="6215">עֵשָׂ֗ו</w>
+          <w lemma="8219">וְ/הַ/שְּׁפֵלָה֙</w>
+          <w lemma="853">אֶת־</w>
+          <w lemma="6430">פְּלִשְׁתִּ֔ים</w>
+          <w lemma="3423">וְ/יָרְשׁוּ֙</w>
+          <w lemma="853">אֶת־</w>
+          <w lemma="7704">שְׂדֵ֣ה</w>
+          <w lemma="669">אֶפְרַ֔יִם</w>
+          <w lemma="853">וְ/אֵ֖ת</w>
+          <w lemma="7704">שְׂדֵ֣ה</w>
+          <w lemma="8111">שֹׁמְר֑וֹן</w>
+          <w lemma="1144">וּ/בִנְיָמִ֖ן</w>
+          <w lemma="853">אֶת־</w>
+          <w lemma="1568">הַ/גִּלְעָֽד׃</w>
+        </verse>
+        <verse osisID="Obad.1.20">
+          <w lemma="1546">וְ/גָלֻ֣ת</w>
+          <w lemma="2426">הַֽ/חֵל־</w>
+          <w lemma="2088">הַ֠/זֶּה</w>
+          <w lemma="1121">לִ/בְנֵ֨י</w>
+          <w lemma="3478">יִשְׂרָאֵ֤ל</w>
+          <w lemma="834">אֲשֶֽׁר־</w>
+          <w lemma="3669">כְּנַעֲנִים֙</w>
+          <w lemma="5704">עַד־</w>
+          <w lemma="6886">צָ֣רְפַ֔ת</w>
+          <w lemma="1546">וְ/גָלֻ֥ת</w>
+          <w lemma="3389">יְרוּשָׁלִַ֖ם</w>
+          <w lemma="834">אֲשֶׁ֣ר</w>
+          <w lemma="5614">בִּ/סְפָרַ֑ד</w>
+          <w lemma="3423">יִֽרְשׁ֕וּ</w>
+          <w lemma="853">אֵ֖ת</w>
+          <w lemma="5892">עָרֵ֥י</w>
+          <w lemma="5045">הַ/נֶּֽגֶב׃</w>
+        </verse>
+        <verse osisID="Obad.1.21">
+          <w lemma="5927">וְ/עָל֤וּ</w>
+          <w lemma="3467">מֽוֹשִׁעִים֙</w>
+          <w lemma="2022">בְּ/הַ֣ר</w>
+          <w lemma="6726">צִיּ֔וֹן</w>
+          <w lemma="8199">לִ/שְׁפֹּ֖ט</w>
+          <w lemma="853">אֶת־</w>
+          <w lemma="2022">הַ֣ר</w>
+          <w lemma="6215">עֵשָׂ֑ו</w>
+          <w lemma="1961">וְ/הָיְתָ֥ה</w>
+          <w lemma="3068">לַֽ/יהוָ֖ה</w>
+          <w lemma="4410">הַ/מְּלוּכָֽה׃</w>
+        </verse>
+      </chapter>
+    </div>
+  </osisText>
+</osis>
