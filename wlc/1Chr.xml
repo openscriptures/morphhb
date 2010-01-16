@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace">
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
@@ -8,6 +8,7 @@
       </revisionDesc>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
+        <contributor role="edt">Daniel Owens</contributor>
         <contributor role="edt">David Troidl</contributor>
         <contributor role="edt">Christopher V. Kimball</contributor>
         <date>2007.9.16</date>
@@ -127,8 +128,7 @@
           <w lemma="4714">וּ/מִצְרַ֡יִם</w>
           <w lemma="3205">יָלַ֞ד</w>
           <w lemma="853">אֶת־</w>
-          <w POS="ketiv">לודיים</w>
-          <w lemma="3866" POS="qere">לוּדִ֧ים</w>
+          <w lemma="3866">לודיים</w><note type="variant"><catchWord>לודיים</catchWord><rdg type="x-qere"><w lemma="3866">לוּדִ֧ים</w></rdg></note>
           <w lemma="853">וְ/אֶת־</w><w lemma="6047">עֲנָמִ֛ים</w>
           <w lemma="853">וְ/אֶת־</w><w lemma="3853">לְהָבִ֖ים</w>
           <w lemma="853">וְ/אֶת־</w><w lemma="5320">נַפְתֻּחִֽים</w><seg type="x-sof-pasuq">׃</seg> 
@@ -234,7 +234,7 @@
         </verse>
         <verse osisID="1Chr.1.24">
           <w lemma="8035">שֵׁ֥ם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="775">אַרְפַּכְשַׁ֖ד</w>
           <w lemma="7974">שָֽׁלַח</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -469,8 +469,7 @@
           <w lemma="4124">מוֹאָ֔ב</w>
           <w lemma="8034">וְ/שֵׁ֥ם</w>
           <w lemma="5892">עִיר֖/וֹ</w>
-          <w POS="ketiv">עיות</w>
-          <w lemma="5762" POS="qere">עֲוִֽית</w><seg type="x-sof-pasuq">׃</seg> 
+          <w lemma="5762">עיות</w><note type="variant"><catchWord>עיות</catchWord><rdg type="x-qere"><w lemma="5762">עֲוִֽית</w></rdg></note><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="1Chr.1.47">
           <w lemma="4191">וַ/יָּ֖מָת</w>
@@ -526,8 +525,7 @@
           <w lemma="441">אַלּ֥וּף</w>
           <w lemma="8555">תִּמְנָ֛ע</w>
           <w lemma="441">אַלּ֥וּף</w>
-          <w POS="ketiv">עליה</w>
-          <w lemma="5933" POS="qere">עַֽלְוָ֖ה</w>
+          <w lemma="5933">עליה</w><note type="variant"><catchWord>עליה</catchWord><rdg type="x-qere"><w lemma="5933">עַֽלְוָ֖ה</w></rdg></note>
           <w lemma="441">אַלּ֥וּף</w>
           <w lemma="3509">יְתֵֽת</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -593,7 +591,7 @@
           <w lemma="3669">הַֽ/כְּנַעֲנִ֑ית</w>
           <w lemma="1961">וַ/יְהִ֞י</w>
           <w lemma="6147">עֵ֣ר</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1060">בְּכ֣וֹר</w>
           <w lemma="3063">יְהוּדָ֗ה</w>
           <w lemma="7451">רַ֛ע</w>
@@ -707,8 +705,7 @@
           <w lemma="7637">הַ/שְּׁבִעִֽי</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="1Chr.2.16">
-          <w POS="ketiv">ו/אחיתי/הם</w>
-          <w lemma="269" POS="qere">וְ/אַחְיוֹתֵי/הֶ֖ם</w>
+          <w lemma="269">ו/אחיתי/הם</w><note type="variant"><catchWord>ו/אחיתי/הם</catchWord><rdg type="x-qere"><w lemma="269">וְ/אַחְיוֹתֵי/הֶ֖ם</w></rdg></note>
           <w lemma="6870">צְרוּיָ֣ה</w>
           <w lemma="26">וַ/אֲבִיגָ֑יִל</w>
           <w lemma="1121">וּ/בְנֵ֣י</w>
@@ -821,7 +818,7 @@
           <w lemma="1060">בְּכ֥וֹר</w>
           <w lemma="2696">חֶצְר֖וֹן</w>
           <w lemma="1060">הַ/בְּכ֣וֹר</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7410">רָ֑ם</w>
           <w lemma="946">וּ/בוּנָ֥ה</w>
           <w lemma="767">וָ/אֹ֛רֶן</w>
@@ -1132,8 +1129,7 @@
         <verse osisID="1Chr.2.55">
           <w lemma="4940">וּ/מִשְׁפְּח֤וֹת</w>
           <w lemma="5608">סֹפְרִים֙</w>
-          <w POS="ketiv">ישבו</w>
-          <w lemma="3427" POS="qere">יֹשְׁבֵ֣י</w>
+          <w lemma="3427">ישבו</w><note type="variant"><catchWord>ישבו</catchWord><rdg type="x-qere"><w lemma="3427">יֹשְׁבֵ֣י</w></rdg></note>
           <w lemma="3258">יַעְבֵּ֔ץ</w>
           <w lemma="8654">תִּרְעָתִ֥ים</w>
           <w lemma="8101">שִׁמְעָתִ֖ים</w>
@@ -1158,7 +1154,7 @@
           <w lemma="3205">נֽוֹלַד־</w><w lemma="0">ל֖/וֹ</w>
           <w lemma="2275">בְּ/חֶבְר֑וֹן</w>
           <w lemma="1060">הַ/בְּכ֣וֹר</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="550">אַמְנֹ֗ן</w>
           <w lemma="293">לַ/אֲחִינֹ֙עַם֙</w>
           <w lemma="3159">הַ/יִּזְרְעֵאלִ֔ית</w>
@@ -1373,8 +1369,7 @@
         <verse osisID="1Chr.3.24">
           <w lemma="1121">וּ/בְנֵ֣י</w>
           <w lemma="454">אֶלְיוֹעֵינַ֗י</w>
-          <w POS="ketiv">הדיוהו</w>
-          <w lemma="1937" POS="qere">הוֹדַוְיָ֡הוּ</w>
+          <w lemma="1937">הדיוהו</w><note type="variant"><catchWord>הדיוהו</catchWord><rdg type="x-qere"><w lemma="1937">הוֹדַוְיָ֡הוּ</w></rdg></note>
           <w lemma="475">וְ/אֶלְיָשִׁ֡יב</w>
           <w lemma="6411">וּ/פְלָיָ֡ה</w>
           <w lemma="6126">וְ֠/עַקּוּב</w>
@@ -1461,8 +1456,7 @@
           <w lemma="1121">וּ/בְנֵ֖י</w>
           <w lemma="2458">חֶלְאָ֑ה</w>
           <w lemma="6889">צֶ֥רֶת</w>
-          <w POS="ketiv">יצחר</w>
-          <w lemma="3328" POS="qere">וְ/צֹ֖חַר</w>
+          <w lemma="3328">יצחר</w><note type="variant"><catchWord>יצחר</catchWord><rdg type="x-qere"><w lemma="3328">וְ/צֹ֖חַר</w></rdg></note>
           <w lemma="869">וְ/אֶתְנָֽן</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="1Chr.4.8">
@@ -1630,8 +1624,7 @@
           <w lemma="550">אַמְנ֣וֹן</w>
           <w lemma="7441">וְ/רִנָּ֔ה</w>
           <w lemma="0">בֶּן־</w><w lemma="1135">חָנָ֖ן</w>
-          <w POS="ketiv">ו/תולון</w>
-          <w lemma="8436" POS="qere">וְ/תִיל֑וֹן</w>
+          <w lemma="8436">ו/תולון</w><note type="variant"><catchWord>ו/תולון</catchWord><rdg type="x-qere"><w lemma="8436">וְ/תִיל֑וֹן</w></rdg></note>
           <w lemma="1121">וּ/בְנֵ֣י</w>
           <w lemma="3469">יִשְׁעִ֔י</w>
           <w lemma="2105">זוֹחֵ֖ת</w>
@@ -1850,14 +1843,13 @@
           <w lemma="3789">הַ/כְּתוּבִ֨ים</w>
           <w lemma="8034">בְּ/שֵׁמ֜וֹת</w>
           <w lemma="3117">בִּ/ימֵ֣י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2396">יְחִזְקִיָּ֣הוּ</w>
           <w lemma="4428">מֶֽלֶךְ־</w><w lemma="3063">יְהוּדָ֗ה</w>
           <w lemma="5221">וַ/יַּכּ֨וּ</w>
           <w lemma="853">אֶת־</w><w lemma="168">אָהֳלֵי/הֶ֜ם</w>
           <w lemma="853">וְ/אֶת־</w>
-          <w POS="ketiv">ה/מעינים</w>
-          <w lemma="4586" POS="qere">הַ/מְּעוּנִ֨ים</w>
+          <w lemma="4586">ה/מעינים</w><note type="variant"><catchWord>ה/מעינים</catchWord><rdg type="x-qere"><w lemma="4586">הַ/מְּעוּנִ֨ים</w></rdg></note>
           <w lemma="834">אֲשֶׁ֤ר</w>
           <w lemma="4672">נִמְצְאוּ־</w><w lemma="8033">שָׁ֙מָּ/ה֙</w>
           <w lemma="2763">וַ/יַּחֲרִימֻ/ם֙</w>
@@ -1871,7 +1863,7 @@
         </verse>
         <verse osisID="1Chr.4.42">
           <w lemma="1992">וּ/מֵ/הֶ֣ם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4480">מִן־</w><w lemma="1121">בְּנֵ֣י</w>
           <w lemma="8095">שִׁמְע֗וֹן</w>
           <w lemma="1980">הָלְכוּ֙</w>
@@ -2054,7 +2046,7 @@
         </verse>
         <verse osisID="1Chr.5.14">
           <w lemma="428">אֵ֣לֶּה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1121">בְּנֵ֣י</w>
           <w lemma="32">אֲבִיחַ֗יִל</w>
           <w lemma="1121">בֶּן־</w><w lemma="2359">חוּרִ֡י</w>
@@ -2221,7 +2213,7 @@
           <w lemma="430">אֱלֹהֵ֨י</w>
           <w lemma="3478">יִשְׂרָאֵ֜ל</w>
           <w lemma="853">אֶת־</w><w lemma="7307">ר֣וּחַ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="6322">פּ֣וּל</w>
           <w lemma="4428">מֶֽלֶךְ־</w><w lemma="804">אַשּׁ֗וּר</w>
           <w lemma="853">וְ/אֶת־</w><w lemma="7307">ר֙וּחַ֙</w>
@@ -2496,8 +2488,7 @@
         <verse osisID="1Chr.6.11">
           <note>BHS:1Chr.6.26</note>
           <w lemma="511">אֶלְקָנָ֑ה</w>
-          <w POS="ketiv">בנ/ו</w>
-          <w lemma="1121" POS="qere">בְּנֵי֙</w>
+          <w lemma="1121">בנ/ו</w><note type="variant"><catchWord>בנ/ו</catchWord><rdg type="x-qere"><w lemma="1121">בְּנֵי֙</w></rdg></note>
           <w lemma="511">אֶלְקָנָ֔ה</w>
           <w lemma="6689">צוֹפַ֥י</w>
           <w lemma="1121">בְּנ֖/וֹ</w>
@@ -2595,8 +2586,7 @@
         <verse osisID="1Chr.6.20">
           <note>BHS:1Chr.6.35</note>
           <w lemma="1121">בֶּן־</w>
-          <w POS="ketiv">ציף</w>
-          <w lemma="6689" POS="qere">צוּף֙</w>
+          <w lemma="6689">ציף</w><note type="variant"><catchWord>ציף</catchWord><rdg type="x-qere"><w lemma="6689">צוּף֙</w></rdg></note>
           <w lemma="1121">בֶּן־</w><w lemma="511">אֶלְקָנָ֔ה</w>
           <w lemma="1121">בֶּן־</w><w lemma="4287">מַ֖חַת</w>
           <w lemma="1121">בֶּן־</w><w lemma="6022">עֲמָשָֽׂי</w><seg type="x-sof-pasuq">׃</seg> 
@@ -3090,8 +3080,7 @@
           <w lemma="3485">יִשָׂשכָ֗ר</w>
           <w lemma="8439">תּוֹלָ֧ע</w>
           <w lemma="6312">וּ/פוּאָ֛ה</w>
-          <w POS="ketiv">ישיב</w>
-          <w lemma="3437" POS="qere">יָשׁ֥וּב</w>
+          <w lemma="3437">ישיב</w><note type="variant"><catchWord>ישיב</catchWord><rdg type="x-qere"><w lemma="3437">יָשׁ֥וּב</w></rdg></note>
           <w lemma="8110">וְ/שִׁמְר֖וֹן</w>
           <w lemma="702">אַרְבָּעָֽה</w><seg type="x-sof-pasuq">׃</seg> 
           <seg type="x-samekh">ס</seg> 
@@ -3226,8 +3215,7 @@
           <w lemma="1092">בִּלְהָ֑ן</w>
           <w lemma="1121">וּ/בְנֵ֣י</w>
           <w lemma="1092">בִלְהָ֗ן</w>
-          <w POS="ketiv">יעיש</w>
-          <w lemma="3266" POS="qere">יְע֡וּשׁ</w>
+          <w lemma="3266">יעיש</w><note type="variant"><catchWord>יעיש</catchWord><rdg type="x-qere"><w lemma="3266">יְע֡וּשׁ</w></rdg></note>
           <w lemma="1144">וּ֠/בִנְיָמִן</w>
           <w lemma="164">וְ/אֵה֤וּד</w>
           <w lemma="3668">וּֽ/כְנַעֲנָה֙</w>
@@ -3479,8 +3467,7 @@
           <w lemma="4439">וּ/מַלְכִּיאֵ֑ל</w>
           <w lemma="1931">ה֖וּא</w>
           <w lemma="1">אֲבִ֥י</w>
-          <w POS="ketiv">ברזות</w>
-          <w lemma="1269" POS="qere">בִרְזָֽיִת</w><seg type="x-sof-pasuq">׃</seg> 
+          <w lemma="1269">ברזות</w><note type="variant"><catchWord>ברזות</catchWord><rdg type="x-qere"><w lemma="1269">בִרְזָֽיִת</w></rdg></note><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="1Chr.7.32">
           <w lemma="2268">וְ/חֶ֙בֶר֙</w>
@@ -3506,10 +3493,8 @@
           <w lemma="1121">וּ/בְנֵ֖י</w>
           <w lemma="8106">שָׁ֑מֶר</w>
           <w lemma="277">אֲחִ֥י</w>
-          <w POS="ketiv">ו/רוהגה</w>
-          <w lemma="7303" POS="qere">וְ/רָהְגָּ֖ה</w>
-          <w POS="ketiv">יחבה</w>
-          <w lemma="3160" POS="qere">וְ/חֻבָּ֥ה</w>
+          <w lemma="7303">ו/רוהגה</w><note type="variant"><catchWord>ו/רוהגה</catchWord><rdg type="x-qere"><w lemma="7303">וְ/רָהְגָּ֖ה</w></rdg></note>
+          <w lemma="3160">יחבה</w><note type="variant"><catchWord>יחבה</catchWord><rdg type="x-qere"><w lemma="3160">וְ/חֻבָּ֥ה</w></rdg></note>
           <w lemma="758">וַ/אֲרָֽם</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="1Chr.7.35">
@@ -3755,8 +3740,7 @@
         </verse>
         <verse osisID="1Chr.8.25">
           <w lemma="3301">וְ/יִפְדְיָ֥ה</w>
-          <w POS="ketiv">ו/פניאל</w>
-          <w lemma="6439" POS="qere">וּ/פְנוּאֵ֖ל</w>
+          <w lemma="6439">ו/פניאל</w><note type="variant"><catchWord>ו/פניאל</catchWord><rdg type="x-qere"><w lemma="6439">וּ/פְנוּאֵ֖ל</w></rdg></note>
           <w lemma="1121">בְּנֵ֥י</w>
           <w lemma="8349">שָׁשָֽׁק</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -3881,7 +3865,7 @@
           <w lemma="428">וְ/אֵ֣לֶּה</w>
           <w lemma="8034">שְׁמוֹתָ֗/ם</w>
           <w lemma="5840">עַזְרִיקָ֥ם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1074">בֹּ֙כְרוּ֙</w>
           <w lemma="3458">וְ/יִשְׁמָעֵ֣אל</w>
           <w lemma="8187">וּ/שְׁעַרְיָ֔ה</w>
@@ -3964,9 +3948,9 @@
           <w lemma="1121">בֶּן־</w><w lemma="6018">עָמְרִי֙</w>
           <w lemma="1121">בֶּן־</w><w lemma="566">אִמְרִ֣י</w>
           <w lemma="1121">בֶן־</w>
-          <w POS="ketiv">בנימן־</w>
-          <w POS="qere">בָּנִ֔י</w>
-          <w lemma="1144" POS="qere">מִן־</w>
+          <w lemma="1144">בנימן־</w>
+          <note type="variant"><catchWord>בנימן</catchWord><rdg type="x-qere"><w lemma="1137">בָּנִ֔י</w> <w lemma="4480">מִן</w></rdg></note>
+          <seg type="x-maqqef">־</seg>
           <w lemma="1137">בְּנֵי־</w><w lemma="6557">פֶ֖רֶץ</w>
           <w lemma="1121">בֶּן־</w><w lemma="3063">יְהוּדָֽה</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -4142,7 +4126,7 @@
           <w lemma="5921">עֲלֵי/הֶ֛ם</w>
           <w lemma="6440">לְ/פָנִ֖ים</w>
           <w lemma="3068">יְהוָ֥ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5973">עִמּֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="1Chr.9.21">
@@ -4286,8 +4270,7 @@
           <w lemma="1">אָב֧וֹת</w>
           <w lemma="3881">לַ/לְוִיִּ֛ם</w>
           <w lemma="3957">בַּ/לְּשָׁכֹ֖ת</w>
-          <w POS="ketiv">פטירים</w>
-          <w lemma="6358" POS="qere">פְּטוּרִ֑ים</w>
+          <w lemma="6358">פטירים</w><note type="variant"><catchWord>פטירים</catchWord><rdg type="x-qere"><w lemma="6358">פְּטוּרִ֑ים</w></rdg></note>
           <w lemma="3588">כִּֽי־</w><w lemma="3119">יוֹמָ֥ם</w>
           <w lemma="3915">וָ/לַ֛יְלָה</w>
           <w lemma="5921">עֲלֵי/הֶ֖ם</w>
@@ -4309,8 +4292,7 @@
           <w lemma="1391">וּ/בְ/גִבְע֛וֹן</w>
           <w lemma="3427">יָשְׁב֥וּ</w>
           <w lemma="1">אֲבִֽי־</w><w lemma="1391">גִבְע֖וֹן</w>
-          <w POS="ketiv">יעואל</w>
-          <w lemma="3273" POS="qere">יְעִיאֵ֑ל</w>
+          <w lemma="3273">יעואל</w><note type="variant"><catchWord>יעואל</catchWord><rdg type="x-qere"><w lemma="3273">יְעִיאֵ֑ל</w></rdg></note>
           <w lemma="8034">וְ/שֵׁ֥ם</w>
           <w lemma="802">אִשְׁתּ֖/וֹ</w>
           <w lemma="4601">מַעֲכָֽה</w><seg type="x-sof-pasuq">׃</seg> 
@@ -4404,7 +4386,7 @@
           <w lemma="428">וְ/אֵ֣לֶּה</w>
           <w lemma="8034">שְׁמוֹתָ֗/ם</w>
           <w lemma="5840">עַזְרִיקָ֥ם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1074">בֹּ֙כְרוּ֙</w>
           <w lemma="3458">וְ/יִשְׁמָעֵ֣אל</w>
           <w lemma="8187">וּ/שְׁעַרְיָ֔ה</w>
@@ -4462,7 +4444,7 @@
           <w lemma="3627">כֵלָ֜י/ו</w>
           <w lemma="8025">שְׁלֹ֥ף</w>
           <w lemma="2719">חַרְבְּ/ךָ֣</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1856">וְ/דָקְרֵ֣/נִי</w>
           <w lemma="0">בָ֗/הּ</w>
           <w lemma="6435">פֶּן־</w><w lemma="935">יָבֹ֜אוּ</w>
@@ -4777,8 +4759,7 @@
           <w lemma="3434">יָשָׁבְעָ֣ם</w>
           <w lemma="1121">בֶּן־</w><w lemma="2453">חַכְמוֹנִ֗י</w>
           <w lemma="7218">רֹ֚אשׁ</w>
-          <w POS="ketiv">ה/שלושים</w>
-          <w lemma="7970" POS="qere">הַ/שָּׁ֣לִישִׁ֔ים</w>
+          <w lemma="7970">ה/שלושים</w><note type="variant"><catchWord>ה/שלושים</catchWord><rdg type="x-qere"><w lemma="7970">הַ/שָּׁ֣לִישִׁ֔ים</w></rdg></note>
           <w lemma="1931">הֽוּא־</w><w lemma="5782">עוֹרֵ֧ר</w>
           <w lemma="853">אֶת־</w><w lemma="2595">חֲנִית֛/וֹ</w>
           <w lemma="5921">עַל־</w><w lemma="7969">שְׁלֹשׁ־</w><w lemma="3967">מֵא֥וֹת</w>
@@ -4850,8 +4831,7 @@
           <w lemma="1035">לָֽחֶם</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="1Chr.11.17">
-          <w POS="ketiv">ו/יתאו</w>
-          <w lemma="183" POS="qere">וַ/יִּתְאָ֥יו</w>
+          <w lemma="183">ו/יתאו</w><note type="variant"><catchWord>ו/יתאו</catchWord><rdg type="x-qere"><w lemma="183">וַ/יִּתְאָ֥יו</w></rdg></note>
           <w lemma="1732">דָּוִ֖יד</w>
           <w lemma="559">וַ/יֹּאמַ֑ר</w>
           <w lemma="4310">מִ֚י</w>
@@ -4919,8 +4899,7 @@
           <w lemma="5921">עַל־</w><w lemma="7969">שְׁלֹ֥שׁ</w>
           <w lemma="3967">מֵא֖וֹת</w>
           <w lemma="2490">חָלָ֑ל</w>
-          <w POS="ketiv">ו/לא־</w>
-          <w lemma="3808" POS="qere">וְ/ל/וֹ־</w>
+          <w lemma="3808">ו/לא־</w><note type="variant"><catchWord>ו/לא־</catchWord><rdg type="x-qere"><w lemma="3808">וְ/ל/וֹ־</w></rdg></note>
           <w lemma="8034">שֵׁ֖ם</w>
           <w lemma="7969">בַּ/שְּׁלוֹשָֽׁה</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -4962,7 +4941,7 @@
           <w lemma="4713">הַ/מִּצְרִ֜י</w>
           <w lemma="376">אִ֥ישׁ</w>
           <w lemma="4060">מִדָּ֣ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2568">חָמֵ֣שׁ</w>
           <w lemma="520">בָּ/אַמָּ֗ה</w>
           <w lemma="3027">וּ/בְ/יַ֨ד</w>
@@ -5154,8 +5133,7 @@
           <w lemma="5814">עֻזִיָּ֖א</w>
           <w lemma="6254">הָ/עֲשְׁתְּרָתִ֑י</w>
           <w lemma="8091">שָׁמָע֙</w>
-          <w POS="ketiv">ו/יעואל</w>
-          <w lemma="3273" POS="qere">וִֽ/יעִיאֵ֔ל</w>
+          <w lemma="3273">ו/יעואל</w><note type="variant"><catchWord>ו/יעואל</catchWord><rdg type="x-qere"><w lemma="3273">וִֽ/יעִיאֵ֔ל</w></rdg></note>
           <seg type="x-samekh">ס</seg> 
           <w lemma="1121">בְּנֵ֖י</w>
           <w lemma="2369">חוֹתָ֥ם</w>
@@ -5223,8 +5201,7 @@
           <w lemma="1121">בְּנֵי֙</w>
           <w lemma="8094">הַ/שְּׁמָעָ֣ה</w>
           <w lemma="1395">הַ/גִּבְעָתִ֔י</w>
-          <w POS="ketiv">ו/יזואל</w>
-          <w lemma="3149" POS="qere">וִ/יזִיאֵ֥ל</w>
+          <w lemma="3149">ו/יזואל</w><note type="variant"><catchWord>ו/יזואל</catchWord><rdg type="x-qere"><w lemma="3149">וִ/יזִיאֵ֥ל</w></rdg></note>
           <note>3</note>
           <w lemma="6404">וָ/פֶ֖לֶט</w>
           <w lemma="1121">בְּנֵ֣י</w>
@@ -5255,8 +5232,7 @@
           <w lemma="1183">וּ/בְעַלְיָ֣ה</w>
           <w lemma="8114">וּ/שְׁמַרְיָ֔הוּ</w>
           <w lemma="8203">וּ/שְׁפַטְיָ֖הוּ</w>
-          <w POS="ketiv">ה/חריפי</w>
-          <w lemma="2741" POS="qere">הַ/חֲרוּפִֽי</w><seg type="x-sof-pasuq">׃</seg> 
+          <w lemma="2741">ה/חריפי</w><note type="variant"><catchWord>ה/חריפי</catchWord><rdg type="x-qere"><w lemma="2741">הַ/חֲרוּפִֽי</w></rdg></note><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="1Chr.12.7">
           <note>BHS:1Chr.12.6</note>
@@ -5361,8 +5337,7 @@
           <w lemma="0">וְ/ה֥וּא</w>
           <w lemma="4390">מְמַלֵּ֖א</w>
           <w lemma="5921">עַל־</w><w lemma="3605">כָּל־</w>
-          <w POS="ketiv">גדיתי/ו</w>
-          <w lemma="1415" POS="qere">גְּדוֹתָ֑י/ו</w>
+          <w lemma="1415">גדיתי/ו</w><note type="variant"><catchWord>גדיתי/ו</catchWord><rdg type="x-qere"><w lemma="1415">גְּדוֹתָ֑י/ו</w></rdg></note>
           <w lemma="1272">וַ/יַּבְרִ֙יחוּ֙</w>
           <w lemma="0">אֶת־</w><w lemma="3605">כָּל־</w><w lemma="6010">הָ֣/עֲמָקִ֔ים</w>
           <w lemma="4217">לַ/מִּזְרָ֖ח</w>
@@ -5411,14 +5386,13 @@
           <w lemma="3847">לָבְשָׁ֗ה</w>
           <w lemma="0">אֶת־</w><w lemma="6022">עֲמָשַׂי֮</w>
           <w lemma="7218">רֹ֣אשׁ</w>
-          <w POS="ketiv">ה/שלושים</w>
-          <w lemma="7970" POS="qere">הַ/שָּׁלִישִׁים֒</w>
+          <w lemma="7970">ה/שלושים</w><note type="variant"><catchWord>ה/שלושים</catchWord><rdg type="x-qere"><w lemma="7970">הַ/שָּׁלִישִׁים֒</w></rdg></note>
           <w lemma="0">לְ/ךָ֤</w>
           <w lemma="1732">דָוִיד֙</w>
           <w lemma="0">וְ/עִמְּ/ךָ֣</w>
           <w lemma="1121">בֶן־</w><w lemma="3448">יִשַׁ֔י</w>
           <w lemma="7965">שָׁל֨וֹם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7965">שָׁל֜וֹם</w>
           <w lemma="0">לְ/ךָ֗</w>
           <w lemma="7965">וְ/שָׁלוֹם֙</w>
@@ -5461,7 +5435,7 @@
           <w lemma="0">אֶל־</w><w lemma="6860">צִֽיקְלַ֗ג</w>
           <w lemma="5307">נָפְל֣וּ</w>
           <w lemma="0">עָלָ֣י/ו</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4519">מִֽ/מְּנַשֶּׁ֡ה</w>
           <w lemma="5734">עַ֠דְנַח</w>
           <w lemma="3107">וְ/יוֹזָבָ֤ד</w>
@@ -5705,7 +5679,7 @@
           <w lemma="0">מִן־</w><w lemma="7206">הָ/ראוּבֵנִ֨י</w>
           <w lemma="1425">וְ/הַ/גָּדִ֜י</w>
           <w lemma="2677">וַ/חֲצִ֣י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7626">שֵׁ֣בֶט</w>
           <w lemma="4519">מְנַשֶּׁ֗ה</w>
           <w lemma="3605">בְּ/כֹל֙</w>
@@ -5762,7 +5736,7 @@
           <w lemma="1581">בַּ/חֲמוֹרִ֣ים</w>
           <w lemma="6505">וּ/בַ/גְּמַלִּ֣ים</w>
           <w lemma="1241">וּ/בַ/פְּרָדִ֣ים</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7230">וּֽ/בַ/בָּקָ֡ר</w>
           <w lemma="7058">מַאֲכָ֡ל</w>
           <w lemma="7058">קֶ֠מַח</w>
@@ -5791,7 +5765,7 @@
           <w lemma="559">וַ/יֹּ֨אמֶר</w>
           <w lemma="1732">דָּוִ֜יד</w>
           <w lemma="3605">לְ/כֹ֣ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="6951">קְהַ֣ל</w>
           <w lemma="3478">יִשְׂרָאֵ֗ל</w>
           <w lemma="518">אִם־</w><w lemma="5921">עֲלֵי/כֶ֨ם</w>
@@ -5861,7 +5835,7 @@
           <w lemma="853">אֵת֩</w>
           <w lemma="727">אֲר֨וֹן</w>
           <w lemma="430">הָ/אֱלֹהִ֧ים</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3068">יְהוָ֛ה</w>
           <w lemma="3427">יוֹשֵׁ֥ב</w>
           <w lemma="3742">הַ/כְּרוּבִ֖ים</w>
@@ -5985,8 +5959,7 @@
       <chapter osisID="1Chr.14">
         <verse osisID="1Chr.14.1">
           <w lemma="7971">וַ֠/יִּשְׁלַח</w>
-          <w POS="ketiv">חירם</w>
-          <w lemma="2438" POS="qere">חוּרָ֨ם</w>
+          <w lemma="2438">חירם</w><note type="variant"><catchWord>חירם</catchWord><rdg type="x-qere"><w lemma="2438">חוּרָ֨ם</w></rdg></note>
           <w lemma="4428">מֶֽלֶךְ־</w><w lemma="6865">צֹ֥ר</w>
           <w lemma="4397">מַלְאָכִים֮</w>
           <w lemma="413">אֶל־</w><w lemma="1732">דָּוִיד֒</w>
@@ -6084,8 +6057,7 @@
           <w lemma="559">לֵ/אמֹ֔ר</w>
           <w lemma="5927">הַ/אֶֽעֱלֶה֙</w>
           <w lemma="5921">עַל־</w>
-          <w POS="ketiv">פלשתיים</w>
-          <w lemma="6430" POS="qere">פְּלִשְׁתִּ֔ים</w>
+          <w lemma="6430">פלשתיים</w><note type="variant"><catchWord>פלשתיים</catchWord><rdg type="x-qere"><w lemma="6430">פְּלִשְׁתִּ֔ים</w></rdg></note>
           <w lemma="5414">וּ/נְתַתָּ֖/ם</w>
           <w lemma="3027">בְּ/יָדִ֑/י</w>
           <w lemma="559">וַ/יֹּ֨אמֶר</w>
@@ -6213,7 +6185,7 @@
           <w lemma="3588">כִּ֖י</w>
           <w lemma="518">אִם־</w><w lemma="3881">הַ/לְוִיִּ֑ם</w>
           <w lemma="3588">כִּי־</w><w lemma="0">בָ֣/ם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="977">בָּחַ֣ר</w>
           <w lemma="3068">יְהוָ֗ה</w>
           <w lemma="5375">לָ/שֵׂ֞את</w>
@@ -6415,7 +6387,7 @@
           <w lemma="3268">וְ/יַֽעֲזִיאֵ֡ל</w>
           <w lemma="8070">וּ/שְׁמִֽירָמ֡וֹת</w>
           <w lemma="3171">וִ/יחִיאֵ֣ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="6042">וְ/עֻנִּ֡י</w>
           <w lemma="446">אֱלִיאָ֡ב</w>
           <w lemma="1141">וּ/בְנָיָ֡הוּ</w>
@@ -6486,8 +6458,7 @@
           <w lemma="1141">וּ/בְנָיָ֤הוּ</w>
           <w lemma="461">וֶֽ/אֱלִיעֶ֙זֶר֙</w>
           <w lemma="3548">הַ/כֹּ֣הֲנִ֔ים</w>
-          <w POS="ketiv">מחצצרים</w>
-          <w lemma="2690" POS="qere">מַחְצְרִים֙</w>
+          <w lemma="2690">מחצצרים</w><note type="variant"><catchWord>מחצצרים</catchWord><rdg type="x-qere"><w lemma="2690">מַחְצְרִים֙</w></rdg></note>
           <w lemma="2689">בַּ/חֲצֹ֣צְר֔וֹת</w>
           <w lemma="6440">לִ/פְנֵ֖י</w>
           <w lemma="727">אֲר֣וֹן</w>
@@ -6530,7 +6501,7 @@
         <verse osisID="1Chr.15.27">
           <w lemma="1732">וְ/דָוִ֞יד</w>
           <w lemma="3736">מְכֻרְבָּ֣ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4598">בִּ/מְעִ֣יל</w>
           <w lemma="948">בּ֗וּץ</w>
           <w lemma="3605">וְ/כָל־</w><w lemma="3881">הַ/לְוִיִּם֙</w>
@@ -6570,7 +6541,7 @@
           <w lemma="4324">וּ/מִיכַ֨ל</w>
           <w lemma="1323">בַּת־</w><w lemma="7586">שָׁא֜וּל</w>
           <w lemma="8259">נִשְׁקְפָ֣ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1157">בְּעַ֣ד</w>
           <w lemma="2474">הַ/חַלּ֗וֹן</w>
           <w lemma="7200">וַ/תֵּ֨רֶא</w>
@@ -6970,7 +6941,7 @@
         </verse>
         <verse osisID="1Chr.16.39">
           <w lemma="853">וְ/אֵ֣ת</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="6659">צָד֣וֹק</w>
           <w lemma="3548">הַ/כֹּהֵ֗ן</w>
           <w lemma="251">וְ/אֶחָי/ו֙</w>
@@ -7363,7 +7334,7 @@
           <w lemma="853">אֶת־</w><w lemma="5971">עַמְּ/ךָ֨</w>
           <note>c</note>
           <w lemma="3478">יִשְׂרָאֵ֧ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="0">לְ/ךָ֛</w>
           <w lemma="5971">לְ/עָ֖ם</w>
           <w lemma="5704">עַד־</w><w lemma="5769">עוֹלָ֑ם</w>
@@ -7406,7 +7377,7 @@
         </verse>
         <verse osisID="1Chr.17.25">
           <w lemma="3588">כִּ֣י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="859">אַתָּ֣ה</w>
           <w lemma="430">אֱלֹהַ֗/י</w>
           <w lemma="1540">גָּלִ֙יתָ֙</w>
@@ -7562,7 +7533,7 @@
           <w lemma="7227">רַבָּ֣ה</w>
           <w lemma="3966">מְאֹ֑ד</w>
           <w lemma="0">בָּ֣/הּ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="6213">עָשָׂ֣ה</w>
           <w lemma="8010">שְׁלֹמֹ֗ה</w>
           <w lemma="853">אֶת־</w><w lemma="3220">יָ֤ם</w>
@@ -7589,8 +7560,7 @@
           <w lemma="7971">וַ/יִּשְׁלַ֣ח</w>
           <w lemma="853">אֶת־</w><w lemma="1913">הֲדֽוֹרָם־</w><w lemma="1121">בְּנ֣/וֹ</w>
           <w lemma="413">אֶל־</w><w lemma="4428">הַ/מֶּֽלֶךְ־</w><w lemma="1732">דָּ֠וִיד</w>
-          <w POS="ketiv">ל/שאול־</w>
-          <w lemma="7592" POS="qere">לִ/שְׁאָל־</w>
+          <w lemma="7592">ל/שאול־</w><note type="variant"><catchWord>ל/שאול־</catchWord><rdg type="x-qere"><w lemma="7592">לִ/שְׁאָל־</w></rdg></note>
           <w lemma="7592">ל֨/וֹ</w>
           <w lemma="7965">לְ/שָׁל֜וֹם</w>
           <w lemma="1288">וּֽ/לְ/בָרֲכ֗/וֹ</w>
@@ -7709,7 +7679,7 @@
           <w lemma="559">וַ/יֹּ֨אמֶר</w>
           <w lemma="1732">דָּוִ֜יד</w>
           <w lemma="6213">אֶֽעֱשֶׂה־</w><w lemma="2617">חֶ֣סֶד</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5973">עִם־</w><w lemma="2586">חָנ֣וּן</w>
           <w lemma="1121">בֶּן־</w><w lemma="5176">נָחָ֗שׁ</w>
           <w lemma="3588">כִּֽי־</w><w lemma="6213">עָשָׂ֨ה</w>
@@ -8019,7 +7989,7 @@
           <w lemma="8666">תְּשׁוּבַ֨ת</w>
           <w lemma="8141">הַ/שָּׁנָ֜ה</w>
           <w lemma="6256">לְ/עֵ֣ת</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3318">צֵ֣את</w>
           <w lemma="4428">הַ/מְּלָכִ֗ים</w>
           <w lemma="5090">וַ/יִּנְהַ֣ג</w>
@@ -8027,7 +7997,7 @@
           <w lemma="853">אֶת־</w><w lemma="2426">חֵ֨יל</w>
           <w lemma="6635">הַ/צָּבָ֜א</w>
           <w lemma="7843">וַ/יַּשְׁחֵ֣ת</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="853">אֶת־</w><w lemma="776">אֶ֣רֶץ</w>
           <w lemma="1121">בְּנֵֽי־</w><w lemma="5983">עַמּ֗וֹן</w>
           <w lemma="935">וַ/יָּבֹא֙</w>
@@ -8048,7 +8018,7 @@
           <w lemma="5921">מֵ/עַ֨ל</w>
           <w lemma="7218">רֹאשׁ֜/וֹ</w>
           <w lemma="4672">וַֽ/יִּמְצָאָ֣/הּ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4948">מִשְׁקַ֣ל</w>
           <w lemma="3603">כִּכַּר־</w><w lemma="2091">זָהָ֗ב</w>
           <w lemma="0">וּ/בָ/הּ֙</w>
@@ -8107,8 +8077,7 @@
           <w lemma="5221">וַ/יַּ֞ךְ</w>
           <w lemma="445">אֶלְחָנָ֣ן</w>
           <w lemma="1121">בֶּן־</w>
-          <w POS="ketiv">יעור</w>
-          <w lemma="3265" POS="qere">יָעִ֗יר</w>
+          <w lemma="3265">יעור</w><note type="variant"><catchWord>יעור</catchWord><rdg type="x-qere"><w lemma="3265">יָעִ֗יר</w></rdg></note>
           <w lemma="853">אֶת־</w><w lemma="3902">לַחְמִי֙</w>
           <w lemma="251">אֲחִי֙</w>
           <w lemma="1555">גָּלְיָ֣ת</w>
@@ -8123,7 +8092,7 @@
           <w lemma="4421">מִלְחָמָ֖ה</w>
           <w lemma="1661">בְּ/גַ֑ת</w>
           <w lemma="1961">וַ/יְהִ֣י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="376">אִ֣ישׁ</w>
           <w lemma="4060">מִדָּ֗ה</w>
           <w lemma="676">וְ/אֶצְבְּעֹתָ֤י/ו</w>
@@ -8187,7 +8156,7 @@
           <w lemma="3254">יוֹסֵף֩</w>
           <w lemma="3068">יְהוָ֨ה</w>
           <w lemma="5921">עַל־</w><w lemma="5971">עַמּ֤/וֹ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1992">כָּ/הֵם֙</w>
           <w lemma="3967">מֵאָ֣ה</w>
           <w lemma="6471">פְעָמִ֔ים</w>
@@ -8325,7 +8294,7 @@
           <w lemma="6440">מִ/פְּנֵי־</w><w lemma="6862">צָרֶי/ךָ֮</w>
           <w lemma="2719">וְ/חֶ֣רֶב</w>
           <w lemma="341">אוֹיְבֶ֣/ךָ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5381">לְ/מַשֶּׂגֶת֒</w>
           <w lemma="518">וְ/אִם־</w><w lemma="7969">שְׁלֹ֣שֶׁת</w>
           <w lemma="3117">יָ֠מִים</w>
@@ -8373,9 +8342,9 @@
         <verse osisID="1Chr.21.15">
           <w lemma="7971">וַ/יִּשְׁלַח֩</w>
           <w lemma="430">הָ/אֱלֹהִ֨ים</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4397">מַלְאָ֥ךְ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3389">לִֽ/ירוּשָׁלִַם֮</w>
           <w lemma="7843">לְ/הַשְׁחִיתָ/הּ֒</w>
           <w lemma="7843">וּ/כְ/הַשְׁחִ֗ית</w>
@@ -8460,7 +8429,7 @@
           <w lemma="559">לֵ/אמֹ֣ר</w>
           <w lemma="1732">לְ/דָוִ֑יד</w>
           <w lemma="3588">כִּ֣י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5927">יַעֲלֶ֣ה</w>
           <w lemma="1732">דָוִ֗יד</w>
           <w lemma="6965">לְ/הָקִ֤ים</w>
@@ -8678,7 +8647,7 @@
         </verse>
         <verse osisID="1Chr.22.3">
           <w lemma="1270">וּ/בַרְזֶ֣ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7230">לָ֠/רֹב</w>
           <w lemma="4548">לַֽ/מִּסְמְרִ֞ים</w>
           <w lemma="1817">לְ/דַלְת֧וֹת</w>
@@ -8717,7 +8686,7 @@
           <w lemma="1129">לִ/בְנ֣וֹת</w>
           <w lemma="3068">לַ/יהוָ֗ה</w>
           <w lemma="1431">לְ/הַגְדִּ֨יל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4605">לְ/מַ֜עְלָ/ה</w>
           <w lemma="8034">לְ/שֵׁ֤ם</w>
           <w lemma="8597">וּ/לְ/תִפְאֶ֙רֶת֙</w>
@@ -8747,8 +8716,7 @@
           <w lemma="559">וַ/יֹּ֥אמֶר</w>
           <w lemma="1732">דָּוִ֖יד</w>
           <w lemma="8010">לִ/שְׁלֹמֹ֑ה</w>
-          <w POS="ketiv">בנ/ו</w>
-          <w lemma="1121" POS="qere">בְּנִ֕/י</w>
+          <w lemma="1121">בנ/ו</w><note type="variant"><catchWord>בנ/ו</catchWord><rdg type="x-qere"><w lemma="1121">בְּנִ֕/י</w></rdg></note>
           <w lemma="589">אֲנִי֙</w>
           <w lemma="1961">הָיָ֣ה</w>
           <w lemma="5973">עִם־</w><w lemma="3824">לְבָבִ֔/י</w>
@@ -8929,7 +8897,7 @@
           <w lemma="0">לָ/כֶ֖ם</w>
           <w lemma="5439">מִ/סָּבִ֑יב</w>
           <w lemma="3588">כִּ֣י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5414">נָתַ֣ן</w>
           <w lemma="3027">בְּ/יָדִ֗/י</w>
           <w lemma="853">אֵ֚ת</w>
@@ -9058,8 +9026,7 @@
         <verse osisID="1Chr.23.9">
           <w lemma="1121">בְּנֵ֣י</w>
           <w lemma="8096">שִׁמְעִ֗י</w>
-          <w POS="ketiv">שלמות</w>
-          <w lemma="8013" POS="qere">שְׁלוֹמִ֧ית</w>
+          <w lemma="8013">שלמות</w><note type="variant"><catchWord>שלמות</catchWord><rdg type="x-qere"><w lemma="8013">שְׁלוֹמִ֧ית</w></rdg></note>
           <w lemma="2381">וַ/חֲזִיאֵ֛ל</w>
           <w lemma="2039">וְ/הָרָ֖ן</w>
           <w lemma="7969">שְׁלֹשָׁ֑ה</w>
@@ -9439,7 +9406,7 @@
           <w lemma="270">אָחֻז֙</w>
           <w lemma="499">לְ/אֶלְעָזָ֔ר</w>
           <w lemma="270">וְ/אָחֻ֥ז</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="270">אָחֻ֖ז</w>
           <w lemma="385">לְ/אִיתָמָֽר</w><seg type="x-sof-pasuq">׃</seg> 
           <seg type="x-pe">פ</seg>
@@ -9590,8 +9557,7 @@
           <w lemma="4318">מִיכָ֔ה</w>
           <w lemma="1121">לִ/בְנֵ֥י</w>
           <w lemma="4318">מִיכָ֖ה</w>
-          <w POS="ketiv">שמור</w>
-          <w lemma="8053" POS="qere">שָׁמִֽיר</w><seg type="x-sof-pasuq">׃</seg> 
+          <w lemma="8053">שמור</w><note type="variant"><catchWord>שמור</catchWord><rdg type="x-qere"><w lemma="8053">שָׁמִֽיר</w></rdg></note><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="1Chr.24.25">
           <w lemma="251">אֲחִ֤י</w>
@@ -9648,7 +9614,7 @@
           <w lemma="1571">גַם־</w><w lemma="1992">הֵ֨ם</w>
           <w lemma="1486">גּוֹרָל֜וֹת</w>
           <w lemma="5980">לְ/עֻמַּ֣ת</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="251">אֲחֵי/הֶ֣ם</w>
           <w lemma="1121">בְּנֵֽי־</w><w lemma="175">אַהֲרֹ֗ן</w>
           <w lemma="6440">לִ/פְנֵ֨י</w>
@@ -9679,8 +9645,7 @@
           <w lemma="623">אָסָף֙</w>
           <w lemma="1968">וְ/הֵימָ֣ן</w>
           <w lemma="3038">וִֽ/ידוּת֔וּן</w>
-          <w POS="ketiv">ה/נביאים</w>
-          <w lemma="5030" POS="qere">הַֽ/נִּבְּאִ֛ים</w>
+          <w lemma="5030">ה/נביאים</w><note type="variant"><catchWord>ה/נביאים</catchWord><rdg type="x-qere"><w lemma="5030">הַֽ/נִּבְּאִ֛ים</w></rdg></note>
           <note>y</note>
           <w lemma="3658">בְּ/כִנֹּר֥וֹת</w>
           <w lemma="5035">בִּ/נְבָלִ֖ים</w>
@@ -10097,7 +10062,7 @@
         <verse osisID="1Chr.26.8">
           <w lemma="3605">כָּל־</w><w lemma="428">אֵ֜לֶּה</w>
           <w lemma="1121">מִ/בְּנֵ֣י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="0">עֹבֵ֣ד</w>
           <w lemma="5654">אֱדֹ֗ם</w>
           <w lemma="1992">הֵ֤מָּה</w>
@@ -10178,7 +10143,7 @@
           <w lemma="2148">וּ/זְכַרְיָ֨הוּ</w>
           <w lemma="1121">בְנ֜/וֹ</w>
           <w lemma="3289">יוֹעֵ֣ץ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7922">בְּ/שֶׂ֗כֶל</w>
           <w lemma="5307">הִפִּ֙ילוּ֙</w>
           <w lemma="1486">גּֽוֹרָל֔וֹת</w>
@@ -10294,8 +10259,7 @@
           <w lemma="1121">בְּנ֔/וֹ</w>
           <w lemma="2147">וְ/זִכְרִ֥י</w>
           <w lemma="1121">בְנ֖/וֹ</w>
-          <w POS="ketiv">ו/שלמות</w>
-          <w lemma="8013" POS="qere">וּ/שְׁלֹמִ֥ית</w>
+          <w lemma="8013">ו/שלמות</w><note type="variant"><catchWord>ו/שלמות</catchWord><rdg type="x-qere"><w lemma="8013">וּ/שְׁלֹמִ֥ית</w></rdg></note>
           <w lemma="1121">בְּנֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="1Chr.26.26">
@@ -10417,19 +10381,19 @@
         <verse osisID="1Chr.27.1">
           <w lemma="1121">וּ/בְנֵ֣י</w>
           <w lemma="3478">יִשְׂרָאֵ֣ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4557">לְֽ/מִסְפָּרָ֡/ם</w>
           <w lemma="7218">רָאשֵׁ֣י</w>
           <w lemma="1">הָ/אָב֣וֹת</w>
           <w lemma="8269">וְ/שָׂרֵ֣י</w>
           <w lemma="505">הָֽ/אֲלָפִ֣ים</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3967">וְ/הַ/מֵּא֡וֹת</w>
           <w lemma="7860">וְ/שֹׁטְרֵי/הֶם֩</w>
           <w lemma="8334">הַ/מְשָׁרְתִ֨ים</w>
           <w lemma="853">אֶת־</w><w lemma="4428">הַ/מֶּ֜לֶךְ</w>
           <w lemma="3605">לְ/כֹ֣ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1697">דְּבַ֣ר</w>
           <w lemma="4256">הַֽ/מַּחְלְק֗וֹת</w>
           <w lemma="935">הַ/בָּאָ֤ה</w>
@@ -10471,7 +10435,7 @@
         <verse osisID="1Chr.27.4">
           <w lemma="5921">וְ/עַ֞ל</w>
           <w lemma="4256">מַחֲלֹ֣קֶת</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2320">הַ/חֹ֣דֶשׁ</w>
           <w lemma="8145">הַ/שֵּׁנִ֗י</w>
           <w lemma="1737">דּוֹדַ֤י</w>
@@ -10593,10 +10557,8 @@
           <w lemma="8671">הַ/תְּשִׁיעִ֔י</w>
           <w lemma="44">אֲבִיעֶ֥זֶר</w>
           <w lemma="6069">הָ/עַנְּתֹתִ֖י</w>
-          <w POS="ketiv">ל/בנימיני</w>
-          <w POS="qere">לַ/בֵּ֣ן</w>
-          <seg type="paseq">׀</seg> 
-          <w lemma="1145" POS="qere">יְמִינִ֑י</w>
+          <w lemma="1145">ל/בנימיני</w>
+          <note type="variant"><catchWord>ל/בנימיני</catchWord><rdg type="x-qere"><w lemma="1121">לַ/בֵּ֣ן</w> <seg type="x-paseq">׀</seg> <w lemma="3227">יְמִינִ֑י</w></rdg></note>
           <w lemma="5921">וְ/עַל֙</w>
           <w lemma="4256">מַחֲלֻקְתּ֔/וֹ</w>
           <w lemma="6242">עֶשְׂרִ֥ים</w>
@@ -10816,8 +10778,7 @@
           <w lemma="5921">וְ/עַל־</w><w lemma="1241">הַ/בָּקָר֙</w>
           <w lemma="7462">הָ/רֹעִ֣ים</w>
           <w lemma="8289">בַּ/שָּׁר֔וֹן</w>
-          <w POS="ketiv">שטרי</w>
-          <w lemma="7861" POS="qere">שִׁרְטַ֖י</w>
+          <w lemma="7861">שטרי</w><note type="variant"><catchWord>שטרי</catchWord><rdg type="x-qere"><w lemma="7861">שִׁרְטַ֖י</w></rdg></note>
           <w lemma="8290">הַ/שָּׁרוֹנִ֑י</w>
           <w lemma="5921">וְ/עַל־</w><w lemma="1241">הַ/בָּקָר֙</w>
           <w lemma="6010">בָּֽ/עֲמָקִ֔ים</w>
@@ -10897,7 +10858,7 @@
           <w lemma="3967">הַ/מֵּא֡וֹת</w>
           <w lemma="8269">וְ/שָׂרֵ֣י</w>
           <w lemma="3605">כָל־</w><w lemma="7399">רְכוּשׁ־</w><w lemma="4735">וּ/מִקְנֶה֩</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4428">לַ/מֶּ֨לֶךְ</w>
           <w lemma="1121">וּ/לְ/בָנָ֜י/ו</w>
           <w lemma="5973">עִם־</w><w lemma="5631">הַ/סָּרִיסִ֧ים</w>
@@ -11062,7 +11023,7 @@
         </verse>
         <verse osisID="1Chr.28.10">
           <w lemma="7200">רְאֵ֣ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="6258">עַתָּ֗ה</w>
           <w lemma="3588">כִּֽי־</w><w lemma="3068">יְהוָ֛ה</w>
           <w lemma="977">בָּ֧חַר</w>
@@ -11275,7 +11236,7 @@
           <w lemma="3559">הֲכִינ֣וֹתִי</w>
           <w lemma="1004">לְ/בֵית־</w><w lemma="430">אֱלֹהַ֗/י</w>
           <w lemma="2091">הַ/זָּהָ֣ב</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2091">לַ֠/זָּהָב</w>
           <w lemma="3701">וְ/הַ/כֶּ֨סֶף</w>
           <w lemma="3701">לַ/כֶּ֜סֶף</w>
@@ -11346,7 +11307,7 @@
           <w lemma="8269">שָׂרֵ֨י</w>
           <w lemma="1">הָ/אָב֜וֹת</w>
           <w lemma="8269">וְ/שָׂרֵ֣י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7626">שִׁבְטֵ֣י</w>
           <w lemma="3478">יִשְׂרָאֵ֗ל</w>
           <w lemma="8269">וְ/שָׂרֵ֤י</w>
@@ -11439,7 +11400,7 @@
           <w lemma="4467">הַ/מַּמְלָכָ֔ה</w>
           <w lemma="5375">וְ/הַ/מִּתְנַשֵּׂ֖א</w>
           <w lemma="3605">לְ/כֹ֥ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7218">לְ/רֹֽאשׁ</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="1Chr.29.12">
@@ -11490,7 +11451,7 @@
           <w lemma="8453">וְ/תוֹשָׁבִ֖ים</w>
           <w lemma="3605">כְּ/כָל־</w><w lemma="1">אֲבֹתֵ֑י/נוּ</w>
           <w lemma="6738">כַּ/צֵּ֧ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3117">יָמֵ֛י/נוּ</w>
           <w lemma="5921">עַל־</w><w lemma="776">הָ/אָ֖רֶץ</w>
           <w lemma="369">וְ/אֵ֥ין</w>
@@ -11509,8 +11470,7 @@
           <w lemma="8034">לְ/שֵׁ֣ם</w>
           <w lemma="6944">קָדְשֶׁ֑/ךָ</w>
           <w lemma="3027">מִ/יָּדְ/ךָ֥</w>
-          <w POS="ketiv">היא</w>
-          <w lemma="1931" POS="qere">ה֖וּא</w>
+          <w lemma="1931">היא</w><note type="variant"><catchWord>היא</catchWord><rdg type="x-qere"><w lemma="1931">ה֖וּא</w></rdg></note>
           <w lemma="0">וּ/לְ/ךָ֥</w>
           <w lemma="3605">הַ/כֹּֽל</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -11589,7 +11549,7 @@
         <verse osisID="1Chr.29.21">
           <w lemma="2076">וַ/יִּזְבְּח֣וּ</w>
           <w lemma="3068">לַ/יהוָ֣ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2077">זְ֠בָחִים</w>
           <w lemma="5927">וַ/יַּעֲל֨וּ</w>
           <w lemma="5930">עֹל֜וֹת</w>
@@ -11632,7 +11592,7 @@
           <w lemma="8010">שְׁ֠לֹמֹה</w>
           <w lemma="5921">עַל־</w><w lemma="3678">כִּסֵּ֨א</w>
           <w lemma="3068">יְהוָ֧ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4428">לְ/מֶ֛לֶךְ</w>
           <w lemma="8478">תַּֽחַת־</w><w lemma="1732">דָּוִ֥יד</w>
           <w lemma="1">אָבִ֖י/ו</w>

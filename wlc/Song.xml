@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace">
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
@@ -8,6 +8,7 @@
       </revisionDesc>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
+        <contributor role="edt">Daniel Owens</contributor>
         <contributor role="edt">David Troidl</contributor>
         <contributor role="edt">Christopher V. Kimball</contributor>
         <date>2007.9.16</date>
@@ -175,7 +176,7 @@
         <verse osisID="Song.1.13">
           <w lemma="6872">צְר֨וֹר</w>
           <w lemma="4753">הַ/מֹּ֤ר</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1730">דּוֹדִ/י֙</w>
           <w lemma="0">לִ֔/י</w>
           <w lemma="996">בֵּ֥ין</w>
@@ -185,7 +186,7 @@
         <verse osisID="Song.1.14">
           <w lemma="811">אֶשְׁכֹּ֨ל</w>
           <w lemma="3724">הַ/כֹּ֤פֶר</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1730">דּוֹדִ/י֙</w>
           <w lemma="0">לִ֔/י</w>
           <w lemma="3754">בְּ/כַרְמֵ֖י</w>
@@ -216,8 +217,7 @@
           <w lemma="6982">קֹר֤וֹת</w>
           <w lemma="1004">בָּתֵּ֙י/נוּ֙</w>
           <w lemma="730">אֲרָזִ֔ים</w>
-          <w POS="ketiv">רחיט/נו</w>
-          <w lemma="7351" POS="qere">רַהִיטֵ֖/נוּ</w>
+          <w lemma="7351">רחיט/נו</w><note type="variant"><catchWord>רחיט/נו</catchWord><rdg type="x-qere"><w lemma="7351">רַהִיטֵ֖/נוּ</w></rdg></note>
           <w lemma="1266">בְּרוֹתִֽים</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
       </chapter>
@@ -287,7 +287,7 @@
           <w lemma="355">בְּ/אַיְל֣וֹת</w>
           <w lemma="7704">הַ/שָּׂדֶ֑ה</w>
           <w lemma="518">אִם־</w><w lemma="5782">תָּעִ֧ירוּ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="518">וְֽ/אִם־</w><w lemma="5782">תְּעֽוֹרְר֛וּ</w>
           <w lemma="853">אֶת־</w><w lemma="160">הָ/אַהֲבָ֖ה</w>
           <w lemma="5704">עַ֥ד</w>
@@ -333,8 +333,7 @@
         </verse>
         <verse osisID="Song.2.11">
           <w lemma="3588">כִּֽי־</w><w lemma="2009">הִנֵּ֥ה</w>
-          <w POS="ketiv">ה/סתו</w>
-          <w lemma="5638" POS="qere">הַ/סְּתָ֖יו</w>
+          <w lemma="5638">ה/סתו</w><note type="variant"><catchWord>ה/סתו</catchWord><rdg type="x-qere"><w lemma="5638">הַ/סְּתָ֖יו</w></rdg></note>
           <w lemma="5674">עָבָ֑ר</w>
           <w lemma="1653">הַ/גֶּ֕שֶׁם</w>
           <w lemma="2498">חָלַ֖ף</w>
@@ -358,13 +357,12 @@
           <w lemma="2590">חָֽנְטָ֣ה</w>
           <w lemma="6291">פַגֶּ֔י/הָ</w>
           <w lemma="1612">וְ/הַ/גְּפָנִ֥ים</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5563">סְמָדַ֖ר</w>
           <w lemma="5414">נָ֣תְנוּ</w>
           <w lemma="7381">רֵ֑יחַ</w>
           <w lemma="6965">ק֥וּמִי</w>
-          <w POS="ketiv">לכי</w>
-          <w lemma="1980" POS="qere">לָ֛/ךְ</w>
+          <w lemma="1980">לכי</w><note type="variant"><catchWord>לכי</catchWord><rdg type="x-qere"><w lemma="1980">לָ֛/ךְ</w></rdg></note>
           <w lemma="7474">רַעְיָתִ֥/י</w>
           <w lemma="3303">יָפָתִ֖/י</w>
           <w lemma="1980">וּ/לְכִי־</w><w lemma="0">לָֽ/ךְ</w><seg type="x-sof-pasuq">׃</seg> 
@@ -488,7 +486,7 @@
           <w lemma="355">בְּ/אַיְל֣וֹת</w>
           <w lemma="7704">הַ/שָּׂדֶ֑ה</w>
           <w lemma="518">אִם־</w><w lemma="5782">תָּעִ֧ירוּ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="518">וְֽ/אִם־</w><w lemma="5782">תְּעֽוֹרְר֛וּ</w>
           <w lemma="853">אֶת־</w><w lemma="160">הָ/אַהֲבָ֖ה</w>
           <w lemma="5704">עַ֥ד</w>
@@ -559,7 +557,7 @@
         </verse>
         <verse osisID="Song.3.11">
           <w lemma="3318">צְאֶ֧ינָה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7200">וּֽ/רְאֶ֛ינָה</w>
           <w lemma="1323">בְּנ֥וֹת</w>
           <w lemma="6726">צִיּ֖וֹן</w>
@@ -673,7 +671,7 @@
           <w lemma="3844">מִ/לְּבָנ֣וֹן</w>
           <w lemma="935">תָּב֑וֹאִי</w>
           <w lemma="7789">תָּשׁ֣וּרִי</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7218">מֵ/רֹ֣אשׁ</w>
           <w lemma="549">אֲמָנָ֗ה</w>
           <w lemma="7218">מֵ/רֹ֤אשׁ</w>
@@ -689,8 +687,7 @@
           <w lemma="269">אֲחֹתִ֣/י</w>
           <w lemma="3618">כַלָּ֑ה</w>
           <w lemma="3823">לִבַּבְתִּ֙י/נִי֙</w>
-          <w POS="ketiv">ב/אחד</w>
-          <w lemma="259" POS="qere">בְּ/אַחַ֣ת</w>
+          <w lemma="259">ב/אחד</w><note type="variant"><catchWord>ב/אחד</catchWord><rdg type="x-qere"><w lemma="259">בְּ/אַחַ֣ת</w></rdg></note>
           <w lemma="5869">מֵ/עֵינַ֔יִ/ךְ</w>
           <w lemma="259">בְּ/אַחַ֥ד</w>
           <w lemma="6060">עֲנָ֖ק</w>
@@ -725,7 +722,7 @@
         </verse>
         <verse osisID="Song.4.12">
           <w lemma="1588">גַּ֥ן</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5274">נָע֖וּל</w>
           <w lemma="269">אֲחֹתִ֣/י</w>
           <w lemma="3618">כַלָּ֑ה</w>
@@ -746,7 +743,7 @@
         </verse>
         <verse osisID="Song.4.14">
           <w lemma="5373">נֵ֣רְדְּ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3750">וְ/כַרְכֹּ֗ם</w>
           <w lemma="7070">קָנֶה֙</w>
           <w lemma="7076">וְ/קִנָּמ֔וֹן</w>
@@ -813,7 +810,7 @@
           <w lemma="3820">וְ/לִבִּ֣/י</w>
           <w lemma="5782">עֵ֑ר</w>
           <w lemma="6963">ק֣וֹל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1730">דּוֹדִ֣/י</w>
           <w lemma="1849">דוֹפֵ֗ק</w>
           <w lemma="6605">פִּתְחִי־</w><w lemma="0">לִ֞/י</w>
@@ -1337,7 +1334,7 @@
           <w lemma="1323">בְּנ֣וֹת</w>
           <w lemma="3389">יְרוּשָׁלִָ֑ם</w>
           <w lemma="4100">מַה־</w><w lemma="5782">תָּעִ֧ירוּ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4100">וּֽ/מַה־</w><w lemma="5782">תְּעֹֽרְר֛וּ</w>
           <w lemma="853">אֶת־</w><w lemma="160">הָ/אַהֲבָ֖ה</w>
           <w lemma="5704">עַ֥ד</w>
@@ -1472,7 +1469,7 @@
         </verse>
         <verse osisID="Song.8.14">
           <w lemma="1272">בְּרַ֣ח</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1730">דּוֹדִ֗/י</w>
           <w lemma="1819">וּֽ/דְמֵה־</w><w lemma="0">לְ/ךָ֤</w>
           <w lemma="6643">לִ/צְבִי֙</w>

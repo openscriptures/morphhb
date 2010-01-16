@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace">
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
@@ -8,6 +8,7 @@
       </revisionDesc>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
+        <contributor role="edt">Daniel Owens</contributor>
         <contributor role="edt">David Troidl</contributor>
         <contributor role="edt">Christopher V. Kimball</contributor>
         <date>2007.9.16</date>
@@ -42,7 +43,7 @@
       <chapter osisID="Zeph.1">
         <verse osisID="Zeph.1.1">
           <w lemma="1697">דְּבַר־</w><w lemma="3068">יְהוָ֣ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="834">אֲשֶׁ֣ר</w>
           <w lemma="1961">הָיָ֗ה</w>
           <w lemma="413">אֶל־</w><w lemma="6846">צְפַנְיָה֙</w>
@@ -318,7 +319,7 @@
           <w lemma="5674">עָ֣בַר</w>
           <w lemma="3117">י֑וֹם</w>
           <w lemma="2962">בְּ/טֶ֣רֶם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3808">לֹא־</w><w lemma="935">יָב֣וֹא</w>
           <w lemma="5921">עֲלֵי/כֶ֗ם</w>
           <w lemma="2740">חֲרוֹן֙</w>
@@ -402,8 +403,7 @@
           <w lemma="3068">יְהוָ֥ה</w>
           <w lemma="430">אֱלֹהֵי/הֶ֖ם</w>
           <w lemma="7725">וְ/שָׁ֥ב</w>
-          <w POS="ketiv">שבות/ם</w>
-          <w lemma="7622" POS="qere">שְׁבִיתָֽ/ם</w><seg type="x-sof-pasuq">׃</seg> 
+          <w lemma="7622">שבות/ם</w><note type="variant"><catchWord>שבות/ם</catchWord><rdg type="x-qere"><w lemma="7622">שְׁבִיתָֽ/ם</w></rdg></note><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Zeph.2.8">
           <w lemma="8085">שָׁמַ֙עְתִּי֙</w>
@@ -441,8 +441,7 @@
           <w lemma="5971">עַמִּ/י֙</w>
           <w lemma="962">יְבָזּ֔וּ/ם</w>
           <w lemma="3499">וְ/יֶ֥תֶר</w>
-          <w POS="ketiv">גוי</w>
-          <w lemma="1471" POS="qere">גּוֹיִ֖/י</w>
+          <w lemma="1471">גוי</w><note type="variant"><catchWord>גוי</catchWord><rdg type="x-qere"><w lemma="1471">גּוֹיִ֖/י</w></rdg></note>
           <w lemma="5157">יִנְחָלֽוּ/ם</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Zeph.2.10">
@@ -523,7 +522,7 @@
           <w lemma="657">וְ/אַפְסִ֣/י</w>
           <w lemma="5750">ע֑וֹד</w>
           <w lemma="349">אֵ֣יךְ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1961">הָיְתָ֣ה</w>
           <w lemma="8047">לְ/שַׁמָּ֗ה</w>
           <w lemma="4769">מַרְבֵּץ֙</w>
@@ -689,7 +688,7 @@
           <w lemma="6586">פָּשַׁ֖עַתְּ</w>
           <w lemma="0">בִּ֑/י</w>
           <w lemma="3588">כִּי־</w><w lemma="227">אָ֣ז</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5493">אָסִ֣יר</w>
           <w lemma="7130">מִ/קִּרְבֵּ֗/ךְ</w>
           <w lemma="5947">עַלִּיזֵי֙</w>
@@ -747,7 +746,7 @@
           <w lemma="341">אֹֽיְבֵ֑/ךְ</w>
           <w lemma="4428">מֶ֣לֶךְ</w>
           <w lemma="3478">יִשְׂרָאֵ֤ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3068">יְהוָה֙</w>
           <w lemma="7130">בְּ/קִרְבֵּ֔/ךְ</w>
           <w lemma="3808">לֹא־</w><w lemma="3372">תִֽירְאִ֥י</w>

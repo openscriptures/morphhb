@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace">
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
@@ -8,6 +8,7 @@
       </revisionDesc>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
+        <contributor role="edt">Daniel Owens</contributor>
         <contributor role="edt">David Troidl</contributor>
         <contributor role="edt">Christopher V. Kimball</contributor>
         <date>2007.9.16</date>
@@ -143,8 +144,7 @@
           <w lemma="1129">וּ/בְנ֣וּ</w>
           <w lemma="1004">הַ/בָּ֑יִת</w>
           <w lemma="7521">וְ/אֶרְצֶה־</w><w lemma="0">בּ֥/וֹ</w>
-          <w POS="ketiv">ו/אכבד</w>
-          <w lemma="3513" POS="qere">וְ/אֶכָּבְדָ֖ה</w>
+          <w lemma="3513">ו/אכבד</w><note type="variant"><catchWord>ו/אכבד</catchWord><rdg type="x-qere"><w lemma="3513">וְ/אֶכָּבְדָ֖ה</w></rdg></note>
           <w lemma="559">אָמַ֥ר</w>
           <w lemma="3068">יְהוָֽה</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -203,14 +203,14 @@
         <verse osisID="Hag.1.12">
           <w lemma="8085">וַ/יִּשְׁמַ֣ע</w>
           <w lemma="2216">זְרֻבָּבֶ֣ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1121">בֶּֽן־</w><w lemma="7597">שַׁלְתִּיאֵ֡ל</w>
           <w lemma="3091">וִ/יהוֹשֻׁ֣עַ</w>
           <w lemma="1121">בֶּן־</w><w lemma="3087">יְהוֹצָדָק֩</w>
           <w lemma="3548">הַ/כֹּהֵ֨ן</w>
           <w lemma="1419">הַ/גָּד֜וֹל</w>
           <w lemma="3605">וְ/כֹ֣ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7611">שְׁאֵרִ֣ית</w>
           <w lemma="5971">הָ/עָ֗ם</w>
           <w lemma="6963">בְּ/קוֹל֙</w>
@@ -328,7 +328,7 @@
           <w lemma="6258">וְ/עַתָּ֣ה</w>
           <w lemma="2388">חֲזַ֣ק</w>
           <w lemma="2216">זְרֻבָּבֶ֣ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5002">נְאֻם־</w><w lemma="3068">יְהוָ֡ה</w>
           <w lemma="2388">וַ/חֲזַ֣ק</w>
           <w lemma="3091">יְהוֹשֻׁ֣עַ</w>
@@ -443,7 +443,7 @@
         </verse>
         <verse osisID="Hag.2.12">
           <w lemma="2005">הֵ֣ן</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5375">יִשָּׂא־</w><w lemma="376">אִ֨ישׁ</w>
           <w lemma="1320">בְּשַׂר־</w><w lemma="6944">קֹ֜דֶשׁ</w>
           <w lemma="3671">בִּ/כְנַ֣ף</w>
@@ -568,7 +568,7 @@
         <verse osisID="Hag.2.20">
           <w lemma="1961">וַ/יְהִ֨י</w>
           <w lemma="1697">דְבַר־</w><w lemma="3068">יְהוָ֤ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="8145">שֵׁנִית֙</w>
           <w lemma="413">אֶל־</w><w lemma="2292">חַגַּ֔י</w>
           <w lemma="6242">בְּ/עֶשְׂרִ֧ים</w>

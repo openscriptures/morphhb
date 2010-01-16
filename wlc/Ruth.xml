@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace">
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
@@ -8,6 +8,7 @@
       </revisionDesc>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
+        <contributor role="edt">Daniel Owens</contributor>
         <contributor role="edt">David Troidl</contributor>
         <contributor role="edt">Christopher V. Kimball</contributor>
         <date>2007.9.16</date>
@@ -70,7 +71,7 @@
           <w lemma="5281">נָעֳמִ֜י</w>
           <w lemma="8034">וְ/שֵׁ֥ם</w>
           <w lemma="8147">שְׁנֵֽי־</w><w lemma="1121">בָנָ֣י/ו</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4248">מַחְל֤וֹן</w>
           <w lemma="3630">וְ/כִלְיוֹן֙</w>
           <w lemma="673">אֶפְרָתִ֔ים</w>
@@ -160,8 +161,7 @@
           <w lemma="802">אִשָּׁ֖ה</w>
           <w lemma="1004">לְ/בֵ֣ית</w>
           <w lemma="517">אִמָּ֑/הּ</w>
-          <w POS="ketiv">יעשה</w>
-          <w lemma="6213" POS="qere">יַ֣עַשׂ</w>
+          <w lemma="6213">יעשה</w><note type="variant"><catchWord>יעשה</catchWord><rdg type="x-qere"><w lemma="6213">יַ֣עַשׂ</w></rdg></note>
           <w lemma="3068">יְהוָ֤ה</w>
           <w lemma="5973">עִמָּ/כֶם֙</w>
           <w lemma="2617">חֶ֔סֶד</w>
@@ -228,7 +228,7 @@
         </verse>
         <verse osisID="Ruth.1.13">
           <w lemma="3860">הֲ/לָהֵ֣ן</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7663">תְּשַׂבֵּ֗רְנָה</w>
           <w lemma="5704">עַ֚ד</w>
           <w lemma="834">אֲשֶׁ֣ר</w>
@@ -389,8 +389,7 @@
       <chapter osisID="Ruth.2">
         <verse osisID="Ruth.2.1">
           <w lemma="5281">וּֽ/לְ/נָעֳמִ֞י</w>
-          <w POS="ketiv">מידע</w>
-          <w lemma="3045" POS="qere">מוֹדַ֣ע</w>
+          <w lemma="3045">מידע</w><note type="variant"><catchWord>מידע</catchWord><rdg type="x-qere"><w lemma="3045">מוֹדַ֣ע</w></rdg></note>
           <w lemma="376">לְ/אִישָׁ֗/הּ</w>
           <w lemma="376">אִ֚ישׁ</w>
           <w lemma="1368">גִּבּ֣וֹר</w>
@@ -723,7 +722,7 @@
           <w lemma="7327">ר֣וּת</w>
           <w lemma="4125">הַ/מּוֹאֲבִיָּ֑ה</w>
           <w lemma="1571">גַּ֣ם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3588">כִּי־</w><w lemma="559">אָמַ֣ר</w>
           <w lemma="413">אֵלַ֗/י</w>
           <w lemma="5973">עִם־</w><w lemma="5288">הַ/נְּעָרִ֤ים</w>
@@ -792,14 +791,12 @@
         </verse>
         <verse osisID="Ruth.3.3">
           <w lemma="7364">וְ/רָחַ֣צְתְּ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5480">וָ/סַ֗כְתְּ</w>
           <w lemma="7760">וְ/שַׂ֧מְתְּ</w>
-          <w POS="ketiv">שמלת/ך</w>
-          <w lemma="8071" POS="qere">שִׂמְלֹתַ֛יִ/ךְ</w>
+          <w lemma="8071">שמלת/ך</w><note type="variant"><catchWord>שמלת/ך</catchWord><rdg type="x-qere"><w lemma="8071">שִׂמְלֹתַ֛יִ/ךְ</w></rdg></note>
           <w lemma="5921">עָלַ֖יִ/ךְ</w>
-          <w POS="ketiv">ו/ירדתי</w>
-          <w lemma="3381" POS="qere">וְ/יָרַ֣דְתְּ</w>
+          <w lemma="3381">ו/ירדתי</w><note type="variant"><catchWord>ו/ירדתי</catchWord><rdg type="x-qere"><w lemma="3381">וְ/יָרַ֣דְתְּ</w></rdg></note>
           <w lemma="1637">הַ/גֹּ֑רֶן</w>
           <w lemma="408">אַל־</w><w lemma="3045">תִּוָּדְעִ֣י</w>
           <w lemma="376">לָ/אִ֔ישׁ</w>
@@ -818,8 +815,7 @@
           <w lemma="935">וּ/בָ֛את</w>
           <w lemma="1540">וְ/גִלִּ֥ית</w>
           <w lemma="4772">מַרְגְּלֹתָ֖י/ו</w>
-          <w POS="ketiv">ו/שכבתי</w>
-          <w lemma="7901" POS="qere">וְ/שָׁכָ֑בְתְּ</w>
+          <w lemma="7901">ו/שכבתי</w><note type="variant"><catchWord>ו/שכבתי</catchWord><rdg type="x-qere"><w lemma="7901">וְ/שָׁכָ֑בְתְּ</w></rdg></note>
           <w lemma="1931">וְ/הוּא֙</w>
           <w lemma="5046">יַגִּ֣יד</w>
           <w lemma="0">לָ֔/ךְ</w>
@@ -833,7 +829,7 @@
           <w lemma="413">אֵלֶ֑י/הָ</w>
           <w lemma="3605">כֹּ֛ל</w>
           <w lemma="834">אֲשֶׁר־</w><w lemma="559">תֹּאמְרִ֥י</w>
-          <w lemma="413" POS="qere">אֵלַ֖/י</w>
+          <note type="variant"><rdg type="x-qere"><w lemma="413">אֵלַ֖/י</w></rdg></note>
           <w lemma="6213">אֶֽעֱשֶֽׂה</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Ruth.3.6">
@@ -924,7 +920,8 @@
           <w lemma="3588">כִּ֣י</w>
           <w lemma="551">אָמְנָ֔ם</w>
           <w lemma="3588">כִּ֥י</w>
-          <w lemma="518" POS="ketiv">אם</w>
+          <w lemma="518">אם</w>
+          <note type="variant"><catchWord>אם</catchWord><rdg type="x-qere"/></note>
           <w lemma="1350">גֹאֵ֖ל</w>
           <w lemma="595">אָנֹ֑כִי</w>
           <w lemma="1571">וְ/גַ֛ם</w>
@@ -935,7 +932,7 @@
         </verse>
         <verse osisID="Ruth.3.13">
           <w lemma="3885">לִ֣ינִי</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3915">הַ/לַּ֗יְלָה</w>
           <w lemma="1961">וְ/הָיָ֤ה</w>
           <w lemma="1242">בַ/בֹּ֙קֶר֙</w>
@@ -953,13 +950,11 @@
         </verse>
         <verse osisID="Ruth.3.14">
           <w lemma="7901">וַ/תִּשְׁכַּ֤ב</w>
-          <w POS="ketiv">מרגלת/ו</w>
-          <w lemma="4772" POS="qere">מַרְגְּלוֹתָי/ו֙</w>
+          <w lemma="4772">מרגלת/ו</w><note type="variant"><catchWord>מרגלת/ו</catchWord><rdg type="x-qere"><w lemma="4772">מַרְגְּלוֹתָי/ו֙</w></rdg></note>
           <note>3</note>
           <w lemma="5704">עַד־</w><w lemma="1242">הַ/בֹּ֔קֶר</w>
           <w lemma="6965">וַ/תָּ֕קָם</w>
-          <w POS="ketiv">ב/טרום</w>
-          <w lemma="2958" POS="qere">בְּ/טֶ֛רֶם</w>
+          <w lemma="2958">ב/טרום</w><note type="variant"><catchWord>ב/טרום</catchWord><rdg type="x-qere"><w lemma="2958">בְּ/טֶ֛רֶם</w></rdg></note>
           <w lemma="5234">יַכִּ֥יר</w>
           <w lemma="376">אִ֖ישׁ</w>
           <w lemma="853">אֶת־</w><w lemma="7453">רֵעֵ֑/הוּ</w>
@@ -1004,7 +999,7 @@
           <w lemma="0">לִ֑/י</w>
           <w lemma="3588">כִּ֚י</w>
           <w lemma="559">אָמַ֣ר</w>
-          <w lemma="413" POS="qere">אֵלַ֔/י</w>
+          <note type="variant"><rdg type="x-qere"><w lemma="413">אֵלַ֔/י</w></rdg></note>
           <w lemma="413">אַל־</w><w lemma="935">תָּב֥וֹאִי</w>
           <w lemma="7387">רֵיקָ֖ם</w>
           <w lemma="408">אֶל־</w><w lemma="2545">חֲמוֹתֵֽ/ךְ</w><seg type="x-sof-pasuq">׃</seg> 
@@ -1091,8 +1086,7 @@
           <w lemma="1350">יִגְאַ֜ל</w>
           <w lemma="5046">הַגִּ֣ידָ/ה</w>
           <w lemma="0">לִּ֗/י</w>
-          <w POS="ketiv">ו/אדע</w>
-          <w lemma="3045" POS="qere">וְ/אֵֽדְעָה֙</w>
+          <w lemma="3045">ו/אדע</w><note type="variant"><catchWord>ו/אדע</catchWord><rdg type="x-qere"><w lemma="3045">וְ/אֵֽדְעָה֙</w></rdg></note>
           <w lemma="3588">כִּ֣י</w>
           <w lemma="369">אֵ֤ין</w>
           <w lemma="2108">זוּלָֽתְ/ךָ֙</w>
@@ -1114,8 +1108,7 @@
           <w lemma="7327">ר֣וּת</w>
           <w lemma="4125">הַ/מּוֹאֲבִיָּ֤ה</w>
           <w lemma="802">אֵֽשֶׁת־</w><w lemma="4191">הַ/מֵּת֙</w>
-          <w POS="ketiv">קניתי</w>
-          <w lemma="7069" POS="qere">קָנִ֔יתָה</w>
+          <w lemma="7069">קניתי</w><note type="variant"><catchWord>קניתי</catchWord><rdg type="x-qere"><w lemma="7069">קָנִ֔יתָה</w></rdg></note>
           <w lemma="6965">לְ/הָקִ֥ים</w>
           <w lemma="8034">שֵׁם־</w><w lemma="4191">הַ/מֵּ֖ת</w>
           <w lemma="5921">עַל־</w><w lemma="5159">נַחֲלָתֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg> 
@@ -1125,8 +1118,7 @@
           <w lemma="1350">הַ/גֹּאֵ֗ל</w>
           <w lemma="3808">לֹ֤א</w>
           <w lemma="3201">אוּכַל֙</w>
-          <w POS="ketiv">ל/גאול־</w>
-          <w lemma="1350" POS="qere">לִ/גְאָל־</w>
+          <w lemma="1350">ל/גאול־</w><note type="variant"><catchWord>ל/גאול־</catchWord><rdg type="x-qere"><w lemma="1350">לִ/גְאָל־</w></rdg></note>
           <w lemma="1350">לִ֔/י</w>
           <w lemma="6435">פֶּן־</w><w lemma="7843">אַשְׁחִ֖ית</w>
           <w lemma="853">אֶת־</w><w lemma="5159">נַחֲלָתִ֑/י</w>
@@ -1215,7 +1207,7 @@
           <w lemma="935">הַ/בָּאָ֣ה</w>
           <w lemma="413">אֶל־</w><w lemma="1004">בֵּיתֶ֗/ךָ</w>
           <w lemma="7354">כְּ/רָחֵ֤ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3812">וּ/כְ/לֵאָה֙</w>
           <w lemma="834">אֲשֶׁ֨ר</w>
           <w lemma="1129">בָּנ֤וּ</w>

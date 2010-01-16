@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace">
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
@@ -8,6 +8,7 @@
       </revisionDesc>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
+        <contributor role="edt">Daniel Owens</contributor>
         <contributor role="edt">David Troidl</contributor>
         <contributor role="edt">Christopher V. Kimball</contributor>
         <date>2007.9.16</date>
@@ -781,8 +782,7 @@
           <w lemma="6256">וּ/בָ/עֵ֣ת</w>
           <w lemma="1931">הַ/הִ֑יא</w>
           <w lemma="834">אֲשֶׁ֥ר</w>
-          <w POS="ketiv">אשוב</w>
-          <w lemma="7725" POS="qere">אָשִׁ֛יב</w>
+          <w lemma="7725">אשוב</w><note type="variant"><catchWord>אשוב</catchWord><rdg type="x-qere"><w lemma="7725">אָשִׁ֛יב</w></rdg></note>
           <w lemma="853">אֶת־</w><w lemma="7622">שְׁב֥וּת</w>
           <w lemma="3063">יְהוּדָ֖ה</w>
           <w lemma="3389">וִ/ירוּשָׁלִָֽם</w><seg type="x-sof-pasuq">׃</seg> 

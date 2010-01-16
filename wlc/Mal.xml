@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace">
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
@@ -8,6 +8,7 @@
       </revisionDesc>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
+        <contributor role="edt">Daniel Owens</contributor>
         <contributor role="edt">David Troidl</contributor>
         <contributor role="edt">Christopher V. Kimball</contributor>
         <date>2007.9.16</date>
@@ -122,7 +123,7 @@
           <w lemma="346">אַיֵּ֨ה</w>
           <w lemma="4172">מוֹרָאִ֜/י</w>
           <w lemma="559">אָמַ֣ר</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3068">יְהוָ֣ה</w>
           <w lemma="6635">צְבָא֗וֹת</w>
           <w lemma="0">לָ/כֶם֙</w>
@@ -344,7 +345,7 @@
         </verse>
         <verse osisID="Mal.2.5">
           <w lemma="1285">בְּרִיתִ֣/י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1961">הָיְתָ֣ה</w>
           <w lemma="854">אִתּ֗/וֹ</w>
           <w lemma="2416">הַֽ/חַיִּים֙</w>
@@ -441,7 +442,7 @@
           <w lemma="3478">בְ/יִשְׂרָאֵ֖ל</w>
           <w lemma="3389">וּ/בִ/ירֽוּשָׁלִָ֑ם</w>
           <w lemma="3588">כִּ֣י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2490">חִלֵּ֣ל</w>
           <w lemma="3063">יְהוּדָ֗ה</w>
           <w lemma="6944">קֹ֤דֶשׁ</w>
@@ -494,7 +495,7 @@
           <w lemma="5749">הֵעִ֨יד</w>
           <w lemma="996">בֵּינְ/ךָ֜</w>
           <w lemma="996">וּ/בֵ֣ין</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="802">אֵ֣שֶׁת</w>
           <w lemma="5271">נְעוּרֶ֗י/ךָ</w>
           <w lemma="834">אֲשֶׁ֤ר</w>
@@ -553,7 +554,7 @@
           <w lemma="3605">כָּל־</w><w lemma="6213">עֹ֨שֵׂה</w>
           <w lemma="7451">רָ֜ע</w>
           <w lemma="2896">ט֣וֹב</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5869">בְּ/עֵינֵ֣י</w>
           <w lemma="3068">יְהוָ֗ה</w>
           <w lemma="0">וּ/בָ/הֶם֙</w>
@@ -576,7 +577,7 @@
           <w lemma="935">יָב֨וֹא</w>
           <w lemma="413">אֶל־</w><w lemma="1964">הֵיכָל֜/וֹ</w>
           <w lemma="113">הָ/אָד֣וֹן</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="834">אֲשֶׁר־</w><w lemma="859">אַתֶּ֣ם</w>
           <w lemma="1245">מְבַקְשִׁ֗ים</w>
           <w lemma="4397">וּ/מַלְאַ֨ךְ</w>
@@ -635,7 +636,7 @@
           <w lemma="413">אֲלֵי/כֶם֮</w>
           <w lemma="4941">לַ/מִּשְׁפָּט֒</w>
           <w lemma="1961">וְ/הָיִ֣יתִי</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5707">עֵ֣ד</w>
           <w lemma="4116">מְמַהֵ֗ר</w>
           <w lemma="3784">בַּֽ/מְכַשְּׁפִים֙</w>

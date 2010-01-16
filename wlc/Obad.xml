@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace">
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
@@ -8,6 +8,7 @@
       </revisionDesc>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
+        <contributor role="edt">Daniel Owens</contributor>
         <contributor role="edt">David Troidl</contributor>
         <contributor role="edt">Christopher V. Kimball</contributor>
         <date>2007.9.16</date>
@@ -179,8 +180,7 @@
           <w lemma="2428">חֵיל֑/וֹ</w>
           <w lemma="5237">וְ/נָכְרִ֞ים</w>
           <w lemma="935">בָּ֣אוּ</w>
-          <w POS="ketiv">שער/ו</w>
-          <w lemma="8179" POS="qere">שְׁעָרָ֗י/ו</w>
+          <w lemma="8179">שער/ו</w><note type="variant"><catchWord>שער/ו</catchWord><rdg type="x-qere"><w lemma="8179">שְׁעָרָ֗י/ו</w></rdg></note>
           <w lemma="5921">וְ/עַל־</w><w lemma="3389">יְרוּשָׁלִַ֙ם֙</w>
           <w lemma="3032">יַדּ֣וּ</w>
           <w lemma="1486">גוֹרָ֔ל</w>

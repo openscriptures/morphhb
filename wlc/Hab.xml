@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace">
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
@@ -8,6 +8,7 @@
       </revisionDesc>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
+        <contributor role="edt">Daniel Owens</contributor>
         <contributor role="edt">David Troidl</contributor>
         <contributor role="edt">Christopher V. Kimball</contributor>
         <date>2007.9.16</date>
@@ -595,7 +596,7 @@
         </verse>
         <verse osisID="Hab.3.6">
           <w lemma="5975">עָמַ֣ד</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4058">וַ/יְמֹ֣דֶד</w>
           <w lemma="776">אֶ֗רֶץ</w>
           <w lemma="7200">רָאָה֙</w>
@@ -702,8 +703,7 @@
           <w lemma="5344">נָקַ֤בְתָּ</w>
           <w lemma="4294">בְ/מַטָּי/ו֙</w>
           <w lemma="7218">רֹ֣אשׁ</w>
-          <w POS="ketiv">פרז/ו</w>
-          <w lemma="6518" POS="qere">פְּרָזָ֔י/ו</w>
+          <w lemma="6518">פרז/ו</w><note type="variant"><catchWord>פרז/ו</catchWord><rdg type="x-qere"><w lemma="6518">פְּרָזָ֔י/ו</w></rdg></note>
           <w lemma="5590">יִסְעֲר֖וּ</w>
           <w lemma="6327">לַ/הֲפִיצֵ֑/נִי</w>
           <w lemma="5951">עֲלִ֣יצֻתָ֔/ם</w>
@@ -721,7 +721,7 @@
         </verse>
         <verse osisID="Hab.3.16">
           <w lemma="8085">שָׁמַ֣עְתִּי</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7264">וַ/תִּרְגַּ֣ז</w>
           <w lemma="990">בִּטְנִ֗/י</w>
           <w lemma="6963">לְ/קוֹל֙</w>

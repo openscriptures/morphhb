@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace">
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
@@ -8,6 +8,7 @@
       </revisionDesc>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
+        <contributor role="edt">Daniel Owens</contributor>
         <contributor role="edt">David Troidl</contributor>
         <contributor role="edt">Christopher V. Kimball</contributor>
         <date>2007.9.16</date>
@@ -47,7 +48,7 @@
           <w lemma="347">אִיּ֣וֹב</w>
           <w lemma="8034">שְׁמ֑/וֹ</w>
           <w lemma="1961">וְ/הָיָ֣ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="376">הָ/אִ֣ישׁ</w>
           <w lemma="1931">הַ/ה֗וּא</w>
           <w lemma="8535">תָּ֧ם</w>
@@ -99,8 +100,7 @@
           <w lemma="7971">וְ/שָׁלְח֗וּ</w>
           <w lemma="7121">וְ/קָרְאוּ֙</w>
           <w lemma="7969">לִ/שְׁלֹ֣שֶׁת</w>
-          <w POS="ketiv">אחיתי/הם</w>
-          <w lemma="269" POS="qere">אַחְיֽוֹתֵי/הֶ֔ם</w>
+          <w lemma="269">אחיתי/הם</w><note type="variant"><catchWord>אחיתי/הם</catchWord><rdg type="x-qere"><w lemma="269">אַחְיֽוֹתֵי/הֶ֔ם</w></rdg></note>
           <w lemma="398">לֶ/אֱכֹ֥ל</w>
           <w lemma="8354">וְ/לִ/שְׁתּ֖וֹת</w>
           <w lemma="5973">עִמָּ/הֶֽם</w><seg type="x-sof-pasuq">׃</seg> 
@@ -194,8 +194,7 @@
         </verse>
         <verse osisID="Job.1.10">
           <w lemma="3808">הֲ/לֹֽא־</w>
-          <w POS="ketiv">את</w>
-          <w lemma="859" POS="qere">אַ֠תָּה</w>
+          <w lemma="859">את</w><note type="variant"><catchWord>את</catchWord><rdg type="x-qere"><w lemma="859">אַ֠תָּה</w></rdg></note>
           <w lemma="7753">שַׂ֣כְתָּ</w>
           <w lemma="1157">בַעֲד֧/וֹ</w>
           <w lemma="1157">וּ/בְעַד־</w><w lemma="1004">בֵּית֛/וֹ</w>
@@ -275,7 +274,7 @@
         </verse>
         <verse osisID="Job.1.16">
           <w lemma="5750">ע֣וֹד</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2088">זֶ֣ה</w>
           <w lemma="1696">מְדַבֵּ֗ר</w>
           <w lemma="2088">וְ/זֶה֮</w>
@@ -297,7 +296,7 @@
         </verse>
         <verse osisID="Job.1.17">
           <w lemma="5750">ע֣וֹד</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2088">זֶ֣ה</w>
           <w lemma="1696">מְדַבֵּ֗ר</w>
           <w lemma="2088">וְ/זֶה֮</w>
@@ -305,7 +304,7 @@
           <w lemma="559">וַ/יֹּאמַר֒</w>
           <w lemma="3778">כַּשְׂדִּ֞ים</w>
           <w lemma="7760">שָׂ֣מוּ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7969">שְׁלֹשָׁ֣ה</w>
           <w lemma="7218">רָאשִׁ֗ים</w>
           <w lemma="6584">וַֽ/יִּפְשְׁט֤וּ</w>
@@ -341,7 +340,7 @@
           <w lemma="7307">ר֨וּחַ</w>
           <w lemma="1419">גְּדוֹלָ֜ה</w>
           <w lemma="935">בָּ֣אָה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5676">מֵ/עֵ֣בֶר</w>
           <w lemma="4057">הַ/מִּדְבָּ֗ר</w>
           <w lemma="5060">וַ/יִּגַּע֙</w>
@@ -372,8 +371,7 @@
         <verse osisID="Job.1.21">
           <w lemma="559">וַ/יֹּאמֶר֩</w>
           <w lemma="6174">עָרֹ֨ם</w>
-          <w POS="ketiv">יצתי</w>
-          <w lemma="3318" POS="qere">יָצָ֜אתִי</w>
+          <w lemma="3318">יצתי</w><note type="variant"><catchWord>יצתי</catchWord><rdg type="x-qere"><w lemma="3318">יָצָ֜אתִי</w></rdg></note>
           <w lemma="990">מִ/בֶּ֣טֶן</w>
           <w lemma="517">אִמִּ֗/י</w>
           <w lemma="6174">וְ/עָרֹם֙</w>
@@ -504,8 +502,7 @@
           <w lemma="7451">רָ֔ע</w>
           <w lemma="3709">מִ/כַּ֥ף</w>
           <w lemma="7272">רַגְל֖/וֹ</w>
-          <w POS="ketiv">עד</w>
-          <w lemma="5704" POS="qere">וְ/עַ֥ד</w>
+          <w lemma="5704">עד</w><note type="variant"><catchWord>עד</catchWord><rdg type="x-qere"><w lemma="5704">וְ/עַ֥ד</w></rdg></note>
           <w lemma="6936">קָדְקֳדֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Job.2.8">
@@ -552,7 +549,7 @@
         <verse osisID="Job.2.11">
           <w lemma="8085">וַֽ/יִּשְׁמְע֞וּ</w>
           <w lemma="7969">שְׁלֹ֣שֶׁת</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7453">רֵעֵ֣י</w>
           <w lemma="347">אִיּ֗וֹב</w>
           <w lemma="853">אֵ֣ת</w>
@@ -730,7 +727,7 @@
           <w lemma="8252">וְ/אֶשְׁק֑וֹט</w>
           <w lemma="3462">יָ֝שַׁ֗נְתִּי</w>
           <w lemma="227">אָ֤ז</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5117">יָנ֬וּחַֽ</w>
           <w lemma="0">לִֽ/י</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -843,7 +840,7 @@
         <verse osisID="Job.3.26">
           <w lemma="3808">לֹ֤א</w>
           <w lemma="7951">שָׁלַ֨וְתִּי</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3808">וְ/לֹ֖א</w>
           <w lemma="8252">שָׁקַ֥טְתִּי</w>
           <w lemma="3808">וְֽ/לֹא־</w><w lemma="5117">נָ֗חְתִּי</w>
@@ -889,7 +886,7 @@
         <verse osisID="Job.4.5">
           <w lemma="3588">כִּ֤י</w>
           <w lemma="6258">עַתָּ֨ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="935">תָּב֣וֹא</w>
           <w lemma="413">אֵלֶ֣י/ךָ</w>
           <w lemma="3811">וַ/תֵּ֑לֶא</w>
@@ -984,7 +981,7 @@
         </verse>
         <verse osisID="Job.4.16">
           <w lemma="5975">יַעֲמֹ֤ד</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3808">וְֽ/לֹא־</w><w lemma="5234">אַכִּ֬יר</w>
           <w lemma="4758">מַרְאֵ֗/הוּ</w>
           <w lemma="8544">תְּ֭מוּנָה</w>
@@ -1014,7 +1011,7 @@
         </verse>
         <verse osisID="Job.4.19">
           <w lemma="637">אַ֤ף</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7931">שֹׁכְנֵ֬י</w>
           <w lemma="1004">בָֽתֵּי־</w><w lemma="2563">חֹ֗מֶר</w>
           <w lemma="834">אֲשֶׁר־</w><w lemma="6083">בֶּ/עָפָ֥ר</w>
@@ -1077,7 +1074,7 @@
         <verse osisID="Job.5.5">
           <w lemma="834">אֲשֶׁ֤ר</w>
           <w lemma="7105">קְצִיר֨/וֹ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7456">רָ֘עֵ֤ב</w>
           <w lemma="398">יֹאכֵ֗ל</w>
           <w lemma="413">וְ/אֶֽל־</w><w lemma="6791">מִ/צִּנִּ֥ים</w>
@@ -1088,7 +1085,7 @@
         </verse>
         <verse osisID="Job.5.6">
           <w lemma="3588">כִּ֤י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3808">לֹא־</w><w lemma="3318">יֵצֵ֣א</w>
           <w lemma="6083">מֵ/עָפָ֣ר</w>
           <w lemma="205">אָ֑וֶן</w>
@@ -1194,8 +1191,7 @@
           <w lemma="3510">יַכְאִ֣יב</w>
           <w lemma="2280">וְ/יֶחְבָּ֑שׁ</w>
           <w lemma="4272">יִ֝מְחַ֗ץ</w>
-          <w POS="ketiv">ו/יד/ו</w>
-          <w lemma="3027" POS="qere">וְ/יָדָ֥י/ו</w>
+          <w lemma="3027">ו/יד/ו</w><note type="variant"><catchWord>ו/יד/ו</catchWord><rdg type="x-qere"><w lemma="3027">וְ/יָדָ֥י/ו</w></rdg></note>
           <w lemma="7495">תִּרְפֶּֽינָה</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Job.5.19">
@@ -1203,7 +1199,7 @@
           <w lemma="6869">צָ֭רוֹת</w>
           <w lemma="5337">יַצִּילֶ֑/ךָּ</w>
           <w lemma="7651">וּ/בְ/שֶׁ֓בַע</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3808">לֹא־</w><w lemma="5060">יִגַּ֖ע</w>
           <w lemma="0">בְּ/ךָ֣</w>
           <w lemma="7451">רָֽע</w><seg type="x-sof-pasuq">׃</seg> 
@@ -1288,8 +1284,7 @@
           <w lemma="8254">שָׁק֣וֹל</w>
           <w lemma="8254">יִשָּׁקֵ֣ל</w>
           <w lemma="3708">כַּעְשִׂ֑/י</w>
-          <w POS="ketiv">ו/הית/י</w>
-          <w lemma="1962" POS="qere">וְ֝/הַוָּתִ֗/י</w>
+          <w lemma="1962">ו/הית/י</w><note type="variant"><catchWord>ו/הית/י</catchWord><rdg type="x-qere"><w lemma="1962">וְ֝/הַוָּתִ֗/י</w></rdg></note>
           <w lemma="3976">בְּֽ/מֹאזְנַ֥יִם</w>
           <w lemma="5375">יִשְׂאוּ־</w><w lemma="3162">יָֽחַד</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -1358,7 +1353,7 @@
           <w lemma="1961">וּ֥/תְהִי</w>
           <note>3</note>
           <w lemma="5750">ע֨וֹד</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5165">נֶ֘חָ֤מָתִ֗/י</w>
           <w lemma="5539">וַ/אֲסַלְּדָ֣ה</w>
           <w lemma="2427">בְ֭/חִילָה</w>
@@ -1449,8 +1444,7 @@
         <verse osisID="Job.6.21">
           <w lemma="3588">כִּֽי־</w><w lemma="6258">עַ֭תָּה</w>
           <w lemma="1961">הֱיִ֣יתֶם</w>
-          <w POS="ketiv">לא</w>
-          <w lemma="3808" POS="qere">ל֑/וֹ</w>
+          <w lemma="3808">לא</w><note type="variant"><catchWord>לא</catchWord><rdg type="x-qere"><w lemma="3808">ל֑/וֹ</w></rdg></note>
           <w lemma="7200">תִּֽרְא֥וּ</w>
           <w lemma="2866">חֲ֝תַ֗ת</w>
           <w lemma="3372">וַ/תִּירָֽאוּ</w><seg type="x-sof-pasuq">׃</seg> 
@@ -1510,8 +1504,7 @@
           <w lemma="7725">שֻֽׁבוּ־</w><w lemma="4994">נָ֭א</w>
           <w lemma="408">אַל־</w><w lemma="1961">תְּהִ֣י</w>
           <w lemma="5766">עַוְלָ֑ה</w>
-          <w POS="ketiv">ו/שבי</w>
-          <w lemma="7725" POS="qere">וְ/שׁ֥וּבוּ</w>
+          <w lemma="7725">ו/שבי</w><note type="variant"><catchWord>ו/שבי</catchWord><rdg type="x-qere"><w lemma="7725">וְ/שׁ֥וּבוּ</w></rdg></note>
           <note>3</note>
           <w lemma="5750">ע֝וֹד</w>
           <w lemma="6664">צִדְקִ/י־</w><w lemma="0">בָֽ/הּ</w><seg type="x-sof-pasuq">׃</seg> 
@@ -1528,8 +1521,7 @@
         <verse osisID="Job.7.1">
           <w lemma="3808">הֲ/לֹא־</w><w lemma="6635">צָבָ֣א</w>
           <w lemma="582">לֶ/אֱנ֣וֹשׁ</w>
-          <w POS="ketiv">על־</w>
-          <w lemma="5921" POS="qere">עֲלֵי־</w>
+          <w lemma="5921">על־</w><note type="variant"><catchWord>על־</catchWord><rdg type="x-qere"><w lemma="5921">עֲלֵי־</w></rdg></note>
           <w lemma="5921">אָ֑רֶץ</w>
           <w lemma="3117">וְ/כִ/ימֵ֖י</w>
           <w lemma="7916">שָׂכִ֣יר</w>
@@ -1565,8 +1557,7 @@
           <w lemma="3847">לָ֘בַ֤שׁ</w>
           <w lemma="1320">בְּשָׂרִ֣/י</w>
           <w lemma="7415">רִ֭מָּה</w>
-          <w POS="ketiv">ו/גיש</w>
-          <w lemma="1487" POS="qere">וְ/ג֣וּשׁ</w>
+          <w lemma="1487">ו/גיש</w><note type="variant"><catchWord>ו/גיש</catchWord><rdg type="x-qere"><w lemma="1487">וְ/ג֣וּשׁ</w></rdg></note>
           <w lemma="6083">עָפָ֑ר</w>
           <w lemma="5785">עוֹרִ֥/י</w>
           <w lemma="7280">רָ֝גַ֗ע</w>
@@ -1691,7 +1682,7 @@
           <w lemma="2398">חָטָ֡אתִי</w>
           <w lemma="4100">מָ֤ה</w>
           <w lemma="6466">אֶפְעַ֨ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="0">לָ/ךְ֮</w>
           <w lemma="5341">נֹצֵ֪ר</w>
           <w lemma="120">הָ/אָ֫דָ֥ם</w>
@@ -1705,7 +1696,7 @@
         </verse>
         <verse osisID="Job.7.21">
           <w lemma="4100">וּ/מֶ֤ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3808">לֹא־</w><w lemma="5375">תִשָּׂ֣א</w>
           <w lemma="6588">פִשְׁעִ/י֮</w>
           <w lemma="5674">וְ/תַעֲבִ֪יר</w>
@@ -2005,8 +1996,7 @@
           <w lemma="433">אֱ֭לוֹהַּ</w>
           <w lemma="3808">לֹא־</w><w lemma="7725">יָשִׁ֣יב</w>
           <w lemma="639">אַפּ֑/וֹ</w>
-          <w POS="ketiv">תחת/ו</w>
-          <w lemma="8478" POS="qere">תַּחְתָּ֥י/ו</w>
+          <w lemma="8478">תחת/ו</w><note type="variant"><catchWord>תחת/ו</catchWord><rdg type="x-qere"><w lemma="8478">תַּחְתָּ֥י/ו</w></rdg></note>
           <w lemma="7817">שָׁ֝חֲח֗וּ</w>
           <w lemma="5826">עֹ֣זְרֵי</w>
           <w lemma="7293">רָֽהַב</w><seg type="x-sof-pasuq">׃</seg> 
@@ -2091,7 +2081,7 @@
         </verse>
         <verse osisID="Job.9.24">
           <w lemma="776">אֶ֤רֶץ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5414">נִתְּנָ֬ה</w>
           <w lemma="3027">בְֽ/יַד־</w><w lemma="7563">רָשָׁ֗ע</w>
           <w lemma="6440">פְּנֵֽי־</w><w lemma="8199">שֹׁפְטֶ֥י/הָ</w>
@@ -2140,8 +2130,7 @@
         </verse>
         <verse osisID="Job.9.30">
           <w lemma="518">אִם־</w><w lemma="7364">הִתְרָחַ֥צְתִּי</w>
-          <w POS="ketiv">במו־</w>
-          <w lemma="0" POS="qere">בְ/מֵי־</w>
+          <w lemma="0">במו־</w><note type="variant"><catchWord>במו־</catchWord><rdg type="x-qere"><w lemma="0">בְ/מֵי־</w></rdg></note>
           <w lemma="4325">שָׁ֑לֶג</w>
           <w lemma="2141">וַ֝/הֲזִכּ֗וֹתִי</w>
           <w lemma="1253">בְּ/בֹ֣ר</w>
@@ -2210,7 +2199,7 @@
         <verse osisID="Job.10.3">
           <w lemma="2896">הֲ/ט֤וֹב</w>
           <w lemma="0">לְ/ךָ֨</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <note>3</note>
           <w lemma="3588">כִּֽי־</w><w lemma="6231">תַעֲשֹׁ֗ק</w>
           <w lemma="3588">כִּֽי־</w><w lemma="3988">תִ֭מְאַס</w>
@@ -2326,7 +2315,7 @@
         <verse osisID="Job.10.17">
           <w lemma="2318">תְּחַדֵּ֬שׁ</w>
           <w lemma="5707">עֵדֶ֨י/ךָ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5048">נֶגְדִּ֗/י</w>
           <w lemma="7235">וְ/תֶ֣רֶב</w>
           <w lemma="3708">כַּֽ֭עַשְׂ/ךָ</w>
@@ -2354,10 +2343,8 @@
         <verse osisID="Job.10.20">
           <w lemma="3808">הֲ/לֹא־</w><w lemma="4592">מְעַ֣ט</w>
           <w lemma="3117">יָמַ֣/י</w>
-          <w POS="ketiv">יחדל</w>
-          <w lemma="2308" POS="qere">וַ/חֲדָ֑ל</w>
-          <w POS="ketiv">ישית</w>
-          <w lemma="7896" POS="qere">וְ/שִׁ֥ית</w>
+          <w lemma="2308">יחדל</w><note type="variant"><catchWord>יחדל</catchWord><rdg type="x-qere"><w lemma="2308">וַ/חֲדָ֑ל</w></rdg></note>
+          <w lemma="7896">ישית</w><note type="variant"><catchWord>ישית</catchWord><rdg type="x-qere"><w lemma="7896">וְ/שִׁ֥ית</w></rdg></note>
           <w lemma="4480">מִ֝מֶּ֗/נִּי</w>
           <w lemma="1082">וְ/אַבְלִ֥יגָה</w>
           <w lemma="4592">מְּעָֽט</w><seg type="x-sof-pasuq">׃</seg> 
@@ -2374,7 +2361,7 @@
         <verse osisID="Job.10.22">
           <w lemma="776">אֶ֤רֶץ</w>
           <w lemma="5890">עֵיפָ֨תָה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3644">כְּמ֥וֹ</w>
           <w lemma="652">אֹ֗פֶל</w>
           <w lemma="6757">צַ֭לְמָוֶת</w>
@@ -2428,7 +2415,7 @@
         </verse>
         <verse osisID="Job.11.6">
           <w lemma="5046">וְ/יַגֶּד־</w><w lemma="0">לְ/ךָ֨</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <note>3</note>
           <w lemma="8587">תַּֽעֲלֻמ֣וֹת</w>
           <w lemma="2451">חָכְמָה֮</w>
@@ -2507,7 +2494,7 @@
         </verse>
         <verse osisID="Job.11.15">
           <w lemma="3588">כִּי־</w><w lemma="227">אָ֤ז</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5375">תִּשָּׂ֣א</w>
           <w lemma="6440">פָנֶ֣י/ךָ</w>
           <w lemma="3971">מִ/מּ֑וּם</w>
@@ -2578,7 +2565,7 @@
         <verse osisID="Job.12.3">
           <w lemma="1571">גַּם־</w><w lemma="0">לִ֤/י</w>
           <w lemma="3824">לֵבָ֨ב</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3644">כְּֽמוֹ/כֶ֗ם</w>
           <note>3</note>
           <w lemma="3808">לֹא־</w><w lemma="5307">נֹפֵ֣ל</w>
@@ -2590,7 +2577,7 @@
         <verse osisID="Job.12.4">
           <w lemma="7814">שְׂחֹ֤ק</w>
           <w lemma="7453">לְ/רֵעֵ֨/הוּ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1961">אֶֽהְיֶ֗ה</w>
           <w lemma="7121">קֹרֵ֣א</w>
           <w lemma="433">לֶ֭/אֱלוֹהַּ</w>
@@ -2611,7 +2598,7 @@
         <verse osisID="Job.12.6">
           <w lemma="7951">יִשְׁלָ֤יוּ</w>
           <w lemma="168">אֹֽהָלִ֨ים</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7703">לְ/שֹׁ֥דְדִ֗ים</w>
           <note>3</note>
           <w lemma="987">וּֽ֭/בַטֻּחוֹת</w>
@@ -2885,7 +2872,7 @@
         </verse>
         <verse osisID="Job.13.14">
           <w lemma="5921">עַל־</w><w lemma="4100">מָ֤ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5375">אֶשָּׂ֣א</w>
           <w lemma="1320">בְשָׂרִ֣/י</w>
           <w lemma="8127">בְ/שִׁנָּ֑/י</w>
@@ -2896,8 +2883,7 @@
         <verse osisID="Job.13.15">
           <w lemma="2005">הֵ֣ן</w>
           <w lemma="6991">יִ֭קְטְלֵ/נִי</w>
-          <w POS="ketiv">לא</w>
-          <w lemma="3808" POS="qere">ל֣/וֹ</w>
+          <w lemma="3808">לא</w><note type="variant"><catchWord>לא</catchWord><rdg type="x-qere"><w lemma="3808">ל֣/וֹ</w></rdg></note>
           <w lemma="3176">אֲיַחֵ֑ל</w>
           <w lemma="389">אַךְ־</w><w lemma="1870">דְּ֝רָכַ֗/י</w>
           <w lemma="413">אֶל־</w><w lemma="6440">פָּנָ֥י/ו</w>
@@ -2994,7 +2980,7 @@
         <verse osisID="Job.13.27">
           <w lemma="7760">וְ/תָ֘שֵׂ֤ם</w>
           <w lemma="5465">בַּ/סַּ֨ד</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7272">רַגְלַ֗/י</w>
           <w lemma="8104">וְ/תִשְׁמ֥וֹר</w>
           <w lemma="3605">כָּל־</w><w lemma="734">אָרְחוֹתָ֑/י</w>
@@ -3048,12 +3034,11 @@
         <verse osisID="Job.14.5">
           <w lemma="518">אִ֥ם</w>
           <w lemma="2782">חֲרוּצִ֨ים</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3117">יָמָ֗י/ו</w>
           <w lemma="4557">מִֽסְפַּר־</w><w lemma="2320">חֳדָשָׁ֥י/ו</w>
           <w lemma="854">אִתָּ֑/ךְ</w>
-          <w POS="ketiv">חק/ו</w>
-          <w lemma="2706" POS="qere">חֻקָּ֥י/ו</w>
+          <w lemma="2706">חק/ו</w><note type="variant"><catchWord>חק/ו</catchWord><rdg type="x-qere"><w lemma="2706">חֻקָּ֥י/ו</w></rdg></note>
           <w lemma="6213">עָ֝שִׂ֗יתָ</w>
           <w lemma="3808">וְ/לֹ֣א</w>
           <w lemma="5674">יַעֲבֽוֹר</w><seg type="x-sof-pasuq">׃</seg> 
@@ -3123,7 +3108,7 @@
         <verse osisID="Job.14.13">
           <w lemma="4310">מִ֤י</w>
           <w lemma="5414">יִתֵּ֨ן</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7585">בִּ/שְׁא֬וֹל</w>
           <w lemma="6845">תַּצְפִּנֵ֗/נִי</w>
           <w lemma="5641">תַּ֭סְתִּירֵ/נִי</w>
@@ -3177,7 +3162,7 @@
         </verse>
         <verse osisID="Job.14.19">
           <w lemma="68">אֲבָנִ֤ים</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7833">שָׁ֥חֲקוּ</w>
           <w lemma="4325">מַ֗יִם</w>
           <w lemma="7857">תִּשְׁטֹֽף־</w><w lemma="5599">סְפִיחֶ֥י/הָ</w>
@@ -3325,8 +3310,7 @@
         </verse>
         <verse osisID="Job.15.15">
           <w lemma="2005">הֵ֣ן</w>
-          <w POS="ketiv">ב/קדש/ו</w>
-          <w lemma="6918" POS="qere">בִּ֭/קְדֹשָׁי/ו</w>
+          <w lemma="6918">ב/קדש/ו</w><note type="variant"><catchWord>ב/קדש/ו</catchWord><rdg type="x-qere"><w lemma="6918">בִּ֭/קְדֹשָׁי/ו</w></rdg></note>
           <w lemma="3808">לֹ֣א</w>
           <w lemma="539">יַאֲמִ֑ין</w>
           <w lemma="8064">וְ֝/שָׁמַ֗יִם</w>
@@ -3385,8 +3369,7 @@
           <w lemma="3808">לֹא־</w><w lemma="539">יַאֲמִ֣ין</w>
           <w lemma="7725">שׁ֭וּב</w>
           <w lemma="4480">מִנִּי־</w><w lemma="2822">חֹ֑שֶׁךְ</w>
-          <w POS="ketiv">ו/צפו</w>
-          <w lemma="6822" POS="qere">וְ/צָפ֖וּי</w>
+          <w lemma="6822">ו/צפו</w><note type="variant"><catchWord>ו/צפו</catchWord><rdg type="x-qere"><w lemma="6822">וְ/צָפ֖וּי</w></rdg></note>
           <w lemma="1931">ה֣וּא</w>
           <w lemma="413">אֱלֵי־</w><w lemma="2719">חָֽרֶב</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -3396,7 +3379,7 @@
           <w lemma="3899">לַ/לֶּ֣חֶם</w>
           <w lemma="344">אַיֵּ֑ה</w>
           <w lemma="3045">יָדַ֓ע</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3588">כִּֽי־</w><w lemma="3559">נָכ֖וֹן</w>
           <w lemma="3027">בְּ/יָד֣/וֹ</w>
           <w lemma="3117">יֽוֹם־</w><w lemma="2822">חֹֽשֶׁךְ</w><seg type="x-sof-pasuq">׃</seg> 
@@ -3407,7 +3390,7 @@
           <w lemma="4691">וּ/מְצוּקָ֑ה</w>
           <w lemma="8630">תִּ֝תְקְפֵ֗/הוּ</w>
           <w lemma="4428">כְּ/מֶ֤לֶךְ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="6264">עָתִ֬יד</w>
           <w lemma="3593">לַ/כִּידֽוֹר</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -3436,7 +3419,7 @@
         </verse>
         <verse osisID="Job.15.28">
           <w lemma="7931">וַ/יִּשְׁכּ֤וֹן</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5892">עָ֘רִ֤ים</w>
           <w lemma="3582">נִכְחָד֗וֹת</w>
           <w lemma="1004">בָּ֭תִּים</w>
@@ -3456,7 +3439,7 @@
         </verse>
         <verse osisID="Job.15.30">
           <w lemma="3808">לֹֽא־</w><w lemma="5493">יָס֨וּר</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4480">מִנִּי־</w><w lemma="2822">חֹ֗שֶׁךְ</w>
           <w lemma="3127">יֹֽ֭נַקְתּ/וֹ</w>
           <w lemma="3001">תְּיַבֵּ֣שׁ</w>
@@ -3467,8 +3450,7 @@
         </verse>
         <verse osisID="Job.15.31">
           <w lemma="408">אַל־</w><w lemma="539">יַאֲמֵ֣ן</w>
-          <w POS="ketiv">ב/שו</w>
-          <w lemma="7723" POS="qere">בַּ/שָּׁ֣יו</w>
+          <w lemma="7723">ב/שו</w><note type="variant"><catchWord>ב/שו</catchWord><rdg type="x-qere"><w lemma="7723">בַּ/שָּׁ֣יו</w></rdg></note>
           <w lemma="8582">נִתְעָ֑ה</w>
           <w lemma="3588">כִּי־</w><w lemma="7723">שָׁ֝֗וְא</w>
           <w lemma="1961">תִּהְיֶ֥ה</w>
@@ -3533,7 +3515,7 @@
         </verse>
         <verse osisID="Job.16.4">
           <w lemma="1571">גַּ֤ם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="595">אָנֹכִי֮</w>
           <w lemma="0">כָּ/כֶ֪ם</w>
           <w lemma="1696">אֲדַ֫בֵּ֥רָה</w>
@@ -3583,13 +3565,13 @@
         <verse osisID="Job.16.9">
           <w lemma="639">אַפּ֤/וֹ</w>
           <w lemma="2963">טָרַ֨ף</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7852">וַֽ/יִּשְׂטְמֵ֗/נִי</w>
           <w lemma="2786">חָרַ֣ק</w>
           <w lemma="5921">עָלַ֣/י</w>
           <w lemma="8127">בְּ/שִׁנָּ֑י/ו</w>
           <w lemma="6862">צָרִ֓/י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3913">יִלְט֖וֹשׁ</w>
           <w lemma="5869">עֵינָ֣י/ו</w>
           <w lemma="0">לִֽ/י</w><seg type="x-sof-pasuq">׃</seg> 
@@ -3597,7 +3579,7 @@
         <verse osisID="Job.16.10">
           <w lemma="6473">פָּעֲר֬וּ</w>
           <w lemma="5921">עָלַ֨/י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="6310">בְּ/פִי/הֶ֗ם</w>
           <w lemma="2781">בְּ֭/חֶרְפָּה</w>
           <w lemma="5221">הִכּ֣וּ</w>
@@ -3618,7 +3600,7 @@
         <verse osisID="Job.16.12">
           <w lemma="7961">שָׁ֘לֵ֤ו</w>
           <w lemma="1961">הָיִ֨יתִי</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="6565">וַֽ/יְפַרְפְּרֵ֗/נִי</w>
           <w lemma="270">וְ/אָחַ֣ז</w>
           <w lemma="6203">בְּ֭/עָרְפִּ/י</w>
@@ -3630,7 +3612,7 @@
         <verse osisID="Job.16.13">
           <w lemma="5437">יָ֘סֹ֤בּוּ</w>
           <w lemma="5921">עָלַ֨/י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7228">רַבָּ֗י/ו</w>
           <w lemma="6398">יְפַלַּ֣ח</w>
           <w lemma="3629">כִּ֭לְיוֹתַ/י</w>
@@ -3659,8 +3641,7 @@
         </verse>
         <verse osisID="Job.16.16">
           <w lemma="6440">פָּנַ֣/י</w>
-          <w POS="ketiv">חמרמרה</w>
-          <w lemma="2560" POS="qere">חֳ֭מַרְמְרוּ</w>
+          <w lemma="2560">חמרמרה</w><note type="variant"><catchWord>חמרמרה</catchWord><rdg type="x-qere"><w lemma="2560">חֳ֭מַרְמְרוּ</w></rdg></note>
           <w lemma="4480">מִנִּי־</w><w lemma="1065">בֶ֑כִי</w>
           <w lemma="5921">וְ/עַ֖ל</w>
           <w lemma="6079">עַפְעַפַּ֣/י</w>
@@ -3857,7 +3838,7 @@
         </verse>
         <verse osisID="Job.18.2">
           <w lemma="5704">עַד־</w><w lemma="575">אָ֤נָה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7760">תְּשִׂימ֣וּ/ן</w>
           <w lemma="7078">קִנְצֵ֣י</w>
           <w lemma="4405">לְ/מִלִּ֑ין</w>
@@ -4111,7 +4092,7 @@
         </verse>
         <verse osisID="Job.19.12">
           <w lemma="3162">יַ֤חַד</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="935">יָ֘בֹ֤אוּ</w>
           <w lemma="1416">גְדוּדָ֗י/ו</w>
           <w lemma="5549">וַ/יָּסֹ֣לּוּ</w>
@@ -4240,7 +4221,7 @@
         <verse osisID="Job.19.27">
           <w lemma="834">אֲשֶׁ֤ר</w>
           <w lemma="589">אֲנִ֨י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2372">אֶֽחֱזֶה־</w><w lemma="0">לִּ֗/י</w>
           <w lemma="5869">וְ/עֵינַ֣/י</w>
           <w lemma="7200">רָא֣וּ</w>
@@ -4261,15 +4242,14 @@
         <verse osisID="Job.19.29">
           <w lemma="1481">גּ֤וּרוּ</w>
           <w lemma="0">לָ/כֶ֨ם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="6440">מִ/פְּנֵי־</w><w lemma="2719">חֶ֗רֶב</w>
           <w lemma="3588">כִּֽי־</w><w lemma="2534">חֵ֭מָה</w>
           <w lemma="5771">עֲוֹנ֣וֹת</w>
           <w lemma="2719">חָ֑רֶב</w>
           <w lemma="4616">לְמַ֖עַן</w>
           <w lemma="3045">תֵּדְע֣וּ/ן</w>
-          <w POS="ketiv">ש/דין</w>
-          <w lemma="1779" POS="qere">שַׁ/דּֽוּן</w><seg type="x-sof-pasuq">׃</seg> 
+          <w lemma="1779">ש/דין</w><note type="variant"><catchWord>ש/דין</catchWord><rdg type="x-qere"><w lemma="1779">שַׁ/דּֽוּן</w></rdg></note><seg type="x-sof-pasuq">׃</seg> 
           <seg type="x-samekh">ס</seg> 
         </verse>
       </chapter>
@@ -4359,8 +4339,7 @@
         <verse osisID="Job.20.11">
           <w lemma="6106">עַ֭צְמוֹתָי/ו</w>
           <w lemma="4390">מָלְא֣וּ</w>
-          <w POS="ketiv">עלומ/ו</w>
-          <w lemma="5934" POS="qere">עֲלוּמָ֑י/ו</w>
+          <w lemma="5934">עלומ/ו</w><note type="variant"><catchWord>עלומ/ו</catchWord><rdg type="x-qere"><w lemma="5934">עֲלוּמָ֑י/ו</w></rdg></note>
           <w lemma="5973">וְ֝/עִמּ֗/וֹ</w>
           <w lemma="5921">עַל־</w><w lemma="6083">עָפָ֥ר</w>
           <w lemma="7901">תִּשְׁכָּֽב</w><seg type="x-sof-pasuq">׃</seg> 
@@ -4435,7 +4414,7 @@
         </verse>
         <verse osisID="Job.20.20">
           <w lemma="3588">כִּ֤י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3808">לֹא־</w><w lemma="3045">יָדַ֣ע</w>
           <w lemma="7961">שָׁלֵ֣ו</w>
           <w lemma="990">בְּ/בִטְנ֑/וֹ</w>
@@ -4461,7 +4440,7 @@
         </verse>
         <verse osisID="Job.20.23">
           <w lemma="1961">יְהִ֤י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4390">לְ/מַלֵּ֬א</w>
           <w lemma="990">בִטְנ֗/וֹ</w>
           <w lemma="7971">יְֽשַׁלַּח־</w><w lemma="0">בּ֭/וֹ</w>
@@ -4520,7 +4499,7 @@
         </verse>
         <verse osisID="Job.20.29">
           <w lemma="2088">זֶ֤ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2506">חֵֽלֶק־</w><w lemma="120">אָדָ֣ם</w>
           <w lemma="7563">רָ֭שָׁע</w>
           <w lemma="430">מֵ/אֱלֹהִ֑ים</w>
@@ -4624,8 +4603,7 @@
           <w lemma="5748">עוּגָֽב</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Job.21.13">
-          <w POS="ketiv">יבלו</w>
-          <w lemma="1086" POS="qere">יְכַלּ֣וּ</w>
+          <w lemma="1086">יבלו</w><note type="variant"><catchWord>יבלו</catchWord><rdg type="x-qere"><w lemma="1086">יְכַלּ֣וּ</w></rdg></note>
           <w lemma="2896">בַ/טּ֣וֹב</w>
           <w lemma="3117">יְמֵי/הֶ֑ם</w>
           <w lemma="7281">וּ֝/בְ/רֶ֗גַע</w>
@@ -4661,7 +4639,7 @@
         </verse>
         <verse osisID="Job.21.17">
           <w lemma="4100">כַּ/מָּ֤ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5216">נֵר־</w><w lemma="7563">רְשָׁ֘עִ֤ים</w>
           <w lemma="1846">יִדְעָ֗ךְ</w>
           <w lemma="935">וְ/יָבֹ֣א</w>
@@ -4689,8 +4667,7 @@
         </verse>
         <verse osisID="Job.21.20">
           <w lemma="7200">יִרְא֣וּ</w>
-          <w POS="ketiv">עינ/ו</w>
-          <w lemma="5869" POS="qere">עֵינָ֣י/ו</w>
+          <w lemma="5869">עינ/ו</w><note type="variant"><catchWord>עינ/ו</catchWord><rdg type="x-qere"><w lemma="5869">עֵינָ֣י/ו</w></rdg></note>
           <w lemma="3589">כִּיד֑/וֹ</w>
           <w lemma="2534">וּ/מֵ/חֲמַ֖ת</w>
           <w lemma="7706">שַׁדַּ֣י</w>
@@ -4760,7 +4737,7 @@
           <w lemma="1004">בֵית־</w><w lemma="5081">נָדִ֑יב</w>
           <w lemma="346">וְ֝/אַיֵּ֗ה</w>
           <w lemma="168">אֹ֤הֶל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4908">מִשְׁכְּנ֬וֹת</w>
           <w lemma="7563">רְשָׁעִֽים</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -5207,8 +5184,7 @@
           <w lemma="7706">מִ֭/שַּׁדַּי</w>
           <w lemma="3808">לֹא־</w><w lemma="6845">נִצְפְּנ֣וּ</w>
           <w lemma="6256">עִתִּ֑ים</w>
-          <w POS="ketiv">ו/ידע/ו</w>
-          <w lemma="3045" POS="qere">וְ֝/יֹדְעָ֗י/ו</w>
+          <w lemma="3045">ו/ידע/ו</w><note type="variant"><catchWord>ו/ידע/ו</catchWord><rdg type="x-qere"><w lemma="3045">וְ֝/יֹדְעָ֗י/ו</w></rdg></note>
           <w lemma="3808">לֹא־</w><w lemma="2372">חָ֥זוּ</w>
           <w lemma="3117">יָמָֽי/ו</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -5238,7 +5214,7 @@
         <verse osisID="Job.24.5">
           <w lemma="2005">הֵ֤ן</w>
           <w lemma="6501">פְּרָאִ֨ים</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4057">בַּֽ/מִּדְבָּ֗ר</w>
           <w lemma="3318">יָצְא֣וּ</w>
           <w lemma="6467">בְּ֭/פָעֳלָ/ם</w>
@@ -5252,8 +5228,7 @@
         <verse osisID="Job.24.6">
           <w lemma="7704">בַּ֭/שָּׂדֶה</w>
           <w lemma="1098">בְּלִיל֣/וֹ</w>
-          <w POS="ketiv">יקצירו</w>
-          <w lemma="7114" POS="qere">יִקְצ֑וֹרוּ</w>
+          <w lemma="7114">יקצירו</w><note type="variant"><catchWord>יקצירו</catchWord><rdg type="x-qere"><w lemma="7114">יִקְצ֑וֹרוּ</w></rdg></note>
           <w lemma="3754">וְ/כֶ֖רֶם</w>
           <w lemma="7563">רָשָׁ֣ע</w>
           <w lemma="3953">יְלַקֵּֽשׁוּ</w><seg type="x-sof-pasuq">׃</seg> 
@@ -5301,7 +5276,7 @@
         <verse osisID="Job.24.12">
           <w lemma="5892">מֵ֘/עִ֤יר</w>
           <w lemma="4962">מְתִ֨ים</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5008">יִנְאָ֗קוּ</w>
           <w lemma="5315">וְ/נֶֽפֶשׁ־</w><w lemma="2491">חֲלָלִ֥ים</w>
           <w lemma="7768">תְּשַׁוֵּ֑עַ</w>
@@ -5311,7 +5286,7 @@
         </verse>
         <verse osisID="Job.24.13">
           <w lemma="1992">הֵ֤מָּה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1961">הָיוּ֮</w>
           <w lemma="4775">בְּֽ/מֹרְדֵ֫י־</w><w lemma="216">א֥וֹר</w>
           <w lemma="3808">לֹֽא־</w><w lemma="5234">הִכִּ֥ירוּ</w>
@@ -5333,7 +5308,7 @@
         <verse osisID="Job.24.15">
           <w lemma="5869">וְ/עֵ֤ין</w>
           <w lemma="5003">נֹאֵ֨ף</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="8104">שָׁ֤מְרָֽה</w>
           <w lemma="5399">נֶ֣שֶׁף</w>
           <w lemma="559">לֵ֭/אמֹר</w>
@@ -5355,7 +5330,7 @@
         <verse osisID="Job.24.17">
           <w lemma="3588">כִּ֤י</w>
           <w lemma="3162">יַחְדָּ֨ו</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1242">בֹּ֣קֶר</w>
           <w lemma="0">לָ֣מוֹ</w>
           <w lemma="6757">צַלְמָ֑וֶת</w>
@@ -5365,7 +5340,7 @@
         </verse>
         <verse osisID="Job.24.18">
           <w lemma="7031">קַֽל־</w><w lemma="1931">ה֤וּא</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5921">עַל־</w><w lemma="6440">פְּנֵי־</w><w lemma="4325">מַ֗יִם</w>
           <w lemma="7043">תְּקֻלַּ֣ל</w>
           <w lemma="2513">חֶלְקָתָ֣/ם</w>
@@ -5385,7 +5360,7 @@
         <verse osisID="Job.24.20">
           <w lemma="7911">יִשְׁכָּ֘חֵ֤/הוּ</w>
           <w lemma="7358">רֶ֨חֶם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4988">מְתָ֘ק֤/וֹ</w>
           <w lemma="7415">רִמָּ֗ה</w>
           <w lemma="5750">ע֥וֹד</w>
@@ -5421,7 +5396,7 @@
         <verse osisID="Job.24.24">
           <w lemma="7426">ר֤וֹמּוּ</w>
           <w lemma="4592">מְּעַ֨ט</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <note>3</note>
           <w lemma="369">וְֽ/אֵינֶ֗/נּוּ</w>
           <w lemma="4355">וְֽ/הֻמְּכ֗וּ</w>
@@ -5575,8 +5550,7 @@
           <w lemma="3581">בְּ֭/כֹח/וֹ</w>
           <w lemma="7280">רָגַ֣ע</w>
           <w lemma="3220">הַ/יָּ֑ם</w>
-          <w POS="ketiv">ו/ב/תובנת/ו</w>
-          <w lemma="8394" POS="qere">וּ֝/בִ/תְבוּנָת֗/וֹ</w>
+          <w lemma="8394">ו/ב/תובנת/ו</w><note type="variant"><catchWord>ו/ב/תובנת/ו</catchWord><rdg type="x-qere"><w lemma="8394">וּ֝/בִ/תְבוּנָת֗/וֹ</w></rdg></note>
           <w lemma="4272">מָ֣חַץ</w>
           <w lemma="7293">רָֽהַב</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -5592,16 +5566,14 @@
         </verse>
         <verse osisID="Job.26.14">
           <w lemma="2005">הֶן־</w><w lemma="428">אֵ֤לֶּה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7098">קְצ֬וֹת</w>
-          <w POS="ketiv">דרכ/ו</w>
-          <w lemma="1870" POS="qere">דְּרָכָ֗י/ו</w>
+          <w lemma="1870">דרכ/ו</w><note type="variant"><catchWord>דרכ/ו</catchWord><rdg type="x-qere"><w lemma="1870">דְּרָכָ֗י/ו</w></rdg></note>
           <w lemma="4100">וּ/מַה־</w><w lemma="8102">שֵּׁ֣מֶץ</w>
           <w lemma="1697">דָּ֭בָר</w>
           <w lemma="8085">נִשְׁמַע־</w><w lemma="0">בּ֑/וֹ</w>
           <w lemma="7482">וְ/רַ֥עַם</w>
-          <w POS="ketiv">גבורת/ו</w>
-          <w lemma="1369" POS="qere">גְּ֝בוּרוֹתָ֗י/ו</w>
+          <w lemma="1369">גבורת/ו</w><note type="variant"><catchWord>גבורת/ו</catchWord><rdg type="x-qere"><w lemma="1369">גְּ֝בוּרוֹתָ֗י/ו</w></rdg></note>
           <note>3</note>
           <w lemma="4310">מִ֣י</w>
           <w lemma="995">יִתְבּוֹנָֽן</w><seg type="x-sof-pasuq">׃</seg> 
@@ -5680,7 +5652,7 @@
         <verse osisID="Job.27.9">
           <w lemma="6818">הַֽ֭/צַעֲקָת/וֹ</w>
           <w lemma="8085">יִשְׁמַ֥ע</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="410">אֵ֑ל</w>
           <w lemma="3588">כִּֽי־</w><w lemma="935">תָב֖וֹא</w>
           <w lemma="5921">עָלָ֣י/ו</w>
@@ -5712,10 +5684,10 @@
         </verse>
         <verse osisID="Job.27.13">
           <w lemma="2088">זֶ֤ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2506">חֵֽלֶק־</w><w lemma="120">אָדָ֖ם</w>
           <w lemma="7563">רָשָׁ֥ע</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5973">עִם־</w><w lemma="410">אֵ֑ל</w>
           <w lemma="5159">וְֽ/נַחֲלַ֥ת</w>
           <w lemma="6184">עָ֝רִיצִ֗ים</w>
@@ -5731,8 +5703,7 @@
           <w lemma="7646">יִשְׂבְּעוּ־</w><w lemma="3899">לָֽחֶם</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Job.27.15">
-          <w POS="ketiv">שריד/ו</w>
-          <w lemma="8300" POS="qere">שְׂ֭רִידָי/ו</w>
+          <w lemma="8300">שריד/ו</w><note type="variant"><catchWord>שריד/ו</catchWord><rdg type="x-qere"><w lemma="8300">שְׂ֭רִידָי/ו</w></rdg></note>
           <w lemma="4194">בַּ/מָּ֣וֶת</w>
           <w lemma="6912">יִקָּבֵ֑רוּ</w>
           <w lemma="490">וְ֝/אַלְמְנֹתָ֗י/ו</w>
@@ -5826,7 +5797,7 @@
         </verse>
         <verse osisID="Job.28.3">
           <w lemma="7093">קֵ֤ץ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7760">שָׂ֤ם</w>
           <w lemma="2822">לַ/חֹ֗שֶׁךְ</w>
           <w lemma="3605">וּֽ/לְ/כָל־</w><w lemma="8503">תַּ֭כְלִית</w>
@@ -5839,7 +5810,7 @@
         <verse osisID="Job.28.4">
           <w lemma="6555">פָּ֤רַץ</w>
           <w lemma="5158">נַ֨חַל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5973">מֵֽ/עִם־</w><w lemma="1481">גָּ֗ר</w>
           <w lemma="7911">הַֽ/נִּשְׁכָּחִ֥ים</w>
           <w lemma="4480">מִנִּי־</w><w lemma="7272">רָ֑גֶל</w>
@@ -6042,7 +6013,7 @@
         </verse>
         <verse osisID="Job.28.28">
           <w lemma="559">וַ/יֹּ֤אמֶר</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="120">לָֽ/אָדָ֗ם</w>
           <w lemma="2005">הֵ֤ן</w>
           <w lemma="3374">יִרְאַ֣ת</w>
@@ -6269,7 +6240,7 @@
       <chapter osisID="Job.30">
         <verse osisID="Job.30.1">
           <w lemma="6258">וְ/עַתָּ֤ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7832">שָֽׂחֲק֣וּ</w>
           <w lemma="5921">עָלַ/י֮</w>
           <w lemma="6810">צְעִירִ֥ים</w>
@@ -6355,8 +6326,7 @@
         </verse>
         <verse osisID="Job.30.11">
           <w lemma="3588">כִּֽי־</w>
-          <w POS="ketiv">יתר/ו</w>
-          <w lemma="3499" POS="qere">יִתְרִ֣/י</w>
+          <w lemma="3499">יתר/ו</w><note type="variant"><catchWord>יתר/ו</catchWord><rdg type="x-qere"><w lemma="3499">יִתְרִ֣/י</w></rdg></note>
           <w lemma="6605">פִ֭תַּח</w>
           <w lemma="6031">וַ/יְעַנֵּ֑/נִי</w>
           <w lemma="7448">וְ֝/רֶ֗סֶן</w>
@@ -6460,8 +6430,7 @@
           <note>c</note>
           <w lemma="7392">תַּרְכִּיבֵ֑/נִי</w>
           <w lemma="4127">וּ֝/תְמֹגְגֵ֗/נִי</w>
-          <w POS="ketiv">תשוה</w>
-          <w lemma="7738" POS="qere">תּוּשִׁיָּֽה</w><seg type="x-sof-pasuq">׃</seg> 
+          <w lemma="7738">תשוה</w><note type="variant"><catchWord>תשוה</catchWord><rdg type="x-qere"><w lemma="7738">תּוּשִׁיָּֽה</w></rdg></note><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Job.30.23">
           <w lemma="3588">כִּֽי־</w><w lemma="3045">יָ֭דַעְתִּי</w>
@@ -6550,7 +6519,7 @@
         </verse>
         <verse osisID="Job.31.2">
           <w lemma="4100">וּ/מֶ֤ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2506">חֵ֣לֶק</w>
           <w lemma="433">אֱל֣וֹהַּ</w>
           <w lemma="4605">מִ/מָּ֑עַל</w>
@@ -6628,11 +6597,9 @@
         </verse>
         <verse osisID="Job.31.11">
           <w lemma="3588">כִּי־</w>
-          <w POS="ketiv">הוא</w>
-          <w lemma="1931" POS="qere">הִ֥יא</w>
+          <w lemma="1931">הוא</w><note type="variant"><catchWord>הוא</catchWord><rdg type="x-qere"><w lemma="1931">הִ֥יא</w></rdg></note>
           <w lemma="2154">זִמָּ֑ה</w>
-          <w POS="ketiv">ו/היא</w>
-          <w lemma="1931" POS="qere">וְ֝/ה֗וּא</w>
+          <w lemma="1931">ו/היא</w><note type="variant"><catchWord>ו/היא</catchWord><rdg type="x-qere"><w lemma="1931">וְ֝/ה֗וּא</w></rdg></note>
           <w lemma="5771">עָוֹ֥ן</w>
           <w lemma="6414">פְּלִילִֽים</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -6708,8 +6675,7 @@
         <verse osisID="Job.31.20">
           <w lemma="518">אִם־</w><w lemma="3808">לֹ֣א</w>
           <w lemma="1288">בֵרֲכ֣וּ/נִי</w>
-          <w POS="ketiv">חלצ/ו</w>
-          <w lemma="2504" POS="qere">חֲלָצָ֑י/ו</w>
+          <w lemma="2504">חלצ/ו</w><note type="variant"><catchWord>חלצ/ו</catchWord><rdg type="x-qere"><w lemma="2504">חֲלָצָ֑י/ו</w></rdg></note>
           <w lemma="1488">וּ/מִ/גֵּ֥ז</w>
           <w lemma="3532">כְּ֝בָשַׂ/י</w>
           <w lemma="2552">יִתְחַמָּֽם</w><seg type="x-sof-pasuq">׃</seg> 
@@ -6827,7 +6793,7 @@
         <verse osisID="Job.31.34">
           <w lemma="3588">כִּ֤י</w>
           <w lemma="6206">אֶֽעֱר֨וֹץ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="1995">הָ֘מ֤וֹן</w>
           <w lemma="7227">רַבָּ֗ה</w>
           <w lemma="937">וּ/בוּז־</w><w lemma="4940">מִשְׁפָּח֥וֹת</w>
@@ -6839,7 +6805,7 @@
         <verse osisID="Job.31.35">
           <w lemma="4310">מִ֤י</w>
           <w lemma="5414">יִתֶּן־</w><w lemma="0">לִ֨/י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="8085">שֹׁ֘מֵ֤עַֽ</w>
           <w lemma="0">לִ֗/י</w>
           <w lemma="2005">הֶן־</w><w lemma="8420">תָּ֭וִ/י</w>
@@ -6885,7 +6851,7 @@
         <verse osisID="Job.31.40">
           <w lemma="8478">תַּ֤חַת</w>
           <w lemma="2406">חִטָּ֨ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3318">יֵ֥צֵא</w>
           <w lemma="2336">ח֗וֹחַ</w>
           <w lemma="8478">וְ/תַֽחַת־</w><w lemma="8184">שְׂעֹרָ֥ה</w>
@@ -6913,7 +6879,7 @@
         <verse osisID="Job.32.2">
           <w lemma="2734">וַ/יִּ֤חַר</w>
           <w lemma="639">אַ֨ף</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="453">אֱלִיה֣וּא</w>
           <w lemma="1121">בֶן־</w><w lemma="1292">בַּרַכְאֵ֣ל</w>
           <w lemma="940">הַ/בּוּזִי֮</w>
@@ -6964,7 +6930,7 @@
         </verse>
         <verse osisID="Job.32.6">
           <w lemma="6030">וַ/יַּ֤עַן</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="453">אֱלִיה֖וּא</w>
           <w lemma="1121">בֶן־</w><w lemma="1292">בַּֽרַכְאֵ֥ל</w>
           <w lemma="940">הַ/בּוּזִ֗י</w>
@@ -6977,7 +6943,7 @@
           <w lemma="5921">עַל־</w><w lemma="3651">כֵּ֖ן</w>
           <w lemma="2119">זָחַ֥לְתִּי</w>
           <w lemma="3372">וָֽ/אִירָ֓א</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <note>1</note>
           <w lemma="2331">מֵ/חַוֹּ֖ת</w>
           <w lemma="1843">דֵּעִ֣/י</w>
@@ -7234,7 +7200,7 @@
         </verse>
         <verse osisID="Job.33.15">
           <w lemma="2472">בַּ/חֲל֤וֹם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2384">חֶזְי֬וֹן</w>
           <w lemma="3915">לַ֗יְלָה</w>
           <w lemma="5307">בִּ/נְפֹ֣ל</w>
@@ -7272,8 +7238,7 @@
           <w lemma="3198">וְ/הוּכַ֣ח</w>
           <w lemma="4341">בְּ֭/מַכְאוֹב</w>
           <w lemma="5921">עַל־</w><w lemma="4904">מִשְׁכָּב֑/וֹ</w>
-          <w POS="ketiv">ו/ריב</w>
-          <w lemma="7379" POS="qere">וְ/ר֖וֹב</w>
+          <w lemma="7379">ו/ריב</w><note type="variant"><catchWord>ו/ריב</catchWord><rdg type="x-qere"><w lemma="7379">וְ/ר֖וֹב</w></rdg></note>
           <w lemma="6106">עֲצָמָ֣י/ו</w>
           <w lemma="386">אֵתָֽן</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -7289,8 +7254,7 @@
           <w lemma="3615">יִ֣כֶל</w>
           <w lemma="1320">בְּשָׂר֣/וֹ</w>
           <w lemma="7210">מֵ/רֹ֑אִי</w>
-          <w POS="ketiv">ו/שפי</w>
-          <w lemma="8205" POS="qere">וְ/שֻׁפּ֥וּ</w>
+          <w lemma="8205">ו/שפי</w><note type="variant"><catchWord>ו/שפי</catchWord><rdg type="x-qere"><w lemma="8205">וְ/שֻׁפּ֥וּ</w></rdg></note>
           <w lemma="6106">עַ֝צְמוֹתָ֗י/ו</w>
           <w lemma="3808">לֹ֣א</w>
           <w lemma="7200">רֻאּֽוּ</w><seg type="x-sof-pasuq">׃</seg> 
@@ -7305,7 +7269,7 @@
         <verse osisID="Job.33.23">
           <w lemma="518">אִם־</w><w lemma="3426">יֵ֤שׁ</w>
           <w lemma="5921">עָלָ֨י/ו</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4397">מַלְאָ֗ךְ</w>
           <w lemma="3887">מֵלִ֗יץ</w>
           <w lemma="259">אֶחָ֥ד</w>
@@ -7334,7 +7298,7 @@
         <verse osisID="Job.33.26">
           <w lemma="6279">יֶעְתַּ֤ר</w>
           <w lemma="413">אֶל־</w><w lemma="433">אֱל֨וֹהַּ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7521">וַ/יִּרְצֵ֗/הוּ</w>
           <w lemma="7200">וַ/יַּ֣רְא</w>
           <w lemma="6440">פָּ֭נָי/ו</w>
@@ -7345,7 +7309,7 @@
         </verse>
         <verse osisID="Job.33.27">
           <w lemma="7789">יָשֹׁ֤ר</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5921">עַל־</w><w lemma="582">אֲנָשִׁ֗ים</w>
           <w lemma="559">וַ/יֹּ֗אמֶר</w>
           <w lemma="2398">חָ֭טָאתִי</w>
@@ -7356,12 +7320,10 @@
         </verse>
         <verse osisID="Job.33.28">
           <w lemma="6299">פָּדָ֣ה</w>
-          <w POS="ketiv">נפש/י</w>
-          <w lemma="5315" POS="qere">נַ֭פְשׁ/וֹ</w>
+          <w lemma="5315">נפש/י</w><note type="variant"><catchWord>נפש/י</catchWord><rdg type="x-qere"><w lemma="5315">נַ֭פְשׁ/וֹ</w></rdg></note>
           <w lemma="5674">מֵ/עֲבֹ֣ר</w>
           <w lemma="7845">בַּ/שָּׁ֑חַת</w>
-          <w POS="ketiv">ו/חית/י</w>
-          <w lemma="2416" POS="qere">וְ֝/חַיָּת/וֹ</w>
+          <w lemma="2416">ו/חית/י</w><note type="variant"><catchWord>ו/חית/י</catchWord><rdg type="x-qere"><w lemma="2416">וְ֝/חַיָּת/וֹ</w></rdg></note>
           <w lemma="216">בָּ/א֥וֹר</w>
           <w lemma="7200">תִּרְאֶֽה</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -7473,7 +7435,7 @@
         </verse>
         <verse osisID="Job.34.10">
           <w lemma="3651">לָכֵ֤ן</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="376">אַ֥נֲשֵׁ֥י</w>
           <note>3</note>
           <w lemma="3824">לֵבָ֗ב</w>
@@ -7554,7 +7516,7 @@
         <verse osisID="Job.34.19">
           <w lemma="834">אֲשֶׁ֤ר</w>
           <w lemma="3808">לֹֽא־</w><w lemma="5375">נָשָׂ֨א</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="6440">פְּנֵ֥י</w>
           <w lemma="8269">שָׂרִ֗ים</w>
           <w lemma="3808">וְ/לֹ֣א</w>
@@ -7567,7 +7529,7 @@
         </verse>
         <verse osisID="Job.34.20">
           <w lemma="7281">רֶ֤גַע</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4191">יָמֻתוּ֮</w>
           <w lemma="2676">וַ/חֲצ֪וֹת</w>
           <w lemma="3915">לָ֥יְלָה</w>
@@ -7648,7 +7610,7 @@
         <verse osisID="Job.34.29">
           <w lemma="1931">וְ/ה֤וּא</w>
           <w lemma="8252">יַשְׁקִ֨ט</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="4310">וּ/מִ֥י</w>
           <w lemma="7561">יַרְשִׁ֗עַ</w>
           <w lemma="5641">וְ/יַסְתֵּ֣ר</w>
@@ -7827,7 +7789,7 @@
         <verse osisID="Job.35.13">
           <w lemma="389">אַךְ־</w><w lemma="7723">שָׁ֭וְא</w>
           <w lemma="3808">לֹא־</w><w lemma="8085">יִשְׁמַ֥ע</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="410">אֵ֑ל</w>
           <w lemma="7706">וְ֝/שַׁדַּ֗י</w>
           <w lemma="3808">לֹ֣א</w>
@@ -7987,7 +7949,7 @@
         <verse osisID="Job.36.16">
           <w lemma="637">וְ/אַ֤ף</w>
           <w lemma="5496">הֲסִיתְ/ךָ֨</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <note>3</note>
           <w lemma="6310">מִ/פִּי־</w><w lemma="6862">צָ֗ר</w>
           <w lemma="7338">רַ֭חַב</w>
@@ -8090,7 +8052,7 @@
           <w lemma="7834">שְׁחָקִ֑ים</w>
           <w lemma="7491">יִ֝רְעֲפ֗וּ</w>
           <w lemma="5921">עֲלֵ֤י</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="120">אָדָ֬ם</w>
           <w lemma="7227">רָֽב</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -8158,7 +8120,7 @@
         </verse>
         <verse osisID="Job.37.4">
           <w lemma="310">אַחֲרָ֤י/ו</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="7580">יִשְׁאַג־</w><w lemma="6963">ק֗וֹל</w>
           <w lemma="7481">יַ֭רְעֵם</w>
           <w lemma="6963">בְּ/ק֣וֹל</w>
@@ -8181,7 +8143,7 @@
         <verse osisID="Job.37.6">
           <w lemma="3588">כִּ֤י</w>
           <w lemma="7950">לַ/שֶּׁ֨לַג</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <note>1</note>
           <w lemma="559">יֹאמַ֗ר</w>
           <w lemma="1933">הֱוֵ֫א</w>
@@ -8231,15 +8193,14 @@
         <verse osisID="Job.37.12">
           <w lemma="1931">וְ/ה֤וּא</w>
           <w lemma="4524">מְסִבּ֨וֹת</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2015">מִתְהַפֵּ֣ךְ</w>
-          <w POS="ketiv">ב/תחבולת/ו</w>
-          <w lemma="8458" POS="qere">בְּ/תַחְבּוּלֹתָ֣י/ו</w>
+          <w lemma="8458">ב/תחבולת/ו</w><note type="variant"><catchWord>ב/תחבולת/ו</catchWord><rdg type="x-qere"><w lemma="8458">בְּ/תַחְבּוּלֹתָ֣י/ו</w></rdg></note>
           <w lemma="6467">לְ/פָעֳלָ֑/ם</w>
           <w lemma="3605">כֹּ֖ל</w>
           <w lemma="834">אֲשֶׁ֥ר</w>
           <w lemma="6680">יְצַוֵּ֓/ם</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5921">עַל־</w><w lemma="6440">פְּנֵ֖י</w>
           <w lemma="8398">תֵבֵ֣ל</w>
           <w lemma="776">אָֽרְצָ/ה</w><seg type="x-sof-pasuq">׃</seg> 
@@ -8256,7 +8217,7 @@
           <w lemma="347">אִיּ֑וֹב</w>
           <w lemma="5975">עֲ֝מֹ֗ד</w>
           <w lemma="995">וְ/הִתְבּוֹנֵ֤ן</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="6381">נִפְלְא֬וֹת</w>
           <w lemma="410">אֵֽל</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -8310,7 +8271,7 @@
         </verse>
         <verse osisID="Job.37.21">
           <w lemma="6258">וְ/עַתָּ֤ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3808">לֹ֘א</w>
           <w lemma="7200">רָ֤אוּ</w>
           <w lemma="216">א֗וֹר</w>
@@ -8352,18 +8313,16 @@
         <verse osisID="Job.38.1">
           <w lemma="6030">וַ/יַּֽעַן־</w><w lemma="3068">יְהוָ֣ה</w>
           <w lemma="0">אֶת־</w><w lemma="347">אִ֭יּוֹב</w>
-          <w POS="ketiv">מן</w>
+          <w lemma="4480">מן</w>
           <note>m</note>
-          <w POS="ketiv">ה/סערה</w>
-          <w lemma="4480" POS="qere">מִ֥ן</w>
-          <seg type="paseq">׀</seg> 
-          <w lemma="5591" POS="qere">הַ/סְּעָרָ֗ה</w>
+          <w lemma="5591">ה/סערה</w>
+          <note type="variant"><catchWord>מן ה/סערה</catchWord><rdg type="x-qere"><w lemma="4480">מִ֥ן</w> <seg type="x-paseq">׀</seg> <w lemma="5591">הַ/סְּעָרָ֗ה</w></rdg></note>
           <w lemma="559">וַ/יֹּאמַֽר</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Job.38.2">
           <w lemma="4310">מִ֤י</w>
           <w lemma="2088">זֶ֨ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="2821">מַחְשִׁ֖יךְ</w>
           <w lemma="6098">עֵצָ֥ה</w>
           <w lemma="4405">בְ/מִלִּ֗ין</w>
@@ -8450,11 +8409,10 @@
           <note>1</note>
           <w lemma="6680">צִוִּ֣יתָ</w>
           <w lemma="1242">בֹּ֑קֶר</w>
-          <w POS="ketiv">ידעתה</w>
-          <w POS="ketiv">שחר</w>
-          <w lemma="3045" POS="qere">יִדַּ֖עְתָּ</w>
+          <w lemma="3045">ידעתה</w>
+          <w lemma="7837">שחר</w>
+          <note type="variant"><catchWord>ידעתה שחר</catchWord><rdg type="x-qere"><w lemma="3045">יִדַּ֖עְתָּ</w> <w lemma="7837">הַ/שַּׁ֣חַר</w></rdg></note>
           <note>3</note>
-          <w lemma="7837" POS="qere">הַ/שַּׁ֣חַר</w>
           <w lemma="4725">מְקֹמֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Job.38.13">
@@ -8462,7 +8420,7 @@
           <w lemma="3671">בְּ/כַנְפ֣וֹת</w>
           <w lemma="776">הָ/אָ֑רֶץ</w>
           <w lemma="5287">וְ/יִנָּעֲר֖וּ</w>
-          <w lemma="7563">רְשָׁ<seg type='suspended'>עִ֣</seg>ים</w>
+          <w lemma="7563">רְשָׁ<seg type='x-suspended'>עִ֣</seg>ים</w>
           <note>7</note>
           <w lemma="4480">מִמֶּֽ/נָּה</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
@@ -8476,7 +8434,7 @@
         </verse>
         <verse osisID="Job.38.15">
           <w lemma="4513">וְ/יִמָּנַ֣ע</w>
-          <w lemma="7563">מֵ/רְשָׁ<seg type='suspended'>עִ֣</seg>ים</w>
+          <w lemma="7563">מֵ/רְשָׁ<seg type='x-suspended'>עִ֣</seg>ים</w>
           <note>7</note>
           <w lemma="216">אוֹרָ֑/ם</w>
           <w lemma="2220">וּ/זְר֥וֹעַ</w>
@@ -8690,8 +8648,7 @@
           <w lemma="6158">לָ/עֹרֵ֗ב</w>
           <w lemma="6718">צֵ֫יד֥/וֹ</w>
           <w lemma="3588">כִּֽי־</w>
-          <w POS="ketiv">ילד/ו</w>
-          <w lemma="3206" POS="qere">יְ֭לָדָי/ו</w>
+          <w lemma="3206">ילד/ו</w><note type="variant"><catchWord>ילד/ו</catchWord><rdg type="x-qere"><w lemma="3206">יְ֭לָדָי/ו</w></rdg></note>
           <w lemma="410">אֶל־</w><w lemma="413">אֵ֣ל</w>
           <w lemma="7768">יְשַׁוֵּ֑עוּ</w>
           <w lemma="8582">יִ֝תְע֗וּ</w>
@@ -8795,8 +8752,7 @@
           <w lemma="0">בּ֭/וֹ</w>
           <note>c</note>
           <w lemma="3588">כִּי־</w>
-          <w POS="ketiv">ישוב</w>
-          <w lemma="7725" POS="qere">יָשִׁ֣יב</w>
+          <w lemma="7725">ישוב</w><note type="variant"><catchWord>ישוב</catchWord><rdg type="x-qere"><w lemma="7725">יָשִׁ֣יב</w></rdg></note>
           <w lemma="2233">זַרְעֶ֑/ךָ</w>
           <w lemma="1637">וְֽ/גָרְנְ/ךָ֥</w>
           <w lemma="622">יֶאֱסֹֽף</w><seg type="x-sof-pasuq">׃</seg> 
@@ -8897,7 +8853,7 @@
         <verse osisID="Job.39.25">
           <w lemma="1767">בְּ/דֵ֤י</w>
           <w lemma="7782">שֹׁפָ֨ר</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="559">יֹ֘אמַ֤ר</w>
           <w lemma="1889">הֶאָ֗ח</w>
           <w lemma="7350">וּֽ֭/מֵ/רָחוֹק</w>
@@ -8912,8 +8868,7 @@
           <w lemma="998">הֲ‍ֽ֭/מִ/בִּינָ֣תְ/ךָ</w>
           <w lemma="82">יַֽאֲבֶר־</w><w lemma="5322">נֵ֑ץ</w>
           <w lemma="6566">יִפְרֹ֖שׂ</w>
-          <w POS="ketiv">כנפ/ו</w>
-          <w lemma="3671" POS="qere">כְּנָפָ֣י/ו</w>
+          <w lemma="3671">כנפ/ו</w><note type="variant"><catchWord>כנפ/ו</catchWord><rdg type="x-qere"><w lemma="3671">כְּנָפָ֣י/ו</w></rdg></note>
           <w lemma="8486">לְ/תֵימָֽן</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Job.39.27">
@@ -8939,8 +8894,7 @@
           <w lemma="5027">יַבִּֽיטוּ</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Job.39.30">
-          <w POS="ketiv">ו/אפרח/ו</w>
-          <w lemma="667" POS="qere">וְ/אֶפְרֹחָ֥י/ו</w>
+          <w lemma="667">ו/אפרח/ו</w><note type="variant"><catchWord>ו/אפרח/ו</catchWord><rdg type="x-qere"><w lemma="667">וְ/אֶפְרֹחָ֥י/ו</w></rdg></note>
           <w lemma="5966">יְעַלְעוּ־</w><w lemma="1818">דָ֑ם</w>
           <w lemma="834">וּ/בַ/אֲשֶׁ֥ר</w>
           <w lemma="2491">חֲ֝לָלִ֗ים</w>
@@ -8993,12 +8947,10 @@
         <verse osisID="Job.40.6">
           <w lemma="6030">וַ/יַּֽעַן־</w><w lemma="3068">יְהוָ֣ה</w>
           <w lemma="0">אֶת־</w><w lemma="347">אִ֭יּוֹב</w>
-          <w POS="ketiv">מן</w>
+          <w lemma="4480">מן</w>
           <note>m</note>
-          <w POS="ketiv">סערה</w>
-          <w lemma="4480" POS="qere">מִ֥ן</w>
-          <seg type="paseq">׀</seg> 
-          <w lemma="5591" POS="qere">סְעָרָ֗ה</w>
+          <w lemma="5591">סערה</w>
+          <note type="variant"><catchWord>מן סערה</catchWord><rdg type="x-qere"><w lemma="4480">מִ֥ן</w> <seg type="x-paseq">׀</seg> <w lemma="5591">סְעָרָ֗ה</w></rdg></note>
           <w lemma="559">וַ/יֹּאמַֽר</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Job.40.7">
@@ -9019,7 +8971,7 @@
         <verse osisID="Job.40.9">
           <w lemma="518">וְ/אִם־</w><w lemma="2220">זְר֖וֹעַ</w>
           <w lemma="410">כָּ/אֵ֥ל</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="0">לָ֑/ךְ</w>
           <w lemma="6963">וּ֝/בְ/ק֗וֹל</w>
           <w lemma="3644">כָּמֹ֥/הוּ</w>
@@ -9088,8 +9040,7 @@
           <w lemma="2180">זְנָב֣/וֹ</w>
           <w lemma="3644">כְמוֹ־</w><w lemma="730">אָ֑רֶז</w>
           <w lemma="1517">גִּידֵ֖י</w>
-          <w POS="ketiv">פחד/ו</w>
-          <w lemma="6344" POS="qere">פַחֲדָ֣י/ו</w>
+          <w lemma="6344">פחד/ו</w><note type="variant"><catchWord>פחד/ו</catchWord><rdg type="x-qere"><w lemma="6344">פַחֲדָ֣י/ו</w></rdg></note>
           <w lemma="8276">יְשֹׂרָֽגוּ</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Job.40.18">
@@ -9141,7 +9092,7 @@
           <w lemma="3808">לֹ֣א</w>
           <w lemma="2648">יַחְפּ֑וֹז</w>
           <w lemma="982">יִבְטַ֓ח</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="3588">כִּֽי־</w><w lemma="1518">יָגִ֖יחַ</w>
           <w lemma="3383">יַרְדֵּ֣ן</w>
           <w lemma="413">אֶל־</w><w lemma="6310">פִּֽי/הוּ</w><seg type="x-sof-pasuq">׃</seg> 
@@ -9253,8 +9204,7 @@
         </verse>
         <verse osisID="Job.41.4">
           <note>BHS:Job.41.12</note>
-          <w POS="ketiv">לא־</w>
-          <w lemma="3808" POS="qere">לֽ/וֹ־</w>
+          <w lemma="3808">לא־</w><note type="variant"><catchWord>לא־</catchWord><rdg type="x-qere"><w lemma="3808">לֽ/וֹ־</w></rdg></note>
           <w lemma="2790">אַחֲרִ֥ישׁ</w>
           <w lemma="905">בַּדָּ֑י/ו</w>
           <w lemma="1697">וּ/דְבַר־</w><w lemma="1369">גְּ֝בוּר֗וֹת</w>
@@ -9465,8 +9415,7 @@
           <w lemma="559">וַ/יֹּאמַֽר</w><seg type="x-sof-pasuq">׃</seg> 
         </verse>
         <verse osisID="Job.42.2">
-          <w POS="ketiv">ידעת</w>
-          <w lemma="3045" POS="qere">יָ֭דַעְתִּי</w>
+          <w lemma="3045">ידעת</w><note type="variant"><catchWord>ידעת</catchWord><rdg type="x-qere"><w lemma="3045">יָ֭דַעְתִּי</w></rdg></note>
           <w lemma="3588">כִּי־</w><w lemma="3605">כֹ֣ל</w>
           <w lemma="3201">תּוּכָ֑ל</w>
           <w lemma="3808">וְ/לֹא־</w><w lemma="1219">יִבָּצֵ֖ר</w>
@@ -9476,7 +9425,7 @@
         <verse osisID="Job.42.3">
           <w lemma="4310">מִ֤י</w>
           <w lemma="2088">זֶ֨ה</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="5956">מַעְלִ֥ים</w>
           <w lemma="6098">עֵצָ֗ה</w>
           <w lemma="1097">בְּֽלִ֫י</w>
@@ -9544,7 +9493,7 @@
           <w lemma="7651">וְ/שִׁבְעָ֨ה</w>
           <w lemma="352">אֵילִ֜ים</w>
           <w lemma="1980">וּ/לְכ֣וּ</w>
-          <seg type="paseq">׀</seg> 
+          <seg type="x-paseq">׀</seg> 
           <w lemma="413">אֶל־</w><w lemma="5650">עַבְדִּ֣/י</w>
           <w lemma="347">אִיּ֗וֹב</w>
           <w lemma="5927">וְ/הַעֲלִיתֶ֤ם</w>
@@ -9591,8 +9540,7 @@
           <w lemma="3068">וַֽ/יהוָ֗ה</w>
           <w lemma="7725">שָׁ֚ב</w>
           <w lemma="853">אֶת־</w>
-          <w POS="ketiv">שבית</w>
-          <w lemma="7622" POS="qere">שְׁב֣וּת</w>
+          <w lemma="7622">שבית</w><note type="variant"><catchWord>שבית</catchWord><rdg type="x-qere"><w lemma="7622">שְׁב֣וּת</w></rdg></note>
           <w lemma="347">אִיּ֔וֹב</w>
           <w lemma="6419">בְּ/הִֽתְפַּֽלְל֖/וֹ</w>
           <w lemma="1157">בְּעַ֣ד</w>
@@ -9608,8 +9556,7 @@
           <w lemma="413">אֵ֠לָי/ו</w>
           <w lemma="3605">כָּל־</w><w lemma="251">אֶחָ֨י/ו</w>
           <w lemma="3605">וְ/כָל־</w>
-          <w POS="ketiv">אחיתי/ו</w>
-          <w lemma="269" POS="qere">אַחְיוֹתָ֜י/ו</w>
+          <w lemma="269">אחיתי/ו</w><note type="variant"><catchWord>אחיתי/ו</catchWord><rdg type="x-qere"><w lemma="269">אַחְיוֹתָ֜י/ו</w></rdg></note>
           <w lemma="3605">וְ/כָל־</w><w lemma="3045">יֹדְעָ֣י/ו</w>
           <w lemma="6440">לְ/פָנִ֗ים</w>
           <w lemma="398">וַ/יֹּאכְל֨וּ</w>
@@ -9697,8 +9644,7 @@
           <w lemma="3967">מֵאָ֥ה</w>
           <w lemma="705">וְ/אַרְבָּעִ֖ים</w>
           <w lemma="8141">שָׁנָ֑ה</w>
-          <w POS="ketiv">ו/ירא</w>
-          <w lemma="7200" POS="qere">וַ/יִּרְאֶ֗ה</w>
+          <w lemma="7200">ו/ירא</w><note type="variant"><catchWord>ו/ירא</catchWord><rdg type="x-qere"><w lemma="7200">וַ/יִּרְאֶ֗ה</w></rdg></note>
           <w lemma="853">אֶת־</w><w lemma="1121">בָּנָי/ו֙</w>
           <w lemma="853">וְ/אֶת־</w><w lemma="1121">בְּנֵ֣י</w>
           <w lemma="1121">בָנָ֔י/ו</w>
