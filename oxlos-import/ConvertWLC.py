@@ -31,8 +31,11 @@ class ConvertWLC():
     '''
 
     def __init__(self):
-        self.bookdir = './wlc'
-        self.books = os.listdir(self.bookdir)
+        self.bookdir = '../wlc'
+        #self.books = os.listdir(self.bookdir)
+        self.books = ["Gen","Exod","Lev","Num", "Deut", "Josh", "Judg", "Ruth","1Sam","2Sam",
+        "1Kgs","2Kgs","1Chr", "2Chr","Ezra","Neh","Esth","Job","Ps","Prov","Eccl","Song","Isa",
+        "Jer","Lam","Ezek","Dan","Hos","Joel","Amos","Obad","Jonah","Mic","Nah","Hab","Zeph","Hag","Zech","Mal"]
         self.wlcflat = 'wlc_flat.txt'
 
     def transformwlc(self):
@@ -43,7 +46,7 @@ class ConvertWLC():
         self.wlcf = open(self.wlcflat, 'w')
         for self.book in self.books:
             print self.book
-            bookxml = minidom.parse('./%s/%s' % (self.bookdir, self.book))
+            bookxml = minidom.parse('./%s/%s.xml' % (self.bookdir, self.book))
             chapterlist = bookxml.getElementsByTagName('chapter')
             self.c = 1
             for chap in chapterlist:
@@ -53,11 +56,14 @@ class ConvertWLC():
                 for verse in verselist:
                     self.myverse = verse
                     self.mywelements = self.myverse.getElementsByTagName('w')
+                    self.elnum = 0
                     for el in self.mywelements:
+                        self.elnum += 1
                         try:
-                            print >> self.wlcf, '%s, %d, %d, %s, %s' % (self.book.strip('.xml'), self.c, self.v, el.attributes['lemma'].value.encode('utf-8'), el.firstChild.data.encode('utf-8'))
+                            # Previous format:  '%s, %d, %d, %s, %s'
+                            print >> self.wlcf, '%s %d:%d.%d\t%s\t%s' % (self.book.strip('.xml'), self.c, self.v, self.elnum, el.attributes['lemma'].value.encode('utf-8'), el.firstChild.data.encode('utf-8'))
                         except KeyError:
-                            print >> self.wlcf, '%s, %d, %d, %s, %s' % (self.book.strip('.xml'), self.c, self.v, '0', el.firstChild.data.encode('utf-8'))
+                            print >> self.wlcf, '%s %d:%d.%d\t%s\t%s' % (self.book.strip('.xml'), self.c, self.v, self.elnum, '0', el.firstChild.data.encode('utf-8'))
                     self.v += 1
                 self.c += 1
         self.wlcf.close()
