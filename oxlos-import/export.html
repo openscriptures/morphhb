@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta charset="UTF-8" />
+    <title>WLC XML->Flat File</title>
+</head>
+<body>
+	<h1>WLC XML to Flat file converter</h1>
+	<p>Expects a directory called WLC with XML files inside</p>
+	<ul>
+		<li>/export.html (this file)</li>
+		<li>/WLC/Gen.xml</li>
+		<li>/WLC/Exo.xml</li>
+	</ul>
+
+
+	<input type="button" value="GO" id="go" /><span id="progress-info"></span>
+	<br />
+	<textarea id="output" rows="20" cols="100"></textarea>
+
+
+<script>
+	var bookNames = ["Gen","Exod","Lev","Num", "Deut", "Josh", "Judg", "Ruth","1Sam","2Sam","1Kgs","2Kgs","1Chr", "2Chr","Ezra","Neh","Esth","Job","Ps","Prov","Eccl","Song","Isa","Jer","Lam","Ezek","Dan","Hos","Joel","Amos","Obad","Jonah","Mic","Nah","Hab","Zeph","Hag","Zech","Mal"];
+
+	function ajaxGet(obj) {
+		var xhr = new XMLHttpRequest();
+		xhr.open("GET", obj.url, true);
+		xhr.onreadystatechange = function () {
+			//console.log(xhr);
+			if (xhr.readyState == 4) {
+				obj.success(xhr);
+			} else {
+				if (obj.error)
+					obj.error(xhr);
+			}
+		};
+		xhr.send(null);
+	}
+
+	var output = document.getElementById('output');
+	var progress = document.getElementById('progress-info');
+	var startTime = null;
+	var outputArray = [];
+	
+	// adjust these to only do a few books
+	var currentBook = 0;
+	var maxbook = bookNames.length;
+	//maxbook = 4; // temp
+
+
+	function buildWlc() {
+		startTime = new Date().getTime(); ;
+		buildNextBook();
+	}
+
+	function buildNextBook() {
+		if (currentBook < maxbook) {
+			processBook(bookNames[currentBook]);
+			currentBook++;
+		} else {
+		
+			progress.innerHTML = 'Writing output (this takes a bit)';
+			output.value = outputArray.join('\n');
+
+			/*
+			var win = window.open('null', '_blank', 'toolbar=yes');	
+			win.document.open();
+			win.document.write(outputArray.join('\n'));
+			win.document.close();
+			*/
+
+			var end = new Date().getTime();
+			var elapsed = end - startTime;
+
+			var seconds = (elapsed / 1000) % 60;
+			var minutes = (elapsed / (1000 * 60)) % 60;
+			if (minutes < 1)
+				minutes = 0;
+			progress.innerHTML = 'Done: ' + minutes + 'min ' + seconds + 'sec';
+
+
+		}
+	}
+
+	function processBook(bookName) {
+		var chapterNum = 0;
+		var verseNum = 0;
+		var wordNum = 0;
+
+		progress.innerHTML = 'Loading: ' + bookName;
+		ajaxGet({
+			url: 'wlc/' + bookName + '.xml',
+			success: function (xhr) {
+				progress.innerHTML = 'Processing: ' + bookName;
+				var xml = xhr.responseXML;
+				
+				// iterate through chapters
+				var chapterNodes = xml.getElementsByTagName('chapter');
+				for (var cIndex = 0; cIndex < chapterNodes.length; cIndex++) {
+					var chapterNode = chapterNodes[cIndex];
+
+					// iterate through verses
+					var verseNodes = chapterNode.getElementsByTagName('verse');
+					for (var vIndex = 0; vIndex < verseNodes.length; vIndex++) {
+						var verseNode = verseNodes[vIndex];
+
+						// parse OSIS
+						var osisID = verseNode.getAttribute('osisID');
+						var osisParts = osisID.split('.');
+						chapterNum = osisParts[1];
+						verseNum = osisParts[2];
+						wordNum = 0; // start with 0 for kethiv/qere
+
+						// work through the text nodes (some words, some qere)
+						for (tIndex = 0; tIndex < verseNode.childNodes.length; tIndex++) {
+							var textNode = verseNode.childNodes[tIndex];
+
+							// skip text nodes
+							if (textNode.nodeType != 1)
+								continue;
+
+							// main data
+							var strongsNum = textNode.getAttribute('lemma');
+							if (strongsNum == null)
+								strongsNum = '';
+							var wordText = textNode.childNodes[0].nodeValue;
+
+							// (1) if this is a punctuation mark (- or :), add it to the end of the previous entry
+							if (textNode.tagName == "seg") {
+								outputArray[outputArray.length - 1] += wordText;
+								continue;
+							}
+
+							// (2) Qere
+							if (textNode.tagName == "note" && textNode.getAttribute("type") != null && textNode.getAttribute("type") == "variant") {
+
+								var qereNode = textNode.getElementsByTagName('w')[0];
+								if (qereNode != null && qereNode.nodeType == 1) {
+									var qereText = qereNode.childNodes[0].nodeValue;
+									var qereStrongs = qereNode.getAttribute('lemma');
+									if (qereStrongs == null)
+										qereStrongs = '';
+
+									outputArray.push(bookName + ' ' + chapterNum + ':' + verseNum + '.' + wordNum + 'q\t' + qereStrongs + '\t' + qereText);
+								}
+
+								continue;
+							}
+
+							// (3) normal <w /> node
+							if (textNode.tagName == 'w') {
+								wordNum++;
+
+								var isKethiv = (textNode.nextSibling != null && textNode.nextSibling.tagName == 'note' && textNode.nextSibling.getAttribute('type') == "variant");
+
+								outputArray.push(bookName + ' ' + chapterNum + ':' + verseNum + '.' + wordNum + ((isKethiv) ? 'k' : '') + '\t' + strongsNum + '\t' + wordText);
+							}
+						} // words
+					} // verses
+				} // chapters
+
+				//output.value += outputArray.join('\n');
+				buildNextBook();
+			},
+			error: function (e) {
+
+			}
+		});
+
+	}
+
+	// startup button
+	document.getElementById('go').addEventListener('click', function () {
+		buildWlc();
+	}, true);
+
+</script>
+
+</body>
+</html>
