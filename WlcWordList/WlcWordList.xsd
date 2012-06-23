@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema targetNamespace="http://www.APTBibleTools.com/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.APTBibleTools.com/namespace" elementFormDefault="qualified">
+	
+	<xs:annotation>
+		<xs:documentation>
+			<p>The WlcWordList schema is version 1.0.
+			It is released to the public domain.</p>
+		</xs:documentation>
+	</xs:annotation>
+	
+	<xs:element name="lex" type="lexCT"/>
+	
+	<!-- complex types -->
+	
+	<xs:annotation>
+		<xs:documentation>
+			<p>lex is the root element for the document.</p>
+		</xs:documentation>
+	</xs:annotation>
+	
+	<xs:complexType name="lexCT">
+		<xs:choice maxOccurs="unbounded">
+			<xs:element name="p" type="pCT"/>
+			<xs:element name="s" type="sCT"/>
+			<xs:element name="w" type="wCT"/>
+		</xs:choice>
+	</xs:complexType>
+	
+	<xs:annotation>
+		<xs:documentation>
+			<p>p represents a prefix form in the WLC.
+			The attributes:
+			c is the consonantal form,
+			a is the augmented Strong number,
+			m is the morphology.</p>
+		</xs:documentation>
+	</xs:annotation>
+	
+	<xs:complexType name="pCT">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="n" type="nCT"/>
+		</xs:sequence>
+		<xs:attribute name="c" type="xs:string" use="required"/>
+		<xs:attribute name="a" type="xs:string" use="required"/>
+		<xs:attribute name="m" type="xs:string"/>
+	</xs:complexType>
+	
+	<xs:annotation>
+		<xs:documentation>
+			<p>s represents a suffix form in the WLC.
+			The attributes:
+			c is the consonantal form,
+			m is the morphology.</p>
+		</xs:documentation>
+	</xs:annotation>
+	
+	<xs:complexType name="sCT">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="n" type="nCT"/>
+		</xs:sequence>
+		<xs:attribute name="c" type="xs:string" use="required"/>
+		<xs:attribute name="m" type="xs:string"/>
+	</xs:complexType>
+	
+	<xs:annotation>
+		<xs:documentation>
+			<p>w represents a word form in the WLC.
+			The attributes:
+			c is the consonantal form,
+			v is the vowel form,
+			a is the augmented Strong number.</p>
+		</xs:documentation>
+	</xs:annotation>
+	
+	<xs:complexType name="wCT">
+		<xs:choice maxOccurs="unbounded">
+			<xs:element name="r" type="rCT"/>
+			<xs:element name="m" type="xs:string"/>
+		</xs:choice>
+		<xs:attribute name="c" type="xs:string" use="required"/>
+		<xs:attribute name="v" type="xs:string" use="required"/>
+		<xs:attribute name="a" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+	<xs:annotation>
+		<xs:documentation>
+			<p>n represents the count for a prefix or suffix in the WLC.
+			The attributes:
+			v is the vowel form for this instance,
+			id is the ID of the prefix of suffix,
+			m is the morphology,
+			l is the level of completness and verification.</p>
+		</xs:documentation>
+	</xs:annotation>
+	
+	<xs:complexType name="nCT">
+		<xs:simpleContent>
+			<xs:extension base="xs:integer">
+				<xs:attribute name="v" type="xs:string" use="required"/>
+				<xs:attribute name="id" type="xs:ID"/>
+				<xs:attribute name="m" type="xs:string"/>
+				<xs:attribute name="l" type="xs:string" default="0"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:annotation>
+		<xs:documentation>
+			<p>r represents a reference in the WLC.
+			The attributes:
+			p is the prefix for this instance,
+			a is the augmented Strong number of the prefix,
+			s is the suffix for this instance,
+			m is the morphology,
+			l is the level of completness and verification.</p>
+		</xs:documentation>
+	</xs:annotation>
+	
+	<xs:complexType name="rCT">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="p" type="xs:IDREFS"/>
+				<xs:attribute name="s" type="xs:IDREF"/>
+				<xs:attribute name="m" type="xs:string"/>
+				<xs:attribute name="l" type="xs:string" default="0"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+</xs:schema>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>The WLC Word List</title>
+        <style>
+            article > ul > li {margin-bottom: 0.5em;}
+            span.tag {color: blue;}
+            span.name {color: red;}
+            span.value {color: green;}
+        </style>
+    </head>    
+    <body>
+        <article>
+            <header>
+                <h1>The WLC Word List</h1>
+            </header>
+            <p>The WLC Word List is a compilation of the word forms in the WLC,
+            according to vowel form and augmented Strong number.  The consonantal
+            form is included for searching and sorting purposes.  The separate
+            references for each form contain the prefix and suffix data for that
+            instance, as IDs referring to the prefix and suffix section at the
+            beginning of the document.</p>
+            <ul>
+                <li>lex is the root element for the word list.</li>
+                <li>p represents a prefix form in the WLC. The attributes:
+                    <ul>
+                        <li>c is the consonantal form,</li>
+                        <li>a is the augmented Strong number,</li>
+                        <li>m is the morphology.</li>
+                    </ul>
+                </li>
+                <li>s represents a suffix form in the WLC. The attributes:
+                    <ul>
+                        <li>c is the consonantal form,</li>
+                        <li>m is the morphology.</li>
+                    </ul>
+                </li>
+                <li>w represents the word form in the WLC. The attributes:
+                    <ul>
+                        <li>c is the consonantal form,</li>
+                        <li>v is the vowel form,</li>
+                        <li>a is the augmented Strong number.</li>
+                    </ul>
+                    v and a together constitute a unique key.
+                </li>
+                <li>n represents the count for a prefix or suffix in the WLC. The attributes:
+                    <ul>
+                        <li>v is the vowel form for this instance,</li>
+                        <li>id is the ID of the prefix or suffix,</li>
+                        <li>m is the morphology,</li>
+                        <li>l is the level of completness and verification.</li>
+                    </ul>
+                </li>
+                <li>r represents the reference in the WLC. The attributes:
+                    <ul>
+                        <li>p is the prefix ID list for this instance,</li>
+                        <li>s is the suffix ID for this instance,</li>
+                        <li>m is the morphology,</li>
+                        <li>l is the level of completness and verification.</li>
+                    </ul>
+                    Multiple prefixes have a space-separated list of IDs.
+                </li>
+            </ul>
+            <h2>Examples:</h2>
+            <p>
+                <pre>	<span class="tag">&lt;w <span class="name">c=</span>"<span class="value">ראשית</span>" <span class="name">v=</span>"<span class="value">רֵאשִׁית</span>" <span class="name">a=</span>"<span class="value">7225</span>"></span>
+		<span class="tag">&lt;r <span class="name">p=</span>"<span class="value">ai1</span>"></span>Gen.1.1<span class="tag">&lt;/r></span></pre>
+                will have morphology written:
+                <pre>	<span class="tag">&lt;w <span class="name">c=</span>"<span class="value">ראשית</span>" <span class="name">v=</span>"<span class="value">רֵאשִׁית</span>" <span class="name">a=</span>"<span class="value">7225</span>"></span>
+		<span class="tag">&lt;r <span class="name">p=</span>"<span class="value">ai1</span>" <span class="name">m=</span>"<span class="value">Ncfs</span>" <span class="name">l=</span>"<span class="value">4</span>"></span>Gen.1.1<span class="tag">&lt;/r></span></pre>
+                with the level attribute indicating:
+                <ol start="0">
+                    <li>The default: no morphology assigned.</li>
+                    <li>Partial morphology assigned.</li>
+                    <li>Partial morphology verified.</li>
+                    <li>Complete morphology assigned.</li>
+                    <li>Complete morphology verified.</li>
+                </ol>
+            </p>
+            <p>
+                The corresponding prefix:
+                <pre>	<span class="tag">&lt;p <span class="name">c=</span>"<span class="value">ב</span>" <span class="name">a=</span>"<span class="value">b</span>"></span>
+		…
+		<span class="tag">&lt;n <span class="name">v=</span>"<span class="value">בְּ</span>" <span class="name">id=</span>"<span class="value">ai1</span>"></span>6609<span class="tag">&lt;/n></span></pre>
+                will have the morphology written:
+                <pre>	<span class="tag">&lt;p <span class="name">c=</span>"<span class="value">ב</span>" <span class="name">a=</span>"<span class="value">b</span>" <span class="name">m=</span>"<span class="value">R</span>"></span>
+		…
+		<span class="tag">&lt;n <span class="name">v=</span>"<span class="value">בְּ</span>" <span class="name">id=</span>"<span class="value">ai1</span>"></span>6609<span class="tag">&lt;/n></span></pre>
+                The general heading contains the morphology for the prefix. If some
+                instance is found, within the 6609 for this form, that had a
+                different morphology, it would be written in a separate &lt;n>
+                element, with its own morphology, and the numbers adjusted. The
+                local assignment would take precedence over the heading.
+            </p>
+            <h2>Contents:</h2>
+            <ul>
+                <li>WordList.xml - the main word list.</li>
+                <li>WlcWordList.xsd - the XML schema for the word list.</li>
+                <li>WlcWordList.html - this file.</li>
+            </ul>
+            <p>
+                All these files are released to the
+                <a href="http://wiki.creativecommons.org/Public_domain">public domain</a>.
+            </p>
+            <h2>Change Log:</h2>
+            <p>
+                6/22/2012 version 1.0<br />
+                This is the first release of the WLC Word List.
+            </p>
+        </article>
+    </body>
+</html>
