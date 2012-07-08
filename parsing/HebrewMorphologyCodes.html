@@ -17,7 +17,7 @@
                 margin-right: 1em;
             }
             section.end {clear: left;}
-            section.break {page-break-after: always;}
+            div.page {page-break-after: always;}
             pre {
                 -moz-tab-size: 4;
                 -o-tab-size: 4;
@@ -33,247 +33,251 @@
             <h1>Hebrew Morphology Codes</h1>
         </header>
         <article>
-            <h2>Part of Speech</h2>
-            <table>
-                <tr><td>A</td><td>adjective</td><td><a href="#a">type</a><sup>1</sup></td>
-                    <td>&nbsp;</td><td>&nbsp;</td><td><a href="#mg">gender</a></td>
-                    <td><a href="#mn">number</a></td><td><a href="#ms">state</a></td></tr>
-                <tr><td>C</td><td>conjunction</td><td><a href="#c">type</a></td>
-                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                <tr><td>D</td><td>adverb</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
-                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                <tr><td>N</td><td>noun</td><td><a href="#n">type</a></td><td>&nbsp;</td>
-                    <td>&nbsp;</td><td><a href="#mg">gender</a></td><td><a href="#mn">number</a></td>
-                    <td><a href="#ms">state</a></td></tr>
-                <tr><td>P</td><td>pronoun</td><td><a href="#p">type</a></td><td><a href="#pc">case</a></td>
-                    <td><a href="#mp">person</a><sup>2</sup></td><td><a href="#mg">gender</a></td>
-                    <td><a href="#mn">number</a></td><td><a href="#ms">state</a></td></tr>
-                <tr><td>R</td><td>preposition</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
-                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                <tr><td>S</td><td>suffix</td><td><a href="#s">type</a></td><td>&nbsp;</td>
-                    <td><a href="#mp">person</a></td><td><a href="#mg">gender</a></td>
-                    <td><a href="#mn">number</a></td><td><a href="#ms">state</a></td></tr>
-                <tr><td>T</td><td>particle</td><td><a href="#t">type</a></td><td>&nbsp;</td>
-                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                <tr><td>V</td><td>verb</td><td><a href="#v">stem</a></td><td><a href="#va">aspect</a></td>
-                    <td><a href="#mp">person</a><sup>3</sup></td><td><a href="#mg">gender</a></td>
-                    <td><a href="#mn">number</a></td><td><a href="#ms">state</a></td></tr>
-            </table>
-            <ol class="notes">
-                <li>Type and verb stem are unique to each part of speech, effectively producing a much longer list of two-letter codes.</li>
-                <li>Person, gender, number and state are the same wherever they apply.</li>
-                <li>Generally, use 'x' as a placeholder for unknown or unnecessary values, but only if there is a necessary value following it.</li>
-            </ol>
-            <section>
-                <h3 id="v">Verb stems (Hebrew)</h3>
-                <table class="stem">
-                    <tr><td>q</td><td>qal</td></tr>
-                    <tr><td>N</td><td>niphal</td></tr>
-                    <tr><td>p</td><td>piel</td></tr>
-                    <tr><td>P</td><td>pual</td></tr>
-                    <tr><td>h</td><td>hiphil</td></tr>
-                    <tr><td>H</td><td>hophal</td></tr>
-                    <tr><td>t</td><td>hithpael</td></tr>
-                    <tr><td>o</td><td>polel</td></tr>
-                    <tr><td>O</td><td>polal</td></tr>
-                    <tr><td>r</td><td>hithpolel</td></tr>
-                    <tr><td>m</td><td>poel</td></tr>
-                    <tr><td>M</td><td>poal</td></tr>
-                    <tr><td>k</td><td>palel</td></tr>
-                    <tr><td>K</td><td>pulal</td></tr>
-                </table>
-                <table class="stem">
-                    <tr><td>Q</td><td>qal passive</td></tr>
-                    <tr><td>l</td><td>pilpel</td></tr>
-                    <tr><td>L</td><td>polpal</td></tr>
-                    <tr><td>f</td><td>hithpalpel</td></tr>
-                    <tr><td>D</td><td>nithpael</td></tr>
-                    <tr><td>j</td><td>pealal</td></tr>
-                    <tr><td>i</td><td>pilel</td></tr>
-                    <tr><td>u</td><td>hothpaal</td></tr>
-                    <tr><td>c</td><td>tiphil</td></tr>
-                    <tr><td>v</td><td>hishtaphel</td></tr>
-                    <tr><td>w</td><td>nithpalel</td></tr>
-                    <tr><td>y</td><td>nithpoel</td></tr>
-                    <tr><td>z</td><td>hithpoel</td></tr>
-                </table>
-            </section>
-            <section>
-                <h3 id="v">Verb stems (Aramaic)</h3>
-                <table class="stem">
-                    <tr><td>q</td><td>peal</td></tr>
-                    <tr><td>Q</td><td>peil</td></tr>
-                    <tr><td>u</td><td>hithpeel</td></tr>
-                    <tr><td>p</td><td>pael</td></tr>
-                    <tr><td>P</td><td>ithpaal</td></tr>
-                    <tr><td>M</td><td>hithpaal</td></tr>
-                    <tr><td>a</td><td>aphel</td></tr>
-                    <tr><td>h</td><td>haphel</td></tr>
-                    <tr><td>s</td><td>saphel</td></tr>
-                    <tr><td>e</td><td>shaphel</td></tr>
-                    <tr><td>H</td><td>hophal</td></tr>
-                    <tr><td>i</td><td>ithpeel</td></tr>
-                    <tr><td>t</td><td>hishtaphel</td></tr>
-                </table>
-                <table class="stem">
-                    <tr><td>v</td><td>ishtaphel</td></tr>
-                    <tr><td>w</td><td>hithaphel</td></tr>
-                    <tr><td>o</td><td>polel</td></tr>
-                    <tr><td>z</td><td>ithpoel</td></tr>
-                    <tr><td>r</td><td>hithpolel</td></tr>
-                    <tr><td>f</td><td>hithpalpel</td></tr>
-                    <tr><td>b</td><td>hephal</td></tr>
-                    <tr><td>c</td><td>tiphel</td></tr>
-                    <tr><td>m</td><td>poel</td></tr>
-                    <tr><td>l</td><td>palpel</td></tr>
-                    <tr><td>L</td><td>ithpalpel</td></tr>
-                    <tr><td>O</td><td>ithpolel</td></tr>
-                    <tr><td>G</td><td>ittaphal</td></tr>
-                </table>
-            </section>
-            <section class="break">
-                <h3 id="va">Verb aspect</h3>
+            <div class="page">
+                <h2>Part of Speech</h2>
                 <table>
-                    <tr><td>a</td><td>infinitive absolute</td></tr>
-                    <tr><td>c</td><td>infinitive construct</td></tr>
-                    <tr><td>h</td><td>cohortative</td></tr>
-                    <tr><td>i</td><td>imperfect</td></tr>
-                    <tr><td>j</td><td>jussive</td></tr>
-                    <tr><td>p</td><td>perfect</td></tr>
-                    <tr><td>q</td><td>sequential perfect</td></tr>
-                    <tr><td>r</td><td>participle active</td></tr>
-                    <tr><td>s</td><td>participle passive</td></tr>
-                    <tr><td>v</td><td>imperative</td></tr>
-                    <tr><td>w</td><td>sequential imperfect</td></tr>
+                    <tr><td>A</td><td>adjective</td><td><a href="#a">type</a><sup>1</sup></td>
+                        <td>&nbsp;</td><td>&nbsp;</td><td><a href="#mg">gender</a></td>
+                        <td><a href="#mn">number</a></td><td><a href="#ms">state</a></td></tr>
+                    <tr><td>C</td><td>conjunction</td><td><a href="#c">type</a></td>
+                        <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                    <tr><td>D</td><td>adverb</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+                        <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                    <tr><td>N</td><td>noun</td><td><a href="#n">type</a></td><td>&nbsp;</td>
+                        <td>&nbsp;</td><td><a href="#mg">gender</a></td><td><a href="#mn">number</a></td>
+                        <td><a href="#ms">state</a></td></tr>
+                    <tr><td>P</td><td>pronoun</td><td><a href="#p">type</a></td><td><a href="#pc">case</a></td>
+                        <td><a href="#mp">person</a><sup>2</sup></td><td><a href="#mg">gender</a></td>
+                        <td><a href="#mn">number</a></td><td><a href="#ms">state</a></td></tr>
+                    <tr><td>R</td><td>preposition</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+                        <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                    <tr><td>S</td><td>suffix</td><td><a href="#s">type</a></td><td>&nbsp;</td>
+                        <td><a href="#mp">person</a></td><td><a href="#mg">gender</a></td>
+                        <td><a href="#mn">number</a></td><td><a href="#ms">state</a></td></tr>
+                    <tr><td>T</td><td>particle</td><td><a href="#t">type</a></td><td>&nbsp;</td>
+                        <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                    <tr><td>V</td><td>verb</td><td><a href="#v">stem</a></td><td><a href="#va">aspect</a></td>
+                        <td><a href="#mp">person</a><sup>3</sup></td><td><a href="#mg">gender</a></td>
+                        <td><a href="#mn">number</a></td><td><a href="#ms">state</a></td></tr>
                 </table>
-            </section>
-            <section class="end">
-                <h3 id="a">Adjective types</h3>
-                <table>
-                    <tr><td>a</td><td>adjective</td></tr>
-                    <tr><td>c</td><td>cardinal number</td></tr>
-                    <tr><td>g</td><td>gentilic</td></tr>
-                    <tr><td>o</td><td>ordinal number</td></tr>
-                </table>
-            </section>
-            <section>
-                <h3 id="c">Conjunction types</h3>
-                <table>
-                    <tr><td>c</td><td>conjunctive</td></tr>
-                    <tr><td>v</td><td>vav consecutive</td></tr>
-                </table>
-            </section>
-            <section>
-                <h3 id="n">Noun types</h3>
-                <table>
-                    <tr><td>c</td><td>common</td></tr>
-                    <tr><td>g</td><td>gentilic</td></tr>
-                    <tr><td>p</td><td>proper name</td></tr>
-                </table>
-            </section>
-            <section>
-                <h3 id="p">Pronoun types</h3>
-                <table>
-                    <tr><td>d</td><td>demonstrative</td></tr>
-                    <tr><td>f</td><td>indefinite</td></tr>
-                    <tr><td>i</td><td>interrogative</td></tr>
-                    <tr><td>p</td><td>personal</td></tr>
-                    <tr><td>r</td><td>relative</td></tr>
-                </table>
-            </section>
-            <section>
-                <h3 id="s">Suffix types</h3>
-                <table>
-                    <tr><td>d</td><td>directional he</td></tr>
-                    <tr><td>h</td><td>paragogic he</td></tr>
-                    <tr><td>n</td><td>paragogic nun</td></tr>
-                    <tr><td>p</td><td>pronominal</td></tr>
-                </table>
-            </section>
-            <section class="end">
-                <h3 id="t">Particle types</h3>
-                <table>
-                    <tr><td>a</td><td>affirmation</td></tr>
-                    <tr><td>d</td><td>definite article</td></tr>
-                    <tr><td>e</td><td>exhortation</td></tr>
-                    <tr><td>i</td><td>interrogative</td></tr>
-                    <tr><td>j</td><td>interjection</td></tr>
-                    <tr><td>m</td><td>demonstrative</td></tr>
-                    <tr><td>n</td><td>negative</td></tr>
-                    <tr><td>o</td><td>direct object marker</td></tr>
-                    <tr><td>p</td><td>definite article with<br />inseparable preposition</td></tr>
-                    <tr><td>r</td><td>relative</td></tr>
-                </table>
-            </section>
-            <section>
-                <h3 id="pc">Case</h3>
-                <table>
-                    <tr><td>a</td><td>accusative</td></tr>
-                    <tr><td>n</td><td>nominative</td></tr>
-                </table>
-            </section>
-            <section>
-                <h3 id="mp">Person</h3>
-                <table>
-                    <tr><td>1</td><td>first</td></tr>
-                    <tr><td>2</td><td>second</td></tr>
-                    <tr><td>3</td><td>third</td></tr>
-                </table>
-            </section>
-            <section>
-                <h3 id="mg">Gender</h3>
-                <table>
-                    <tr><td>b</td><td>both (noun)</td></tr>
-                    <tr><td>c</td><td>common (verb)</td></tr>
-                    <tr><td>f</td><td>feminine</td></tr>
-                    <tr><td>m</td><td>masculine</td></tr>
-                </table>
-            </section>
-            <section>
-                <h3 id="mn">Number</h3>
-                <table>
-                    <tr><td>d</td><td>dual</td></tr>
-                    <tr><td>p</td><td>plural</td></tr>
-                    <tr><td>s</td><td>singular</td></tr>
-                    <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
-                </table>
-            </section>
-            <section>
-                <h3 id="ms">State</h3>
-                <table>
-                    <tr><td>a</td><td>absolute</td></tr>
-                    <tr><td>c</td><td>construct</td></tr>
-                    <tr><td>d</td><td>determined</td></tr>
-                </table>
-            </section>
-            <section>
-                <h3>Language</h3>
-                <table>
-                    <tr><td>H</td><td>Hebrew</td></tr>
-                    <tr><td>A</td><td>Aramaic</td></tr>
-                </table>
-            </section>
-            <section class="end">
-                <p>One language code is prefixed to the entire morphological
-                parsing string, including prefixes, main word and suffixes.</p>
-            </section>
-            <section class="end">
-                <h3>Example:</h3>
-<pre>	<span class="tag">&lt;verse <span class="name">osisID=</span>"<span class="value">Gen.1.1</span>"></span>
-		<span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">b/7225</span>" <span class="name">morph=</span>"<span class="value">HR/Ncfsa</span>"></span>בְּ/רֵאשִׁ֖ית<span class="tag">&lt;/w></span>
-		<span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">1254</span>" <span class="name">a</span>"<span class="value"></span>" <span class="name">morph=</span>"<span class="value">HVqp3ms</span>"></span>בָּרָ֣א<span class="tag">&lt;/w></span>
-		<span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">430</span>" <span class="name">morph=</span>"<span class="value">HNcmpa</span>"></span>אֱלֹהִ֑ים<span class="tag">&lt;/w></span>
-		<span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">853</span>" <span class="name">morph=</span>"<span class="value">HTo</span>"></span>אֵ֥ת<span class="tag">&lt;/w></span>
-		<span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">d/8064</span>" <span class="name">morph=</span>"<span class="value">HTd/Ncmpa</span>"></span>הַ/שָּׁמַ֖יִם<span class="tag">&lt;/w></span>
-		<span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">c/853</span>" <span class="name">morph=</span>"<span class="value">HCc/To</span>"></span>וְ/אֵ֥ת<span class="tag">&lt;/w></span>
-		<span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">d/776</span>" <span class="name">morph=</span>"<span class="value">HTd/Ncfsa</span>"></span>הָ/אָֽרֶץ<span class="tag">&lt;/w></span><span class="tag">&lt;seg <span class="name">type=</span>"<span class="value">x-sof-pasuq</span>"></span>׃<span class="tag">&lt;/seg></span>
-	<span class="tag">&lt;/verse></span></pre>
-            </section>
-            <section class="end">
-                <p>Hebrew Morphology Codes is released under the
-                <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike</a>
-                license.</p>
-            </section>
+                <ol class="notes">
+                    <li>Type and verb stem are unique to each part of speech, effectively producing a much longer list of two-letter codes.</li>
+                    <li>Person, gender, number and state are the same wherever they apply.</li>
+                    <li>Generally, use 'x' as a placeholder for unknown or unnecessary values, but only if there is a necessary value following it.</li>
+                </ol>
+                <section>
+                    <h3 id="v">Verb stems (Hebrew)</h3>
+                    <table class="stem">
+                        <tr><td>q</td><td>qal</td></tr>
+                        <tr><td>N</td><td>niphal</td></tr>
+                        <tr><td>p</td><td>piel</td></tr>
+                        <tr><td>P</td><td>pual</td></tr>
+                        <tr><td>h</td><td>hiphil</td></tr>
+                        <tr><td>H</td><td>hophal</td></tr>
+                        <tr><td>t</td><td>hithpael</td></tr>
+                        <tr><td>o</td><td>polel</td></tr>
+                        <tr><td>O</td><td>polal</td></tr>
+                        <tr><td>r</td><td>hithpolel</td></tr>
+                        <tr><td>m</td><td>poel</td></tr>
+                        <tr><td>M</td><td>poal</td></tr>
+                        <tr><td>k</td><td>palel</td></tr>
+                        <tr><td>K</td><td>pulal</td></tr>
+                    </table>
+                    <table class="stem">
+                        <tr><td>Q</td><td>qal passive</td></tr>
+                        <tr><td>l</td><td>pilpel</td></tr>
+                        <tr><td>L</td><td>polpal</td></tr>
+                        <tr><td>f</td><td>hithpalpel</td></tr>
+                        <tr><td>D</td><td>nithpael</td></tr>
+                        <tr><td>j</td><td>pealal</td></tr>
+                        <tr><td>i</td><td>pilel</td></tr>
+                        <tr><td>u</td><td>hothpaal</td></tr>
+                        <tr><td>c</td><td>tiphil</td></tr>
+                        <tr><td>v</td><td>hishtaphel</td></tr>
+                        <tr><td>w</td><td>nithpalel</td></tr>
+                        <tr><td>y</td><td>nithpoel</td></tr>
+                        <tr><td>z</td><td>hithpoel</td></tr>
+                    </table>
+                </section>
+                <section>
+                    <h3 id="v">Verb stems (Aramaic)</h3>
+                    <table class="stem">
+                        <tr><td>q</td><td>peal</td></tr>
+                        <tr><td>Q</td><td>peil</td></tr>
+                        <tr><td>u</td><td>hithpeel</td></tr>
+                        <tr><td>p</td><td>pael</td></tr>
+                        <tr><td>P</td><td>ithpaal</td></tr>
+                        <tr><td>M</td><td>hithpaal</td></tr>
+                        <tr><td>a</td><td>aphel</td></tr>
+                        <tr><td>h</td><td>haphel</td></tr>
+                        <tr><td>s</td><td>saphel</td></tr>
+                        <tr><td>e</td><td>shaphel</td></tr>
+                        <tr><td>H</td><td>hophal</td></tr>
+                        <tr><td>i</td><td>ithpeel</td></tr>
+                        <tr><td>t</td><td>hishtaphel</td></tr>
+                    </table>
+                    <table class="stem">
+                        <tr><td>v</td><td>ishtaphel</td></tr>
+                        <tr><td>w</td><td>hithaphel</td></tr>
+                        <tr><td>o</td><td>polel</td></tr>
+                        <tr><td>z</td><td>ithpoel</td></tr>
+                        <tr><td>r</td><td>hithpolel</td></tr>
+                        <tr><td>f</td><td>hithpalpel</td></tr>
+                        <tr><td>b</td><td>hephal</td></tr>
+                        <tr><td>c</td><td>tiphel</td></tr>
+                        <tr><td>m</td><td>poel</td></tr>
+                        <tr><td>l</td><td>palpel</td></tr>
+                        <tr><td>L</td><td>ithpalpel</td></tr>
+                        <tr><td>O</td><td>ithpolel</td></tr>
+                        <tr><td>G</td><td>ittaphal</td></tr>
+                    </table>
+                </section>
+                <section>
+                    <h3 id="va">Verb aspect</h3>
+                    <table>
+                        <tr><td>a</td><td>infinitive absolute</td></tr>
+                        <tr><td>c</td><td>infinitive construct</td></tr>
+                        <tr><td>h</td><td>cohortative</td></tr>
+                        <tr><td>i</td><td>imperfect</td></tr>
+                        <tr><td>j</td><td>jussive</td></tr>
+                        <tr><td>p</td><td>perfect</td></tr>
+                        <tr><td>q</td><td>sequential perfect</td></tr>
+                        <tr><td>r</td><td>participle active</td></tr>
+                        <tr><td>s</td><td>participle passive</td></tr>
+                        <tr><td>v</td><td>imperative</td></tr>
+                        <tr><td>w</td><td>sequential imperfect</td></tr>
+                    </table>
+                </section>
+            </div>
+            <div>
+                <section class="end">
+                    <h3 id="a">Adjective types</h3>
+                    <table>
+                        <tr><td>a</td><td>adjective</td></tr>
+                        <tr><td>c</td><td>cardinal number</td></tr>
+                        <tr><td>g</td><td>gentilic</td></tr>
+                        <tr><td>o</td><td>ordinal number</td></tr>
+                    </table>
+                </section>
+                <section>
+                    <h3 id="c">Conjunction types</h3>
+                    <table>
+                        <tr><td>c</td><td>conjunctive</td></tr>
+                        <tr><td>v</td><td>vav consecutive</td></tr>
+                    </table>
+                </section>
+                <section>
+                    <h3 id="n">Noun types</h3>
+                    <table>
+                        <tr><td>c</td><td>common</td></tr>
+                        <tr><td>g</td><td>gentilic</td></tr>
+                        <tr><td>p</td><td>proper name</td></tr>
+                    </table>
+                </section>
+                <section>
+                    <h3 id="p">Pronoun types</h3>
+                    <table>
+                        <tr><td>d</td><td>demonstrative</td></tr>
+                        <tr><td>f</td><td>indefinite</td></tr>
+                        <tr><td>i</td><td>interrogative</td></tr>
+                        <tr><td>p</td><td>personal</td></tr>
+                        <tr><td>r</td><td>relative</td></tr>
+                    </table>
+                </section>
+                <section>
+                    <h3 id="s">Suffix types</h3>
+                    <table>
+                        <tr><td>d</td><td>directional he</td></tr>
+                        <tr><td>h</td><td>paragogic he</td></tr>
+                        <tr><td>n</td><td>paragogic nun</td></tr>
+                        <tr><td>p</td><td>pronominal</td></tr>
+                    </table>
+                </section>
+                <section class="end">
+                    <h3 id="t">Particle types</h3>
+                    <table>
+                        <tr><td>a</td><td>affirmation</td></tr>
+                        <tr><td>d</td><td>definite article</td></tr>
+                        <tr><td>e</td><td>exhortation</td></tr>
+                        <tr><td>i</td><td>interrogative</td></tr>
+                        <tr><td>j</td><td>interjection</td></tr>
+                        <tr><td>m</td><td>demonstrative</td></tr>
+                        <tr><td>n</td><td>negative</td></tr>
+                        <tr><td>o</td><td>direct object marker</td></tr>
+                        <tr><td>p</td><td>definite article with<br />inseparable preposition</td></tr>
+                        <tr><td>r</td><td>relative</td></tr>
+                    </table>
+                </section>
+                <section>
+                    <h3 id="pc">Case</h3>
+                    <table>
+                        <tr><td>a</td><td>accusative</td></tr>
+                        <tr><td>n</td><td>nominative</td></tr>
+                    </table>
+                </section>
+                <section>
+                    <h3 id="mp">Person</h3>
+                    <table>
+                        <tr><td>1</td><td>first</td></tr>
+                        <tr><td>2</td><td>second</td></tr>
+                        <tr><td>3</td><td>third</td></tr>
+                    </table>
+                </section>
+                <section>
+                    <h3 id="mg">Gender</h3>
+                    <table>
+                        <tr><td>b</td><td>both (noun)</td></tr>
+                        <tr><td>c</td><td>common (verb)</td></tr>
+                        <tr><td>f</td><td>feminine</td></tr>
+                        <tr><td>m</td><td>masculine</td></tr>
+                    </table>
+                </section>
+                <section>
+                    <h3 id="mn">Number</h3>
+                    <table>
+                        <tr><td>d</td><td>dual</td></tr>
+                        <tr><td>p</td><td>plural</td></tr>
+                        <tr><td>s</td><td>singular</td></tr>
+                        <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+                    </table>
+                </section>
+                <section>
+                    <h3 id="ms">State</h3>
+                    <table>
+                        <tr><td>a</td><td>absolute</td></tr>
+                        <tr><td>c</td><td>construct</td></tr>
+                        <tr><td>d</td><td>determined</td></tr>
+                    </table>
+                </section>
+                <section>
+                    <h3>Language</h3>
+                    <table>
+                        <tr><td>H</td><td>Hebrew</td></tr>
+                        <tr><td>A</td><td>Aramaic</td></tr>
+                    </table>
+                </section>
+                <section class="end">
+                    <p>One language code is prefixed to the entire morphological
+                    parsing string, including prefixes, main word and suffixes.</p>
+                </section>
+                <section class="end">
+                    <h3>Example:</h3>
+    <pre>	<span class="tag">&lt;verse <span class="name">osisID=</span>"<span class="value">Gen.1.1</span>"></span>
+            <span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">b/7225</span>" <span class="name">morph=</span>"<span class="value">HR/Ncfsa</span>"></span>בְּ/רֵאשִׁ֖ית<span class="tag">&lt;/w></span>
+            <span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">1254</span>" <span class="name">a</span>"<span class="value"></span>" <span class="name">morph=</span>"<span class="value">HVqp3ms</span>"></span>בָּרָ֣א<span class="tag">&lt;/w></span>
+            <span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">430</span>" <span class="name">morph=</span>"<span class="value">HNcmpa</span>"></span>אֱלֹהִ֑ים<span class="tag">&lt;/w></span>
+            <span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">853</span>" <span class="name">morph=</span>"<span class="value">HTo</span>"></span>אֵ֥ת<span class="tag">&lt;/w></span>
+            <span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">d/8064</span>" <span class="name">morph=</span>"<span class="value">HTd/Ncmpa</span>"></span>הַ/שָּׁמַ֖יִם<span class="tag">&lt;/w></span>
+            <span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">c/853</span>" <span class="name">morph=</span>"<span class="value">HCc/To</span>"></span>וְ/אֵ֥ת<span class="tag">&lt;/w></span>
+            <span class="tag">&lt;w <span class="name">lemma=</span>"<span class="value">d/776</span>" <span class="name">morph=</span>"<span class="value">HTd/Ncfsa</span>"></span>הָ/אָֽרֶץ<span class="tag">&lt;/w></span><span class="tag">&lt;seg <span class="name">type=</span>"<span class="value">x-sof-pasuq</span>"></span>׃<span class="tag">&lt;/seg></span>
+        <span class="tag">&lt;/verse></span></pre>
+                </section>
+                <section class="end">
+                    <p>Hebrew Morphology Codes is released under the
+                    <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike</a>
+                    license.</p>
+                </section>
+            </div>
         </article>
     </body>
 </html>
