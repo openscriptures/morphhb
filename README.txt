@@ -1,6 +1,9 @@
-﻿MorphHB is a project to encode the Westminster Leningrad Codex (WLC)
-in OSIS, with Strong numbers assigned to the Hebrew words.  Eventually,
-we intend to add morphological parsing information.
+Open Scriptures Hebrew Bible
 
-The current version, WLC.4.12.zip, in the download section, is released
-to the public domain (http://creativecommons.org/licenses/publicdomain/).
+The Open Scripures Hebrew Bible is a project to analyze the Hebrew Bible 
+by lemma and morphology. The project is marked up in OSIS XML and currently 
+contains lemma attributes for most words (using Strong's numbers). Soon we 
+plan to begin adding morphology attributes as well.
+
+The text in the download section, WLC.4.12.zip, is released to the public 
+domain (http://creativecommons.org/licenses/publicdomain/).
