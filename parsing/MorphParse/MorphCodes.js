@@ -1,6 +1,6 @@
 /**
  * @fileOverview MorphCodes is a summary of Hebrew morphology codes.
- * @version 1.1
+ * @version 1.2
  * @author David
  */
 var morphCodes = {
@@ -18,6 +18,7 @@ var morphCodes = {
 	'adjectiveType': {
 		'a': 'adjective',
 		'c': 'cardinal number',
+		'g': 'gentilic',
 		'o': 'ordinal number',
 		'x': ''
 	},
@@ -58,37 +59,65 @@ var morphCodes = {
 		'p': 'definite article with inseparable preposition',
 		'r': 'relative'
 	},
-	'verbStem': {
-		'qa': 'qal',
-		'ni': 'niphal',
-		'pi': 'piel',
-		'pu': 'pual',
-		'hi': 'hiphil',
-		'ho': 'hophal',
-		'ht': 'hithpael',
-		'po': 'polel',
-		'pp': 'pilpel',
-		'hl': 'hitpolel',
-		'pe': 'peal',
-		'pl': 'peil',
-		'he': 'hitpeel',
-		'pa': 'pael',
-		'hh': 'haphel',
-		'ha': 'hitpaal',
-		'hu': 'huphal',
-		'sh': 'shaphel',
-		'ap': 'aphel',
-		'hp': 'hitpalpel',
-		'nt': 'nitpael',
-		'is': 'ishtaphal',
-		'hs': 'hishtaphal',
-		'ia': 'itpaal',
-		'yi': 'yiphil',
-		'hx': 'hitpalel',
-		'ie': 'itpeel',
-		'ea': 'etpaal',
-		'ee': 'etpeel',
-		'xx': ''
+	'verbStemHebrew': {
+		'q': 'qal',
+		'N': 'niphal',
+		'p': 'piel',
+		'P': 'pual',
+		'h': 'hiphil',
+		'H': 'hophal',
+		't': 'hithpael',
+		'o': 'polel',
+		'O': 'polal',
+		'r': 'hithpolel',
+		'm': 'poel',
+		'M': 'poal',
+		'k': 'palel',
+		'K': 'pulal',
+		'Q': 'qal passive',
+		'l': 'pilpel',
+		'L': 'polpal',
+		'f': 'hithpalpel',
+		'D': 'nithpael',
+		'j': 'pealal',
+		'i': 'pilel',
+		'u': 'hothpaal',
+		'c': 'tiphil',
+		'v': 'hishtaphel',
+		'w': 'nithpalel',
+		'y': 'nithpoel',
+		'z': 'hithpoel',
+		'x': ''
+	},
+	'verbStemAramaic': {
+		'q': 'peal',
+		'Q': 'peil',
+		'u': 'hithpeel',
+		'N': 'niphal',
+		'p': 'pael',
+		'P': 'ithpaal',
+		'M': 'hithpaal',
+		'a': 'aphel',
+		'h': 'haphel',
+		's': 'saphel',
+		'e': 'shaphel',
+		'H': 'hophal',
+		'i': 'ithpeel',
+		't': 'hishtaphel',
+		'v': 'ishtaphel',
+		'w': 'hithaphel',
+		'o': 'polel',
+		'z': 'ithpoel',
+		'r': 'hithpolel',
+		'f': 'hithpalpel',
+		'b': 'hephal',
+		'c': 'tiphel',
+		'm': 'poel',
+		'l': 'palpel',
+		'L': 'ithpalpel',
+		'O': 'ithpolel',
+		'G': 'ittaphal',
+		'x': ''
 	},
 	'verbAspect': {
 		'a': 'infinitive absolute',
@@ -132,5 +161,9 @@ var morphCodes = {
 		'a': 'absolute',
 		'c': 'construct',
 		'd': 'determined'
+	},
+	'language': {
+		'H': 'Hebrew',
+		'A': 'Aramaic'
 	}
 }

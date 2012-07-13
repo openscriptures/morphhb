@@ -10,3 +10,7 @@ and call:
 Gen1MorphL.xml is a sample morphology file.
 
 The rest of the files are scaffolding for the test application.
+
+The entire application is released under the
+Creative Commons Attribution-ShareAlike license:
+http://creativecommons.org/licenses/by-sa/3.0/

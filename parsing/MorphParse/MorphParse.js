@@ -1,11 +1,12 @@
 /**
  * @fileOverview MorphParse is a parser for morphology codes,
  * based on MorphCodes.js.
- * @version 1.1
+ * @version 1.2
  * @author David
  */
 var MorphParse = function()
 {
+	var language;
     /**
      * Parses the given code.
      * @param {string} code A morph code
@@ -13,6 +14,8 @@ var MorphParse = function()
      */
     this.Parse = function(code)
     {
+		language = code.charAt(0);
+		code = code.substr(1);
         var parts = code.split('/');
         var morph = parseCode(parts[0]);
         for (var i = 1; i < parts.length; i++) {
@@ -105,8 +108,13 @@ var MorphParse = function()
 
     var parseVerb = function(code)
     {
-        var morph = morphCodes.verbStem[code.charAt(1) + code.charAt(2)];
-        if (code.length > 3) {
+        var morph;
+		if (language === 'H') {
+			morph = morphCodes.verbStemHebrew[code.charAt(1)];
+		} else {
+			morph = morphCodes.verbStemAramaic[code.charAt(1)];
+		}
+        if (code.length > 2) {
             morph += ' ' + parseAspect(code);
         }
         return morph;
@@ -114,9 +122,9 @@ var MorphParse = function()
 
     var parseAspect = function(code)
     {
-        var morph = morphCodes.verbAspect[code.charAt(3)];
-        if (code.length > 4) {
-            morph += ' ' + parsePerson(code, 4);
+        var morph = morphCodes.verbAspect[code.charAt(2)];
+        if (code.length > 3) {
+            morph += ' ' + parsePerson(code, 3);
         }
         return morph;
     };
