@@ -1,0 +1,37 @@
+body
+{
+    margin: 0;
+    background-image: url(ZigZag.png);
+    font-family: "Palatino Linotype", Palatino, serif;
+    line-height: 1.5em;
+}
+header
+{
+    background-color: rgba(255, 238, 187, 0.75);
+    padding: 1em;
+    border-bottom: 3px double #77250f;
+}
+header img
+{
+    float: left;
+}
+h1
+{
+    font: 2em/0.75em "Palatino Linotype", Palatino, serif;
+    color: #77250f;
+    margin: 0;
+    padding: 0 0 0.5em 4.5em;
+}
+h1 span
+{
+    font-size: 60%;
+}
+article
+{
+    margin: 1em 2em;
+    padding: 1em 2em;
+    background-color: rgba(255, 254, 251, 0.6);
+    border-radius: 1em;
+    border: 3px double #77250f;
+    width: 50%;
+}
