@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2012.07.18</date>
+        <p>Updated to WLC version 4.16.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2011.01.21</date>
         <p>Updated to WLC version 4.14.</p>
       </revisionDesc>
@@ -429,7 +433,10 @@
           <w lemma="c/3212">וְ/הֹֽלַכְתִּ֖י/הָ</w>
           <w lemma="d/4057 b">הַ/מִּדְבָּ֑ר</w>
           <w lemma="c/1696">וְ/דִבַּרְתִּ֖י</w>
-          <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="3820 a">לִבָּֽ/הּ</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="5921 a">עַל</w>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
+          <w lemma="3820 a">לִבָּֽ/הּ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Hos.2.17">
           <note>BHS:Hos.2.15</note>
@@ -870,7 +877,9 @@
           <w lemma="853">אוֹתָ֖/הּ</w>
           <w lemma="b/3671">בִּ/כְנָפֶ֑י/הָ</w>
           <w lemma="c/954">וְ/יֵבֹ֖שׁוּ</w>
-          <w lemma="m/2077">מִ/זִּבְחוֹתָֽ/ם</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="m/2077">מִ/זִּבְחוֹתָֽ/ם</w>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
           <seg type="x-samekh">ס</seg>
         </verse>
       </chapter>
@@ -1496,7 +1505,9 @@
           <w lemma="l">ל֑/וֹ</w>
           <w lemma="669">אֶפְרַ֖יִם</w>
           <w lemma="8566">הִתְנ֥וּ</w>
-          <w lemma="158">אֲהָבִֽים</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="158">אֲהָבִֽים</w>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
         </verse>
         <verse osisID="Hos.8.10">
           <w lemma="1571">גַּ֛ם</w>
@@ -1831,8 +1842,9 @@
           <w lemma="3588 a">כִּ֣י</w>
           <w lemma="3808">לֹ֤א</w>
           <w lemma="3372">יָרֵ֙אנוּ֙</w>
-          <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="3068">יְהוָ֔ה</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
+          <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="3068">יְהֹוָ֔ה</w>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="v">We read one or more vowels in L differently from BHS. </note>
           <w lemma="c/d/4428">וְ/הַ/מֶּ֖לֶךְ</w>
           <w lemma="4100">מַה</w><seg type="x-maqqef">־</seg><w lemma="6213 a">יַּֽעֲשֶׂה</w><seg type="x-maqqef">־</seg><w lemma="l">לָּֽ/נוּ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>

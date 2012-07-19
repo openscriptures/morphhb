@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2012.07.18</date>
+        <p>Updated to WLC version 4.16.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2011.01.21</date>
         <p>Updated to WLC version 4.14.</p>
       </revisionDesc>
@@ -578,8 +582,7 @@
           <w lemma="8147">שְׁנֵי/הֶ֑ם</w>
           <w lemma="c/5927">וַ/יַּ֙עַל֙</w>
           <w lemma="452">אֵ֣לִיָּ֔הוּ</w>
-          <w lemma="b/5591 b">בַּֽ/סְּעָרָ֖ה</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
+          <w lemma="b/5591 b">בַּֽ/סְעָרָ֖ה</w>
           <w lemma="d/8064">הַ/שָּׁמָֽיִם</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="2Kgs.2.12">
@@ -2501,7 +2504,7 @@
           <w lemma="d/2088">הַ/זֶּ֑ה</w>
           <w lemma="3588 a">כִּֽי</w><seg type="x-maqqef">־</seg><w lemma="8033">שָׁ֖ם</w>
           <w lemma="758">אֲרָ֥ם</w>
-          <w lemma="5181">נְחִתִּֽים</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="5185">נְחִתִּֽים</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="2Kgs.6.10">
           <w lemma="c/7971">וַ/יִּשְׁלַ֞ח</w>
@@ -4869,7 +4872,7 @@
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="1004 b">בֵּ֣ית</w>
           <w lemma="d/1168 a">הַ/בַּ֔עַל</w>
           <w lemma="c/7760 a">וַ/יְשִׂמֻ֥/הוּ</w>
-          <w lemma="l/4163">ל/מחראות</w><note type="variant"><catchWord>ל/מחראות</catchWord><rdg type="x-qere"><w lemma="l/4163">לְ/מֽוֹצָא֖וֹת</w></rdg></note>
+          <w lemma="l/4280">ל/מחראות</w><note type="variant"><catchWord>ל/מחראות</catchWord><rdg type="x-qere"><w lemma="l/4163">לְ/מֽוֹצָא֖וֹת</w></rdg></note>
           <w lemma="5704">עַד</w><seg type="x-maqqef">־</seg><w lemma="d/3117">הַ/יּֽוֹם</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="2Kgs.10.28">
@@ -7903,8 +7906,7 @@
           <w lemma="c/935">וַ/יָּבֵ֣א</w>
           <w lemma="4428">מֶֽלֶךְ</w><seg type="x-maqqef">־</seg><w lemma="804">אַשּׁ֡וּר</w>
           <w lemma="m/894">מִ/בָּבֶ֡ל</w>
-          <w lemma="c/m/3575">וּ֠/מִ֠/כּוּתָ/ה</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
+          <w lemma="c/m/3575">וּ֠/מִ/כּוּ֠תָ/ה</w>
           <w lemma="c/m/5755">וּ/מֵ/עַוָּ֤א</w>
           <w lemma="c/m/2574">וּ/מֵֽ/חֲמָת֙</w>
           <w lemma="c/5617">וּ/סְפַרְוַ֔יִם</w>
@@ -8675,8 +8677,10 @@
           <w lemma="2755">חרי/הם</w><note type="variant"><catchWord>חרי/הם</catchWord><rdg type="x-qere"><w lemma="2755">צוֹאָתָ֗/ם</w></rdg></note>
           <w lemma="c/l/8354">וְ/לִ/שְׁתּ֛וֹת</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="7890">שיני/הם</w>
-          <note type="variant"><catchWord>שיני/הם</catchWord><rdg type="x-qere"><w lemma="4325">מֵֽימֵי</w><w lemma="7272">רַגְלֵי/הֶ֖ם</w></rdg></note>
-          <note>BHS has abandoned L and we concur. All of these occurrences are ketib/qere problems.</note>
+          <note type="variant"><catchWord>שיני/הם</catchWord><rdg type="x-qere"><w lemma="4325">מימֵ֥י</w> <w lemma="7272">רַגְלֵי/הֶ֖ם</w></rdg></note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="v">We read one or more vowels in L differently from BHS. </note>
           <w lemma="5973 a">עִמָּ/כֶֽם</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="2Kgs.18.28">

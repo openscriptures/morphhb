@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2012.07.18</date>
+        <p>Updated to WLC version 4.16.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2011.01.21</date>
         <p>Updated to WLC version 4.14.</p>
       </revisionDesc>
@@ -561,7 +565,6 @@
           <w lemma="4397">מַלְאַךְ</w><seg type="x-maqqef">־</seg><w lemma="3068">יְהוָ֛ה</w>
           <w lemma="4480 a">מִן</w><seg type="x-maqqef">־</seg><w lemma="d/1537">הַ/גִּלְגָּ֖ל</w>
           <w lemma="413">אֶל</w><seg type="x-maqqef">־</seg><w lemma="d/1066">הַ/בֹּכִ֑ים</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <seg type="x-pe">פ</seg>
           <w lemma="c/559">וַ/יֹּאמֶר֩</w>
           <w lemma="5927">אַעֲלֶ֨ה</w>
@@ -682,7 +685,7 @@
           <w lemma="853">אוֹת/וֹ֙</w>
           <w lemma="b/1366">בִּ/גְב֣וּל</w>
           <w lemma="5159">נַחֲלָת֔/וֹ</w>
-          <w lemma="b/8556 a+">בְּ/תִמְנַת</w><seg type="x-maqqef">־</seg><w lemma="8556 a">חֶ֖רֶס</w>
+          <w lemma="b/8556 a">בְּ/תִמְנַת</w><seg type="x-maqqef">־</seg><w lemma="8556 a">חֶ֖רֶס</w>
           <w lemma="b/2022">בְּ/הַ֣ר</w>
           <w lemma="669">אֶפְרָ֑יִם</w>
           <w lemma="m/6828">מִ/צְּפ֖וֹן</w>
@@ -2730,7 +2733,7 @@
           <w lemma="l/3605">לְ/כֹל֩</w>
           <w lemma="834 a">אֲשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="5975">עָמְד֨וּ</w>
           <w lemma="5921 a">עָלָ֜י/ו</w>
-          <w lemma="i/859 i">הַ/אַתֶּ֣ם</w>
+          <w lemma="i/859 d">הַ/אַתֶּ֣ם</w>
           <seg type="x-paseq">׀</seg>
           <w lemma="7378">תְּרִיב֣וּ/ן</w>
           <w lemma="l/1168 a">לַ/בַּ֗עַל</w>
@@ -5527,8 +5530,8 @@
           <w lemma="6242">עֶשְׂרִ֣ים</w>
           <w lemma="5892 b">עִ֗יר</w>
           <w lemma="c/5704">וְ/עַד֙</w>
-          <w lemma="58">אָבֵ֣ל</w>
-          <w lemma="3754">כְּרָמִ֔ים</w>
+          <w lemma="64">אָבֵ֣ל</w>
+          <w lemma="64+">כְּרָמִ֔ים</w>
           <w lemma="4347">מַכָּ֖ה</w>
           <w lemma="1419 a">גְּדוֹלָ֣ה</w>
           <w lemma="3966">מְאֹ֑ד</w>
@@ -6902,8 +6905,8 @@
           <w lemma="8123">שִׁמְשׁ֔וֹן</w>
           <w lemma="b/3895">בִּ/לְחִ֣י</w>
           <w lemma="d/2543">הַ/חֲמ֔וֹר</w>
-          <w lemma="2563 c">חֲמ֖וֹר</w>
-          <w lemma="2563 c">חֲמֹרָתָ֑יִם</w>
+          <w lemma="2565">חֲמ֖וֹר</w>
+          <w lemma="2565">חֲמֹרָתָ֑יִם</w>
           <w lemma="b/3895">בִּ/לְחִ֣י</w>
           <w lemma="d/2543">הַ/חֲמ֔וֹר</w>
           <w lemma="5221">הִכֵּ֖יתִי</w>
@@ -8468,7 +8471,7 @@
         <verse osisID="Judg.19.13">
           <w lemma="c/559">וַ/יֹּ֣אמֶר</w>
           <w lemma="l/5288 b">לְ/נַעֲר֔/וֹ</w>
-          <w lemma="3212">לְךָ֥</w>
+          <w lemma="3212">לְךָ֥/</w>
           <note>We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS.</note>
           <w lemma="c/7126">וְ/נִקְרְבָ֖ה</w>
           <w lemma="b/259">בְּ/אַחַ֣ד</w>
@@ -8598,8 +8601,9 @@
         <verse osisID="Judg.19.21">
           <w lemma="c/935">וַ/יְבִיאֵ֣/הוּ</w>
           <w lemma="l/1004 b">לְ/בֵית֔/וֹ</w>
-          <w lemma="c/1101 b">ו/יבול</w><note type="variant"><catchWord>ו/יבול</catchWord><rdg type="x-qere"><w lemma="c/1101 b">וַ/יָּ֖בָל</w></rdg></note>
-          <note>BHS has abandoned L and we concur. All of these occurrences are ketib/qere problems.</note>
+          <w lemma="c/1101 b">וַ/יָּ֖בָול</w>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="q">We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS. </note>
           <w lemma="l/2543">לַ/חֲמוֹרִ֑ים</w>
           <w lemma="c/7364">וַֽ/יִּרְחֲצוּ֙</w>
           <w lemma="7272">רַגְלֵי/הֶ֔ם</w>

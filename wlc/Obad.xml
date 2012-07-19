@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2012.07.18</date>
+        <p>Updated to WLC version 4.16.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2011.01.21</date>
         <p>Updated to WLC version 4.14.</p>
       </revisionDesc>
@@ -61,7 +65,9 @@
           <w lemma="7971">שֻׁלָּ֔ח</w>
           <w lemma="6965 b">ק֛וּמוּ</w>
           <w lemma="c/6965 b">וְ/נָק֥וּמָה</w>
-          <w lemma="5921 a">עָלֶ֖י/הָ</w>
+          <w lemma="5921 a">עָלֶי/הָ</w>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="l/4421">לַ/מִּלְחָמָֽה</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Obad.1.2">
@@ -145,9 +151,7 @@
           <w lemma="i/3808">הֲ/ל֛וֹא</w>
           <w lemma="b/3117">בַּ/יּ֥וֹם</w>
           <w lemma="d/1931">הַ/ה֖וּא</w>
-          <w lemma="5002">נְאֻם</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
-          <w lemma="3068">יְהוָ֑ה</w>
+          <w lemma="5002">נְאֻם</w><seg type="x-maqqef">־</seg><w lemma="3068">יְהוָ֑ה</w>
           <w lemma="c/6">וְ/הַאֲבַדְתִּ֤י</w>
           <w lemma="2450">חֲכָמִים֙</w>
           <w lemma="m/123">מֵֽ/אֱד֔וֹם</w>

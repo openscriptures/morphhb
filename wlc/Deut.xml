@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2012.07.18</date>
+        <p>Updated to WLC version 4.16.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2011.01.21</date>
         <p>Updated to WLC version 4.14.</p>
       </revisionDesc>
@@ -2652,7 +2656,7 @@
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="6440">פָּנָֽ/יַ</w><note type="alternative"><catchWord>פָּנָֽ/יַ</catchWord><rdg type="x-accent">פָּנָ֗/יַ</rdg></note><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Deut.5.8">
-          <w lemma="3808">לֹֽא</w><seg type="x-maqqef">־</seg><w lemma="6213 a">תַעֲשֶׂ֥ה</w>
+          <w lemma="3808">לֹֽ֣א</w><seg type="x-maqqef">־</seg><w lemma="6213 a">תַעֲשֶׂ֥ה</w>
           <w lemma="l">לְ/ךָ֥</w>
           <note type="alternative"><catchWord>לֹֽא־תַעֲשֶׂ֥ה לְ/ךָ֥</catchWord><rdg type="x-accent">לֹ֣א תַעֲשֶׂה־לְ/ךָ֣</rdg></note>
           <w lemma="6459">פֶ֙סֶל֙</w><note type="alternative"><catchWord>פֶ֙סֶל֙</catchWord><rdg type="x-accent">פֶ֣סֶל׀</rdg></note>
@@ -7102,7 +7106,7 @@
         <verse osisID="Deut.16.3">
           <w lemma="3808">לֹא</w><seg type="x-maqqef">־</seg><w lemma="398">תֹאכַ֤ל</w>
           <w lemma="5921 a">עָלָי/ו֙</w>
-          <w lemma="2557">חָמֵ֔ץ</w>
+          <w lemma="2557 a">חָמֵ֔ץ</w>
           <w lemma="7651">שִׁבְעַ֥ת</w>
           <w lemma="3117">יָמִ֛ים</w>
           <w lemma="398">תֹּֽאכַל</w><seg type="x-maqqef">־</seg><w lemma="5921 a">עָלָ֥י/ו</w>
@@ -13525,8 +13529,9 @@
           <w lemma="c/6680">וַ/יְצַ֤ו</w>
           <w lemma="4872">מֹשֶׁה֙</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/3881">הַ/לְוִיִּ֔ם</w>
-          <w lemma="5375">נֹֽשְׂאֵ֛י</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <w lemma="5375">נֹ֥שְׂאֵ֛י</w>
+          <note n="C">We read one or more accents in L differently from BHQ. </note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="727">אֲר֥וֹן</w>
           <w lemma="1285">בְּרִית</w><seg type="x-maqqef">־</seg><w lemma="3068">יְהוָ֖ה</w>
           <w lemma="l/559">לֵ/אמֹֽר</w><seg type="x-sof-pasuq">׃</seg>

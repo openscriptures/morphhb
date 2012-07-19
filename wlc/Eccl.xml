@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2012.07.18</date>
+        <p>Updated to WLC version 4.16.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2011.01.21</date>
         <p>Updated to WLC version 4.14.</p>
       </revisionDesc>
@@ -1402,7 +1406,7 @@
           <w lemma="c/1571">וְ/גַם</w><seg type="x-maqqef">־</seg><w lemma="2090">זֹה֙</w>
           <w lemma="7451 c">רָעָ֣ה</w>
           <w lemma="2470 a">חוֹלָ֔ה</w>
-          <w lemma="3605">כָּל</w><seg type="x-maqqef">־</seg><w lemma="5980">עֻמַּ֥ת</w>
+          <w lemma="k/3605">כָּ/ל</w><seg type="x-maqqef">־</seg><w lemma="5980">עֻמַּ֥ת</w>
           <w lemma="s/935">שֶׁ/בָּ֖א</w>
           <w lemma="3651 c">כֵּ֣ן</w>
           <w lemma="3212">יֵלֵ֑ךְ</w>
@@ -2685,8 +2689,8 @@
           <w lemma="c/2428">וַ/חֲיָלִ֖ים</w>
           <w lemma="1396">יְגַבֵּ֑ר</w>
           <w lemma="c/3504">וְ/יִתְר֥וֹן</w>
-          <w lemma="3787">הַכְשֵׁ֖יר</w>
-          <note>We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS.</note>
+          <w lemma="3787">הכשיר</w>><note type="variant"><catchWord>הכשיר</catchWord><rdg type="x-qere"><w lemma="3787">הַכְשֵׁ֖ר</w></rdg></note>
+          <note n="y">Yathir readings in L which we have designated as Qeres when both Dothan and BHS list a Qere. </note>
           <w lemma="2451">חָכְמָֽה</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Eccl.10.11">

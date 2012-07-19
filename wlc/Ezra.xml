@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2012.07.18</date>
+        <p>Updated to WLC version 4.16.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2011.01.21</date>
         <p>Updated to WLC version 4.14.</p>
       </revisionDesc>
@@ -1110,8 +1114,8 @@
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="3478">יִשְׂרָאֵ֑ל</w>
           <w lemma="c/3605">וְ/כָל</w><seg type="x-maqqef">־</seg><w lemma="d/5971 a">הָ/עָ֡ם</w>
           <w lemma="7321">הֵרִיעוּ֩</w>
-          <w lemma="8643">תְרוּעָ֨ה</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <w lemma="8643">תְרוּעָ֙ה</w>
+          <note n="U">We agree with both BHS 1997 and BHQ on an unexpected reading. </note>
           <w lemma="1419 a">גְדוֹלָ֤ה</w>
           <w lemma="b/1984 b">בְ/הַלֵּל֙</w>
           <w lemma="l/3068">לַֽ/יהוָ֔ה</w>
@@ -1318,7 +1322,7 @@
           <w lemma="756">ארכוי</w><note type="variant"><catchWord>ארכוי</catchWord><rdg type="x-qere"><w lemma="756">אַרְכְּוָיֵ֤/א</w></rdg></note>
           <w lemma="896">בָבְלָיֵ/א֙</w>
           <w lemma="7801">שֽׁוּשַׁנְכָיֵ֔/א</w>
-          <w lemma="1768">ד/הוא</w><note type="variant"><catchWord>ד/הוא</catchWord><rdg type="x-qere"><w lemma="1768">דֶּהָיֵ֖/א</w></rdg></note>
+          <w lemma="1768">ד/הוא</w><note type="variant"><catchWord>ד/הוא</catchWord><rdg type="x-qere"><w lemma="1723">דֶּהָיֵ֖/א</w></rdg></note>
           <w lemma="5962">עֵלְמָיֵֽ/א</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Ezra.4.10">
@@ -1347,8 +1351,9 @@
           <w lemma="5922">עֲל֔וֹ/הִי</w>
           <w lemma="5922">עַל</w><seg type="x-maqqef">־</seg><w lemma="783 b">אַרְתַּחְשַׁ֖שְׂתְּא</w>
           <w lemma="4430">מַלְכָּ֑/א</w>
-          <w lemma="5649">עַבְדֶ֛י/ךְ</w>
-          <note>We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS.</note>
+          <w lemma="5649">עַבְדָ֛י/ךְ</w>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="q">We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS. </note>
           <w lemma="606">אֱנָ֥שׁ</w>
           <w lemma="5675">עֲבַֽר</w><seg type="x-maqqef">־</seg><w lemma="5103">נַהֲרָ֖/ה</w>
           <w lemma="c/3706">וּ/כְעֶֽנֶת</w><seg type="x-sof-pasuq">׃</seg>
@@ -1368,8 +1373,8 @@
           <w lemma="l/3390">לִ/ירוּשְׁלֶ֑ם</w>
           <w lemma="7149">קִרְיְתָ֨/א</w>
           <w lemma="4779">מָֽרָדְתָּ֤/א</w>
-          <w lemma="c/873">וּ/בִֽאישְׁתָּ/א֙</w>
-          <note>We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS.</note>
+          <w lemma="c/873">ו/באישת/א</w><note type="variant"><catchWord>ו/באישת/א</catchWord><rdg type="x-qere"><w lemma="c/873">וּ/בִֽישְׁתָּ/א֙</w></rdg></note>
+          <note n="y">Yathir readings in L which we have designated as Qeres when both Dothan and BHS list a Qere. </note>
           <w lemma="1124">בָּנַ֔יִן</w>
           <w lemma="c/7792">ו/שורי/</w><note type="variant"><catchWord>ו/שורי/</catchWord><rdg type="x-qere"><w lemma="c/7792">וְ/שׁוּרַיָּ֣/א</w></rdg></note>
           <w lemma="3635">אשכללו</w><note type="variant"><catchWord>אשכללו</catchWord><rdg type="x-qere"><w lemma="3635">שַׁכְלִ֔לוּ</w></rdg></note>
@@ -4113,8 +4118,9 @@
         </verse>
         <verse osisID="Ezra.10.44">
           <w lemma="3605">כָּל</w><seg type="x-maqqef">־</seg><w lemma="428">אֵ֕לֶּה</w>
-          <w lemma="5375">נשאו</w><note type="variant"><catchWord>נשאו</catchWord><rdg type="x-qere"><w lemma="5375">נָשְׂא֖וּ</w></rdg></note>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <w lemma="5375">נשאי</w><note type="variant"><catchWord>נשאי</catchWord><rdg type="x-qere"><w lemma="5375">נָשְׂא֖וּ</w></rdg></note>
+          <note n="K">We read one or more consonants in L differently from BHQ. </note>
+          <note n="k">We read one or more consonants in L differently from BHS. </note>
           <w lemma="802">נָשִׁ֣ים</w>
           <w lemma="5237">נָכְרִיּ֑וֹת</w>
           <w lemma="c/3426">וְ/יֵ֣שׁ</w>

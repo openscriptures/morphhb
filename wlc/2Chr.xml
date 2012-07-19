@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2012.07.18</date>
+        <p>Updated to WLC version 4.16.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2011.01.21</date>
         <p>Updated to WLC version 4.14.</p>
       </revisionDesc>
@@ -8658,7 +8662,7 @@
           <w lemma="4428">מֶ֥לֶךְ</w>
           <w lemma="3478">יִשְׂרָאֵ֖ל</w>
           <w lemma="l/559">לֵ/אמֹ֑ר</w>
-          <w lemma="l/l" morph="Rli/2ms">ל/ך</w><note type="variant"><catchWord>ל/ך</catchWord><rdg type="x-qere"><w lemma="1980">לְכָ֖/ה</w></rdg></note>
+          <w lemma="l" morph="Rli/2ms">לך/</w><note type="variant"><catchWord>לך/</catchWord><rdg type="x-qere"><w lemma="1980">לְכָ֖/ה</w></rdg></note>
           <w lemma="7200 a">נִתְרָאֶ֥ה</w>
           <w lemma="6440">פָנִֽים</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
@@ -12699,8 +12703,9 @@
           <w lemma="3478">יִשְׂרָאֵֽל</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="2Chr.35.4">
-          <w lemma="c/3559 a">ו/הכונו</w><note type="variant"><catchWord>ו/הכונו</catchWord><rdg type="x-qere"><w lemma="c/3559 a">וְ/הָכִ֥ינוּ</w></rdg></note>
-          <note>BHS has abandoned L and we concur. All of these occurrences are ketib/qere problems.</note>
+          <w lemma="c/3559 a">וְ/הָכִ֥ונוּ</w>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="q">We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS. </note>
           <w lemma="l/1004 b">לְ/בֵית</w><seg type="x-maqqef">־</seg><w lemma="1">אֲבוֹתֵי/כֶ֖ם</w>
           <w lemma="k/4256">כְּ/מַחְלְקוֹתֵי/כֶ֑ם</w>
           <w lemma="b/3791">בִּ/כְתָ֗ב</w>
@@ -13282,9 +13287,9 @@
           <w lemma="d/3548">הַ/כֹּהֲנִ֤ים</w>
           <w lemma="c/d/5971 a">וְ/הָ/עָם֙</w>
           <w lemma="7235 a">הִרְבּ֣וּ</w>
-          <w lemma="l/4603">ל/מעול</w><note type="variant"><catchWord>ל/מעול</catchWord><rdg type="x-qere"><w lemma="l/4603">לִ/מְעָל</w></rdg></note>
-<seg type="x-maqqef">־</seg><w lemma="4603">מַ֔עַל</w>
-          <note>BHS has abandoned L and we concur. All of these occurrences are ketib/qere problems.</note>
+          <w lemma="l/4603">לִ/מְעָול</w><seg type="x-maqqef">־</seg><w lemma="4603">מַ֔עַל</w>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="q">We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS. </note>
           <w lemma="k/3605">כְּ/כֹ֖ל</w>
           <w lemma="8441">תֹּעֲב֣וֹת</w>
           <w lemma="d/1471 a">הַ/גּוֹיִ֑ם</w>

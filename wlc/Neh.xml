@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2012.07.18</date>
+        <p>Updated to WLC version 4.16.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2011.01.21</date>
         <p>Updated to WLC version 4.14.</p>
       </revisionDesc>
@@ -1579,8 +1583,9 @@
           <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="376">אִישׁ</w><seg type="x-maqqef">־</seg><w lemma="b/251">בְּ/אָחִ֖י/ו</w>
           <w lemma="859 d">אַתֶּ֣ם</w>
-          <w lemma="5383">נֹשִׁ֑אים</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <w lemma="5383">נשאים</w><note type="variant"><catchWord>נשאים</catchWord><rdg type="x-qere"><w lemma="5383">נֹשִׁ֑ים</w></rdg></note>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="q">We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS. </note>
           <w lemma="c/5414">וָ/אֶתֵּ֥ן</w>
           <w lemma="5921 a">עֲלֵי/הֶ֖ם</w>
           <w lemma="6952">קְהִלָּ֥ה</w>

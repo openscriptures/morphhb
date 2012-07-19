@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2012.07.18</date>
+        <p>Updated to WLC version 4.16.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2011.01.21</date>
         <p>Updated to WLC version 4.14.</p>
       </revisionDesc>
@@ -1332,8 +1336,9 @@
         </verse>
         <verse osisID="Prov.6.13">
           <w lemma="7169">קֹרֵ֣ץ</w>
-          <w lemma="b/5869 a">בְּ֭/עֵינָי/ו</w>
-          <note>We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS.</note>
+          <w lemma="b/5869 a">בְּ֭/עֵינָ/ו</w>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="q">We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS. </note>
           <w lemma="4448 b">מֹלֵ֣ל</w>
           <w lemma="b/7272">בְּ/רַגְלָ֑/ו</w>
           <note>We have abandoned or added a ketib/qere relative to BHS. In doing this we agree with L against BHS.</note>
@@ -3336,7 +3341,7 @@
           <w lemma="3820 a">לֵ֗ב</w>
           <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="3045">י֭וֹדֵעַ</w>
-          <w lemma="4751">מָרַּ֣ת</w>
+          <w lemma="4787">מָרַּ֣ת</w>
           <w lemma="5315">נַפְשׁ֑/וֹ</w>
           <w lemma="c/b/8057">וּ֝/בְ/שִׂמְחָת֗/וֹ</w>
           <w lemma="3808">לֹא</w><seg type="x-maqqef">־</seg><w lemma="6148">יִתְעָ֥רַב</w>
@@ -3736,7 +3741,7 @@
           <w lemma="l/2638">לַ/חֲסַר</w><seg type="x-maqqef">־</seg><w lemma="3820 a">לֵ֑ב</w>
           <w lemma="c/376">וְ/אִ֥ישׁ</w>
           <w lemma="8394">תְּ֝בוּנָ֗ה</w>
-          <w lemma="3474">יְיַשֶּׁר</w><seg type="x-maqqef">־</seg><w lemma="3212">לָֽכֶת</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="3474">יְיַשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="3212">לָֽכֶת</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Prov.15.22">
           <w lemma="6565 a">הָפֵ֣ר</w>
@@ -5058,7 +5063,10 @@
           <w lemma="3808">לֹא</w><seg type="x-maqqef">־</seg><w lemma="2896 a">טֽוֹב</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Prov.20.24">
-          <w lemma="m/3068">מֵ/יְהוָ֥ה</w>
+          <w lemma="m/3068">מֵ/יהוָ֥ה</w>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="v">We read one or more vowels in L differently from BHS. </note>
           <w lemma="4703">מִצְעֲדֵי</w><seg type="x-maqqef">־</seg><w lemma="1397">גָ֑בֶר</w>
           <w lemma="c/120">וְ֝/אָדָ֗ם</w>
           <w lemma="4100">מַה</w><seg type="x-maqqef">־</seg><w lemma="995">יָּבִ֥ין</w>
@@ -6083,7 +6091,9 @@
           <w lemma="l/5116 a">לִ/נְוֵ֣ה</w>
           <w lemma="6662">צַדִּ֑יק</w>
           <w lemma="408">אַֽל</w><seg type="x-maqqef">־</seg><w lemma="7703">תְּשַׁדֵּ֥ד</w>
-          <w lemma="7258">רִבְצֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="7258">רִבְצ/וֹ</w><seg type="x-sof-pasuq">׃</seg>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
         </verse>
         <verse osisID="Prov.24.16">
           <w lemma="3588 a">כִּ֤י</w>
@@ -6222,10 +6232,10 @@
           <w lemma="5927">עָ֘לָ֤ה</w>
           <w lemma="3605">כֻלּ֨/וֹ</w>
           <seg type="x-paseq">׀</seg>
-          <w lemma="2738">קִמְּשֹׂנִ֗ים</w>
+          <w lemma="7063">קִמְּשֹׂנִ֗ים</w>
           <w lemma="3680">כָּסּ֣וּ</w>
           <w lemma="6440">פָנָ֣י/ו</w>
-          <w lemma="7063">חֲרֻלִּ֑ים</w>
+          <w lemma="2738">חֲרֻלִּ֑ים</w>
           <w lemma="c/1444">וְ/גֶ֖דֶר</w>
           <w lemma="68">אֲבָנָ֣י/ו</w>
           <w lemma="2040">נֶהֱרָֽסָה</w><seg type="x-sof-pasuq">׃</seg>
@@ -7183,7 +7193,9 @@
         <verse osisID="Prov.28.17">
           <w lemma="120">אָ֭דָם</w>
           <w lemma="6231">עָשֻׁ֣ק</w>
-          <w lemma="b/1818">בְּ/דַם</w><seg type="x-maqqef">־</seg><w lemma="5315">נָ֑פֶשׁ</w>
+          <w lemma="b/1818">בְּ/דַם</w><seg type="x-maqqef">־</seg><w lemma="5315">נָפֶשׁ</w>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="5704">עַד</w><seg type="x-maqqef">־</seg><w lemma="953 a">בּ֥וֹר</w>
           <w lemma="5127">יָ֝נ֗וּס</w>
           <w lemma="408">אַל</w><seg type="x-maqqef">־</seg><w lemma="8551">יִתְמְכוּ</w><seg type="x-maqqef">־</seg><w lemma="b">בֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg>
@@ -8095,7 +8107,10 @@
           <w lemma="1121 a">בָ֭נֶי/הָ</w>
           <w lemma="c/833">וַֽ/יְאַשְּׁר֑וּ/הָ</w>
           <w lemma="1167">בַּ֝עְלָ֗/הּ</w>
-          <w lemma="c/1984 b">וַֽ/יְהַֽלְלָֽ/הּ</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="c/1984 b">וַֽ/יְהַֽלְלָ/הּ</w><seg type="x-sof-pasuq">׃</seg>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
+          <note n="n">Marks an anomalous form. </note>
         </verse>
         <verse osisID="Prov.31.29">
           <w lemma="7227 a">רַבּ֣וֹת</w>
