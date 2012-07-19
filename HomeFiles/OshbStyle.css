@@ -33,5 +33,25 @@ article
     background-color: rgba(255, 254, 251, 0.6);
     border-radius: 1em;
     border: 3px double #77250f;
-    width: 50%;
+    width: 40%;
+}
+section
+{
+    padding: 1em 2em;
+    background-color: rgba(255, 254, 251, 0.6);
+    border-radius: 1em;
+    border: 3px double #77250f;
+    position: absolute;
+    top: 3em;
+    right: 2em;
+    width: 40%;
+    box-shadow: 4px 4px 2px #aaa;
+}
+section h2
+{
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #77250f;
+    margin: 0;
+    text-align: center;
 }
