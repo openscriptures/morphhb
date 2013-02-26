@@ -7,7 +7,7 @@ downloaded here: https://github.com/openscriptures/morphhb)
 
 The application can be installed on a local server, with the file
 OshbPath.php outside the directory containing index.php, and
-maintianing the internal directory structure.
+maintaining the internal directory structure.
 
 Running the application should present you with the startup screen.
 Changing the chapter number will load the selected book and chapter,
