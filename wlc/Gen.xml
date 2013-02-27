@@ -50,13 +50,13 @@
     <div type="book" osisID="Gen">
       <chapter osisID="Gen.1">
         <verse osisID="Gen.1.1">
-          <w lemma="b/7225">בְּ/רֵאשִׁ֖ית</w>
-          <w lemma="1254 a">בָּרָ֣א</w>
-          <w lemma="430">אֱלֹהִ֑ים</w>
-          <w lemma="853">אֵ֥ת</w>
-          <w lemma="d/8064">הַ/שָּׁמַ֖יִם</w>
-          <w lemma="c/853">וְ/אֵ֥ת</w>
-          <w lemma="d/776">הָ/אָֽרֶץ</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="b/7225" morph="HR/Ncfsa">בְּ/רֵאשִׁ֖ית</w>
+          <w lemma="1254 a" morph="HVqp3ms">בָּרָ֣א</w>
+          <w lemma="430" morph="HNcmpa">אֱלֹהִ֑ים</w>
+          <w lemma="853" morph="HTo">אֵ֥ת</w>
+          <w lemma="d/8064" morph="HTd/Ncmpa">הַ/שָּׁמַ֖יִם</w>
+          <w lemma="c/853" morph="HCc/To">וְ/אֵ֥ת</w>
+          <w lemma="d/776" morph="HTd/Ncfsa">הָ/אָֽרֶץ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.1.2">
           <w lemma="c/d/776">וְ/הָ/אָ֗רֶץ</w>
@@ -8734,7 +8734,7 @@
           <w lemma="l">לִ֔/י</w>
           <w lemma="c/6437">וְ/אֶפְנֶ֥ה</w>
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="3225">יָמִ֖ין</w>
-          <w lemma="176">א֥וֹ</w>
+          <w lemma="176 a">א֥וֹ</w>
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="8040">שְׂמֹֽאל</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.24.50">
@@ -8750,7 +8750,7 @@
           <w lemma="1696">דַּבֵּ֥ר</w>
           <w lemma="413">אֵלֶ֖י/ךָ</w>
           <w lemma="7451 a">רַ֥ע</w>
-          <w lemma="176">אוֹ</w><seg type="x-maqqef">־</seg><w lemma="2896 a">טֽוֹב</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="176 a">אוֹ</w><seg type="x-maqqef">־</seg><w lemma="2896 a">טֽוֹב</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.24.51">
           <w lemma="2009">הִנֵּֽה</w><seg type="x-maqqef">־</seg><w lemma="7259">רִבְקָ֥ה</w>
@@ -8810,7 +8810,7 @@
           <w lemma="d/5291">הַ/נַּעֲרָ֥</w>
           <w lemma="854">אִתָּ֛/נוּ</w>
           <w lemma="3117">יָמִ֖ים</w>
-          <w lemma="176">א֣וֹ</w>
+          <w lemma="176 a">א֣וֹ</w>
           <w lemma="6218">עָשׂ֑וֹר</w>
           <w lemma="310 a">אַחַ֖ר</w>
           <w lemma="3212">תֵּלֵֽךְ</w><seg type="x-sof-pasuq">׃</seg>
@@ -12565,7 +12565,7 @@
           <w lemma="4100">מָֽה</w><seg type="x-maqqef">־</seg><w lemma="6213 a">אֶֽעֱשֶׂ֤ה</w>
           <w lemma="l/428">לָ/אֵ֙לֶּה֙</w>
           <w lemma="d/3117">הַ/יּ֔וֹם</w>
-          <w lemma="176">א֥וֹ</w>
+          <w lemma="176 a">א֥וֹ</w>
           <w lemma="l/1121 a">לִ/בְנֵי/הֶ֖ן</w>
           <w lemma="834 a">אֲשֶׁ֥ר</w>
           <w lemma="3205">יָלָֽדוּ</w><seg type="x-sof-pasuq">׃</seg>
@@ -12722,7 +12722,7 @@
       </chapter>
       <chapter osisID="Gen.32">
         <verse osisID="Gen.32.1">
-          <note>BHS:Gen.31.55</note>
+          <note>KJV:Gen.31.55</note>
           <w lemma="c/7925">וַ/יַּשְׁכֵּ֨ם</w>
           <w lemma="3837 a">לָבָ֜ן</w>
           <w lemma="b/1242">בַּ/בֹּ֗קֶר</w>
@@ -12737,7 +12737,7 @@
           <w lemma="l/4725">לִ/מְקֹמֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.2">
-          <note>BHS:Gen.32.1</note>
+          <note>KJV:Gen.32.1</note>
           <w lemma="c/3290">וְ/יַעֲקֹ֖ב</w>
           <w lemma="1980">הָלַ֣ךְ</w>
           <w lemma="l/1870">לְ/דַרְכּ֑/וֹ</w>
@@ -12746,7 +12746,7 @@
           <w lemma="430">אֱלֹהִֽים</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.3">
-          <note>BHS:Gen.32.2</note>
+          <note>KJV:Gen.32.2</note>
           <w lemma="c/559">וַ/יֹּ֤אמֶר</w>
           <w lemma="3290">יַעֲקֹב֙</w>
           <w lemma="k/834 d">כַּ/אֲשֶׁ֣ר</w>
@@ -12761,7 +12761,7 @@
           <seg type="x-pe">פ</seg>
         </verse>
         <verse osisID="Gen.32.4">
-          <note>BHS:Gen.32.3</note>
+          <note>KJV:Gen.32.3</note>
           <w lemma="c/7971">וַ/יִּשְׁלַ֨ח</w>
           <w lemma="3290">יַעֲקֹ֤ב</w>
           <w lemma="4397">מַלְאָכִים֙</w>
@@ -12774,7 +12774,7 @@
           <w lemma="123">אֱדֽוֹם</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.5">
-          <note>BHS:Gen.32.4</note>
+          <note>KJV:Gen.32.4</note>
           <w lemma="c/6680">וַ/יְצַ֤ו</w>
           <w lemma="853">אֹתָ/ם֙</w>
           <w lemma="l/559">לֵ/אמֹ֔ר</w>
@@ -12793,7 +12793,7 @@
           <w lemma="5704">עַד</w><seg type="x-maqqef">־</seg><w lemma="6258">עָֽתָּה</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.6">
-          <note>BHS:Gen.32.5</note>
+          <note>KJV:Gen.32.5</note>
           <w lemma="c/1961">וַֽ/יְהִי</w><seg type="x-maqqef">־</seg><w lemma="l">לִ/י֙</w>
           <w lemma="7794">שׁ֣וֹר</w>
           <w lemma="c/2543">וַ/חֲמ֔וֹר</w>
@@ -12807,7 +12807,7 @@
           <w lemma="b/5869 a">בְּ/עֵינֶֽי/ךָ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.7">
-          <note>BHS:Gen.32.6</note>
+          <note>KJV:Gen.32.6</note>
           <w lemma="c/7725">וַ/יָּשֻׁ֙בוּ֙</w>
           <w lemma="d/4397">הַ/מַּלְאָכִ֔ים</w>
           <w lemma="413">אֶֽל</w><seg type="x-maqqef">־</seg><w lemma="3290">יַעֲקֹ֖ב</w>
@@ -12823,7 +12823,7 @@
           <w lemma="5973 a">עִמּֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.8">
-          <note>BHS:Gen.32.7</note>
+          <note>KJV:Gen.32.7</note>
           <w lemma="c/3372">וַ/יִּירָ֧א</w>
           <w lemma="3290">יַעֲקֹ֛ב</w>
           <w lemma="3966">מְאֹ֖ד</w>
@@ -12839,7 +12839,7 @@
           <w lemma="4264">מַחֲנֽוֹת</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.9">
-          <note>BHS:Gen.32.8</note>
+          <note>KJV:Gen.32.8</note>
           <w lemma="c/559">וַ/יֹּ֕אמֶר</w>
           <w lemma="518 a">אִם</w><seg type="x-maqqef">־</seg><w lemma="935">יָב֥וֹא</w>
           <w lemma="6215">עֵשָׂ֛ו</w>
@@ -12852,7 +12852,7 @@
           <w lemma="l/6413">לִ/פְלֵיטָֽה</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.10">
-          <note>BHS:Gen.32.9</note>
+          <note>KJV:Gen.32.9</note>
           <w lemma="c/559">וַ/יֹּאמֶר֮</w>
           <w lemma="3290">יַעֲקֹב֒</w>
           <w lemma="430">אֱלֹהֵי֙</w>
@@ -12871,7 +12871,7 @@
           <w lemma="5973 a">עִמָּֽ/ךְ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.11">
-          <note>BHS:Gen.32.10</note>
+          <note>KJV:Gen.32.10</note>
           <w lemma="6994">קָטֹ֜נְתִּי</w>
           <w lemma="m/3605">מִ/כֹּ֤ל</w>
           <w lemma="d/2617 a">הַ/חֲסָדִים֙</w>
@@ -12890,7 +12890,7 @@
           <w lemma="4264">מַחֲנֽוֹת</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.12">
-          <note>BHS:Gen.32.11</note>
+          <note>KJV:Gen.32.11</note>
           <w lemma="5337">הַצִּילֵ֥/נִי</w>
           <w lemma="4994">נָ֛א</w>
           <w lemma="m/3027">מִ/יַּ֥ד</w>
@@ -12906,7 +12906,7 @@
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="1121 a">בָּנִֽים</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.13">
-          <note>BHS:Gen.32.12</note>
+          <note>KJV:Gen.32.12</note>
           <w lemma="c/859 a">וְ/אַתָּ֣ה</w>
           <w lemma="559">אָמַ֔רְתָּ</w>
           <w lemma="3190">הֵיטֵ֥ב</w>
@@ -12921,7 +12921,7 @@
           <w lemma="m/7230">מֵ/רֹֽב</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.14">
-          <note>BHS:Gen.32.13</note>
+          <note>KJV:Gen.32.13</note>
           <w lemma="c/3885 a">וַ/יָּ֥לֶן</w>
           <w lemma="8033">שָׁ֖ם</w>
           <w lemma="b/3915">בַּ/לַּ֣יְלָה</w>
@@ -12934,7 +12934,7 @@
           <w lemma="251">אָחִֽי/ו</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.15">
-          <note>BHS:Gen.32.14</note>
+          <note>KJV:Gen.32.14</note>
           <w lemma="5795">עִזִּ֣ים</w>
           <w lemma="3967">מָאתַ֔יִם</w>
           <w lemma="c/8495">וּ/תְיָשִׁ֖ים</w>
@@ -12945,7 +12945,7 @@
           <w lemma="6242">עֶשְׂרִֽים</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.16">
-          <note>BHS:Gen.32.15</note>
+          <note>KJV:Gen.32.15</note>
           <w lemma="1581">גְּמַלִּ֧ים</w>
           <w lemma="3243">מֵינִיק֛וֹת</w>
           <w lemma="c/1121 a">וּ/בְנֵי/הֶ֖ם</w>
@@ -12961,7 +12961,7 @@
           <w lemma="6235">עֲשָׂרָֽה</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.17">
-          <note>BHS:Gen.32.16</note>
+          <note>KJV:Gen.32.16</note>
           <w lemma="c/5414">וַ/יִּתֵּן֙</w>
           <w lemma="b/3027">בְּ/יַד</w><seg type="x-maqqef">־</seg><w lemma="5650">עֲבָדָ֔י/ו</w>
           <w lemma="5739">עֵ֥דֶר</w>
@@ -12979,7 +12979,7 @@
           <w lemma="5739">עֵֽדֶר</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.18">
-          <note>BHS:Gen.32.17</note>
+          <note>KJV:Gen.32.17</note>
           <w lemma="c/6680">וַ/יְצַ֥ו</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/7223">הָ/רִאשׁ֖וֹן</w>
           <w lemma="l/559">לֵ/אמֹ֑ר</w>
@@ -12999,7 +12999,7 @@
           <w lemma="l/6440">לְ/פָנֶֽי/ךָ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.19">
-          <note>BHS:Gen.32.18</note>
+          <note>KJV:Gen.32.18</note>
           <w lemma="c/559">וְ/אָֽמַרְתָּ֙</w>
           <w lemma="l/5650">לְ/עַבְדְּ/ךָ֣</w>
           <w lemma="l/3290">לְ/יַעֲקֹ֔ב</w>
@@ -13013,7 +13013,7 @@
           <w lemma="310 a">אַחֲרֵֽי/נוּ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.20">
-          <note>BHS:Gen.32.19</note>
+          <note>KJV:Gen.32.19</note>
           <w lemma="c/6680">וַ/יְצַ֞ו</w>
           <w lemma="1571">גַּ֣ם</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/8145">הַ/שֵּׁנִ֗י</w>
@@ -13032,7 +13032,7 @@
           <w lemma="853">אֹתֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.21">
-          <note>BHS:Gen.32.20</note>
+          <note>KJV:Gen.32.20</note>
           <w lemma="c/559">וַ/אֲמַרְתֶּ֕ם</w>
           <w lemma="1571">גַּ֗ם</w>
           <w lemma="2009">הִנֵּ֛ה</w>
@@ -13053,7 +13053,7 @@
           <w lemma="6440">פָנָֽ/י</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.22">
-          <note>BHS:Gen.32.21</note>
+          <note>KJV:Gen.32.21</note>
           <w lemma="c/5674 a">וַ/תַּעֲבֹ֥ר</w>
           <w lemma="d/4503">הַ/מִּנְחָ֖ה</w>
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="6440">פָּנָ֑י/ו</w>
@@ -13063,7 +13063,7 @@
           <w lemma="b/4264">בַּֽ/מַּחֲנֶֽה</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.23">
-          <note>BHS:Gen.32.22</note>
+          <note>KJV:Gen.32.22</note>
           <w lemma="c/6965 b">וַ/יָּ֣קָם</w>
           <seg type="x-paseq">׀</seg>
           <w lemma="b/3915">בַּ/לַּ֣יְלָה</w>
@@ -13082,7 +13082,7 @@
           <w lemma="2999">יַבֹּֽק</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.24">
-          <note>BHS:Gen.32.23</note>
+          <note>KJV:Gen.32.23</note>
           <w lemma="c/3947">וַ/יִּקָּחֵ֔/ם</w>
           <w lemma="c/5674 a">וַ/יַּֽעֲבִרֵ֖/ם</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/5158 a">הַ/נָּ֑חַל</w>
@@ -13091,7 +13091,7 @@
           <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
         </verse>
         <verse osisID="Gen.32.25">
-          <note>BHS:Gen.32.24</note>
+          <note>KJV:Gen.32.24</note>
           <w lemma="c/3498">וַ/יִּוָּתֵ֥ר</w>
           <w lemma="3290">יַעֲקֹ֖ב</w>
           <w lemma="l/905">לְ/בַדּ֑/וֹ</w>
@@ -13103,7 +13103,7 @@
           <w lemma="d/7837">הַ/שָּֽׁחַר</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.26">
-          <note>BHS:Gen.32.25</note>
+          <note>KJV:Gen.32.25</note>
           <w lemma="c/7200">וַ/יַּ֗רְא</w>
           <w lemma="3588 a">כִּ֣י</w>
           <w lemma="3808">לֹ֤א</w>
@@ -13118,7 +13118,7 @@
           <w lemma="5973 a">עִמּֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.27">
-          <note>BHS:Gen.32.26</note>
+          <note>KJV:Gen.32.26</note>
           <w lemma="c/559">וַ/יֹּ֣אמֶר</w>
           <w lemma="7971">שַׁלְּחֵ֔/נִי</w>
           <w lemma="3588 a">כִּ֥י</w>
@@ -13131,7 +13131,7 @@
           <w lemma="518 b">אִם</w><seg type="x-maqqef">־</seg><w lemma="1288">בֵּרַכְתָּֽ/נִי</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.28">
-          <note>BHS:Gen.32.27</note>
+          <note>KJV:Gen.32.27</note>
           <w lemma="c/559">וַ/יֹּ֥אמֶר</w>
           <w lemma="413">אֵלָ֖י/ו</w>
           <w lemma="4100">מַה</w><seg type="x-maqqef">־</seg><w lemma="8034">שְּׁמֶ֑/ךָ</w>
@@ -13139,7 +13139,7 @@
           <w lemma="3290">יַעֲקֹֽב</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.29">
-          <note>BHS:Gen.32.28</note>
+          <note>KJV:Gen.32.28</note>
           <w lemma="c/559">וַ/יֹּ֗אמֶר</w>
           <w lemma="3808">לֹ֤א</w>
           <w lemma="3290">יַעֲקֹב֙</w>
@@ -13154,7 +13154,7 @@
           <w lemma="c/3201">וַ/תּוּכָֽל</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.30">
-          <note>BHS:Gen.32.29</note>
+          <note>KJV:Gen.32.29</note>
           <w lemma="c/7592">וַ/יִּשְׁאַ֣ל</w>
           <w lemma="3290">יַעֲקֹ֗ב</w>
           <w lemma="c/559">וַ/יֹּ֙אמֶר֙</w>
@@ -13170,7 +13170,7 @@
           <w lemma="8033">שָֽׁם</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.31">
-          <note>BHS:Gen.32.30</note>
+          <note>KJV:Gen.32.30</note>
           <w lemma="c/7121">וַ/יִּקְרָ֧א</w>
           <w lemma="3290">יַעֲקֹ֛ב</w>
           <w lemma="8034">שֵׁ֥ם</w>
@@ -13184,7 +13184,7 @@
           <w lemma="5315">נַפְשִֽׁ/י</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.32">
-          <note>BHS:Gen.32.31</note>
+          <note>KJV:Gen.32.31</note>
           <w lemma="c/2224">וַ/יִּֽזְרַֽח</w><seg type="x-maqqef">־</seg><w lemma="l">ל֣/וֹ</w>
           <w lemma="d/8121">הַ/שֶּׁ֔מֶשׁ</w>
           <w lemma="k/834 d">כַּ/אֲשֶׁ֥ר</w>
@@ -13195,7 +13195,7 @@
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="3409">יְרֵכֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.32.33">
-          <note>BHS:Gen.32.32</note>
+          <note>KJV:Gen.32.32</note>
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="3651 c">כֵּ֡ן</w>
           <w lemma="3808">לֹֽא</w><seg type="x-maqqef">־</seg><w lemma="398">יֹאכְל֨וּ</w>
           <w lemma="1121 a">בְנֵֽי</w><seg type="x-maqqef">־</seg><w lemma="3478">יִשְׂרָאֵ֜ל</w>
@@ -18363,7 +18363,7 @@
           <w lemma="m/1004 b">מִ/בֵּ֣ית</w>
           <w lemma="113">אֲדֹנֶ֔י/ךָ</w>
           <w lemma="3701">כֶּ֖סֶף</w>
-          <w lemma="176">א֥וֹ</w>
+          <w lemma="176 a">א֥וֹ</w>
           <w lemma="2091">זָהָֽב</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.44.9">
@@ -18516,7 +18516,7 @@
           <w lemma="l/559">לֵ/אמֹ֑ר</w>
           <w lemma="i/3426">הֲ/יֵשׁ</w><seg type="x-maqqef">־</seg><w lemma="l">לָ/כֶ֥ם</w>
           <w lemma="1">אָ֖ב</w>
-          <w lemma="176">אוֹ</w><seg type="x-maqqef">־</seg><w lemma="251">אָֽח</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="176 a">אוֹ</w><seg type="x-maqqef">־</seg><w lemma="251">אָֽח</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Gen.44.20">
           <w lemma="c/559">וַ/נֹּ֙אמֶר֙</w>
