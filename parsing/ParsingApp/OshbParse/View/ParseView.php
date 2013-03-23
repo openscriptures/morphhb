@@ -18,6 +18,7 @@
                 <label for="book">Book</label>
                 <select id="book">
                     <?php
+                    $bc = array('Gen', 1);
                     foreach (Books::$ot as $sbl => $name) {
                         $option = '<option value="' . $sbl . '"';
                         if ($sbl == $bc[0]) {
@@ -35,6 +36,7 @@
                     ?>
                 </select>
                 <button id="select" title="Select the reference">Select</button>
+                <button id="save" title="Save changes">Save</button>
             </form>
         </nav>
         <section id="parser">

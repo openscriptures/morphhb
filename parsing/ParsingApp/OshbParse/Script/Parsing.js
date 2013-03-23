@@ -66,8 +66,8 @@
         // Parses the response.
         var parseResponse = function(request)
         {
-            if (request.readyState == 4) {
-                if (request.status == 200 || request.status == 304) {
+            if (request.readyState === 4) {
+                if (request.status === 200 || request.status === 304) {
                     responseFunction(request);
                 }
             }
@@ -237,7 +237,7 @@
             'H': 'Hebrew',
             'A': 'Aramaic'
         }
-    }
+    };
 // Parser for morphology codes.
     var MorphParse = function()
     {
@@ -586,7 +586,7 @@
         var enterKey = function(e) {
             e = e ? e : event;
             var keycode = e.keyCode;
-            return (keycode == 13);
+            return (keycode === 13);
         };
         // Sets or removes an additional class name.
         var setClass = function(node, name) {
@@ -612,18 +612,23 @@
     // Word handling.
         // Maintains word data in word list and stacks.
         var wordObject = function(node) {
-            var parsing = getParsing(node);
+            var parsing = getParsing(node),
+                changed = false;
             return {
                 getNode: function() {
                     return node;
                 },
                 setParsing: function(value) {
                     parsing = value;
+                    changed = true;
                     setTitle(node, parsing);
                     setClass(node, 'done');
                 },
                 getParsing: function() {
                     return parsing;
+                },
+                isChanged: function () {
+                    return changed;
                 }
             };
         };
@@ -635,7 +640,7 @@
                     return index;
                 },
                 setIndex: function(i) {
-                    if (index >= 0) {
+                    if (index >= 0 && wordList[index]) {
                         var node = wordList[index].getNode();
                         node.className = node.className.replace(' current', '');
                     }
@@ -673,7 +678,7 @@
                     }
                 },
                 isLast: function() {
-                    return currentIndex == last;
+                    return currentIndex === last;
                 }
             };
         }();
@@ -695,7 +700,7 @@
                 elements.morph.value += this.title;
                 elements.morphHint.style.display = 'none';
                 morphChange();
-            }, false)
+            }, false);
             return item;
         };
         // Constructs a list item for the hint dropdown.
@@ -706,7 +711,7 @@
             item.addEventListener("click", function() {
                 elements.morphHint.style.display = 'none';
                 applyClick();
-            }, false)
+            }, false);
             return item;
         };
         // Sets up the hint dropdown.
@@ -723,7 +728,7 @@
             for (var code in obj) {
                 list.appendChild(hintLine(code, obj[code]));
             }
-            if (name != 'language') {
+            if (name !== 'language') {
                 if (wordSegments.isLast()) {
                     list.appendChild(enterLine());
                 } else {
@@ -737,7 +742,7 @@
             elements.morphHint.style.top = pos.top + elements.morph.offsetHeight + 'px';
             elements.morphHint.style.left = pos.left + 'px';
             elements.morphHint.style.display = 'block';
-        }
+        };
         // Manages language selection.
         var lang = function() {
             var code = 'H';
@@ -761,7 +766,7 @@
             var verbal = parser.Parse(elements.morph.value);
             wordSegments.selectSegment(verbal.segs);
             elements.morphText.appendChild(document.createTextNode(verbal.morph));
-            if (verbal.next == 'error') {
+            if (verbal.next === 'error') {
                 elements.morph.className = 'error';
                 elements.morphHint.style.display = 'none';
             } else {
@@ -788,23 +793,17 @@
             elements.morph.value = '';
             wordList = [];
             var spans = elements.text.getElementsByTagName('span');
-            var i = 0, len = spans.length, osisID = '', count = 0, start = -1;
+            var i = 0, len = spans.length, start = -1;
             for (; i < len; i++) {
-                if (spans[i].id) {
-                    osisID = spans[i].id;
-                    count = 0;
-                }
-                if (spans[i].className == 'Hebrew') {
+                if (spans[i].className === 'Hebrew') {
                     (function(n) {
                         spans[i].addEventListener("click", function() {
                             wordSelect(this, n);
                         }, false);
                     })(wordList.length);
-                    spans[i].id = osisID + '.' + count;
-                    count++;
-                    wordList.push(wordObject(spans[i]));
+                    wordList.push(wordObject(spans[i])); // Sets the class for parsed entries.
                     //TODO Find better way to skip parsed words.  Scroll to selected word.
-                    if (start < 0 && spans[i].className == 'Hebrew') {
+                    if (start < 0 && spans[i].className === 'Hebrew') {
                         start = wordList.length - 1;
                     }
                 }
@@ -812,6 +811,17 @@
             if (start > -1) {
                 wordSelect(wordList[start].getNode(), start);
             }
+        };
+        // Lists the changed words for posting.
+        var changedWords = function () {
+            var list = [], item, node;
+            for (item in wordList) {
+                if (wordList[item].isChanged()) {
+                    node = wordList[item].getNode();
+                    list.push(node.id + ' ' + getParsing(node));
+                }
+            }
+            return list.length ? list.join("\n") : '';
         };
     // Interface elements.
         // Keyup handler for the morphology input box.
@@ -839,7 +849,7 @@
                 index--;
                 wordSelect(wordList[index].getNode(), index);
             }
-        }
+        };
         // Click handler for the apply button.
         var applyClick = function() {
             var morph = elements.morph.value;
@@ -848,7 +858,7 @@
                 wordList[index].setParsing(morph);
                 nextWord();
             }
-        }
+        };
     // Navigation elements.
         // Sets the chapter options.
         var setChapters = function() {
@@ -890,6 +900,30 @@
             }
             return true;
         };
+        // Saves the changes.
+        var saveChanges = function(data) {
+            var postData = 'data=' + data;
+            var ajax = new Ajax();
+            ajax.setUrl('index.php');
+            var responseFunction = function(request)
+            {
+                var response = request.responseText;
+                if (response) {
+                    alert(response);
+                }
+            };
+            ajax.setResponseFunction(responseFunction);
+            ajax.setPostData(encodeURI(postData));
+            ajax.getResponse();
+        };
+        // Click handler for the save button.
+        var saveClick = function() {
+            var data = changedWords();
+            if (data) {
+                saveChanges(data);
+            }
+            return false;
+        };
         // Initialize.
         var initialChapter = elements.chapter.value - 1;
         elements.foreWord.onclick = nextWord;
@@ -902,6 +936,7 @@
         elements.chapter.onchange = getChapter;
         elements.chapter.onkeyup = chapterKeyup;
         document.getElementById('select').onclick = getChapter;
+        document.getElementById('save').onclick = saveClick;
         setChapters();
     })();
 })();
