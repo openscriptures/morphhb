@@ -146,7 +146,7 @@ div#morphHint
     background-color: rgb(255, 254, 251);
     box-shadow: 4px 4px 2px rgba(64, 64, 64, 0.5);
 }
-div#morphHint h3, div#langSet h3
+div#morphHint h3, div#langSet h3, form h3
 {
     font: 1em "Palatino Linotype", Palatino, serif;
     background-color: rgb(255, 238, 187);
@@ -224,4 +224,49 @@ span.current
 span.done
 {
     background-color: rgb(221, 188, 144);
+}
+/* Login & Registration Forms */
+section form
+{
+    margin: 1em;
+    padding: 0.5em;
+    background-color: rgba(255, 238, 187, 0.75);
+    border-radius: 1em;
+    border: 3px double #77250f;
+    width: 20em;
+    box-shadow: 4px 4px 2px rgba(64, 64, 64, 0.5);
+}
+section form p
+{
+    font-size: 80%;
+    margin: 0 1em;
+    color: #77250f;
+    line-height: 1.2em;
+}
+section form label
+{
+    display: block;
+    font-size: 80%;
+}
+section form input
+{
+    font: 1em "Palatino Linotype", Palatino, serif;
+}
+section form button
+{
+    font: 1em "Palatino Linotype", Palatino, serif;
+    color: #77250f;
+    margin-left: 4em;
+}
+/* Editor Styles */
+span.word
+{
+    float: right;
+    text-align: center;
+    line-height: 1em;
+    margin-right: 0.5em;
+}
+span.morph
+{
+    font-size: 90%;
 }

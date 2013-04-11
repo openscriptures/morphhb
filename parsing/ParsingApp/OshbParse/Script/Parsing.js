@@ -612,23 +612,18 @@
     // Word handling.
         // Maintains word data in word list and stacks.
         var wordObject = function(node) {
-            var parsing = getParsing(node),
-                changed = false;
+            var parsing = getParsing(node);
             return {
                 getNode: function() {
                     return node;
                 },
                 setParsing: function(value) {
                     parsing = value;
-                    changed = true;
                     setTitle(node, parsing);
                     setClass(node, 'done');
                 },
                 getParsing: function() {
                     return parsing;
-                },
-                isChanged: function () {
-                    return changed;
                 }
             };
         };
@@ -812,17 +807,6 @@
                 wordSelect(wordList[start].getNode(), start);
             }
         };
-        // Lists the changed words for posting.
-        var changedWords = function () {
-            var list = [], item, node;
-            for (item in wordList) {
-                if (wordList[item].isChanged()) {
-                    node = wordList[item].getNode();
-                    list.push(node.id + ' ' + getParsing(node));
-                }
-            }
-            return list.length ? list.join("\n") : '';
-        };
     // Interface elements.
         // Keyup handler for the morphology input box.
         var morphKeyup = function(event) {
@@ -856,6 +840,7 @@
             if (morph) {
                 var index = parseInt(currentWord.getIndex());
                 wordList[index].setParsing(morph);
+                saveChanges(wordList[index].getNode().id + ' ' + morph);
                 nextWord();
             }
         };
@@ -908,21 +893,13 @@
             var responseFunction = function(request)
             {
                 var response = request.responseText;
-                if (response) {
-                    alert(response);
+                if (!response) {
+                    alert("The last parsing was not saved properly.");
                 }
             };
             ajax.setResponseFunction(responseFunction);
             ajax.setPostData(encodeURI(postData));
             ajax.getResponse();
-        };
-        // Click handler for the save button.
-        var saveClick = function() {
-            var data = changedWords();
-            if (data) {
-                saveChanges(data);
-            }
-            return false;
         };
         // Initialize.
         var initialChapter = elements.chapter.value - 1;
@@ -936,7 +913,6 @@
         elements.chapter.onchange = getChapter;
         elements.chapter.onkeyup = chapterKeyup;
         document.getElementById('select').onclick = getChapter;
-        document.getElementById('save').onclick = saveClick;
         setChapters();
     })();
 })();

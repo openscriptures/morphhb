@@ -6,7 +6,7 @@
  */
 class ChapterMarkup
 {
-    private $ref;
+    protected $ref;
     /**
      * The constructor records the chapter reference.
      * @param string $ref
@@ -45,30 +45,28 @@ class ChapterMarkup
      */
     private function RetrieveChapter($ref)
     {
-        $mysqli = new mysqli('localhost', 'root', 'root4#One', 'oshbParse');
-        if ($mysqli->connect_error) {
-            die('Connect Error (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);
-        }
-        $mysqli->query("SET NAMES 'utf8'");
+        global $hbDB;
+        
+        $hbDB->query("SET NAMES 'utf8'");
         $sql = 'SELECT * FROM words WHERE (bookId="' . $ref['book'] . '" AND chapter="' . $ref['chapter'] . '");';
-        $result = $mysqli->query($sql);
+        $result = $hbDB->dbquery($sql);
         // Gather the results.
         $wordList = array();
         while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
             $wordList[] = $row;
         }
         $result->free();
-        $mysqli->close();
         return $wordList;
     }
     /**
      * Marks up the word.
      * @param array $data
+     * @param string $pre
      * @return string
      */
-    private function MarkupWord($data)
+    protected function MarkupWord($data, $pre)
     {
-        $markup = '<span id="' . $this->ref . '.' . $data['verse'] . '.' . $data['number'] . '"';
+        $markup = $pre . '<span id="' . $this->ref . '.' . $data['verse'] . '.' . $data['number'] . '"';
         $markup .= ' class="Hebrew" title="' . $data['lemma'];
         if ($data['morph']) {
             $markup .= "&#10;" . $data['morph'];
@@ -94,15 +92,16 @@ class ChapterMarkup
         $verseNumber = 0;
         $markup = '';
         foreach ($wordArray as $data) {
+            $pre = '';
             if ($data['verse'] != $verseNumber) {
                 if ($verseNumber) {
                     $markup .= '</span> ';
                 }
                 $markup .= '<span id="' . $this->ref . '.' . $data['verse'] . '">';
-                $markup .= '<sup class="osisID">' . $data['verse'] . "</sup>&#160;";
+                $pre = '<sup class="osisID">' . $data['verse'] . "</sup>&#160;";
                 $verseNumber = $data['verse'];
             }
-            $markup .= $this->MarkupWord($data);
+            $markup .= $this->MarkupWord($data, $pre);
         }
         $markup .= '</span>'; // End of last verse.
         return $markup;

@@ -36,7 +36,6 @@
                     ?>
                 </select>
                 <button id="select" title="Select the reference">Select</button>
-                <button id="save" title="Save changes">Save</button>
             </form>
         </nav>
         <section id="parser">
