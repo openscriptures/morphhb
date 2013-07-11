@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2013.07.11</date>
+        <p>Updated to WLC version 4.18.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2012.07.18</date>
         <p>Updated to WLC version 4.16.</p>
       </revisionDesc>
@@ -213,7 +217,8 @@
         </verse>
         <verse osisID="Song.1.16">
           <w lemma="2005">הִנְּ/ךָ֨</w>
-          <note>We read or understand the cantillation in L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
+          <note n="C">We read one or more accents in L differently from BHQ. </note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="3303">יָפֶ֤ה</w>
           <w lemma="1730">דוֹדִ/י֙</w>
           <w lemma="637">אַ֣ף</w>
@@ -384,8 +389,9 @@
           <w lemma="d/4095">הַ/מַּדְרֵגָ֔ה</w>
           <w lemma="7200">הַרְאִ֙י/נִי֙</w>
           <w lemma="853">אֶתּ</w><seg type="x-maqqef">־</seg><w lemma="4758">מַרְאַ֔יִ/ךְ</w>
-          <note>Marks a place where we agree with BHQ against BHS in reading L. (Currently occurs only with note ']t'.)</note>
-          <note>We read one or more consonants, vowels or punctuation (Maqqef, Dagesh or Mappiq) in L differently from BHS (1997). This is similar to the note ']c', but the latter  refers to the accents. The older note ']3' encompasses the new uses of ']c', ']p' and ']t'.</note>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
           <w lemma="8085">הַשְׁמִיעִ֖י/נִי</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="6963 a">קוֹלֵ֑/ךְ</w>
           <w lemma="3588 a">כִּי</w><seg type="x-maqqef">־</seg><w lemma="6963 a">קוֹלֵ֥/ךְ</w>
@@ -420,7 +426,8 @@
           <w lemma="d/6752">הַ/צְּלָלִ֑ים</w>
           <w lemma="5437">סֹב֩</w>
           <w lemma="1819">דְּמֵה</w><seg type="x-maqqef">־</seg><w lemma="l">לְ/ךָ֨</w>
-          <note>We read or understand the cantillation in L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
+          <note n="C">We read one or more accents in L differently from BHQ. </note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="1730">דוֹדִ֜/י</w>
           <w lemma="l/6643 b">לִ/צְבִ֗י</w>
           <w lemma="176 a">א֛וֹ</w>
@@ -530,7 +537,6 @@
         </verse>
         <verse osisID="Song.3.8">
           <w lemma="3605">כֻּלָּ/ם֙</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="270">אֲחֻ֣זֵי</w>
           <w lemma="2719">חֶ֔רֶב</w>
           <w lemma="3925">מְלֻמְּדֵ֖י</w>
@@ -540,8 +546,9 @@
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="3409">יְרֵכ֔/וֹ</w>
           <w lemma="m/6343">מִ/פַּ֖חַד</w>
           <w lemma="b/3915">בַּ/לֵּילּֽוֹת</w><seg type="x-sof-pasuq">׃</seg>
-          <note>Marks a place where we agree with BHQ against BHS in reading L. (Currently occurs only with note ']t'.)</note>
-          <note>We read one or more consonants, vowels or punctuation (Maqqef, Dagesh or Mappiq) in L differently from BHS (1997). This is similar to the note ']c', but the latter  refers to the accents. The older note ']3' encompasses the new uses of ']c', ']p' and ']t'.</note>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
           <seg type="x-samekh">ס</seg>
         </verse>
         <verse osisID="Song.3.9">
@@ -832,6 +839,7 @@
           <w lemma="s/7218 a">שֶׁ/רֹּאשִׁ/י֙</w>
           <w lemma="4390">נִמְלָא</w><seg type="x-maqqef">־</seg><w lemma="2919">טָ֔ל</w>
           <w lemma="6977">קְוֻּצּוֹתַ֖/י</w>
+          <note n="U">We agree with both BHS 1997 and BHQ on an unexpected reading. </note>
           <w lemma="7447 a">רְסִ֥יסֵי</w>
           <w lemma="3915">לָֽיְלָה</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
@@ -933,7 +941,7 @@
           <w lemma="3800">כֶּ֣תֶם</w>
           <w lemma="6337">פָּ֑ז</w>
           <w lemma="6977">קְוּצּוֹתָי/ו֙</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="U">We agree with both BHS 1997 and BHQ on an unexpected reading. </note>
           <w lemma="8534">תַּלְתַּלִּ֔ים</w>
           <w lemma="7838">שְׁחֹר֖וֹת</w>
           <w lemma="k/6158">כָּ/עוֹרֵֽב</w><seg type="x-sof-pasuq">׃</seg>
@@ -988,8 +996,9 @@
           <w lemma="4477">מַֽמְתַקִּ֔ים</w>
           <w lemma="c/3605">וְ/כֻלּ֖/וֹ</w>
           <w lemma="4261">מַחֲּמַדִּ֑ים</w>
-          <note>Marks a place where we agree with BHQ against BHS in reading L. (Currently occurs only with note ']t'.)</note>
-          <note>We read one or more consonants, vowels or punctuation (Maqqef, Dagesh or Mappiq) in L differently from BHS (1997). This is similar to the note ']c', but the latter  refers to the accents. The older note ']3' encompasses the new uses of ']c', ']p' and ']t'.</note>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
           <w lemma="2088">זֶ֤ה</w>
           <w lemma="1730">דוֹדִ/י֙</w>
           <w lemma="c/2088">וְ/זֶ֣ה</w>
@@ -1029,8 +1038,9 @@
           <w lemma="l">לִ֔/י</w>
           <w lemma="d/7462 b">הָ/רֹעֶ֖ה</w>
           <w lemma="b/7799">בַּ/שׁוֹשַׁנִּֽים</w><seg type="x-sof-pasuq">׃</seg>
-          <note>Marks a place where we agree with BHQ against BHS in reading L. (Currently occurs only with note ']t'.)</note>
-          <note>We read one or more consonants, vowels or punctuation (Maqqef, Dagesh or Mappiq) in L differently from BHS (1997). This is similar to the note ']c', but the latter  refers to the accents. The older note ']3' encompasses the new uses of ']c', ']p' and ']t'.</note>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
           <seg type="x-samekh">ס</seg>
         </verse>
         <verse osisID="Song.6.4">
@@ -1048,7 +1058,8 @@
           <w lemma="5869 a">עֵינַ֙יִ/ךְ֙</w>
           <w lemma="m/5048">מִ/נֶּגְדִּ֔/י</w>
           <w lemma="s/1992">שֶׁ֥/הֵ֖ם</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
+          <note n="C">We read one or more accents in L differently from BHQ. </note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="7292">הִרְהִיבֻ֑/נִי</w>
           <w lemma="8181">שַׂעְרֵ/ךְ֙</w>
           <w lemma="k/5739">כְּ/עֵ֣דֶר</w>
@@ -1319,8 +1330,9 @@
           <w lemma="4672">אֶֽמְצָאֲ/ךָ֤</w>
           <w lemma="b/2351">בַ/חוּץ֙</w>
           <w lemma="5401 a">אֶשָׁ֣קְ/ךָ֔</w>
-          <note>Marks a place where we agree with BHQ against BHS in reading L. (Currently occurs only with note ']t'.)</note>
-          <note>We read one or more consonants, vowels or punctuation (Maqqef, Dagesh or Mappiq) in L differently from BHS (1997). This is similar to the note ']c', but the latter  refers to the accents. The older note ']3' encompasses the new uses of ']c', ']p' and ']t'.</note>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
           <w lemma="1571">גַּ֖ם</w>
           <w lemma="3808">לֹא</w><seg type="x-maqqef">־</seg><w lemma="936">יָב֥וּזוּ</w>
           <w lemma="l">לִֽ/י</w><seg type="x-sof-pasuq">׃</seg>
@@ -1466,8 +1478,9 @@
         </verse>
         <verse osisID="Song.8.12">
           <w lemma="3754">כָּרְמִ֥/י</w>
-          <note>Marks a place where we agree with BHQ against BHS in reading L. (Currently occurs only with note ']t'.)</note>
-          <note>We read one or more consonants, vowels or punctuation (Maqqef, Dagesh or Mappiq) in L differently from BHS (1997). This is similar to the note ']c', but the latter  refers to the accents. The older note ']3' encompasses the new uses of ']c', ']p' and ']t'.</note>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="v">We read one or more vowels in L differently from BHS. </note>
           <w lemma="s/l">שֶׁ/לִּ֖/י</w>
           <w lemma="l/6440">לְ/פָנָ֑/י</w>
           <w lemma="d/505">הָ/אֶ֤לֶף</w>
@@ -1479,7 +1492,9 @@
         </verse>
         <verse osisID="Song.8.13">
           <w lemma="d/3427">הַ/יוֹשֶׁ֣בֶת</w>
-          <note>We read punctuation in L differently from BHS.</note>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
           <w lemma="b/1588">בַּ/גַּנִּ֗ים</w>
           <w lemma="2270">חֲבֵרִ֛ים</w>
           <w lemma="7181">מַקְשִׁיבִ֥ים</w>

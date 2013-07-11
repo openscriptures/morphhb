@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2013.07.10</date>
+        <p>Updated to WLC version 4.18.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2012.07.18</date>
         <p>Updated to WLC version 4.16.</p>
       </revisionDesc>
@@ -842,7 +846,6 @@
           <w lemma="8095">שִׁמְע֔וֹן</w>
           <w lemma="8017">שְׁלֻמִיאֵ֖ל</w>
           <w lemma="1121 a">בֶּן</w><seg type="x-maqqef">־</seg><w lemma="6701+">צוּרִֽי</w><seg type="x-maqqef">־</seg><w lemma="6701">שַׁדָּֽי</w><seg type="x-sof-pasuq">׃</seg>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
         </verse>
         <verse osisID="Num.2.13">
           <w lemma="c/6635 a">וּ/צְבָא֖/וֹ</w>
@@ -1086,7 +1089,6 @@
           <w lemma="3068">יְהוָ֜ה</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="4872">מֹשֶׁ֗ה</w>
           <w lemma="3651 c">כֵּֽן</w><seg type="x-maqqef">־</seg><w lemma="2583">חָנ֤וּ</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="l/1714">לְ/דִגְלֵי/הֶם֙</w>
           <w lemma="c/3651 c">וְ/כֵ֣ן</w>
           <w lemma="5265">נָסָ֔עוּ</w>
@@ -1442,7 +1444,7 @@
           <w lemma="l/4940">לְ/מִשְׁפְּחֹ֣ת</w>
           <w lemma="d/6956">הַ/קְּהָתִ֑י</w>
           <w lemma="469">אֶלִיצָפָ֖ן</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="1121 a">בֶּן</w><seg type="x-maqqef">־</seg><w lemma="5816">עֻזִּיאֵֽל</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Num.3.31">
@@ -1558,7 +1560,7 @@
           <w lemma="6485 a">פָּקַ֨ד</w>
           <w lemma="4872">מֹשֶׁ֧ה</w>
           <w lemma="c/175">וְׄ/אַׄהֲׄרֹ֛ׄןׄ</w>
-          <note>Puncta Extraordaria -- a \u05c4 is used to mark such marks in the text when they are above the line and a \u05c5 when they are below the line.</note>
+          <note n="4">Puncta extraordinaria -- a \u05c4 is used to mark such marks in the text when they are above the line and a \u05c5 when they are below the line. </note>
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="6310">פִּ֥י</w>
           <w lemma="3068">יְהוָ֖ה</w>
           <w lemma="l/4940">לְ/מִשְׁפְּחֹתָ֑/ם</w>
@@ -1588,7 +1590,6 @@
         </verse>
         <verse osisID="Num.3.41">
           <w lemma="c/3947">וְ/לָקַחְתָּ֨</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/3881">הַ/לְוִיִּ֥ם</w>
           <w lemma="l">לִ/י֙</w>
           <w lemma="589">אֲנִ֣י</w>
@@ -1722,7 +1723,6 @@
           <w lemma="4872">מֹשֶׁ֜ה</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="3701">כֶּ֧סֶף</w>
           <w lemma="d/6302">הַ/פְּדֻיִ֛ם</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="l/175">לְ/אַהֲרֹ֥ן</w>
           <w lemma="c/l/1121 a">וּ/לְ/בָנָ֖י/ו</w>
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="6310">פִּ֣י</w>
@@ -2662,7 +2662,6 @@
           <w lemma="4325">מֵ֥י</w>
           <w lemma="d/4751">הַ/מָּרִ֖ים</w>
           <w lemma="d/779">הַ/מְאָֽרֲרִֽים</w><seg type="x-sof-pasuq">׃</seg>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
         </verse>
         <verse osisID="Num.5.19">
           <w lemma="c/7650">וְ/הִשְׁבִּ֨יעַ</w>
@@ -3297,7 +3296,7 @@
         </verse>
         <verse osisID="Num.7.4">
           <w lemma="c/559">וַ/יֹּ֥אמֶר</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="3068">יְהוָ֖ה</w>
           <w lemma="413">אֶל</w><seg type="x-maqqef">־</seg><w lemma="4872">מֹשֶׁ֥ה</w>
           <w lemma="l/559">לֵּ/אמֹֽר</w><seg type="x-sof-pasuq">׃</seg>
@@ -3657,7 +3656,7 @@
           <w lemma="2091">זָהָ֖ב</w>
           <w lemma="4392">מְלֵאָ֥ה</w>
           <w lemma="7004">קְטֹֽרֶת</w>
-          <note>We have added a sof pasuq where L and BHS omit it.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
         </verse>
         <verse osisID="Num.7.33">
           <w lemma="6499">פַּ֣ר</w>
@@ -3745,7 +3744,7 @@
           <w lemma="8163 b">שְׂעִיר</w><seg type="x-maqqef">־</seg><w lemma="5795">עִזִּ֥ים</w>
           <w lemma="259">אֶחָ֖ד</w>
           <w lemma="l/2403 b">לְ/חַטָּֽאת</w>
-          <note>We have added a sof pasuq where L and BHS omit it.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
         </verse>
         <verse osisID="Num.7.41">
           <w lemma="c/l/2077">וּ/לְ/זֶ֣בַח</w>
@@ -3939,7 +3938,7 @@
           <w lemma="1101 a">בְּלוּלָ֥ה</w>
           <w lemma="b/8081">בַ/שֶּׁ֖מֶן</w>
           <w lemma="l/4503">לְ/מִנְחָֽה</w>
-          <note>We have added a sof pasuq where L and BHS omit it.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
         </verse>
         <verse osisID="Num.7.56">
           <w lemma="3709">כַּ֥ף</w>
@@ -3980,8 +3979,8 @@
           <w lemma="7133 a">קָרְבַּ֥ן</w>
           <w lemma="1583">גַּמְלִיאֵ֖ל</w>
           <w lemma="1121 a">בֶּן</w><seg type="x-maqqef">־</seg><w lemma="6301+">פְּדָה</w>
+          <note n="p">We read punctuation in L differently from BHS. </note>
           <w lemma="6301">צֽוּר</w><seg type="x-sof-pasuq">׃</seg>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <seg type="x-pe">פ</seg>
         </verse>
         <verse osisID="Num.7.60">
@@ -4094,7 +4093,7 @@
           <w lemma="2091">זָהָ֖ב</w>
           <w lemma="4392">מְלֵאָ֥ה</w>
           <w lemma="7004">קְטֹֽרֶת</w>
-          <note>We have added a sof pasuq where L and BHS omit it.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
         </verse>
         <verse osisID="Num.7.69">
           <w lemma="6499">פַּ֣ר</w>
@@ -4789,7 +4788,7 @@
           <w lemma="d/2088">הַ/זֶּ֜ה</w>
           <w lemma="996">בֵּ֧ין</w>
           <w lemma="d/6153">הָֽ/עֲרְבַּ֛יִם</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="6213 a">תַּעֲשׂ֥וּ</w>
           <w lemma="853">אֹת֖/וֹ</w>
           <w lemma="b/4150">בְּ/מוֹעֲד֑/וֹ</w>
@@ -4898,7 +4897,7 @@
           <w lemma="176 a">אוֹ֩</w>
           <w lemma="b/1870">בְ/דֶ֨רֶךְ</w>
           <w lemma="7350">רְחֹקָ֜הׄ</w>
-          <note>Puncta Extraordaria -- a \u05c4 is used to mark such marks in the text when they are above the line and a \u05c5 when they are below the line.</note>
+          <note n="4">Puncta extraordinaria -- a \u05c4 is used to mark such marks in the text when they are above the line and a \u05c5 when they are below the line. </note>
           <w lemma="l">לָ/כֶ֗ם</w>
           <w lemma="176 a">א֚וֹ</w>
           <w lemma="l/1755">לְ/דֹרֹ֣תֵי/כֶ֔ם</w>
@@ -5068,7 +5067,7 @@
         <verse osisID="Num.9.21">
           <w lemma="c/3426">וְ/יֵ֞שׁ</w>
           <w lemma="834 a">אֲשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="1961">יִהְיֶ֤ה</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="d/6051">הֶֽ/עָנָן֙</w>
           <w lemma="m/6153">מֵ/עֶ֣רֶב</w>
           <w lemma="5704">עַד</w><seg type="x-maqqef">־</seg><w lemma="1242">בֹּ֔קֶר</w>
@@ -5207,7 +5206,7 @@
           <w lemma="c/7321">וַ/הֲרֵעֹתֶ֖ם</w>
           <w lemma="b/2689">בַּ/חֲצֹצְר֑וֹת</w>
           <w lemma="c/2142">וֲ/נִזְכַּרְתֶּ֗ם</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="l/6440">לִ/פְנֵי֙</w>
           <w lemma="3068">יְהוָ֣ה</w>
           <w lemma="430">אֱלֹֽהֵי/כֶ֔ם</w>
@@ -5360,7 +5359,6 @@
           <w lemma="4519">מְנַשֶּׁ֑ה</w>
           <w lemma="1583">גַּמְלִיאֵ֖ל</w>
           <w lemma="1121 a">בֶּן</w><seg type="x-maqqef">־</seg><w lemma="6301">פְּדָה</w><seg type="x-maqqef">־</seg><w lemma="6301">צֽוּר</w><seg type="x-sof-pasuq">׃</seg>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
         </verse>
         <verse osisID="Num.10.24">
           <w lemma="c/5921 a">וְ/עַ֨ל</w><seg type="x-maqqef">־</seg><w lemma="6635 a">צְבָ֔א</w>
@@ -5382,7 +5380,7 @@
           <w lemma="c/5921 a">וְ/עַל</w><seg type="x-maqqef">־</seg><w lemma="6635 a">צְבָא֔/וֹ</w>
           <w lemma="295">אֲחִיעֶ֖זֶר</w>
           <w lemma="1121 a">בֶּן</w><seg type="x-maqqef">־</seg><w lemma="5996">עַמִּישַׁדָּֽי</w><seg type="x-sof-pasuq">׃</seg>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
         </verse>
         <verse osisID="Num.10.26">
           <w lemma="c/5921 a">וְ/עַל</w><seg type="x-maqqef">־</seg><w lemma="6635 a">צְבָ֔א</w>
@@ -5499,7 +5497,7 @@
           <w lemma="3119">יוֹמָ֑ם</w>
           <w lemma="b/5265">בְּ/נָסְעָ֖/ם</w>
           <w lemma="4480 a">מִן</w><seg type="x-maqqef">־</seg><w lemma="d/4264">הַֽ/מַּחֲנֶֽה</w><seg type="x-sof-pasuq">׃</seg>
-          <note>Inverted nun in the text.</note>
+          <note n="8">Inverted nun in the text. </note>
           <seg type="x-reversednun">׆</seg>
           <seg type="x-samekh">ס</seg>
         </verse>
@@ -5526,7 +5524,7 @@
           <w lemma="7233">רִֽבְב֖וֹת</w>
           <w lemma="505">אַלְפֵ֥י</w>
           <w lemma="3478">יִשְׂרָאֵֽל</w><seg type="x-sof-pasuq">׃</seg>
-          <note>Inverted nun in the text.</note>
+          <note n="8">Inverted nun in the text. </note>
           <seg type="x-reversednun">׆</seg>
           <seg type="x-samekh">ס</seg>
         </verse>
@@ -5929,7 +5927,6 @@
           <w lemma="5921 a">עָלָ֔י/ו</w>
           <w lemma="c/5414">וַ/יִּתֵּ֕ן</w>
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="7657">שִׁבְעִ֥ים</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="376">אִ֖ישׁ</w>
           <w lemma="d/2205">הַ/זְּקֵנִ֑ים</w>
           <w lemma="c/1961">וַ/יְהִ֗י</w>
@@ -6203,7 +6200,7 @@
         </verse>
         <verse osisID="Num.12.9">
           <w lemma="c/2734">וַ/יִּֽחַר</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="639">אַ֧ף</w>
           <w lemma="3068">יְהוָ֛ה</w>
           <w lemma="b">בָּ֖/ם</w>
@@ -8007,7 +8004,6 @@
           <w lemma="l/1885">לְ/דָתָ֥ן</w>
           <w lemma="c/l/48">וְ/לַ/אֲבִירָ֖ם</w>
           <w lemma="1121 a">בְּנֵ֣י</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="446">אֱלִיאָ֑ב</w>
           <w lemma="c/559">וַ/יֹּאמְר֖וּ</w>
           <w lemma="3808">לֹ֥א</w>
@@ -8142,7 +8138,7 @@
           <w lemma="d/5712">הָ/עֵדָ֣ה</w>
           <w lemma="d/2063">הַ/זֹּ֑את</w>
           <w lemma="c/3615">וַ/אַכַלֶּ֥ה</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="853">אֹתָ֖/ם</w>
           <w lemma="k/7281">כְּ/רָֽגַע</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
@@ -8210,7 +8206,7 @@
           <w lemma="c/5927">וַ/יֵּעָל֗וּ</w>
           <w lemma="m/5921 a">מֵ/עַ֧ל</w>
           <w lemma="4908">מִשְׁכַּן</w><seg type="x-maqqef">־</seg><w lemma="7141">קֹ֛רֶח</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="1885">דָּתָ֥ן</w>
           <w lemma="c/48">וַ/אֲבִירָ֖ם</w>
           <w lemma="m/5439">מִ/סָּבִ֑יב</w>
@@ -8520,7 +8516,7 @@
           <w lemma="4872">מֹשֶׁ֗ה</w>
           <w lemma="c/7323">וַ/יָּ֙רָץ֙</w>
           <w lemma="413">אֶל</w><seg type="x-maqqef">־</seg><w lemma="8432">תּ֣וֹך</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="d/6951">הַ/קָּהָ֔ל</w>
           <w lemma="c/2009">וְ/הִנֵּ֛ה</w>
           <w lemma="2490 c">הֵחֵ֥ל</w>
@@ -8692,10 +8688,8 @@
           <w lemma="l/1004 b">לְ/בֵ֣ית</w>
           <w lemma="3878">לֵוִ֑י</w>
           <w lemma="c/3318">וַ/יֹּ֤צֵֽא</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="6525">פֶ֙רַח֙</w>
           <w lemma="c/6692 a">וַ/יָּ֣צֵֽץ</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="6731 a">צִ֔יץ</w>
           <w lemma="c/1580">וַ/יִּגְמֹ֖ל</w>
           <w lemma="8247">שְׁקֵדִֽים</w><seg type="x-sof-pasuq">׃</seg>
@@ -8731,7 +8725,6 @@
           <w lemma="c/3615">וּ/תְכַ֧ל</w>
           <w lemma="8519">תְּלוּנֹּתָ֛/ם</w>
           <w lemma="m/5921 a">מֵ/עָלַ֖/י</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="c/3808">וְ/לֹ֥א</w>
           <w lemma="4191">יָמֻֽתוּ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
@@ -8907,7 +8900,7 @@
           <w lemma="l/3605">לְ/כָל</w><seg type="x-maqqef">־</seg><w lemma="6918">קָדְשֵׁ֣י</w>
           <w lemma="1121 a">בְנֵֽי</w><seg type="x-maqqef">־</seg><w lemma="3478">יִ֠שְׂרָאֵל</w>
           <w lemma="l">לְ/ךָ֨</w>
-          <note>We read or understand the cantillation in L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="5414">נְתַתִּ֧י/ם</w>
           <w lemma="l/4888 b">לְ/מָשְׁחָ֛ה</w>
           <w lemma="c/l/1121 a">וּ/לְ/בָנֶ֖י/ךָ</w>
@@ -9596,7 +9589,7 @@
         <verse osisID="Num.19.21">
           <w lemma="c/1961">וְ/הָיְתָ֥ה</w>
           <w lemma="l">לָּ/הֶ֖ם</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="l/2708">לְ/חֻקַּ֣ת</w>
           <w lemma="5769">עוֹלָ֑ם</w>
           <w lemma="c/5137 a">וּ/מַזֵּ֤ה</w>
@@ -9727,7 +9720,7 @@
           <w lemma="c/5414">וְ/נָתַ֣ן</w>
           <w lemma="4325">מֵימָ֑י/ו</w>
           <w lemma="c/3318">וְ/הוֹצֵאתָ֨</w>
-          <note>We read or understand the cantillation in L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="l">לָ/הֶ֥ם</w>
           <w lemma="4325">מַ֙יִם֙</w>
           <w lemma="4480 a">מִן</w><seg type="x-maqqef">־</seg><w lemma="d/5553">הַ/סֶּ֔לַע</w>
@@ -9786,7 +9779,6 @@
           <w lemma="3808">לֹא</w><seg type="x-maqqef">־</seg><w lemma="539">הֶאֱמַנְתֶּ֣ם</w>
           <w lemma="b">בִּ֔/י</w>
           <w lemma="l/6942">לְ/הַ֨קְדִּישֵׁ֔/נִי</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="l/5869 a">לְ/עֵינֵ֖י</w>
           <w lemma="1121 a">בְּנֵ֣י</w>
           <w lemma="3478">יִשְׂרָאֵ֑ל</w>
@@ -9894,7 +9886,7 @@
           <w lemma="c/559">וַ/יֹּאמְר֨וּ</w>
           <w lemma="413">אֵלָ֥י/ו</w>
           <w lemma="1121 a">בְּנֵֽי</w><seg type="x-maqqef">־</seg><w lemma="3478">יִשְׂרָאֵ֘ל</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="b/4546">בַּֽ/מְסִלָּ֣ה</w>
           <w lemma="5927">נַעֲלֶה֒</w>
           <w lemma="c/518 a">וְ/אִם</w><seg type="x-maqqef">־</seg><w lemma="4325">מֵימֶ֤י/ךָ</w>
@@ -10222,7 +10214,7 @@
           <w lemma="b/4057 b">בַּ/מִּדְבָּ֔ר</w>
           <w lemma="d/3318">הַ/יֹּצֵ֖א</w>
           <w lemma="m/1366">מִ/גְּב֣וּל</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="d/567">הָֽ/אֱמֹרִ֑י</w>
           <w lemma="3588 a">כִּ֤י</w>
           <w lemma="769">אַרְנוֹן֙</w>
@@ -10341,7 +10333,6 @@
         <verse osisID="Num.21.23">
           <w lemma="c/3808">וְ/לֹא</w><seg type="x-maqqef">־</seg><w lemma="5414">נָתַ֨ן</w>
           <w lemma="5511">סִיחֹ֣ן</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="3478">יִשְׂרָאֵל֮</w>
           <w lemma="5674 a">עֲבֹ֣ר</w>
           <w lemma="b/1366">בִּ/גְבֻל/וֹ֒</w>
@@ -10451,7 +10442,7 @@
           <w lemma="c/8074">וַ/נַּשִּׁ֣ים</w>
           <w lemma="5704">עַד</w><seg type="x-maqqef">־</seg><w lemma="5302">נֹ֔פַח</w>
           <w lemma="834 a">אֲשֶׁ֖רׄ</w>
-          <note>Puncta Extraordaria -- a \u05c4 is used to mark such marks in the text when they are above the line and a \u05c5 when they are below the line.</note>
+          <note n="4">Puncta extraordinaria -- a \u05c4 is used to mark such marks in the text when they are above the line and a \u05c5 when they are below the line. </note>
           <w lemma="5704">עַד</w><seg type="x-maqqef">־</seg><w lemma="4311">מֵֽידְבָֽא</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Num.21.31">
@@ -11201,7 +11192,6 @@
           <w lemma="c/3212">וְ/אֵֽלְכָ֗ה</w>
           <w lemma="194">אוּלַ֞י</w>
           <w lemma="7136 a">יִקָּרֵ֤ה</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="3068">יְהוָה֙</w>
           <w lemma="l/7125">לִ/קְרָאתִ֔/י</w>
           <w lemma="c/1697">וּ/דְבַ֥ר</w>
@@ -11410,7 +11400,6 @@
           <w lemma="6965 b">ק֤וּם</w>
           <w lemma="1111">בָּלָק֙</w>
           <w lemma="c/8085">וּֽ/שֲׁמָ֔ע</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="238">הַאֲזִ֥ינָ/ה</w>
           <w lemma="5704">עָדַ֖/י</w>
           <w lemma="1121 a">בְּנ֥/וֹ</w>
@@ -11552,7 +11541,6 @@
           <w lemma="b/2088">בָּ/זֶ֔ה</w>
           <w lemma="7651">שִׁבְעָ֥ה</w>
           <w lemma="6499">פָרִ֖ים</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="c/7651">וְ/שִׁבְעָ֥ה</w>
           <w lemma="352 a">אֵילִֽים</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
@@ -11913,7 +11901,7 @@
           <w lemma="c/398">וַ/יֹּ֣אכַל</w>
           <w lemma="d/5971 a">הָ/עָ֔ם</w>
           <w lemma="c/7812">וַ/יִּֽשְׁתַּחֲוּ֖וּ</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="l/430">לֵֽ/אלֹהֵי/הֶֽן</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Num.25.3">
@@ -12124,7 +12112,7 @@
           <w lemma="c/1961">וַ/יְהִ֖י</w>
           <w lemma="310 a">אַחֲרֵ֣י</w>
           <w lemma="d/4046">הַ/מַּגֵּפָ֑ה</w>
-          <note>We have added a sof pasuq where L and BHS omit it.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <seg type="x-pe">פ</seg>
         </verse>
       </chapter>
@@ -12207,7 +12195,7 @@
           <w lemma="428">אֵ֖לֶּה</w>
           <w lemma="4940">מִשְׁפְּחֹ֣ת</w>
           <w lemma="d/7206">הָ/רֻֽאוּבֵנִ֑י</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="c/1961">וַ/יִּהְי֣וּ</w>
           <w lemma="6485 a">פְקֻדֵי/הֶ֗ם</w>
           <w lemma="7969">שְׁלֹשָׁ֤ה</w>
@@ -12734,7 +12722,6 @@
         </verse>
         <verse osisID="Num.26.55">
           <w lemma="389">אַךְ</w><seg type="x-maqqef">־</seg><w lemma="b/1486">בְּ/גוֹרָ֕ל</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="2505 a">יֵחָלֵ֖ק</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/776">הָ/אָ֑רֶץ</w>
           <w lemma="l/8034">לִ/שְׁמ֥וֹת</w>
@@ -12967,7 +12954,7 @@
           <w lemma="c/7126">וַ/יַּקְרֵ֥ב</w>
           <w lemma="4872">מֹשֶׁ֛ה</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="4941">מִשְׁפָּטָ֖/<seg type="x-large">ן</seg></w>
-          <note>Large letter(s).</note>
+          <note n="5">Large letter(s). Shown as large letters without a superscript note number. </note>
           <w lemma="l/6440">לִ/פְנֵ֥י</w>
           <w lemma="3068">יְהוָֽה</w><seg type="x-sof-pasuq">׃</seg>
           <seg type="x-samekh">ס</seg>
@@ -13017,7 +13004,7 @@
           <w lemma="c/5414">וּ/נְתַתֶּ֥ם</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="5159">נַחֲלָת֖/וֹ</w>
           <w lemma="l/251">לְ/אֶחָי/ו</w><seg type="x-sof-pasuq">׃</seg>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
         </verse>
         <verse osisID="Num.27.10">
           <w lemma="c/518 a">וְ/אִם</w><seg type="x-maqqef">־</seg><w lemma="369">אֵ֥ין</w>
@@ -13808,7 +13795,7 @@
         </verse>
         <verse osisID="Num.29.15">
           <w lemma="c/6241">וְ/עִשָּׂרׄוֹן֙</w>
-          <note>Puncta Extraordaria -- a \u05c4 is used to mark such marks in the text when they are above the line and a \u05c5 when they are below the line.</note>
+          <note n="4">Puncta extraordinaria -- a \u05c4 is used to mark such marks in the text when they are above the line and a \u05c5 when they are below the line. </note>
           <w lemma="6241">עִשָּׂר֔וֹן</w>
           <w lemma="l/3532">לַ/כֶּ֖בֶשׂ</w>
           <w lemma="d/259">הָ/אֶחָ֑ד</w>
@@ -14763,7 +14750,6 @@
           <w lemma="c/7657">וְ/שִׁבְעִ֥ים</w>
           <w lemma="505">אֶ֖לֶף</w>
           <w lemma="c/2568">וַ/חֲמֵֽשֶׁת</w><seg type="x-maqqef">־</seg><w lemma="505">אֲלָפִֽים</w><seg type="x-sof-pasuq">׃</seg>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
         </verse>
         <verse osisID="Num.31.33">
           <w lemma="c/1241">וּ/בָקָ֕ר</w>
@@ -15446,7 +15432,7 @@
           <w lemma="854">אִתְּ/כֶ֑ם</w>
           <w lemma="c/270">וְ/נֹֽאחֲז֥וּ</w>
           <w lemma="b/8432">בְ/תֹכְ/כֶ֖ם</w>
-          <note>BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS.</note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="b/776">בְּ/אֶ֥רֶץ</w>
           <w lemma="3667 a">כְּנָֽעַן</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
@@ -16197,7 +16183,6 @@
           <w lemma="c/5437">וְ/נָסַ֧ב</w>
           <w lemma="d/1366">הַ/גְּב֛וּל</w>
           <w lemma="m/6111">מֵ/עַצְמ֖וֹן</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="5158 a">נַ֣חְלָ/ה</w>
           <w lemma="4714">מִצְרָ֑יִם</w>
           <w lemma="c/1961">וְ/הָי֥וּ</w>
@@ -16907,7 +16892,6 @@
         </verse>
         <verse osisID="Num.35.33">
           <w lemma="c/3808">וְ/לֹֽא</w><seg type="x-maqqef">־</seg><w lemma="2610">תַחֲנִ֣יפוּ</w>
-          <note>We read or understand L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/776">הָ/אָ֗רֶץ</w>
           <w lemma="834 a">אֲשֶׁ֤ר</w>
           <w lemma="859 d">אַתֶּם֙</w>

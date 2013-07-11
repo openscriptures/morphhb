@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2013.07.11</date>
+        <p>Updated to WLC version 4.18.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2012.07.18</date>
         <p>Updated to WLC version 4.16.</p>
       </revisionDesc>
@@ -519,7 +523,8 @@
         </verse>
         <verse osisID="Zeph.2.15">
           <w lemma="2063">זֹ֠את</w>
-          <note>We read or understand the cantillation in L differently than BHS (1983 Edition). Often this notation indicates a typographical error in BHS.</note>
+          <note n="C">We read one or more accents in L differently from BHQ. </note>
+          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="d/5892 b">הָ/עִ֤יר</w>
           <w lemma="d/5947">הָ/עַלִּיזָה֙</w>
           <w lemma="d/3427">הַ/יּוֹשֶׁ֣בֶת</w>
@@ -683,6 +688,7 @@
           <w lemma="6282 a">עֲתָרַ/י֙</w>
           <w lemma="1323">בַּת</w><seg type="x-maqqef">־</seg><w lemma="6327 a">פוּצַ֔/י</w>
           <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="n">Marks an anomalous form. </note>
           <note n="p">We read punctuation in L differently from BHS. </note>
           <w lemma="2986">יוֹבִל֖וּ/ן</w>
           <w lemma="4503">מִנְחָתִֽ/י</w><seg type="x-sof-pasuq">׃</seg>
