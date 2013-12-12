@@ -3,7 +3,11 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
-        <date>2013.07.11</date>
+        <date>2013.12.11</date>
+        <p>First release of morphology on selected portions.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
+        <date>2013.07.10</date>
         <p>Updated to WLC version 4.18.</p>
       </revisionDesc>
       <revisionDesc resp="dt">
@@ -49,7 +53,15 @@
         <source>The exhaustive concordance of the Bible:</source>
         <rights>Public Domain</rights>
       </work>
+      <work osisWork="OSHM" xml:lang="en">
+        <title>Open Scriptures Hebrew Morphology</title>
+        <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
+        <date>2013.12.11</date>
+        <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
+        <rights type="x-BY-SA">Creative Commons Attribution-ShareAlike</rights>
+      </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
+      <workPrefix path="//w/@morph" osisWork="OSHM"/>
     </header>
     <div type="book" osisID="2Kgs">
       <chapter osisID="2Kgs.1">
@@ -11843,7 +11855,7 @@
           <w lemma="3947">לָקַח֩</w>
           <w lemma="5631">סָרִ֨יס</w>
           <w lemma="259" n="1.2.1.1">אֶחָ֜ד</w>
-          <w lemma="834 a">אֲ‍ֽשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="1931">ה֥וּא</w>
+          <w lemma="834 a">אֲֽשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="1931">ה֥וּא</w>
           <w lemma="6496" n="1.2.1.0">פָקִ֣יד</w>
           <seg type="x-paseq">׀</seg>
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="376">אַנְשֵׁ֣י</w>

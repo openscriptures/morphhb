@@ -3,7 +3,11 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
-        <date>2013.07.11</date>
+        <date>2013.12.11</date>
+        <p>First release of morphology on selected portions.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
+        <date>2013.07.10</date>
         <p>Updated to WLC version 4.18.</p>
       </revisionDesc>
       <revisionDesc resp="dt">
@@ -49,7 +53,15 @@
         <source>The exhaustive concordance of the Bible:</source>
         <rights>Public Domain</rights>
       </work>
+      <work osisWork="OSHM" xml:lang="en">
+        <title>Open Scriptures Hebrew Morphology</title>
+        <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
+        <date>2013.12.11</date>
+        <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
+        <rights type="x-BY-SA">Creative Commons Attribution-ShareAlike</rights>
+      </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
+      <workPrefix path="//w/@morph" osisWork="OSHM"/>
     </header>
     <div type="book" osisID="Obad">
       <chapter osisID="Obad.1">
@@ -91,7 +103,7 @@
           <w lemma="7931">שֹׁכְנִ֥י</w>
           <w lemma="b/2288">בְ/חַגְוֵי</w><seg type="x-maqqef">־</seg><w lemma="5553" n="1.0">סֶּ֖לַע</w>
           <w lemma="4791">מְר֣וֹם</w>
-          <w lemma="7674" n="1">שִׁבְתּ֑/וֹ</w>
+          <w lemma="7675" n="1">שִׁבְתּ֑/וֹ</w>
           <w lemma="559">אֹמֵ֣ר</w>
           <w lemma="b/3820 a" n="0.1">בְּ/לִבּ֔/וֹ</w>
           <w lemma="4310">מִ֥י</w>
@@ -205,7 +217,7 @@
           <w lemma="c/408">וְ/אַל</w><seg type="x-maqqef">־</seg><w lemma="7200">תֵּ֤רֶא</w>
           <w lemma="b/3117">בְ/יוֹם</w><seg type="x-maqqef">־</seg><w lemma="251" n="1.1.0">אָחִ֙י/ךָ֙</w>
           <w lemma="b/3117">בְּ/י֣וֹם</w>
-          <w lemma="5237" n="1.1">נָכְר֔/וֹ</w>
+          <w lemma="5235" n="1.1">נָכְר֔/וֹ</w>
           <w lemma="c/408">וְ/אַל</w><seg type="x-maqqef">־</seg><w lemma="8055">תִּשְׂמַ֥ח</w>
           <w lemma="l/1121 a">לִ/בְנֵֽי</w><seg type="x-maqqef">־</seg><w lemma="3063" n="1.0">יְהוּדָ֖ה</w>
           <w lemma="b/3117">בְּ/י֣וֹם</w>

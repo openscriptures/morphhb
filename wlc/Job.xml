@@ -3,7 +3,11 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
-        <date>2013.07.11</date>
+        <date>2013.12.11</date>
+        <p>First release of morphology on selected portions.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
+        <date>2013.07.10</date>
         <p>Updated to WLC version 4.18.</p>
       </revisionDesc>
       <revisionDesc resp="dt">
@@ -49,7 +53,15 @@
         <source>The exhaustive concordance of the Bible:</source>
         <rights>Public Domain</rights>
       </work>
+      <work osisWork="OSHM" xml:lang="en">
+        <title>Open Scriptures Hebrew Morphology</title>
+        <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
+        <date>2013.12.11</date>
+        <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
+        <rights type="x-BY-SA">Creative Commons Attribution-ShareAlike</rights>
+      </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
+      <workPrefix path="//w/@morph" osisWork="OSHM"/>
     </header>
     <div type="book" osisID="Job">
       <chapter osisID="Job.1">
@@ -1062,7 +1074,7 @@
           <w lemma="7068" n="0">קִנְאָֽה</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Job.5.3">
-          <w lemma="589">אֲ‍ֽנִי</w><seg type="x-maqqef">־</seg><w lemma="7200" n="1.0">רָ֭אִיתִי</w>
+          <w lemma="589">אֲֽנִי</w><seg type="x-maqqef">־</seg><w lemma="7200" n="1.0">רָ֭אִיתִי</w>
           <w lemma="191">אֱוִ֣יל</w>
           <w lemma="8327" n="1">מַשְׁרִ֑ישׁ</w>
           <w lemma="c/5344 a">וָ/אֶקּ֖וֹב</w>
@@ -1456,7 +1468,7 @@
           <w lemma="c/3372" n="0">וַ/תִּירָֽאוּ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Job.6.22">
-          <w lemma="i/3588 a">הֲ‍ֽ/כִי</w><seg type="x-maqqef">־</seg><w lemma="559" n="1.0">אָ֭מַרְתִּי</w>
+          <w lemma="i/3588 a">הֲֽ/כִי</w><seg type="x-maqqef">־</seg><w lemma="559" n="1.0">אָ֭מַרְתִּי</w>
           <w lemma="3051">הָ֣בוּ</w>
           <w lemma="l" n="1">לִ֑/י</w>
           <w lemma="c/m/3581 b" n="0.0">וּ֝/מִ/כֹּחֲ/כֶ֗ם</w>
@@ -1618,7 +1630,7 @@
           <w lemma="3808">לֹ֤א</w>
           <w lemma="2820">אֶחֱשָׂ֫ךְ</w>
           <w lemma="6310" n="2">פִּ֥/י</w>
-          <w lemma="1696" n="1.0">אֲ‍ֽ֭דַבְּרָה</w>
+          <w lemma="1696" n="1.0">אֲֽ֭דַבְּרָה</w>
           <w lemma="b/6862 b">בְּ/צַ֣ר</w>
           <w lemma="7307" n="1">רוּחִ֑/י</w>
           <w lemma="7878" n="0.0">אָ֝שִׂ֗יחָה</w>
@@ -1626,7 +1638,7 @@
           <w lemma="5315" n="0">נַפְשִֽׁ/י</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Job.7.12">
-          <w lemma="i/3220">הֲ‍ֽ/יָם</w><seg type="x-maqqef">־</seg><w lemma="589" n="1.0">אָ֭נִי</w>
+          <w lemma="i/3220">הֲֽ/יָם</w><seg type="x-maqqef">־</seg><w lemma="589" n="1.0">אָ֭נִי</w>
           <w lemma="518 a">אִם</w><seg type="x-maqqef">־</seg><w lemma="8577 b" n="1">תַּנִּ֑ין</w>
           <w lemma="3588 a">כִּֽי</w><seg type="x-maqqef">־</seg><w lemma="7760 a">תָשִׂ֖ים</w>
           <w lemma="5921 a">עָלַ֣/י</w>
@@ -4870,7 +4882,7 @@
           <w lemma="3680" n="0">תְּכַסֶּֽ/ךָּ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Job.22.12">
-          <w lemma="i/3808">הֲ‍ֽ/לֹא</w><seg type="x-maqqef">־</seg><w lemma="433" n="1.0">אֱ֭לוֹהַּ</w>
+          <w lemma="i/3808">הֲֽ/לֹא</w><seg type="x-maqqef">־</seg><w lemma="433" n="1.0">אֱ֭לוֹהַּ</w>
           <w lemma="1363">גֹּ֣בַהּ</w>
           <w lemma="8064" n="1">שָׁמָ֑יִם</w>
           <w lemma="c/7200">וּ/רְאֵ֤ה</w>
@@ -6611,7 +6623,7 @@
           <w lemma="7725" n="0">אֲשִׁיבֶֽ/נּוּ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Job.31.15">
-          <w lemma="i/3808">הֲ‍ֽ֝/לֹא</w><seg type="x-maqqef">־</seg><w lemma="b/990" n="1.0">בַ֭/בֶּטֶן</w>
+          <w lemma="i/3808">הֲֽ֝/לֹא</w><seg type="x-maqqef">־</seg><w lemma="b/990" n="1.0">בַ֭/בֶּטֶן</w>
           <w lemma="6213 a">עֹשֵׂ֣/נִי</w>
           <w lemma="6213 a" n="1">עָשָׂ֑/הוּ</w>
           <w lemma="c/3559 a" n="0.0">וַ֝/יְכֻנֶ֗/נּוּ</w>
@@ -8698,7 +8710,7 @@
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="18" n="0">אֲבוּסֶֽ/ךָ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Job.39.10">
-          <w lemma="i/7194">הֲ‍ֽ/תִקְשָׁר</w><seg type="x-maqqef">־</seg><w lemma="7214" n="1.0">רֵ֭ים</w>
+          <w lemma="i/7194">הֲֽ/תִקְשָׁר</w><seg type="x-maqqef">־</seg><w lemma="7214" n="1.0">רֵ֭ים</w>
           <w lemma="b/8525">בְּ/תֶ֣לֶם</w>
           <w lemma="5688" n="1">עֲבֹת֑/וֹ</w>
           <w lemma="518 a">אִם</w><seg type="x-maqqef">־</seg><w lemma="7702">יְשַׂדֵּ֖ד</w>
@@ -8830,7 +8842,7 @@
           <w lemma="c/8643" n="0">וּ/תְרוּעָֽה</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Job.39.26">
-          <w lemma="i/m/998" n="1.0">הֲ‍ֽ֭/מִ/בִּינָ֣תְ/ךָ</w>
+          <w lemma="i/m/998" n="1.0">הֲֽ֭/מִ/בִּינָ֣תְ/ךָ</w>
           <w lemma="82">יַֽאֲבֶר</w><seg type="x-maqqef">־</seg><w lemma="5322 b" n="1">נֵ֑ץ</w>
           <w lemma="6566">יִפְרֹ֖שׂ</w>
           <w lemma="3671">כנפ/ו</w><note type="variant"><catchWord>כנפ/ו</catchWord><rdg type="x-qere"><w lemma="3671">כְּנָפָ֣י/ו</w></rdg></note>
@@ -9221,7 +9233,7 @@
         </verse>
         <verse osisID="Job.41.10">
           <note>KJV:Job.41.18</note>
-          <w lemma="5846" n="1.0">עֲ‍ֽ֭טִישֹׁתָי/ו</w>
+          <w lemma="5846" n="1.0">עֲֽ֭טִישֹׁתָי/ו</w>
           <w lemma="1984 a">תָּ֣הֶל</w>
           <w lemma="216" n="1">א֑וֹר</w>
           <w lemma="c/5869 a" n="0.0">וְ֝/עֵינָ֗י/ו</w>

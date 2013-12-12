@@ -3,7 +3,11 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
-        <date>2013.07.11</date>
+        <date>2013.12.11</date>
+        <p>First release of morphology on selected portions.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
+        <date>2013.07.10</date>
         <p>Updated to WLC version 4.18.</p>
       </revisionDesc>
       <revisionDesc resp="dt">
@@ -49,7 +53,15 @@
         <source>The exhaustive concordance of the Bible:</source>
         <rights>Public Domain</rights>
       </work>
+      <work osisWork="OSHM" xml:lang="en">
+        <title>Open Scriptures Hebrew Morphology</title>
+        <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
+        <date>2013.12.11</date>
+        <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
+        <rights type="x-BY-SA">Creative Commons Attribution-ShareAlike</rights>
+      </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
+      <workPrefix path="//w/@morph" osisWork="OSHM"/>
     </header>
     <div type="book" osisID="2Chr">
       <chapter osisID="2Chr.1">
@@ -1625,7 +1637,7 @@
           <w lemma="l/1129">לִ/בְנ֥וֹת</w>
           <w lemma="1004 b" n="1.0">בַּ֖יִת</w>
           <w lemma="l/8034" n="1">לִ/שְׁמִ֑/י</w>
-          <w lemma="2895" n="0.1">הֱ‍ֽטִיב֔וֹתָ</w>
+          <w lemma="2895" n="0.1">הֱֽטִיב֔וֹתָ</w>
           <w lemma="3588 a">כִּ֥י</w>
           <w lemma="1961" n="0.0">הָיָ֖ה</w>
           <w lemma="5973 a">עִם</w><seg type="x-maqqef">־</seg><w lemma="3824" n="0">לְבָבֶֽ/ךָ</w><seg type="x-sof-pasuq">׃</seg>
@@ -8662,7 +8674,7 @@
           <w lemma="4428">מֶ֥לֶךְ</w>
           <w lemma="3478" n="1.0">יִשְׂרָאֵ֖ל</w>
           <w lemma="l/559" n="1">לֵ/אמֹ֑ר</w>
-          <w lemma="l" morph="Rli/2ms">לך/</w><note type="variant"><catchWord>לך/</catchWord><rdg type="x-qere"><w lemma="1980" n="0.0">לְכָ֖/ה</w></rdg></note>
+          <w lemma="1980" morph="Rli/2ms">לך/</w><note type="variant"><catchWord>לך/</catchWord><rdg type="x-qere"><w lemma="1980" n="0.0">לְכָ֖/ה</w></rdg></note>
           <w lemma="7200">נִתְרָאֶ֥ה</w>
           <w lemma="6440" n="0">פָנִֽים</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
@@ -11380,7 +11392,7 @@
           <w lemma="1" n="1">אֲבוֹתָ֑/י</w>
           <w lemma="637" n="0.1.0">אַ֚ף</w>
           <w lemma="3588 a">כִּ֣י</w>
-          <w lemma="430" n="0.1">אֱ‍ֽלֹהֵי/כֶ֔ם</w>
+          <w lemma="430" n="0.1">אֱֽלֹהֵי/כֶ֔ם</w>
           <w lemma="3808">לֹא</w><seg type="x-maqqef">־</seg><w lemma="5337">יַצִּ֥ילוּ</w>
           <w lemma="853" n="0.0">אֶתְ/כֶ֖ם</w>
           <w lemma="m/3027" n="0">מִ/יָּדִֽ/י</w><seg type="x-sof-pasuq">׃</seg>

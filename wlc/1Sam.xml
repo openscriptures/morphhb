@@ -3,7 +3,11 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
-        <date>2013.07.11</date>
+        <date>2013.12.11</date>
+        <p>First release of morphology on selected portions.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
+        <date>2013.07.10</date>
         <p>Updated to WLC version 4.18.</p>
       </revisionDesc>
       <revisionDesc resp="dt">
@@ -49,7 +53,15 @@
         <source>The exhaustive concordance of the Bible:</source>
         <rights>Public Domain</rights>
       </work>
+      <work osisWork="OSHM" xml:lang="en">
+        <title>Open Scriptures Hebrew Morphology</title>
+        <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
+        <date>2013.12.11</date>
+        <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
+        <rights type="x-BY-SA">Creative Commons Attribution-ShareAlike</rights>
+      </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
+      <workPrefix path="//w/@morph" osisWork="OSHM"/>
     </header>
     <div type="book" osisID="1Sam">
       <chapter osisID="1Sam.1">
@@ -1551,7 +1563,7 @@
           <w lemma="5941" n="1.2.0.1">עֵ֠לִי</w>
           <w lemma="3427">יֹשֵׁ֨ב</w>
           <w lemma="5921 a">עַֽל</w><seg type="x-maqqef">־</seg><w lemma="d/3678" n="1.2.0.0">הַ/כִּסֵּ֜א</w>
-          <w lemma="3197">יך</w><note type="variant"><catchWord>יך</catchWord><rdg type="x-qere"><w lemma="5221">יַ֥ד</w></rdg></note>
+          <w lemma="5221">יך</w><note type="variant"><catchWord>יך</catchWord><rdg type="x-qere"><w lemma="3027">יַ֥ד</w></rdg></note>
           <w lemma="1870" n="1.2.0">דֶּ֙רֶךְ֙</w>
           <w lemma="6822" n="1.2">מְצַפֶּ֔ה</w>
           <w lemma="3588 a">כִּֽי</w><seg type="x-maqqef">־</seg><w lemma="1961">הָיָ֤ה</w>
@@ -5616,7 +5628,7 @@
           <w lemma="c/559">וַ/יֹּ֨אמֶר</w>
           <w lemma="d/5971 a" n="1.2.2.0">הָ/עָ֜ם</w>
           <w lemma="413">אֶל</w><seg type="x-maqqef">־</seg><w lemma="7586" n="1.2.2">שָׁא֗וּל</w>
-          <w lemma="i/3129">הֲ‍ֽ/יוֹנָתָ֤ן</w>
+          <w lemma="i/3129">הֲֽ/יוֹנָתָ֤ן</w>
           <seg type="x-paseq">׀</seg>
           <w lemma="4191" n="1.2.1">יָמוּת֙</w>
           <w lemma="834 a">אֲשֶׁ֣ר</w>
@@ -6717,7 +6729,7 @@
           <w lemma="3802" n="0">כְּתֵפָֽי/ו</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="1Sam.17.7">
-          <w lemma="c/2671">ו/חץ</w><note type="variant"><catchWord>ו/חץ</catchWord><rdg type="x-qere"><w lemma="c/2671">וְ/עֵ֣ץ</w></rdg></note>
+          <w lemma="c/2671">ו/חץ</w><note type="variant"><catchWord>ו/חץ</catchWord><rdg type="x-qere"><w lemma="c/6086">וְ/עֵ֣ץ</w></rdg></note>
           <w lemma="2595" n="1.2.1">חֲנִית֗/וֹ</w>
           <w lemma="k/4500" n="1.2.0">כִּ/מְנוֹר֙</w>
           <w lemma="707" n="1.2">אֹֽרְגִ֔ים</w>
@@ -6967,7 +6979,7 @@
           <w lemma="d/6430">הַ/פְּלִשְׁתִּ֨י</w>
           <w lemma="8034">שְׁמ֤/וֹ</w>
           <w lemma="m/1661" n="1.1.0">מִ/גַּת֙</w>
-          <w lemma="m/4630">מ/מערות</w><note type="variant"><catchWord>מ/מערות</catchWord><rdg type="x-qere"><w lemma="m/4630">מִ/מַּעַרְכ֣וֹת</w></rdg></note>
+          <w lemma="m/4630">מ/מערות</w><note type="variant"><catchWord>מ/מערות</catchWord><rdg type="x-qere"><w lemma="m/4634">מִ/מַּעַרְכ֣וֹת</w></rdg></note>
           <note n="a">Adaptations to a Qere which L and BHS, by their design, do not indicate. </note>
           <w lemma="6430" n="1.1">פְּלִשְׁתִּ֔ים</w>
           <w lemma="c/1696" n="1.0">וַ/יְדַבֵּ֖ר</w>
@@ -10334,7 +10346,7 @@
           <w lemma="413" n="1.2.2">אֵלָ֗י/ו</w>
           <w lemma="2009">הִנֵּ֨ה</w>
           <w lemma="d/3117" n="1.2.1.0">הַ/יּ֜וֹם</w>
-          <w lemma="834 a">אֲ‍ֽשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="559">אָמַ֧ר</w>
+          <w lemma="834 a">אֲֽשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="559">אָמַ֧ר</w>
           <w lemma="3068">יְהוָ֣ה</w>
           <w lemma="413" n="1.2.1">אֵלֶ֗י/ךָ</w>
           <w lemma="2009">הִנֵּ֨ה</w>

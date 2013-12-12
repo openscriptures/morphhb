@@ -3,7 +3,11 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
-        <date>2013.07.11</date>
+        <date>2013.12.11</date>
+        <p>First release of morphology on selected portions.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
+        <date>2013.07.10</date>
         <p>Updated to WLC version 4.18.</p>
       </revisionDesc>
       <revisionDesc resp="dt">
@@ -49,7 +53,15 @@
         <source>The exhaustive concordance of the Bible:</source>
         <rights>Public Domain</rights>
       </work>
+      <work osisWork="OSHM" xml:lang="en">
+        <title>Open Scriptures Hebrew Morphology</title>
+        <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
+        <date>2013.12.11</date>
+        <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
+        <rights type="x-BY-SA">Creative Commons Attribution-ShareAlike</rights>
+      </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
+      <workPrefix path="//w/@morph" osisWork="OSHM"/>
     </header>
     <div type="book" osisID="Amos">
       <chapter osisID="Amos.1">
@@ -1783,8 +1795,8 @@
           <w lemma="d/7602 b" n="1.0">הַ/שֹּׁאֲפִ֖ים</w>
           <w lemma="34" n="1">אֶבְי֑וֹן</w>
           <w lemma="c/l/7673 a" n="0.0">וְ/לַ/שְׁבִּ֖ית</w>
-          <w lemma="6035">ענוי</w><note type="variant"><catchWord>ענוי</catchWord><rdg type="x-qere"><w lemma="6035">עֲנִיֵּי</w></rdg></note>
-<seg type="x-maqqef">־</seg><w lemma="6041" n="0">אָֽרֶץ</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="6035">ענוי</w><note type="variant"><catchWord>ענוי</catchWord><rdg type="x-qere"><w lemma="6041">עֲנִיֵּי</w></rdg></note>
+<seg type="x-maqqef">־</seg><w lemma="776" n="0">אָֽרֶץ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Amos.8.5">
           <w lemma="l/559" n="1.1.1">לֵ/אמֹ֗ר</w>
@@ -1835,7 +1847,7 @@
           <w lemma="k/2975" n="0.1.0">כָ/אֹר֙</w>
           <w lemma="3605" n="0.1">כֻּלָּ֔/הּ</w>
           <w lemma="c/1644">וְ/נִגְרְשָׁ֥ה</w>
-          <w lemma="c/8257">ו/נשקה</w><note type="variant"><catchWord>ו/נשקה</catchWord><rdg type="x-qere"><w lemma="c/8257" n="0.0">וְ/נִשְׁקְעָ֖ה</w></rdg></note>
+          <w lemma="c/8248">ו/נשקה</w><note type="variant"><catchWord>ו/נשקה</catchWord><rdg type="x-qere"><w lemma="c/8257" n="0.0">וְ/נִשְׁקְעָ֖ה</w></rdg></note>
           <w lemma="k/2975">כִּ/יא֥וֹר</w>
           <w lemma="4714" n="0">מִצְרָֽיִם</w><seg type="x-sof-pasuq">׃</seg>
           <seg type="x-samekh">ס</seg>

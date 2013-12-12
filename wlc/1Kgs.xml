@@ -3,7 +3,11 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
-        <date>2013.07.11</date>
+        <date>2013.12.11</date>
+        <p>First release of morphology on selected portions.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
+        <date>2013.07.10</date>
         <p>Updated to WLC version 4.18.</p>
       </revisionDesc>
       <revisionDesc resp="dt">
@@ -49,7 +53,15 @@
         <source>The exhaustive concordance of the Bible:</source>
         <rights>Public Domain</rights>
       </work>
+      <work osisWork="OSHM" xml:lang="en">
+        <title>Open Scriptures Hebrew Morphology</title>
+        <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
+        <date>2013.12.11</date>
+        <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
+        <rights type="x-BY-SA">Creative Commons Attribution-ShareAlike</rights>
+      </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
+      <workPrefix path="//w/@morph" osisWork="OSHM"/>
     </header>
     <div type="book" osisID="1Kgs">
       <chapter osisID="1Kgs.1">
@@ -3205,7 +3217,7 @@
           <w lemma="5704">עַד</w><seg type="x-maqqef">־</seg><w lemma="8552">תֹּ֣ם</w>
           <w lemma="3605">כָּל</w><seg type="x-maqqef">־</seg><w lemma="d/1004 b" n="1">הַ/בָּ֑יִת</w>
           <w lemma="c/3605">וְ/כָל</w><seg type="x-maqqef">־</seg><w lemma="d/4196">הַ/מִּזְבֵּ֥חַ</w>
-          <w lemma="834 a">אֲ‍ֽשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="l/1687" n="0.0">לַ/דְּבִ֖יר</w>
+          <w lemma="834 a">אֲֽשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="l/1687" n="0.0">לַ/דְּבִ֖יר</w>
           <w lemma="6823">צִפָּ֥ה</w>
           <w lemma="2091" n="0">זָהָֽב</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
@@ -12377,7 +12389,7 @@
           <w lemma="l/559" n="0">לֵ/אמֹֽר</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="1Kgs.21.29">
-          <w lemma="i/7200" n="1.1">הֲ‍ֽ/רָאִ֔יתָ</w>
+          <w lemma="i/7200" n="1.1">הֲֽ/רָאִ֔יתָ</w>
           <w lemma="3588 a">כִּֽי</w><seg type="x-maqqef">־</seg><w lemma="3665">נִכְנַ֥ע</w>
           <w lemma="256" n="1.0">אַחְאָ֖ב</w>
           <w lemma="m/l/6440" n="1">מִ/לְּ/פָנָ֑/י</w>

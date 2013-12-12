@@ -3,7 +3,11 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
-        <date>2013.07.11</date>
+        <date>2013.12.11</date>
+        <p>First release of morphology on selected portions.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
+        <date>2013.07.10</date>
         <p>Updated to WLC version 4.18.</p>
       </revisionDesc>
       <revisionDesc resp="dt">
@@ -49,7 +53,15 @@
         <source>The exhaustive concordance of the Bible:</source>
         <rights>Public Domain</rights>
       </work>
+      <work osisWork="OSHM" xml:lang="en">
+        <title>Open Scriptures Hebrew Morphology</title>
+        <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
+        <date>2013.12.11</date>
+        <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
+        <rights type="x-BY-SA">Creative Commons Attribution-ShareAlike</rights>
+      </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
+      <workPrefix path="//w/@morph" osisWork="OSHM"/>
     </header>
     <div type="book" osisID="Judg">
       <chapter osisID="Judg.1">
@@ -4336,7 +4348,7 @@
           <w lemma="1974" n="1">הִלּוּלִ֑ים</w>
           <w lemma="c/935" n="0.2.0">וַ/יָּבֹ֙אוּ֙</w>
           <w lemma="1004 b">בֵּ֣ית</w>
-          <w lemma="430" n="0.2">אֱ‍ֽלֹֽהֵי/הֶ֔ם</w>
+          <w lemma="430" n="0.2">אֱֽלֹֽהֵי/הֶ֔ם</w>
           <w lemma="c/398" n="0.1.0">וַ/יֹּֽאכְלוּ֙</w>
           <w lemma="c/8354" n="0.1">וַ/יִּשְׁתּ֔וּ</w>
           <w lemma="c/7043" n="0.0">וַֽ/יְקַלְל֖וּ</w>
@@ -5667,7 +5679,7 @@
           <w lemma="c/1058" n="0.1.0">וְ/אֶבְכֶּה֙</w>
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="1331" n="0.1">בְּתוּלַ֔/י</w>
           <w lemma="595" n="0.0">אָנֹכִ֖י</w>
-          <w lemma="c/7474">ו/רעית/י</w><note type="variant"><catchWord>ו/רעית/י</catchWord><rdg type="x-qere"><w lemma="c/7474" n="0">וְ/רֵעוֹתָֽ/י</w></rdg></note><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="c/7474">ו/רעית/י</w><note type="variant"><catchWord>ו/רעית/י</catchWord><rdg type="x-qere"><w lemma="c/7464" n="0">וְ/רֵעוֹתָֽ/י</w></rdg></note><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Judg.11.38">
           <w lemma="c/559">וַ/יֹּ֣אמֶר</w>
@@ -7406,7 +7418,7 @@
           <w lemma="c/1961">וַ/יְהִ֥י</w>
           <w lemma="2912" n="0.0">טוֹחֵ֖ן</w>
           <w lemma="b/1004 b">בְּ/בֵ֥ית</w>
-          <w lemma="d/615">ה/אסירים</w><note type="variant"><catchWord>ה/אסירים</catchWord><rdg type="x-qere"><w lemma="d/615" n="0">הָ/אֲסוּרִֽים</w></rdg></note><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="d/615">ה/אסירים</w><note type="variant"><catchWord>ה/אסירים</catchWord><rdg type="x-qere"><w lemma="d/631" n="0">הָ/אֲסוּרִֽים</w></rdg></note><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Judg.16.22">
           <w lemma="c/2490 c">וַ/יָּ֧חֶל</w>
@@ -7466,7 +7478,7 @@
           <w lemma="c/7121">וַ/יִּקְרְא֨וּ</w>
           <w lemma="l/8123" n="0.1.1.0">לְ/שִׁמְשׁ֜וֹן</w>
           <w lemma="m/1004 b">מִ/בֵּ֣ית</w>
-          <w lemma="d/615">ה/אסירים</w><note type="variant"><catchWord>ה/אסירים</catchWord><rdg type="x-qere"><w lemma="d/615" n="0.1.1">הָ/אֲסוּרִ֗ים</w></rdg></note>
+          <w lemma="d/615">ה/אסירים</w><note type="variant"><catchWord>ה/אסירים</catchWord><rdg type="x-qere"><w lemma="d/631" n="0.1.1">הָ/אֲסוּרִ֗ים</w></rdg></note>
           <w lemma="c/6711" n="0.1.0">וַ/יְצַחֵק֙</w>
           <w lemma="l/6440" n="0.1">לִ/פְנֵי/הֶ֔ם</w>
           <w lemma="c/5975">וַ/יַּעֲמִ֥ידוּ</w>
@@ -7482,7 +7494,7 @@
           <w lemma="b/3027" n="1.2.0">בְּ/יָד/וֹ֮</w>
           <w lemma="3240">הַנִּ֣יחָ/ה</w>
           <w lemma="853" n="1.2">אוֹתִ/י֒</w>
-          <w lemma="c/3237">ו/הימש/ני</w><note type="variant"><catchWord>ו/הימש/ני</catchWord><rdg type="x-qere"><w lemma="c/3237" n="1.1.0">וַ/הֲמִשֵׁ֙/נִי֙</w></rdg></note>
+          <w lemma="c/3237">ו/הימש/ני</w><note type="variant"><catchWord>ו/הימש/ני</catchWord><rdg type="x-qere"><w lemma="c/4184" n="1.1.0">וַ/הֲמִשֵׁ֙/נִי֙</w></rdg></note>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/5982" n="1.1">הָֽ/עַמֻּדִ֔ים</w>
           <w lemma="834 a">אֲשֶׁ֥ר</w>
           <w lemma="d/1004 b" n="1.0">הַ/בַּ֖יִת</w>
