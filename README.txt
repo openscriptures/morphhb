@@ -13,5 +13,5 @@ the public domain (http://creativecommons.org/licenses/publicdomain/).
 
 Miqra according to the Mesorah
 
-We have added a new text of teh Hebrew Bible, based on the Aleppo Codex,
+We have added a new text of the Hebrew Bible, based on the Aleppo Codex,
 under MAPM.
