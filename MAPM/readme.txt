@@ -23,9 +23,7 @@ The Hebrew titles have been preserved throughout, in the title elements.
 The Hebrew chapter and verse numbers are maintained in the n attribute
 of the opening chapter and verse tags.
 
-For a more detailed description of the text, see
-http://opensiddur.org/transcriptions/מקרא-על-פי-המסורה-miqra-al-pi-ha-mesorah-a-new-experimental-edition-of-the-tanakh-online/
-And to read the text online, see
+For a more detailed description of the text and to read it online, see
 http://en.wikisource.org/wiki/User:Dovi/Miqra_according_to_the_Mesorah
 
 This text is released under the Creative Commons Attribution-ShareAlike
