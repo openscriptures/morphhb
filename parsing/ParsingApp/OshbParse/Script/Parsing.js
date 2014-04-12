@@ -241,7 +241,7 @@
 // Parser for morphology codes.
     var MorphParse = function()
     {
-            var language, nextName;
+        var language, nextName;
         /**
          * Parses the given code.
          * @param {string} code A morph code
@@ -250,19 +250,19 @@
         this.Parse = function(code) {
             if (!code) {return {"morph": "", "next": "language", "segs": 0};}
             language = code.charAt(0);
-            var morph = morphCodes.language[language];
-            if (!morph) {
-                    return {"morph": "Unknown language", "next": "error", "segs": 0};
+            if (!morphCodes.language.hasOwnProperty(language)) {
+                return {"morph": "Unknown language", "next": "error", "segs": 0};
             }
+            var morph = morphCodes.language[language];
             code = code.substr(1);
             if (code) {
-                    var parts = code.split('/'), i = 1, len = parts.length;
-                    morph += ' ' + parseCode(parts[0]);
-                    for (; i < len; i++) {
-                            morph += ', ' + parseCode(parts[i]);
-                    }
+                var parts = code.split('/'), i = 1, len = parts.length;
+                morph += ':<br />' + parseCode(parts[0]);
+                for (; i < len; i++) {
+                    morph += '<br />' + parseCode(parts[i]);
+                }
             } else {
-                    nextName = 'partOfSpeech';
+                nextName = 'partOfSpeech';
             }
             len = len ? len - 1 : 0;
             return {"morph": morph, "next": nextName, "segs": len};
@@ -270,15 +270,15 @@
         // Parses the code.
         var parseCode = function(code) {
             if (!code) {
-                    nextName = 'partOfSpeech';
-                    return '';
+                nextName = 'partOfSpeech';
+                return '';
             }
             var pos = code.charAt(0);
-            var morph = morphCodes.partOfSpeech[pos];
-            if (!morph) {
-                    nextName = 'error';
-                    return "Unknown part of speech";
+            if (!morphCodes.partOfSpeech.hasOwnProperty(pos)) {
+                nextName = 'error';
+                return "Unknown part of speech";
             }
+            var morph = morphCodes.partOfSpeech[pos];
             if (code.length > 1) {
                 switch (pos) {
                     case 'A':
@@ -354,11 +354,11 @@
         };
         // Parses the adjective code.
         var parseAdjective = function(code) {
-            var morph = morphCodes.adjectiveType[code.charAt(1)];
-            if (!morph) {
+            if (!morphCodes.adjectiveType.hasOwnProperty(code.charAt(1))) {
                 nextName = 'error';
                 return "Unknown adjective type";
             }
+            var morph = morphCodes.adjectiveType[code.charAt(1)];
             if (code.length > 2) {
                 morph += ' ' + parseGender(code, 2);
             } else {
@@ -368,11 +368,11 @@
         };
         // Parses the conjunction code.
         var parseConjunction = function(code) {
-            var morph = morphCodes.conjunctionType[code.charAt(1)];
-            if (!morph) {
+            if (!morphCodes.conjunctionType.hasOwnProperty(code.charAt(1))) {
                 nextName = 'error';
                 return "Unknown conjunction type";
             }
+            var morph = morphCodes.conjunctionType[code.charAt(1)];
             if (code.length > 2) {
                 nextName = 'error';
                 return "Unknown separator";
@@ -383,11 +383,11 @@
         };
         // Parses the noun code.
         var parseNoun = function(code) {
-            var morph = morphCodes.nounType[code.charAt(1)];
-            if (!morph) {
+            if (!morphCodes.nounType.hasOwnProperty(code.charAt(1))) {
                 nextName = 'error';
                 return "Unknown noun type";
             }
+            var morph = morphCodes.nounType[code.charAt(1)];
             if (code.length > 2) {
                 morph += ' ' + parseGender(code, 2);
             } else {
@@ -397,25 +397,25 @@
         };
         // Parses the pronoun code.
         var parsePronoun = function(code) {
-            var morph = morphCodes.pronounType[code.charAt(1)];
-            if (!morph) {
+            if (!morphCodes.pronounType.hasOwnProperty(code.charAt(1))) {
                 nextName = 'error';
                 return "Unknown pronoun type";
             }
+            var morph = morphCodes.pronounType[code.charAt(1)];
             if (code.length > 2) {
-                morph += ' ' + parseCase(code);
+                morph += ' ' + parsePerson(code, 2);
             } else {
-                nextName = 'adjCase';
+                nextName = 'person';
             }
             return morph;
         };
         // Parses the suffix code.
         var parseSuffix = function(code) {
-            var morph = morphCodes.suffixType[code.charAt(1)];
-            if (!morph) {
+            if (!morphCodes.suffixType.hasOwnProperty(code.charAt(1))) {
                 nextName = 'error';
                 return "Unknown suffix type";
             }
+            var morph = morphCodes.suffixType[code.charAt(1)];
             if (code.length > 2) {
                 morph += ' ' + parsePerson(code, 2);
             } else {
@@ -425,11 +425,11 @@
         };
         // Parses the participle code.
         var parseParticle = function(code) {
-            var morph = morphCodes.particleType[code.charAt(1)];
-            if (!morph) {
+            if (!morphCodes.particleType.hasOwnProperty(code.charAt(1))) {
                 nextName = 'error';
                 return "Unknown particle type";
             }
+            var morph = morphCodes.particleType[code.charAt(1)];
             if (code.length > 2) {
                 nextName = 'error';
                 return "Unknown separator";
@@ -440,13 +440,15 @@
         };
         // Parses the verb code.
         var parseVerb = function(code) {
-            var morph;
+            var morph, isMorph;
             if (language === 'H') {
+                isMorph = morphCodes.verbStemHebrew.hasOwnProperty(code.charAt(1));
                 morph = morphCodes.verbStemHebrew[code.charAt(1)];
             } else {
+                isMorph = morphCodes.verbStemAramaic.hasOwnProperty(code.charAt(1));
                 morph = morphCodes.verbStemAramaic[code.charAt(1)];
             }
-            if (!morph) {
+            if (!isMorph) {
                 nextName = 'error';
                 return "Unknown verb stem";
             }
@@ -459,39 +461,40 @@
         };
         // Parses the aspect code.
         var parseAspect = function(code) {
-            var morph = morphCodes.verbAspect[code.charAt(2)];
-            if (!morph) {
+            if (!morphCodes.verbAspect.hasOwnProperty(code.charAt(2))) {
                 nextName = 'error';
                 return "Unknown verb aspect";
             }
-            if (code.length > 3) {
-                morph += ' ' + parsePerson(code, 3);
+            var morph = morphCodes.verbAspect[code.charAt(2)];
+            if (morph === 'participle active' || morph === 'participle passive') {
+                if (code.length > 3) {
+                    morph += ' ' + parseGender(code, 3);
+                } else {
+                    nextName = 'gender';
+                }
+            } else if (morph === 'infinitive absolute' || morph === 'infinitive construct') {
+                if (code.length > 3) {
+                    nextName = 'error';
+                    return "Unknown field";
+                } else {
+                    nextName = 'separator';
+                }
             } else {
-                nextName = 'person';
-            }
-            return morph;
-        };
-        // Parses the case code.
-        var parseCase = function(code) {
-            var morph = morphCodes.adjCase[code.charAt(2)];
-            if (!morph) {
-                nextName = 'error';
-                return "Unknown case";
-            }
-            if (code.length > 3) {
-                morph += ' ' + parsePerson(code, 3);
-            } else {
-                nextName = 'person';
+                if (code.length > 3) {
+                    morph += ' ' + parsePerson(code, 3);
+                } else {
+                    nextName = 'person';
+                }
             }
             return morph;
         };
         // Parses the person code.
         var parsePerson = function(code, pos) {
-            var morph = morphCodes.person[code.charAt(pos)];
-            if (!morph) {
+            if (!morphCodes.person.hasOwnProperty(code.charAt(pos))) {
                 nextName = 'error';
                 return "Unknown person";
             }
+            var morph = morphCodes.person[code.charAt(pos)];
             pos++;
             if (code.length > pos) {
                 morph += ' ' + parseGender(code, pos);
@@ -502,11 +505,11 @@
         };
         // Parses the gender code.
         var parseGender = function(code, pos) {
-            var morph = morphCodes.gender[code.charAt(pos)];
-            if (!morph) {
+            if (!morphCodes.gender.hasOwnProperty(code.charAt(pos))) {
                 nextName = 'error';
                 return "Unknown gender";
             }
+            var morph = morphCodes.gender[code.charAt(pos)];
             pos++;
             if (code.length > pos) {
                 morph += ' ' + parseNumber(code, pos);
@@ -517,26 +520,34 @@
         };
         // Parses the number code.
         var parseNumber = function(code, pos) {
-            var morph = morphCodes.number[code.charAt(pos)];
-            if (!morph) {
+            if (!morphCodes.number.hasOwnProperty(code.charAt(pos))) {
                 nextName = 'error';
                 return "Unknown number";
             }
+            var morph = morphCodes.number[code.charAt(pos)];
             pos++;
             if (code.length > pos) {
-                morph += ' ' + parseState(code, pos);
-            } else {
-                nextName = 'state';
-            }
+                    morph += ' ' + parseState(code, pos);
+                } else if (code.charAt(0) === 'V') {
+                    if (code.charAt(2) === 'r' || code.charAt(2) === 's') {
+                            nextName = 'state';
+                    } else {
+                            nextName = 'separator';
+                    }
+                } else if (code.charAt(0) === 'P' || code.charAt(0) === 'S') {
+                    nextName = 'separator';
+                } else {
+                    nextName = 'state';
+                }
             return morph;
         };
         // Parses the state code.
         var parseState = function(code, pos) {
-            var morph = morphCodes.state[code.charAt(pos)];
-            if (!morph) {
+            if (!morphCodes.state.hasOwnProperty(code.charAt(pos))) {
                 nextName = 'error';
                 return "Unknown state";
             }
+            var morph = morphCodes.state[code.charAt(pos)];
             pos++;
             if (code.length > pos) {
                 nextName = 'error';
@@ -627,6 +638,15 @@
                 }
             };
         };
+        // Scroll the node into view.
+        var scrollIntoView = function(node) {
+            var textBottom = position(elements.text).top + elements.text.offsetHeight;
+            var nodeBottom = position(node).top + node.offsetHeight;
+            if (nodeBottom - elements.text.scrollTop > textBottom) {
+                elements.text.scrollTop = nodeBottom - textBottom + 160;
+            }
+            return node;
+        };
         // Maintains the index of the current word.
         var currentWord = function() {
             var index = -1;
@@ -635,12 +655,12 @@
                     return index;
                 },
                 setIndex: function(i) {
-                    if (index >= 0 && wordList[index]) {
+                    if (index >= 0) {
                         var node = wordList[index].getNode();
                         node.className = node.className.replace(' current', '');
                     }
                     index = i;
-                    setClass(wordList[index].getNode(), 'current');
+                    setClass(scrollIntoView(wordList[index].getNode()), 'current');
                     return wordList[index].getParsing();
                 }
             };
@@ -757,10 +777,9 @@
         var parser = new MorphParse;
         // Change handler for the morphology input box.
         var morphChange = function() {
-            clearNodes(elements.morphText);
             var verbal = parser.Parse(elements.morph.value);
             wordSegments.selectSegment(verbal.segs);
-            elements.morphText.appendChild(document.createTextNode(verbal.morph));
+            elements.morphText.innerHTML = verbal.morph;
             if (verbal.next === 'error') {
                 elements.morph.className = 'error';
                 elements.morphHint.style.display = 'none';

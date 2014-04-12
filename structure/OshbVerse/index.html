@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>OSHB Verse</title>
+        <link rel="stylesheet" href="Style/VerseStyle.css" />
+        <link rel="shortcut icon" href="Image/OSHB.ico" />
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header>
+            <h1><span class="logo"><span>The OpenScriptures</span><br />Hebrew Bible</span> – Verse</h1>
+        </header>
+        <nav>
+            <form>
+                <label for="book">Book</label>
+                <select id="book">
+                    <option value="Gen" selected="selected">Genesis</option>
+                    <option value="Ps">Psalms</option>
+                </select>
+                <label for="chapter">Chapter</label>
+                <select id="chapter">
+                    <option selected="selected">1</option>
+                </select>
+                <label for="verse">Verse</label>
+                <select id="verse">
+                    <option selected="selected">1</option>
+                </select>
+            </form>
+        </nav>
+        <section id="work">
+            <section id="display">
+                <h2>Verse Display</h2>
+            </section>
+        </section>
+        <script src="Script/Books.js"></script>
+        <script src="Script/Chapter.js"></script>
+        <script src="Script/Gen8.js"></script>
+        <script src="Script/Gen32.js"></script>
+        <script src="Script/Ps1.js"></script>
+        <script src="Script/Structure.js"></script>
+    </body>
+</html>

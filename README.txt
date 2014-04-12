@@ -10,3 +10,8 @@ ShareAlike license (http://creativecommons.org/licenses/by-sa/3.0/). For
 attribution purposes, credit the Open Scriptures Hebrew Bible Project. The 
 text of the WLC, including WLC.4.12.zip in the download section, remains in 
 the public domain (http://creativecommons.org/licenses/publicdomain/). 
+
+Miqra according to the Mesorah
+
+We have added a new text of the Hebrew Bible, based on the Aleppo Codex,
+under MAPM.
