@@ -60,3 +60,8 @@ p.links
     font-weight: bold;
     font-size: 1.2em;
 }
+p.links a + a
+{
+	display: inline-block;
+	margin-top: 0.5em;
+}
