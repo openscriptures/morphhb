@@ -6,8 +6,8 @@ by lemma and morphology. The project is marked up in OSIS XML and currently
 contains lemma attributes for most words (using an augmentation of Strong's
 numbers). We are in the process of adding morphology attributes as well.
 
-Lemma and morphology data are licensed under a Creative Commons Attribution-
-ShareAlike license (http://creativecommons.org/licenses/by-sa/3.0/). For 
+Lemma and morphology data are licensed under a Creative Commons Attribution
+4.0 International license (http://creativecommons.org/licenses/by/4.0/). For 
 attribution purposes, credit the Open Scriptures Hebrew Bible Project. The 
 text of the WLC remains in the public domain
 (http://creativecommons.org/licenses/publicdomain/). 
