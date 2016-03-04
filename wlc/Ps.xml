@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2016.03.03</date>
+        <p>Updated to WLC version 4.20.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2013.12.11</date>
         <p>First release of morphology on selected portions.</p>
       </revisionDesc>
@@ -9813,7 +9817,7 @@
           <w lemma="2617 a" n="1.0">חַ֭סְדְּ/ךָ</w>
           <w lemma="m/2416 e" n="1">מֵֽ/חַיִּ֗ים</w>
           <w lemma="8193">שְׂפָתַ֥/י</w>
-          <w lemma="7623 b" n="0">יְשַׁבְּחֽוּ/נְ/ךָ</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="7623 b" n="0">יְשַׁבְּחֽוּ/נְךָ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Ps.63.5">
           <note>KJV:Ps.63.4</note>
@@ -14405,7 +14409,6 @@
       <chapter osisID="Ps.87">
         <verse osisID="Ps.87.1">
           <w lemma="l/1121 a">לִ/בְנֵי</w><seg type="x-maqqef">־</seg><w lemma="7141" n="1.0">קֹ֭רַח</w>
-          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="4210">מִזְמ֣וֹר</w>
           <w lemma="7892 a" n="1">שִׁ֑יר</w>
           <w lemma="3248" n="0.0">יְ֝סוּדָת֗/וֹ</w>
@@ -21396,7 +21399,7 @@
           <w lemma="d/4325">הַ/מַּ֣יִם</w>
           <w lemma="7857" n="1">שְׁטָפ֑וּ/נוּ</w>
           <w lemma="5158 a" n="0.0">נַ֗֜חְלָ/ה</w>
-          <note n="n">Marks an anomalous form. </note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <w lemma="5674 a">עָבַ֥ר</w>
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="5315" n="0">נַפְשֵֽׁ/נוּ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>

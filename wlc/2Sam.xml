@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2016.03.03</date>
+        <p>Updated to WLC version 4.20.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2013.12.11</date>
         <p>First release of morphology on selected portions.</p>
       </revisionDesc>
@@ -2022,7 +2026,9 @@
           <w lemma="310 a" n="1.0">אַחֲרֵ֖י</w>
           <w lemma="935">בֹּא֣/וֹ</w>
           <w lemma="m/2275 a" n="1">מֵ/חֶבְר֑וֹן</w>
-          <w lemma="c/3205">וַ/יִּוָּ֥לְדוּ</w>
+          <w lemma="c/3205">וַ/יִּוָּ֥לְדּוּ</w>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
           <w lemma="5750" n="0.0.0">ע֛וֹד</w>
           <w lemma="l/1732" n="0.0">לְ/דָוִ֖ד</w>
           <w lemma="1121 a">בָּנִ֥ים</w>
@@ -3490,7 +3496,7 @@
           <w lemma="1931">ה֣וּא</w>
           <w lemma="398" n="1">אֹכֵ֑ל</w>
           <w lemma="c/1931">וְ/ה֥וּא</w>
-          <w lemma="6455" n="0.0">פִּסֵּ֖חַ</w>
+          <w lemma="6455" n="0.0">פִסֵּ֖חַ</w>
           <w lemma="8147">שְׁתֵּ֥י</w>
           <w lemma="7272" n="0">רַגְלָֽי/ו</w><seg type="x-sof-pasuq">׃</seg>
           <seg type="x-pe">פ</seg>
@@ -9779,6 +9785,7 @@
         </verse>
         <verse osisID="2Sam.22.8">
           <w lemma="c/1607">ו/תגעש</w><note type="variant"><catchWord>ו/תגעש</catchWord><rdg type="x-qere"><w lemma="c/1607">וַ/יִּתְגָּעַ֤שׁ</w></rdg></note>
+          <note n="1">BHS has been faithful to the Leningrad Codex where there might be a question of the validity of the form and we keep the same form as BHS. </note>
           <note n="a">Adaptations to a Qere which L and BHS, by their design, do not indicate. </note>
           <w lemma="c/7493" n="1.1.0">וַ/תִּרְעַשׁ֙</w>
           <w lemma="d/776" n="1.1">הָ/אָ֔רֶץ</w>

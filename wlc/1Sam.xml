@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2016.03.03</date>
+        <p>Updated to WLC version 4.20.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2013.12.11</date>
         <p>First release of morphology on selected portions.</p>
       </revisionDesc>
@@ -4275,6 +4279,7 @@
           <w lemma="c/2199">וַ/יִּזְעֲק֤וּ</w>
           <w lemma="413">אֶל</w><seg type="x-maqqef">־</seg><w lemma="3068" n="1.2.0">יְהוָה֙</w>
           <w lemma="c/559">ו/יאמר</w><note type="variant"><catchWord>ו/יאמר</catchWord><rdg type="x-qere"><w lemma="c/559">וַ/יֹּאמְר֣וּ</w></rdg></note>
+          <note n="a">Adaptations to a Qere which L and BHS, by their design, do not indicate. </note>
           <w lemma="2398" n="1.2">חָטָ֔אנוּ</w>
           <w lemma="3588 a">כִּ֤י</w>
           <w lemma="5800 a" n="1.1.0">עָזַ֨בְנוּ֙</w>
@@ -4831,6 +4836,7 @@
           <w lemma="776">אֶ֣רֶץ</w>
           <w lemma="3478" n="1">יִשְׂרָאֵ֑ל</w>
           <w lemma="3588 a">כִּֽי</w><seg type="x-maqqef">־</seg><w lemma="559">אמר</w><note type="variant"><catchWord>אמר</catchWord><rdg type="x-qere"><w lemma="559">אָמְר֣וּ</w></rdg></note>
+          <note n="a">Adaptations to a Qere which L and BHS, by their design, do not indicate. </note>
           <w lemma="6430" n="0.2">פְלִשְׁתִּ֔ים</w>
           <w lemma="6435" n="0.1.0">פֶּ֚ן</w>
           <w lemma="6213 a">יַעֲשׂ֣וּ</w>
@@ -7591,7 +7597,7 @@
           <w lemma="7194" n="1.0">נִקְשְׁרָ֖ה</w>
           <w lemma="b/5315">בְּ/נֶ֣פֶשׁ</w>
           <w lemma="1732" n="1">דָּוִ֑ד</w>
-          <w lemma="c/157">ו/יאהב/ו</w><note type="variant"><catchWord>ו/יאהב/ו</catchWord><rdg type="x-qere"><w lemma="c/157">וַ/יֶּאֱהָבֵ֥/הוּ</w></rdg></note>
+          <w lemma="c/157">ו/יאהבו</w><note type="variant"><catchWord>ו/יאהבו</catchWord><rdg type="x-qere"><w lemma="c/157">וַ/יֶּאֱהָבֵ֥/הוּ</w></rdg></note>
           <w lemma="3083" n="0.0">יְהוֹנָתָ֖ן</w>
           <w lemma="k/5315" n="0">כְּ/נַפְשֽׁ/וֹ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
