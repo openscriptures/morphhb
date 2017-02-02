@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2016.03.03</date>
+        <p>Updated to WLC version 4.20.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2013.12.11</date>
         <p>First release of morphology on selected portions.</p>
       </revisionDesc>
@@ -1115,7 +1119,7 @@
           <w lemma="c/l/6">וּ/לְ/אַבֵּ֣ד</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="3605">כָּל</w><seg type="x-maqqef">־</seg><w lemma="d/3064" n="1.1.0.0">הַ֠/יְּהוּדִים</w>
           <w lemma="m/5288">מִ/נַּ֨עַר</w>
-          <w lemma="c/5704">וְ/עַד</w><seg type="x-maqqef">־</seg><w lemma="2205">זָקֵ֨ן</w>
+          <w lemma="c/5704">וְ/עַד</w><seg type="x-maqqef">־</seg><w lemma="2205">זָקֵ֜ן</w>
           <w lemma="2945">טַ֤ף</w>
           <w lemma="c/802" n="1.1.0">וְ/נָשִׁים֙</w>
           <w lemma="b/3117">בְּ/י֣וֹם</w>
@@ -2927,6 +2931,7 @@
         <verse osisID="Esth.9.27">
           <w lemma="6965 b">קִיְּמ֣וּ</w>
           <w lemma="c/6901">ו/קבל</w><note type="variant"><catchWord>ו/קבל</catchWord><rdg type="x-qere"><w lemma="c/6901">וְ/קִבְּל֣וּ</w></rdg></note>
+          <note n="a">Adaptations to a Qere which L and BHS, by their design, do not indicate. </note>
           <w lemma="d/3064">הַ/יְּהוּדִים֩</w>
           <seg type="x-paseq">׀</seg>
           <w lemma="5921 a">עֲלֵי/הֶ֨ם</w>

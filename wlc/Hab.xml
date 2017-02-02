@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2016.03.03</date>
+        <p>Updated to WLC version 4.20.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2013.12.11</date>
         <p>First release of morphology on selected portions.</p>
       </revisionDesc>
@@ -67,6 +71,7 @@
       <chapter osisID="Hab.1">
         <verse osisID="Hab.1.1">
           <w lemma="d/4853 b" n="0.1.0">הַ/מַּשָׂא֙</w>
+          <note n="C">We read one or more accents in L differently from BHQ. </note>
           <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
           <note n="n">Marks an anomalous form. </note>
           <note n="p">We read punctuation in L differently from BHS. </note>
@@ -604,8 +609,6 @@
         </verse>
         <verse osisID="Hab.3.4">
           <w lemma="c/5051" n="1.1.0">וְ/נֹ֨גַהּ֙</w>
-          <note n="C">We read one or more accents in L differently from BHQ. </note>
-          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="k/216">כָּ/א֣וֹר</w>
           <w lemma="1961" n="1.1">תִּֽהְיֶ֔ה</w>
           <w lemma="7161 a">קַרְנַ֥יִם</w>

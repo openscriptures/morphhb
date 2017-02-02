@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2016.03.03</date>
+        <p>Updated to WLC version 4.20.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2013.12.11</date>
         <p>First release of morphology on selected portions.</p>
       </revisionDesc>
@@ -657,7 +661,6 @@
           <w lemma="4481">מִן</w><seg type="x-maqqef">־</seg><w lemma="6925" n="1.1.0">קֳדָם֙</w>
           <w lemma="426">אֱלָ֣הּ</w>
           <w lemma="8065" n="1.1">שְׁמַיָּ֔/א</w>
-          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="5922">עַל</w><seg type="x-maqqef">־</seg><w lemma="7328" n="1.0">רָזָ֖/ה</w>
           <w lemma="1836" n="1">דְּנָ֑ה</w>
           <w lemma="1768">דִּ֣י</w>
@@ -1826,7 +1829,7 @@
           <w lemma="524" n="1.2.3.0">אֻמָּ֜ה</w>
           <w lemma="c/3961" n="1.2.3">וְ/לִשָּׁ֗ן</w>
           <w lemma="1768">דִּֽי</w><seg type="x-maqqef">־</seg><w lemma="560">יֵאמַ֤ר</w>
-          <w lemma="7955">שלה</w><note type="variant"><catchWord>שלה</catchWord><rdg type="x-qere"><w lemma="7955" n="1.2.2">שָׁלוּ֙</w></rdg></note>
+          <w lemma="7955">שלה</w><note type="variant"><catchWord>שלה</catchWord><rdg type="x-qere"><w lemma="7960" n="1.2.2">שָׁלוּ֙</w></rdg></note>
           <w lemma="5922">עַ֣ל</w>
           <w lemma="426" n="1.2.1">אֱלָהֲ/ה֗וֹן</w>
           <w lemma="1768">דִּֽי</w><seg type="x-maqqef">־</seg><w lemma="7715">שַׁדְרַ֤ךְ</w>
@@ -2224,7 +2227,7 @@
         <verse osisID="Dan.4.19">
           <note>KJV:Dan.4.22</note>
           <w lemma="607">אנתה</w><note type="variant"><catchWord>אנתה</catchWord><rdg type="x-qere"><w lemma="607">אַנְתְּ</w></rdg></note>
-<seg type="x-maqqef">־</seg><w lemma="607">ה֣וּא</w>
+<seg type="x-maqqef">־</seg><w lemma="1932">ה֣וּא</w>
           <w lemma="4430" n="1.1">מַלְכָּ֔/א</w>
           <w lemma="1768">דִּ֥י</w>
           <w lemma="7236" n="1.0">רְבַ֖ית</w>
@@ -2810,7 +2813,7 @@
           <w lemma="c/560">וְ/אָמַ֣ר</w>
           <w lemma="l/1841" n="0.1.2">לְ/דָנִיֵּ֗אל</w>
           <w lemma="607">אנתה</w><note type="variant"><catchWord>אנתה</catchWord><rdg type="x-qere"><w lemma="607">אַנְתְּ</w></rdg></note>
-<seg type="x-maqqef">־</seg><w lemma="607">ה֤וּא</w>
+<seg type="x-maqqef">־</seg><w lemma="1932">ה֤וּא</w>
           <w lemma="1841" n="0.1.1">דָנִיֵּאל֙</w>
           <w lemma="1768">דִּֽי</w><seg type="x-maqqef">־</seg><w lemma="4481">מִן</w><seg type="x-maqqef">־</seg><w lemma="1123">בְּנֵ֤י</w>
           <w lemma="1547" n="0.1.0">גָלוּתָ/א֙</w>
@@ -5367,7 +5370,7 @@
           <note n="k">We read one or more consonants in L differently from BHS. </note>
           <w lemma="5973 a" n="0.1.0">עִמִּ/י֙</w>
           <w lemma="2388" n="0.1">הִתְחַזַּ֔קְתִּי</w>
-          <w lemma="559" n="0.0.0">וָאֹֽמְרָ֛ה</w>
+          <w lemma="c/559" n="0.0.0">וָ/אֹֽמְרָ֛/ה</w>
           <w lemma="1696">יְדַבֵּ֥ר</w>
           <w lemma="113" n="0.0">אֲדֹנִ֖/י</w>
           <w lemma="3588 a">כִּ֥י</w>

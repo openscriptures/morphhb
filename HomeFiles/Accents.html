@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>OpenScriptures Hebrew Bible</title>
+        <link rel="stylesheet" href="OshbStyle.css" />
+        <link rel="shortcut icon" href="OSHB.ico"/>
+    </head>
+    <body>
+        <header>
+            <img src="Originally.png" width="127" height="127" alt="OpenScriptures Hebrew Bible logo" />
+            <h1><span>The OpenScriptures</span><br />Hebrew Bible</h1>
+			<span class="twit">
+				<a href="https://twitter.com/OSHebrewBible" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @OSHebrewBible</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</span>
+        </header>
+		<section class="passage">
+			<img src="Passage.png" alt="Passage illustration" width="803" height="123" />
+		</section>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="Oshb.html">Hebrew Bible</a></li>
+				<li><a href="Lexicon.html">Lexicon</a></li>
+				<li><a href="Morph.html">Morphology</a></li>
+				<li class="here">Cantillation</li>
+				<li><a href="Parse.html">Parsing Project</a></li>
+			</ul>
+		</nav>
+        <article>
+            <p><a href="http://aleppocodex.org/links/8.html#label3" target="_blank">Cantillation Marks</a>
+			indicate musical, phonetic and syntactic structure in the biblical text of a verse.
+			For a more technical introduction, see
+			<a href="http://www.mechon-mamre.org/c/hr/" target="_blank">Hebrew Cantillation Marks And Their Encoding</a>.
+			In addition, there are two books that provide the basis for our structural divisions.
+			<a href="https://archive.org/details/treatiseonaccent00wickuoft" target="_blank">A Treatise on the Accentuation of the twenty-one so-called Prose Books of the Old Testament</a>
+			and <a href="https://archive.org/details/treatiseonacpoet00wickuoft" target="_blank">A Treatise on the Accentuation of the three so-called Poetical Books of the Old Testament, Psalms, Proverbs, and Job</a>,
+			both by William Wickes.</p>
+			
+			<p>Our first approach was to analyze a verse on the fly, when it was loaded. Then it was
+			decided to record the divisions in the OSHB itself. See
+			<a href="https://github.com/openscriptures/morphhb" target="_blank">OpenScriptures Hebrew Bible</a>
+			under <code>structure/OshbVerse</code> for a demo of the usage. To produce the newer markup
+			in the illustration above, look under <code>HomeFiles/Prototype</code>. This has not yet
+			been implemented in code. Text-wrapping may also cause problem with the containment
+			of the colored borders. This is the reason for using the graphic instead of the markup
+			on the live site.</p>
+        </article>
+        <section class="resource">
+            <h2>Resources</h2>
+			<ul>
+				<li>
+					<a href="https://github.com/openscriptures/morphhb" target="_blank">OpenScriptures Hebrew Bible</a>
+					<br />More info: <a href="Oshb.html">Hebrew Bible</a>
+				</li>
+				<li>
+					<a href="https://github.com/openscriptures/HebrewLexicon" target="_blank">Hebrew Lexicon</a>
+					<br />More info: <a href="Lexicon.html">Lexicon</a>
+				</li>
+				<li>
+					<a href="http://openscriptures.github.com/morphhb/parsing/HebrewMorphologyCodes.html" target="_blank">Hebrew Morphology Codes</a>
+					<br />More info: <a href="Morph.html">Morphology</a>
+				</li>
+				<li>
+					<a href="http://hb.openscriptures.org/OshbParse/index.php" target="_blank">OSHB – Parsing</a>
+					<br />More info: <a href="Parse.html">Parsing Project</a>
+				</li>
+				<li>
+					<a href="http://hb.openscriptures.org/status_all.html" target="_blank">OSHB Parsing Status</a>
+					<br />Individual books: <a href="https://git.door43.org/Door43/UHB#parsing-status" target="_blank">Book Status</a>
+				</li>
+				<li>
+					<a href="https://groups.google.com/forum/#!forum/openscriptures-hb" target="_blank">OSHB Project Email List</a>
+				</li>
+			</ul>
+        </section>
+		<div class="license">
+			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+		</div>
+    </body>
+</html>

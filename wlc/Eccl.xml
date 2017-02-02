@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2016.03.03</date>
+        <p>Updated to WLC version 4.20.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2013.12.11</date>
         <p>First release of morphology on selected portions.</p>
       </revisionDesc>
@@ -608,7 +612,10 @@
           <w lemma="l/120" n="1.1.0">לָֽ/אָדָם֙</w>
           <w lemma="b/3605">בְּ/כָל</w><seg type="x-maqqef">־</seg><w lemma="5999" n="1.1">עֲמָל֔/וֹ</w>
           <w lemma="c/b/7475" n="1.0">וּ/בְ/רַעְי֖וֹן</w>
-          <w lemma="3820 a" n="1">לִבּ֑/וֹ</w>
+          <w lemma="3820 a" n="1">לִבּ֑/ו</w>
+          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
+          <note n="n">Marks an anomalous form. </note>
+          <note n="v">We read one or more vowels in L differently from BHS. </note>
           <w lemma="s/1931">שֶׁ/ה֥וּא</w>
           <w lemma="6001 b" n="0.0">עָמֵ֖ל</w>
           <w lemma="8478">תַּ֥חַת</w>
@@ -622,10 +629,7 @@
           <w lemma="6045" n="1.1">עִנְיָנ֔/וֹ</w>
           <w lemma="1571">גַּם</w><seg type="x-maqqef">־</seg><w lemma="b/3915" n="1.0">בַּ/לַּ֖יְלָה</w>
           <w lemma="3808">לֹא</w><seg type="x-maqqef">־</seg><w lemma="7901">שָׁכַ֣ב</w>
-          <w lemma="3820 a" n="1">לִבּ֑/ו</w>
-          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
-          <note n="n">Marks an anomalous form. </note>
-          <note n="v">We read one or more vowels in L differently from BHS. </note>
+          <w lemma="3820 a" n="1">לִבּ֑/וֹ</w>
           <w lemma="1571">גַּם</w><seg type="x-maqqef">־</seg><w lemma="2088" n="0.0">זֶ֖ה</w>
           <w lemma="1892">הֶ֥בֶל</w>
           <w lemma="1931" n="0">הֽוּא</w><seg type="x-sof-pasuq">׃</seg>

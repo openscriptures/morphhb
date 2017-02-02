@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2016.03.03</date>
+        <p>Updated to WLC version 4.20.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2013.12.11</date>
         <p>First release of morphology on selected portions.</p>
       </revisionDesc>
@@ -308,12 +312,12 @@
         </verse>
         <verse osisID="Prov.1.28">
           <w lemma="227 a">אָ֣ז</w>
-          <w lemma="7121" n="1.0">יִ֭קְרָאֻ/נְ/נִי</w>
+          <w lemma="7121" n="1.0">יִ֭קְרָאֻ/נְנִי</w>
           <w lemma="c/3808">וְ/לֹ֣א</w>
           <w lemma="6030 b" n="1">אֶֽעֱנֶ֑ה</w>
-          <w lemma="7836" n="0.0">יְ֝שַׁחֲרֻ֗/נְ/נִי</w>
+          <w lemma="7836" n="0.0">יְ֝שַׁחֲרֻ֗/נְנִי</w>
           <w lemma="c/3808">וְ/לֹ֣א</w>
-          <w lemma="4672" n="0">יִמְצָאֻֽ/נְ/נִי</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="4672" n="0">יִמְצָאֻֽ/נְנִי</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Prov.1.29">
           <w lemma="8478" n="1.0">תַּ֭חַת</w>
@@ -1225,7 +1229,7 @@
         <verse osisID="Prov.5.22">
           <w lemma="5771" n="1.0">עַֽווֹנוֹתָ֗י/ו</w>
           <note n="U">We agree with both BHS 1997 and BHQ on an unexpected reading. </note>
-          <w lemma="3920">יִלְכְּדֻ/נ֥/וֹ</w>
+          <w lemma="3920">יִלְכְּדֻ/נ֥וֹ</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/7563" n="1">הָ/רָשָׁ֑ע</w>
           <w lemma="c/b/2256 a">וּ/בְ/חַבְלֵ֥י</w>
           <w lemma="2403 b" n="0.0">חַ֝טָּאת֗/וֹ</w>
@@ -1667,6 +1671,7 @@
         </verse>
         <verse osisID="Prov.7.13">
           <w lemma="c/2388">וְ/הֶחֱזִ֣יקָה</w>
+          <note n="P">We read the punctuation in L differently from BHQ. </note>
           <w lemma="b" n="1.0">בּ֭/וֹ</w>
           <note n="C">We read one or more accents in L differently from BHQ. </note>
           <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
@@ -1932,7 +1937,7 @@
           <w lemma="157">אהבי/ה</w><note type="variant"><catchWord>אהבי/ה</catchWord><rdg type="x-qere"><w lemma="157">אֹהֲבַ֣/י</w></rdg></note>
           <w lemma="157" n="1">אֵהָ֑ב</w>
           <w lemma="c/7836" n="0.0">וּ֝/מְשַׁחֲרַ֗/י</w>
-          <w lemma="4672" n="0">יִמְצָאֻֽ/נְ/נִי</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="4672" n="0">יִמְצָאֻֽ/נְנִי</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Prov.8.18">
           <w lemma="6239">עֹֽשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="c/3519">וְ/כָב֥וֹד</w>
@@ -3527,8 +3532,10 @@
           <w lemma="7068" n="0">קִנְאָֽה</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Prov.14.31">
-          <w lemma="6231">עֹ֣שֵֽׁק</w><seg type="x-maqqef">־</seg><w lemma="1800" n="1.0">דָּ֭ל</w>
-          <note n="U">We agree with both BHS 1997 and BHQ on an unexpected reading. </note>
+          <w lemma="6231">עֹ֣שֵֽׁק</w>
+          <note n="P">We read the punctuation in L differently from BHQ. </note>
+          <note n="p">We read punctuation in L differently from BHS. </note>
+		  <w lemma="1800" n="1.0">דָּ֭ל</w>
           <w lemma="2778 a">חֵרֵ֣ף</w>
           <w lemma="6213 a" n="1">עֹשֵׂ֑/הוּ</w>
           <w lemma="c/3513" n="0.0">וּ֝/מְכַבְּד֗/וֹ</w>
@@ -5453,7 +5460,7 @@
           <w lemma="8104">שׁוֹמֵ֥ר</w>
           <w lemma="5315" n="0.0">נַ֝פְשׁ֗/וֹ</w>
           <w lemma="7368">יִרְחַ֥ק</w>
-          <w lemma="m/1992" n="0">מֵ/הֶֽם</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="m" n="0">מֵ/הֶֽם</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Prov.22.6">
           <w lemma="2596">חֲנֹ֣ךְ</w>
@@ -5593,7 +5600,6 @@
           <w lemma="l/3045" n="1.1">לְ/הוֹדִֽיעֲ/ךָ֗</w>
           <w lemma="7189 b" n="1.0">קֹ֭שְׁטְ</w>
           <note n="C">We read one or more accents in L differently from BHQ. </note>
-          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="561">אִמְרֵ֣י</w>
           <w lemma="571" n="1">אֱמֶ֑ת</w>
           <w lemma="l/7725">לְ/הָשִׁ֥יב</w>
@@ -6764,8 +6770,6 @@
         <verse osisID="Prov.26.25">
           <w lemma="3588 a">כִּֽי</w><seg type="x-maqqef">־</seg><w lemma="2603 a">יְחַנֵּ֣ן</w>
           <w lemma="6963 a" n="1.0">ק֭וֹל/וֹ</w>
-          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
-          <note n="c">We read one or more accents in L differently than BHS. Often this notation indicates a typographical error in BHS. </note>
           <w lemma="408">אַל</w><seg type="x-maqqef">־</seg><w lemma="539">תַּֽאֲמֶן</w><seg type="x-maqqef">־</seg><w lemma="b" n="1">בּ֑/וֹ</w>
           <w lemma="3588 a">כִּ֤י</w>
           <w lemma="7651">שֶׁ֖בַע</w>

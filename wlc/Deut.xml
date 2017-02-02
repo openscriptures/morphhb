@@ -3,6 +3,10 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
+        <date>2016.03.03</date>
+        <p>Updated to WLC version 4.20.</p>
+      </revisionDesc>
+      <revisionDesc resp="dt">
         <date>2013.12.11</date>
         <p>First release of morphology on selected portions.</p>
       </revisionDesc>
@@ -526,10 +530,8 @@
           <w lemma="3068">יְהוָ֣ה</w>
           <w lemma="430" n="1.1">אֱלֹהֶ֔י/ךָ</w>
           <w lemma="k/834 d">כַּ/אֲשֶׁ֥ר</w>
-          <w lemma="5375">יִשָׂא</w><seg type="x-maqqef">־</seg><w lemma="376" n="1.0">אִ֖ישׁ</w>
-          <note n="Q">Marks a place where we agree with BHQ against BHS in reading L. </note>
-          <note n="n">Marks an anomalous form. </note>
-          <note n="p">We read punctuation in L differently from BHS. </note>
+          <w lemma="5375">יִשָּׂא</w><seg type="x-maqqef">־</seg><w lemma="376" n="1.0">אִ֖ישׁ</w>
+          <note n="P">We read the punctuation in L differently from BHQ. </note>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="1121 a" n="1">בְּנ֑/וֹ</w>
           <w lemma="b/3605">בְּ/כָל</w><seg type="x-maqqef">־</seg><w lemma="d/1870" n="0.1.0">הַ/דֶּ֨רֶךְ֙</w>
           <w lemma="834 a">אֲשֶׁ֣ר</w>
@@ -4805,7 +4807,7 @@
         <verse osisID="Deut.10.9">
           <w lemma="5921 a">עַל</w><seg type="x-maqqef">־</seg><w lemma="3651 c" n="1.0.0.0">כֵּ֞ן</w>
           <w lemma="3808">לֹֽא</w><seg type="x-maqqef">־</seg><w lemma="1961">הָיָ֧ה</w>
-          <w lemma="l/3881" n="1.0.0">לְ/לֵוִ֛י</w>
+          <w lemma="l/3878" n="1.0.0">לְ/לֵוִ֛י</w>
           <w lemma="2506 a">חֵ֥לֶק</w>
           <w lemma="c/5159" n="1.0">וְ/נַחֲלָ֖ה</w>
           <w lemma="5973 a">עִם</w><seg type="x-maqqef">־</seg><w lemma="251" n="1">אֶחָ֑י/ו</w>
@@ -4983,7 +4985,7 @@
           <w lemma="c/1931">וְ/ה֣וּא</w>
           <w lemma="430" n="1">אֱלֹהֶ֑י/ךָ</w>
           <w lemma="834 a">אֲשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="6213 a">עָשָׂ֣ה</w>
-          <w lemma="853" n="0.1.1">אִתְּ/ךָ֗</w>
+          <w lemma="854" n="0.1.1">אִתְּ/ךָ֗</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/1419 a">הַ/גְּדֹלֹ֤ת</w>
           <w lemma="c/853">וְ/אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/3372" n="0.1.0">הַ/נּֽוֹרָאֹת֙</w>
           <w lemma="d/428" n="0.1">הָ/אֵ֔לֶּה</w>
@@ -5176,7 +5178,7 @@
           <w lemma="c/d/776" n="1.1.1">וְ/הָ/אָ֗רֶץ</w>
           <w lemma="834 a">אֲשֶׁ֨ר</w>
           <w lemma="859 d" n="1.1.0.0">אַתֶּ֜ם</w>
-          <w lemma="935">עֹבְרִ֥ים</w>
+          <w lemma="5674 a">עֹבְרִ֥ים</w>
           <w lemma="8033" n="1.1.0">שָׁ֨מָּ/ה֙</w>
           <w lemma="l/3423" n="1.1">לְ/רִשְׁתָּ֔/הּ</w>
           <w lemma="776">אֶ֥רֶץ</w>
@@ -8969,7 +8971,7 @@
           <w lemma="3651 c" n="0.1.0.0">כֵּ֜ן</w>
           <w lemma="935">תָּב֤וֹא</w>
           <w lemma="413" n="0.1.0">אֵלֶ֨י/הָ֙</w>
-          <w lemma="c/1167" n="0.1">וּ/בְעַלְתָּ֔/הּ</w>
+          <w lemma="c/1166" n="0.1">וּ/בְעַלְתָּ֔/הּ</w>
           <w lemma="c/1961">וְ/הָיְתָ֥ה</w>
           <w lemma="l" n="0.0">לְ/ךָ֖</w>
           <w lemma="l/802" n="0">לְ/אִשָּֽׁה</w><seg type="x-sof-pasuq">׃</seg>
@@ -10197,7 +10199,7 @@
           <w lemma="3588 a">כִּ֤י</w>
           <w lemma="6041" n="1.2.0">עָנִי֙</w>
           <w lemma="1931" n="1.2">ה֔וּא</w>
-          <w lemma="c/5921 a" n="1.1">וְ/אֵלָ֕י/ו</w>
+          <w lemma="c/413" n="1.1">וְ/אֵלָ֕י/ו</w>
           <w lemma="1931">ה֥וּא</w>
           <w lemma="5375" n="1.0">נֹשֵׂ֖א</w>
           <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="5315" n="1">נַפְשׁ֑/וֹ</w>
