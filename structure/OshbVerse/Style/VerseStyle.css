@@ -31,6 +31,12 @@ h1 span.logo
     left: 1.75em;
     line-height: 0.8em;
 }
+h3
+{
+    color: crimson;
+    font-size: 1.2em;
+	text-align: right;
+}
 /* Navigation styles. */
 nav
 {
@@ -48,17 +54,6 @@ section#work
 {
 	margin: 0.5em;
 }
-section#display
-{
-    padding: 0 1em;
-    background-color: rgba(255, 254, 251, 0.6);
-    border-radius: 1em;
-    border: 3px double #217438;
-    max-width: 24em;
-    height: 500px;
-    direction: rtl;
-    overflow: auto;
-}
 /* Verse display. */
 span.Hebrew, span.punctuation
 {
@@ -72,7 +67,6 @@ span.Hebrew:hover
 }
 span.qere
 {
-    font-size: smaller;
     color: blue;
 }
 span.mark
@@ -86,32 +80,4 @@ sup.note
     color: blue;
     cursor: pointer;
     direction: ltr;
-}
-/* Structure Styles */
-section#display div
-{
-    border: 1px solid transparent;
-    padding: 1px 4px;
-    margin: 1px;
-}
-section#display div.level0
-{
-    border-color: #80c;
-    background-color: rgba(255, 254, 251, 0.6);
-}
-section#display div.level1
-{
-    border-color: #f84;
-}
-section#display div.level2
-{
-    border-color: #ff0;
-}
-section#display div.level3
-{
-    border-color: #480;
-}
-section#display div.level4
-{
-    border-color: #48c;
 }
