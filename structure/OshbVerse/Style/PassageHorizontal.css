@@ -1,0 +1,70 @@
+/* Horizontal Passage Styles */
+section.passage
+{
+    padding: 0 1em 0.5em 1em;
+    background-color: rgba(255, 254, 251, 0.6);
+    border-radius: 1em;
+    border: 3px double #217438;
+	float: right;
+}
+/* Structure Styles */
+section.passage span.level0, section.passage span.level1, section.passage span.level2, section.passage span.level3, section.passage span.level4
+{
+    border: 1px solid transparent;
+    padding: 1px 4px;
+    margin: 1px;
+	display: inline;
+	text-align: right;
+	float: right;
+}
+section.passage span.level0
+{
+    border-color: #80c;
+	margin-top: 0.25em;
+	min-height: 127px;
+}
+section.passage span.level1
+{
+    border-color: #f84;
+	min-height: 121px;
+}
+section.passage span.level2
+{
+    border-color: #ff0;
+	min-height: 115px;
+}
+section.passage span.level3
+{
+    border-color: #480;
+	min-height: 109px;
+}
+section.passage span.level4
+{
+    border-color: #48c;
+	min-height: 103px;
+}
+section.passage span.item
+{
+	text-align: center;
+	padding: 0.5em;
+	float: right;
+}
+section.passage span.punctuation
+{
+	float: right;
+	padding-top: 0.3em;
+}
+section.passage span.mark
+{
+	float: right;
+	padding: 0.6em;
+}
+section.passage sup.note
+{
+	float: right;
+	padding: 0.6em 0 0 2px;
+}
+section.passage span.Hebrew, section.passage span.lemma, section.passage span.morph
+{
+	display: block;
+}
