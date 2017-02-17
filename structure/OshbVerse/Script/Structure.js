@@ -1,6 +1,7 @@
 /**
  * @fileOverview Structure is the JavaScript controller for OSHB structure.
- * @version 1.0
+ * @version 1.2
+ * Updated for popup display.
  * @author David
  */
 (function() {
@@ -77,14 +78,20 @@
         }
         getVerse();
     };
+// Interface elements.
     // Marks up the verse.
     var markupVerse = window.verseMarkup;
+    // Interprets the accents.
+    var accentInterpretation = window.accentInterpretation;
     // Gets the selected verse.
-    var getVerse = function() {
+    function getVerse() {
         var index = elements.verse.value - 1;
         var verse = chapterXml.getElementsByTagName('verse')[index];
-        elements.display.innerHTML = markupVerse(verse);
-    };
+        // Set the scope based on the verse ID.
+        accentInterpretation.setAccents(verse.getAttribute('osisID'));
+        clearNodes(elements.display);
+        elements.display.appendChild(markupVerse(verse));
+    }
     // Initialize.
     var initialChapter = elements.chapter.value - 1;
     elements.book.onchange = setChapters;
