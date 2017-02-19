@@ -16,9 +16,9 @@ accentInterpretation = function() {
 				return accentCatalog.poetic;
 			case "Job":
 				if (fields[1] < 3 || fields[1] == 42 || osisID == "Job.3.1") {
-					return accentCatalog.poetic;
-				} else {
 					return accentCatalog.prose;
+				} else {
+					return accentCatalog.poetic;
 				}
 				break;
 			default:
