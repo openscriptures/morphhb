@@ -73,6 +73,7 @@ accentCatalog = {
 			"\u05A5\u05C3": {"name": "Merkha with Sof Pasuq", "rank": "0", "final": "true"},
 			"\u0591": {"name": "Atnach", "rank": "1", "final": "true"},
 			"\u05A3\u0591": {"name": "Munnach with Atnach", "rank": "1", "final": "true"},
+			"\u05A5\u0591": {"name": "Merkha with Atnach", "rank": "1", "final": "true"},
 			"\u0592": {"name": "Segol", "rank": "1"},
 			"\u0593\u05C0": {"name": "Shalshelet Gedola", "rank": "1", "final": "true"},
 			"\u0594": {"name": "Zaqef Qatan", "rank": "1"},
