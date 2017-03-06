@@ -1,3 +1,9 @@
+/**
+ * @fileOverview AccentCatalog is a component for OshbVerse,
+ * to catalog cantillation marks.
+ * @version 1.2
+ * @author David
+ */
 accentCatalog = {
 	"prose": {
 		"disjunctive": {
@@ -8,6 +14,7 @@ accentCatalog = {
 			"\u0596\u0591": {"name": "Mëayla with Atnach", "rank": "0"},
 			"\u05A3\u0591": {"name": "Munnach with Atnach", "rank": "0"},
 			"\u05A5\u0591": {"name": "Merkha with Atnach", "rank": "0"},
+			"\u0591\u0599": {"name": "Atnach with Pashta", "rank": "0"},
 			"\u0592": {"name": "Segol", "rank": "1"},
 			"\u0593\u05C0": {"name": "Shalshelet", "rank": "1"},
 			"\u0594": {"name": "Zaqef Qatan", "rank": "1"},
@@ -20,6 +27,7 @@ accentCatalog = {
 			"\u05A0\u0597": {"name": "Telisha Gedola with Revia", "rank": "2"},
 			"\u05A3\u0597": {"name": "Munnach with Revia", "rank": "2"},
 			"\u05AE": {"name": "Zarqa", "rank": "2", "final": "true"},
+			"\u0598\u05AE": {"name": "Zarqa", "rank": "2", "final": "true"},
 			"\u0599": {"name": "Pashta", "rank": "2", "final": "true"},
 			"\u0599\u0599": {"name": "Pashta", "rank": "2", "final": "true"},
 			"\u05A8\u0599": {"name": "Pashta", "rank": "2", "final": "true"},
@@ -33,9 +41,12 @@ accentCatalog = {
 			"\u05A3\u05A1": {"name": "Munnach with Pazer", "rank": "3"},
 			"\u059F": {"name": "Qarney Para", "rank": "3"},
 			"\u05A0": {"name": "Telisha Gedola", "rank": "3"},
+			"\u05A0\u05A0": {"name": "Telisha Gedola", "rank": "3"},
+			"\u059D\u05A0": {"name": "Geresh Muqdam with Telisha Gedola", "rank": "3", "final": "true"},
 			"\u059C": {"name": "Geresh", "rank": "3", "final": "true"},
 			"\u05A0\u059C": {"name": "Telisha Gedola with Geresh", "rank": "3", "final": "true"},
 			"\u05A8\u059C": {"name": "Qadma with Geresh", "rank": "3", "final": "true"},
+			"\u059D": {"name": "Geresh Muqdam", "rank": "3", "final": "true"},
 			"\u059E": {"name": "Gershayim", "rank": "3", "final": "true"},
 			"\u05A0\u059E": {"name": "Telisha Gedola with Gershayim", "rank": "3", "final": "true"},
 			"\u059E\u05A0": {"name": "Gershayim with Telisha Gedola", "rank": "3", "final": "true"},
@@ -51,10 +62,12 @@ accentCatalog = {
 			"\u05A8\u05A5\u05C0": {"name": "Qadma and Merkha with Paseq", "rank": "4"},
 			"\u05A9\u05C0": {"name": "Telisha Qetana with Paseq", "rank": "4"},
 			"\u05A3": {"name": "Munnach", "rank": "4"},
+			"\u05A3\u05A3": {"name": "Munnach with Munnach", "rank": "4"},
 			"\u05AA": {"name": "Galgal", "rank": "4"},
 			"\u05A5": {"name": "Merkha", "rank": "4"},
 			"\u05A8\u05A5": {"name": "Qadma with Merkha", "rank": "4"},
 			"\u05A9": {"name": "Telisha Qetana", "rank": "4"},
+			"\u05A9\u05A9": {"name": "Telisha Qetana", "rank": "4"},
 			"\u05A8": {"name": "Qadma", "rank": "4"},
 			"\u05A4": {"name": "Mahpakh", "rank": "4"},
 			"\u05A3\u05A4": {"name": "Munnach with Mahpakh", "rank": "4"},
@@ -104,6 +117,7 @@ accentCatalog = {
 			"\u05AE": {"name": "Tsinnor", "rank": "2", "final": "true"},
 			"\u05A0": {"name": "Telisha Gedola", "rank": "3"},
 			"\u059C": {"name": "Geresh", "rank": "3", "final": "true"},
+			"\u059D": {"name": "Geresh Muqdam", "rank": "3", "final": "true"},
 			"\u059E": {"name": "Gershayim", "rank": "3", "final": "true"}
 		},
 		"conjunctive": {
@@ -113,10 +127,12 @@ accentCatalog = {
 			"\u0596\u05A3": {"name": "Tarcha with Munnach", "rank": "4"},
 			"\u05A3\u05A3": {"name": "Munnach", "rank": "4"},
 			"\u05A4\u05A3": {"name": "Mahpakh with Munnach", "rank": "4"},
+			"\u05A3\u05A5": {"name": "Munnach with Merkha", "rank": "4"},
 			"\u05A3\u05C0": {"name": "Munnach with Paseq", "rank": "4"},
 			"\u05A4\u05A3\u05C0": {"name": "Mahpakh and Munnach with Paseq", "rank": "4"},
 			"\u05AD\u05A3": {"name": "Dechi with Munnach", "rank": "4"},
 			"\u05A3\u05AD": {"name": "Dechi with Munnach", "rank": "4"},
+			"\u05A5\u05A8": {"name": "Merkha with Qadma", "rank": "4"},
 			"\u05A7": {"name": "Darga", "rank": "4"},
 			"\u05A8\u05A7": {"name": "Qadma with Darga", "rank": "4"},
 			"\u05A9": {"name": "Telisha Qetana", "rank": "4"},
