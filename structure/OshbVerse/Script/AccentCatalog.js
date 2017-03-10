@@ -105,6 +105,7 @@ accentCatalog = {
 			"\u05AB": {"name": "Ole", "rank": "1"},
 			"\u05A4\u05AB": {"name": "Mahpakh with Ole", "rank": "1"},
 			"\u05AB\u05A5": {"name": "Ole We Yored", "rank": "1"},
+			"\u05AA\u05AB\u05A5": {"name": "Galgal with Ole We Yored", "rank": "1"},
 			"\u05A5": {"name": "Yored", "rank": "1"},
 			"\u05A8\u05C0": {"name": "Azla Legarmeh", "rank": "1"},
 			"\u05A4\u05A8\u05C0": {"name": "Mahpakh with Azla Legarmeh", "rank": "1"},
@@ -122,6 +123,7 @@ accentCatalog = {
 		},
 		"conjunctive": {
 			"\u05AB": {"name": "Ole", "rank": "1"},
+			"\u05A4\u05AB": {"name": "Mahpakh with Ole", "rank": "1"},
 			"\u05C0": {"name": "Paseq", "rank": "4"},
 			"\u05A3": {"name": "Munnach", "rank": "4"},
 			"\u0596\u05A3": {"name": "Tarcha with Munnach", "rank": "4"},
@@ -138,7 +140,6 @@ accentCatalog = {
 			"\u05A9": {"name": "Telisha Qetana", "rank": "4"},
 			"\u05AA": {"name": "Atnach Hafukh", "rank": "4"},
 			"\u05AA\u05AB": {"name": "Galgal with Ole", "rank": "4"},
-			"\u05AA\u05AB\u05A5": {"name": "Galgal and Ole with Merkha", "rank": "4"},
 			"\u05AA\u05C0": {"name": "Galgal with Paseq", "rank": "4"},
 			"\u05A5": {"name": "Merkha", "rank": "4"},
 			"\u05A5\u05A5": {"name": "Merkha", "rank": "4"},
