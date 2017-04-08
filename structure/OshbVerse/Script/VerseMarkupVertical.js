@@ -7,7 +7,7 @@
  * Updated for popup display.
  * @author David
  */
-verseMarkup = function() {
+verseMarkupVertical = function() {
     // Sequences the verse content by structure.
     var verseLines = window.elementMarkup;
 	// Sets up a div element.

@@ -7,7 +7,7 @@
  * Updated for popup display.
  * @author David
  */
-verseMarkup = function() {
+verseMarkupHorizontal = function() {
     // Sequences the verse content by structure.
     var verseLines = window.elementMarkup;
 	// Sets up a span element.

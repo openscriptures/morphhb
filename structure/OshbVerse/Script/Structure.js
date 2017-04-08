@@ -10,7 +10,8 @@
         "book": document.getElementById('book'),
         "chapter": document.getElementById('chapter'),
         "verse": document.getElementById('verse'),
-        "display": document.getElementById('display')
+        "display": document.getElementById('display'),
+        "verseLayout": document.getElementById('verseLayout')
     };
 // Utility functions.
     // Utility function to clear child nodes from an element.
@@ -80,7 +81,6 @@
     };
 // Interface elements.
     // Marks up the verse.
-    var markupVerse = window.verseMarkup;
     // Interprets the accents.
     var accentInterpretation = window.accentInterpretation;
     // Gets the selected verse.
@@ -92,10 +92,33 @@
         clearNodes(elements.display);
         elements.display.appendChild(markupVerse(verse));
     }
+    // Gets the selected verse layout stylesheet.
+    function getVerseLayout() {
+        var layout = elements.verseLayout.value;
+        // Adapted from https://www.thesitewizard.com/javascripts/change-style-sheets.shtml
+        var i, link_tag ;
+        for (i = 0, link_tag = document.getElementsByTagName('link') ;
+            i < link_tag.length ; i++ ) {
+            if ((link_tag[i].rel.indexOf('stylesheet') != -1) && link_tag[i].title) {
+                link_tag[i].disabled = true ;
+                if (link_tag[i].title == layout) {
+                    link_tag[i].disabled = false ;
+                }
+            }
+        }
+        if (layout == "horizontal") {
+            markupVerse = window.verseMarkupHorizontal;
+        } else if (layout == "vertical") {
+            markupVerse = window.verseMarkupVertical;
+        }
+        getVerse();
+    }
     // Initialize.
     var initialChapter = elements.chapter.value - 1;
+    var markupVerse = window.verseMarkupHorizontal;
     elements.book.onchange = setChapters;
     elements.chapter.onchange = setVerses;
     elements.verse.onchange = getVerse;
+    elements.verseLayout.onchange = getVerseLayout;
     setChapters();
 })();

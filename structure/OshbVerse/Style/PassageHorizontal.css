@@ -4,10 +4,12 @@ section.passage
     padding: 0 1em 0.5em 1em;
     background-color: rgba(255, 254, 251, 0.7);
     border: 3px double #217438;
-	float: right;
+	/*float: right;*/
     width: intrinsic;           /* Safari/WebKit uses a non-standard name */
     width: -moz-max-content;    /* Firefox/Gecko */
     width: -webkit-max-content; /* Chrome */
+    overflow-x: auto;
+    white-space: nowrap;
 }
 /* Structure Styles */
 section.passage span.level0, section.passage span.level1, section.passage span.level2, section.passage span.level3, section.passage span.level4
@@ -16,7 +18,8 @@ section.passage span.level0, section.passage span.level1, section.passage span.l
     border-top: none;
     border-radius: 0 0 1em 1em;
     margin: 0.4ex 2px 3ex 2px;
-	display: inline;
+	display: inline-block;
+    direction: rtl;
 	text-align: right;
 	float: right;
 }
