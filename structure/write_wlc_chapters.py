@@ -19,8 +19,8 @@ def write_chapter(filename, book):
     dom = parse(filename)
 
     for c in dom.getElementsByTagName("chapter"):
-        chapter_filename = join(OUTPUT_DIR, book, c.getAttribute("osisID"))
-        with open(chapter_filename, "w") as f:
+        c_filename = join(OUTPUT_DIR, book, c.getAttribute("osisID") + ".xml")
+        with open(c_filename, "w") as f:
             f.write(c.toxml().encode("utf8"))
 
 if __name__ == "__main__":
