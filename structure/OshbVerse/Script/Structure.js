@@ -37,6 +37,22 @@
         }
         return xmlDoc;
     };
+    // From https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests
+    function xhrSuccess() {
+        this.callback.apply(this, this.arguments);
+    }
+    function xhrError() {
+        console.error(this.statusText);
+    }
+    function loadFile(sURL, fCallback /*, argumentToPass1, argumentToPass2, etc. */) {
+      var oReq = new XMLHttpRequest();
+      oReq.callback = fCallback;
+      oReq.arguments = Array.prototype.slice.call(arguments, 2);
+      oReq.onload = xhrSuccess;
+      oReq.onerror = xhrError;
+      oReq.open("get", sURL, true);
+      oReq.send(null);
+    }
 // Navigation elements.
     var bookIndex;
     // Sets the options for the chapter dropdown.
@@ -49,35 +65,23 @@
         }
         elements.chapter[initialChapter].selected = "selected";
         initialChapter = 0;
-        setVerses();
-    };
-    // Sets the test file for the demo.
-    var setFile = function() {
-        var book = elements.book.value;
-        var chapter = elements.chapter.value;
-        if (book === 'Gen') {
-            switch (chapter) {
-                case '1':
-                    return chapter0;
-                case '8':
-                    return chapter1;
-                case '32':
-                    return chapter2;
-            }
-        } else if (book === 'Ps' && chapter === '1') {
-            return chapter3;
-        }
-        return chapter0;
+        setChapterFile();
     };
     // Sets the options for the verse dropdown.
     var setVerses = function() {
-        chapterXml = parseXmlString(setFile());
+        chapterXml = parseXmlString(this.responseText);
         var i = 1, num = bookIndex[elements.chapter.value];
         clearNodes(elements.verse);
         for (; i <= num; i++) {
             elements.verse.options[elements.verse.options.length] = new Option(i);
         }
         getVerse();
+    };
+    // Sets the XML chapter file to read
+    var setChapterFile = function() {
+        var book = elements.book.value;
+        var chapter = elements.chapter.value;
+        return loadFile("./chapters/"+book+"/"+book+"."+chapter+".xml", setVerses);
     };
 // Interface elements.
     // Marks up the verse.
@@ -116,8 +120,9 @@
     // Initialize.
     var initialChapter = elements.chapter.value - 1;
     var markupVerse = window.verseMarkupHorizontal;
+    setChapterFile();
     elements.book.onchange = setChapters;
-    elements.chapter.onchange = setVerses;
+    elements.chapter.onchange = setChapterFile;
     elements.verse.onchange = getVerse;
     elements.verseLayout.onchange = getVerseLayout;
     setChapters();
