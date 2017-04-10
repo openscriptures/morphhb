@@ -25,8 +25,8 @@ verseMarkupHorizontal = function() {
 		}
 		return node;
 	}
-    // Recursive function to mark up blocks.
-    function blockElement(lines, level) {
+    // Recursive function to mark up blocks in a binary tree.
+    function blockElementBT(lines, level) {
 		var limit = lines.length, span = spanElement('level' + level);
 		if (limit === 1) {
 			//TODO Nest span elements, up to level 3.
@@ -34,33 +34,59 @@ verseMarkupHorizontal = function() {
 			return span;
 		}
         // Recursive breakdown of blocks.
+        var index = 2 * level, i = 0, code = lines[0].code.charAt(index);
+        for (; i < limit; i++) {
+            if (code !== lines[i].code.charAt(index)) {
+                // When the code at that level changes.
+                break;
+            }
+        }
+        span.appendChild(blockElementBT(lines.slice(0, i), level + 1));
+        if (i != limit) {
+            span.appendChild(blockElementBT(lines.slice(i, limit), level));
+        }
+		return span;
+    }
+    // Recursive function to mark up blocks cleaner than binary tree.
+    function blockElementClean(lines, level) {
+        var limit = lines.length, span = spanElement('level' + level);
+        if (limit === 1) {
+            //TODO Nest span elements, up to level 3.
+            span.appendChild(nestElement(lines[0].line, level));
+            return span;
+        }
+        // Recursive breakdown of blocks.
         var index = 2 * level, block = [], i = 0, test,
             code = lines[0].code.charAt(index);
         for (; i < limit; i++) {
             test = lines[i].code.charAt(index);
             if (test !== code) { // When the code at that level changes.
-				span.appendChild(blockElement(block, level + 1));
-				block.splice(0, block.length);
-				code = test;
+                span.appendChild(blockElementClean(block, level + 1));
+                block.splice(0, block.length);
+                code = test;
             }
             block.push(lines[i]);
         }
-		span.appendChild(blockElement(block, level + 1));
-		return span;
+        span.appendChild(blockElementClean(block, level + 1));
+        return span;
     }
 	// Convert an osisID to a scripture reference.
 	var refConvert = window.referenceConversion;
     // Marks up the verse.
-    function verseElement(verse) {
+    function verseElement(verse, binaryTree) {
 		var lines = verseLines(verse),
 			sec = document.createElement('section'),
 			heading = document.createElement('h3');
 		heading.appendChild(document.createTextNode(refConvert(verse.getAttribute('osisID'))));
 		sec.appendChild(heading);
-		sec.appendChild(blockElement(lines, 0));
+        if (binaryTree) {
+            sec.appendChild(blockElementBT(lines, 0));
+        } else {
+            sec.appendChild(blockElementClean(lines, 0));
+        }
 		return sec;
     }
-	return function(verse) {
-		return verseElement(verse);
+	return function(verse, binaryTree) {
+		return verseElement(verse, binaryTree);
 	};
 }();

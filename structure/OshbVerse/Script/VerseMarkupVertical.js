@@ -7,6 +7,7 @@
  * Updated for popup display.
  * @author David
  */
+/* TODO: Refactor and merge with VerseMarkupHorizontal. */
 verseMarkupVertical = function() {
     // Sequences the verse content by structure.
     var verseLines = window.elementMarkup;
@@ -16,8 +17,29 @@ verseMarkupVertical = function() {
 		div.className = className;
 		return div;
 	}
-	// Recursive function to construct block elements.
-	function blockElement(lines, level) {
+    // Recursive function to mark up blocks in a binary tree.
+	function blockElementBT(lines, level) {
+		var limit = lines.length, div = divElement('level' + level);
+		if (limit === 1) {
+			div.appendChild(lines[0].line);
+			return div;
+		}
+		// Recursive breakdown of blocks.
+        var index = 2 * level, i = 0, code = lines[0].code.charAt(index);
+        for (; i < limit; i++) {
+            if (code !== lines[i].code.charAt(index)) {
+                // When the code at that level changes.
+                break;
+            }
+        }
+        div.appendChild(blockElementBT(lines.slice(0, i), level + 1));
+        if (i != limit) {
+            div.appendChild(blockElementBT(lines.slice(i, limit), level));
+        }
+		return div;
+	}
+    // Recursive function to mark up blocks cleaner than binary tree.
+	function blockElementClean(lines, level) {
 		var limit = lines.length, div = divElement('level' + level);
 		if (limit === 1) {
 			div.appendChild(lines[0].line);
@@ -29,31 +51,35 @@ verseMarkupVertical = function() {
 		for (; i < limit; i++) {
 			test = lines[i].code.charAt(index);
 			if (test !== code) {
-				div.appendChild(blockElement(block, level + 1));
+				div.appendChild(blockElementClean(block, level + 1));
 				block.splice(0, block.length);
 				code = test;
 			}
 			block.push(lines[i]);
 		}
-		div.appendChild(blockElement(block, level + 1));
+		div.appendChild(blockElementClean(block, level + 1));
 		return div;
 	}
 	// Convert an osisID to a scripture reference.
 	var refConvert = window.referenceConversion;
 	// Constructs the verse element.
-	function verseElement(verse) {
+	function verseElement(verse, binaryTree) {
 		var lines = verseLines(verse),
 			sec = document.createElement('section'),
 			heading = document.createElement('h3'),
 			foot = document.createElement('div');
 		heading.appendChild(document.createTextNode(refConvert(verse.getAttribute('osisID'))));
 		sec.appendChild(heading);
-		sec.appendChild(blockElement(lines, 0));
+        if (binaryTree) {
+            sec.appendChild(blockElementBT(lines, 0));
+        } else {
+            sec.appendChild(blockElementClean(lines, 0));
+        }
 		foot.id = 'foot';
 		sec.appendChild(foot);
 		return sec;
 	}
-	return function(verse) {
-		return verseElement(verse);
+	return function(verse, binaryTree) {
+		return verseElement(verse, binaryTree);
 	};
 }();

@@ -94,26 +94,32 @@
         // Set the scope based on the verse ID.
         accentInterpretation.setAccents(verse.getAttribute('osisID'));
         clearNodes(elements.display);
-        elements.display.appendChild(markupVerse(verse));
+        if (elements.verseLayout.value.endsWith("-bt")) {
+            elements.display.appendChild(markupVerse(verse, true));
+        } else {
+            elements.display.appendChild(markupVerse(verse, false));
+        }
     }
     // Gets the selected verse layout stylesheet.
     function getVerseLayout() {
-        var layout = elements.verseLayout.value;
+        var layoutDir, i, link_tag;
+        if (elements.verseLayout.value.startsWith("horizontal")) {
+            layoutDir = "horizontal";
+            markupVerse = window.verseMarkupHorizontal;
+        } else {
+            layoutDir = "vertical";
+            markupVerse = window.verseMarkupVertical;
+        }
         // Adapted from https://www.thesitewizard.com/javascripts/change-style-sheets.shtml
         var i, link_tag ;
         for (i = 0, link_tag = document.getElementsByTagName('link') ;
             i < link_tag.length ; i++ ) {
             if ((link_tag[i].rel.indexOf('stylesheet') != -1) && link_tag[i].title) {
                 link_tag[i].disabled = true ;
-                if (link_tag[i].title == layout) {
+                if (link_tag[i].title == layoutDir) {
                     link_tag[i].disabled = false ;
                 }
             }
-        }
-        if (layout == "horizontal") {
-            markupVerse = window.verseMarkupHorizontal;
-        } else if (layout == "vertical") {
-            markupVerse = window.verseMarkupVertical;
         }
         getVerse();
     }

@@ -8,8 +8,7 @@ section#display
     padding: 0 1em;
     background-color: rgba(255, 254, 251, 0.7);
     border: 3px double #217438;
-    max-width: 24em;
-    /*height: 470px;*/
+    max-width: 30em;
     direction: rtl;
     overflow: auto;
 }
@@ -17,6 +16,7 @@ section#display
 section#display div
 {
     border: 1px solid transparent;
+    border-left-width: 4px;
     padding: 1px 4px;
     margin: 1px;
 }
@@ -27,17 +27,17 @@ section#display div.level0
 }
 section#display div.level1
 {
-    border-color: #f84;
+    border-color: #2d1;
 }
 section#display div.level2
 {
-    border-color: #ff0;
+    border-color: #d32;
 }
 section#display div.level3
 {
-    border-color: #480;
+    border-color: #48c;
 }
 section#display div.level4
 {
-    border-color: #48c;
+    border-color: #ee3;
 }
