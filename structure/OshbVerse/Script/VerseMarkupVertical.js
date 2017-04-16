@@ -19,8 +19,9 @@ verseMarkupVertical = function() {
 	}
     // Recursive function to mark up blocks in a binary tree.
 	function blockElementBT(lines, level) {
-		var limit = lines.length, div = divElement('level' + level);
+		var limit = lines.length;
 		if (limit === 1) {
+            var div = divElement('level' + (level + 1));
 			div.appendChild(lines[0].line);
 			return div;
 		}
@@ -32,11 +33,16 @@ verseMarkupVertical = function() {
                 break;
             }
         }
+        var div = divElement('level' + level);
         div.appendChild(blockElementBT(lines.slice(0, i), level + 1));
-        if (i != limit) {
+        if (i < limit) {
             div.appendChild(blockElementBT(lines.slice(i, limit), level));
         }
-		return div;
+        if (div.childElementCount === 1) {
+            return div.firstChild;
+        } else {
+            return div;
+        }
 	}
     // Recursive function to mark up blocks cleaner than binary tree.
 	function blockElementClean(lines, level) {

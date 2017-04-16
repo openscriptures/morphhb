@@ -26,10 +26,12 @@ verseMarkupHorizontal = function() {
 		return node;
 	}
     // Recursive function to mark up blocks in a binary tree.
+    // TODO: Implement Depth layout. Also maybe different thickness of border by level.
     function blockElementBT(lines, level) {
-		var limit = lines.length, span = spanElement('level' + level);
+		var limit = lines.length;
 		if (limit === 1) {
 			//TODO Nest span elements, up to level 3.
+            var span = spanElement('level' + (level + 1));
 			span.appendChild(nestElement(lines[0].line, level));
 			return span;
 		}
@@ -41,11 +43,16 @@ verseMarkupHorizontal = function() {
                 break;
             }
         }
+        var span = spanElement('level' + level);
         span.appendChild(blockElementBT(lines.slice(0, i), level + 1));
-        if (i != limit) {
+        if (i < limit) {
             span.appendChild(blockElementBT(lines.slice(i, limit), level));
         }
-		return span;
+        if (span.childElementCount === 1) {
+            return span.firstChild;
+        } else {
+            return span;
+        }
     }
     // Recursive function to mark up blocks cleaner than binary tree.
     function blockElementClean(lines, level) {
