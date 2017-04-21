@@ -11,7 +11,8 @@
         "chapter": document.getElementById('chapter'),
         "verse": document.getElementById('verse'),
         "display": document.getElementById('display'),
-        "verseLayout": document.getElementById('verseLayout')
+        "verseLayout": document.getElementById('verseLayout'),
+        "levelDepth": document.getElementById('levelDepth')
     };
 // Utility functions.
     // Utility function to clear child nodes from an element.
@@ -99,6 +100,7 @@
         } else {
             elements.display.appendChild(markupVerse(verse, false));
         }
+        setLevelDepth();
     }
     // Gets the selected verse layout stylesheet.
     function getVerseLayout() {
@@ -123,6 +125,25 @@
         }
         getVerse();
     }
+    // Sets the visibility of the accents level up to depth.
+    function setLevelDepth() {
+        var i, depth = parseInt(elements.levelDepth.value);
+        if (depth < 0 || depth > 5) {
+            return;
+        }
+        for (i = 0; i <= depth; i++) {
+            var toShow = elements.display.getElementsByClassName("level" + i);
+            for (var j = 0; j < toShow.length; j++) {
+                toShow[j].style.removeProperty("border-style");
+            };
+        }
+        for (i = depth + 1; i <= 5; i++) {
+            var toHide = elements.display.getElementsByClassName("level" + i);
+            for (var j = 0; j < toHide.length; j++) {
+                toHide[j].style.borderStyle = "hidden";
+            }
+        }
+    }
     // Initialize.
     var initialChapter = elements.chapter.value - 1;
     var markupVerse = window.verseMarkupHorizontal;
@@ -131,5 +152,6 @@
     elements.chapter.onchange = setChapterFile;
     elements.verse.onchange = getVerse;
     elements.verseLayout.onchange = getVerseLayout;
+    elements.levelDepth.onchange = setLevelDepth;
     setChapters();
 })();

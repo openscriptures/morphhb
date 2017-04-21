@@ -18,7 +18,8 @@ section.passage span.level0, section.passage span.level1, section.passage span.l
     border: 2px solid transparent;
     border-top: none;
     border-radius: 0 0 1em 1em;
-    margin: 0.4ex 2px 3ex 2px;
+    margin: 0ex 1px 3ex 1px;
+    padding: 0px 2px;
 	display: inline-block;
     direction: rtl;
 	text-align: right;
@@ -50,7 +51,7 @@ section.passage span.level5
 }
 section.passage span.pad
 {
-    margin: 1px;
+    margin: 0px 0px 0.5ex 0px;
 	display: inline;
 	text-align: right;
 	float: right;
