@@ -3,8 +3,9 @@
  * Components can be merged into one script for efficiency and global scope purity,
  * in production. This component can be interchanged with VerseMarkupHorizontal
  * for alternate display, with the appropriate Passage styles.
- * @version 1.1
- * Updated for popup display.
+ * @version 1.2
+ * Version 1.2: Updated for the addition of binary tree layout.
+ * Version 1.1: Updated for popup display.
  * @author David
  */
 /* TODO: Refactor and merge with VerseMarkupHorizontal. */

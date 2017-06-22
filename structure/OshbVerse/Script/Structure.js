@@ -1,7 +1,8 @@
 /**
  * @fileOverview Structure is the JavaScript controller for OSHB structure.
- * @version 1.2
- * Updated for popup display.
+ * @version 1.3
+ * Version 1.3: Updated for entire WLC, verse layout and depth.
+ * Version 1.2: Updated for popup display.
  * @author David
  */
 (function() {
