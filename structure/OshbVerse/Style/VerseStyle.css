@@ -4,6 +4,10 @@ body
     background-image: url(../Image/ZigZag.png);
     font-family: "Palatino Linotype", Palatino, serif;
     line-height: 1.5em;
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */
+    min-width: 100%;
 }
 header
 {
@@ -35,14 +39,15 @@ h3
 {
     color: crimson;
     font-size: 1.2em;
-	text-align: right;
+	/*text-align: right;*/
+    direction: initial;
 }
 /* Navigation styles. */
 nav
 {
     background-color: rgba(144, 207, 146, 0.75);
     border-bottom: 3px double #217438;
-    padding: 0 0.5em;
+    padding: 0.5ex 0.5em;
     color: crimson;
 }
 nav select
@@ -57,7 +62,7 @@ section#work
 /* Verse display. */
 span.Hebrew, span.punctuation
 {
-    font: 1.5em/1.6em "SBL Hebrew", "Ezra SIL", Cardo, "Times New Roman", David, serif;
+    font: 1.5em/1.6em "SBL Hebrew", "Ezra SIL SR", "Ezra SIL", Cardo, "Times New Roman", David, serif;
     direction: rtl;
 }
 span.Hebrew:hover
@@ -71,7 +76,7 @@ span.qere
 }
 span.mark
 {
-    font: 1.2em/1.6em "SBL Hebrew", "Ezra SIL", Cardo, "Times New Roman", David, serif;
+    font: 1.2em/1.6em "SBL Hebrew", "Ezra SIL SR", "Ezra SIL", Cardo, "Times New Roman", David, serif;
     direction: rtl;
     color: green;
 }
@@ -110,4 +115,10 @@ section#work div#popup ul li.morph
 section#work div#popup ul li.accent
 {
 	color: #556b2f;
+}
+div.footer
+{
+    margin: 20% auto 1em 1em;
+    width: 30em;
+	clear: left;
 }

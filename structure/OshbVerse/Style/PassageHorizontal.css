@@ -2,18 +2,26 @@
 section.passage
 {
     padding: 0 1em 0.5em 1em;
-    background-color: rgba(255, 254, 251, 0.6);
-    border-radius: 1em;
+    background-color: rgba(255, 254, 251, 0.7);
     border: 3px double #217438;
-	float: right;
+	/*float: right;*/
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */
+    overflow-x: auto;
+    white-space: nowrap;
 }
 /* Structure Styles */
-section.passage span.pad, section.passage span.level0, section.passage span.level1, section.passage span.level2, section.passage span.level3, section.passage span.level4
+/*section.passage span[class^="level"] [> Is this better? <]*/
+section.passage span.level0, section.passage span.level1, section.passage span.level2, section.passage span.level3, section.passage span.level4, section.passage span.level5
 {
-    border: 1px solid transparent;
-    padding: 1px 4px;
-    margin: 1px;
-	display: inline;
+    border: 2px solid transparent;
+    border-top: none;
+    border-radius: 0 0 1em 1em;
+    margin: 0ex 1px 3ex 1px;
+    padding: 0px 2px;
+	display: inline-block;
+    direction: rtl;
 	text-align: right;
 	float: right;
 }
@@ -23,23 +31,35 @@ section.passage span.level0
 }
 section.passage span.level1
 {
-    border-color: #f84;
+    border-color: #2d1;
 }
 section.passage span.level2
 {
-    border-color: #ff0;
+    border-color: #d32;
 }
 section.passage span.level3
 {
-    border-color: #480;
+    border-color: #48c;
 }
 section.passage span.level4
 {
-    border-color: #48c;
+    border-color: #ee3;
+}
+section.passage span.level5
+{
+    border-color: #e4a;
+}
+section.passage span.pad
+{
+    margin: 0px 0px 0.5ex 0px;
+	display: inline;
+	text-align: right;
+	float: right;
 }
 section.passage span.Hebrew, section.passage span.punctuation
 {
 	float: right;
+    padding-bottom: 1ex;
 }
 section.passage span.mark
 {

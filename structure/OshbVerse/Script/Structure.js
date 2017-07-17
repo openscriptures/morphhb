@@ -1,7 +1,8 @@
 /**
  * @fileOverview Structure is the JavaScript controller for OSHB structure.
- * @version 1.2
- * Updated for popup display.
+ * @version 1.3
+ * Version 1.3: Updated for entire WLC, verse layout and depth.
+ * Version 1.2: Updated for popup display.
  * @author David
  */
 (function() {
@@ -10,7 +11,9 @@
         "book": document.getElementById('book'),
         "chapter": document.getElementById('chapter'),
         "verse": document.getElementById('verse'),
-        "display": document.getElementById('display')
+        "display": document.getElementById('display'),
+        "verseLayout": document.getElementById('verseLayout'),
+        "levelDepth": document.getElementById('levelDepth')
     };
 // Utility functions.
     // Utility function to clear child nodes from an element.
@@ -36,6 +39,22 @@
         }
         return xmlDoc;
     };
+    // From https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests
+    function xhrSuccess() {
+        this.callback.apply(this, this.arguments);
+    }
+    function xhrError() {
+        console.error(this.statusText);
+    }
+    function loadFile(sURL, fCallback /*, argumentToPass1, argumentToPass2, etc. */) {
+      var oReq = new XMLHttpRequest();
+      oReq.callback = fCallback;
+      oReq.arguments = Array.prototype.slice.call(arguments, 2);
+      oReq.onload = xhrSuccess;
+      oReq.onerror = xhrError;
+      oReq.open("get", sURL, true);
+      oReq.send(null);
+    }
 // Navigation elements.
     var bookIndex;
     // Sets the options for the chapter dropdown.
@@ -48,29 +67,11 @@
         }
         elements.chapter[initialChapter].selected = "selected";
         initialChapter = 0;
-        setVerses();
-    };
-    // Sets the test file for the demo.
-    var setFile = function() {
-        var book = elements.book.value;
-        var chapter = elements.chapter.value;
-        if (book === 'Gen') {
-            switch (chapter) {
-                case '1':
-                    return chapter0;
-                case '8':
-                    return chapter1;
-                case '32':
-                    return chapter2;
-            }
-        } else if (book === 'Ps' && chapter === '1') {
-            return chapter3;
-        }
-        return chapter0;
+        setChapterFile();
     };
     // Sets the options for the verse dropdown.
     var setVerses = function() {
-        chapterXml = parseXmlString(setFile());
+        chapterXml = parseXmlString(this.responseText);
         var i = 1, num = bookIndex[elements.chapter.value];
         clearNodes(elements.verse);
         for (; i <= num; i++) {
@@ -78,9 +79,14 @@
         }
         getVerse();
     };
+    // Sets the XML chapter file to read
+    var setChapterFile = function() {
+        var book = elements.book.value;
+        var chapter = elements.chapter.value;
+        return loadFile("./chapters/"+book+"/"+book+"."+chapter+".xml", setVerses);
+    };
 // Interface elements.
     // Marks up the verse.
-    var markupVerse = window.verseMarkup;
     // Interprets the accents.
     var accentInterpretation = window.accentInterpretation;
     // Gets the selected verse.
@@ -90,12 +96,63 @@
         // Set the scope based on the verse ID.
         accentInterpretation.setAccents(verse.getAttribute('osisID'));
         clearNodes(elements.display);
-        elements.display.appendChild(markupVerse(verse));
+        if (elements.verseLayout.value.endsWith("-bt")) {
+            elements.display.appendChild(markupVerse(verse, true));
+        } else {
+            elements.display.appendChild(markupVerse(verse, false));
+        }
+        setLevelDepth();
+    }
+    // Gets the selected verse layout stylesheet.
+    function getVerseLayout() {
+        var layoutDir, i, link_tag;
+        if (elements.verseLayout.value.startsWith("horizontal")) {
+            layoutDir = "horizontal";
+            markupVerse = window.verseMarkupHorizontal;
+        } else {
+            layoutDir = "vertical";
+            markupVerse = window.verseMarkupVertical;
+        }
+        // Adapted from https://www.thesitewizard.com/javascripts/change-style-sheets.shtml
+        var i, link_tag ;
+        for (i = 0, link_tag = document.getElementsByTagName('link') ;
+            i < link_tag.length ; i++ ) {
+            if ((link_tag[i].rel.indexOf('stylesheet') != -1) && link_tag[i].title) {
+                link_tag[i].disabled = true ;
+                if (link_tag[i].title == layoutDir) {
+                    link_tag[i].disabled = false ;
+                }
+            }
+        }
+        getVerse();
+    }
+    // Sets the visibility of the accents level up to depth.
+    function setLevelDepth() {
+        var i, depth = parseInt(elements.levelDepth.value);
+        if (depth < 0 || depth > 5) {
+            return;
+        }
+        for (i = 0; i <= depth; i++) {
+            var toShow = elements.display.getElementsByClassName("level" + i);
+            for (var j = 0; j < toShow.length; j++) {
+                toShow[j].style.removeProperty("border-style");
+            };
+        }
+        for (i = depth + 1; i <= 5; i++) {
+            var toHide = elements.display.getElementsByClassName("level" + i);
+            for (var j = 0; j < toHide.length; j++) {
+                toHide[j].style.borderStyle = "hidden";
+            }
+        }
     }
     // Initialize.
     var initialChapter = elements.chapter.value - 1;
+    var markupVerse = window.verseMarkupHorizontal;
+    setChapterFile();
     elements.book.onchange = setChapters;
-    elements.chapter.onchange = setVerses;
+    elements.chapter.onchange = setChapterFile;
     elements.verse.onchange = getVerse;
+    elements.verseLayout.onchange = getVerseLayout;
+    elements.levelDepth.onchange = setLevelDepth;
     setChapters();
 })();
