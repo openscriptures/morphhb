@@ -63,10 +63,6 @@
       </work>
       <work osisWork="OSHM" xml:lang="en">
         <title>Open Scriptures Hebrew Morphology</title>
-        <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
-        <date>2017.12.10</date>
-        <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
-        <rights type="x-BY">Creative Commons Attribution 4.0</rights>
         <contributor role="ctb">Daniel Owens</contributor>
         <contributor role="ctb">Joel Ruark</contributor>
         <contributor role="ctb">Andy Hubert</contributor>
@@ -75,6 +71,10 @@
         <contributor role="ctb">jessica jones</contributor>
         <contributor role="ctb">phyl ma</contributor>
         <contributor role="ctb">hermon chan</contributor>
+        <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
+        <date>2018.1.5</date>
+        <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
+        <rights type="x-BY">Creative Commons Attribution 4.0</rights>
       </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
       <workPrefix path="//w/@morph" osisWork="OSHM"/>
@@ -169,7 +169,7 @@
           <w lemma="k/1330" morph="HR/Ncfsa">כִּ/בְתוּלָ֥ה</w>
           <w lemma="2296" morph="HVqsfsc">חֲגֻֽרַת</w><seg type="x-maqqef">־</seg><w lemma="8242" n="0.0" morph="HNcmsa">שַׂ֖ק</w>
           <w lemma="5921 a" morph="HR">עַל</w><seg type="x-maqqef">־</seg><w lemma="1167" morph="HNcmsc">בַּ֥עַל</w>
-          <w lemma="5271 a" n="0" morph="HNcmpc/Sp3fs">נְעוּרֶֽי/הָ</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="5271 a" n="0" morph="HNcbpc/Sp3fs">נְעוּרֶֽי/הָ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Joel.1.9">
           <w lemma="3772" morph="HVHp3ms">הָכְרַ֥ת</w>
