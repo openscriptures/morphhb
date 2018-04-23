@@ -3,8 +3,8 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
-        <date>2018.1.5</date>
-        <p>Release of full morphology (incomplete pre-release)</p>
+        <date>2018.4.23</date>
+        <p>Release of full morphology</p>
       </revisionDesc>
       <revisionDesc resp="dt">
         <date>2016.03.03</date>
@@ -72,7 +72,7 @@
         <contributor role="ctb">Daniel Bowman</contributor>
         <contributor role="ctb">Ashley Whitlatch</contributor>
         <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
-        <date>2018.1.5</date>
+        <date>2018.4.23</date>
         <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
         <rights type="x-BY">Creative Commons Attribution 4.0</rights>
       </work>
@@ -470,7 +470,7 @@
           <w lemma="l/5030" n="1.1" morph="HR/Ncmpa">לִ/נְבִיאִ֔ים</w>
           <w lemma="c/m/970" n="1.0" morph="HC/R/Ncmpc/Sp2mp">וּ/מִ/בַּחוּרֵי/כֶ֖ם</w>
           <w lemma="l/5139" n="1" morph="HR/Ncmpa">לִ/נְזִרִ֑ים</w>
-          <w lemma="i/637">הַ/אַ֥ף</w>
+          <w lemma="i/637" morph="HTi/Ta">הַ/אַ֥ף</w>
           <w lemma="369" morph="HTn">אֵֽין</w><seg type="x-maqqef">־</seg><w lemma="2063" n="0.0.0" morph="HPdxfs">זֹ֛את</w>
           <w lemma="1121 a" morph="HNcmpc">בְּנֵ֥י</w>
           <w lemma="3478" n="0.0" morph="HNp">יִשְׂרָאֵ֖ל</w>
@@ -478,7 +478,7 @@
         </verse>
         <verse osisID="Amos.2.12">
           <w lemma="c/8248" morph="HC/Vhw2mp">וַ/תַּשְׁק֥וּ</w>
-          <w lemma="853" morph="HTo">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/5139" n="1.0">הַ/נְּזִרִ֖ים</w>
+          <w lemma="853" morph="HTo">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/5139" n="1.0" morph="HTd/Ncmpa">הַ/נְּזִרִ֖ים</w>
           <w lemma="3196" n="1" morph="HNcmsa">יָ֑יִן</w>
           <w lemma="c/5921 a" morph="HC/R">וְ/עַל</w><seg type="x-maqqef">־</seg><w lemma="d/5030" n="0.1.0" morph="HTd/Ncmpa">הַ/נְּבִיאִים֙</w>
           <w lemma="6680" morph="HVpp2mp">צִוִּיתֶ֣ם</w>
@@ -1680,7 +1680,7 @@
           <w lemma="5012" n="0" morph="HVNi2ms">תִּנָּבֵֽא</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Amos.7.13">
-          <w lemma="c/1008+" morph="HC/Np">וּ/בֵֽית</w><seg type="x-maqqef">־</seg><w lemma="1008" n="1.1">אֵ֔ל</w>
+          <w lemma="c/1008+" morph="HC/Np">וּ/בֵֽית</w><seg type="x-maqqef">־</seg><w lemma="1008" n="1.1" morph="HNp">אֵ֔ל</w>
           <w lemma="3808" morph="HTn">לֹֽא</w><seg type="x-maqqef">־</seg><w lemma="3254" morph="HVhi2ms">תוֹסִ֥יף</w>
           <w lemma="5750" n="1.0" morph="HD">ע֖וֹד</w>
           <w lemma="l/5012" n="1" morph="HR/VNc">לְ/הִנָּבֵ֑א</w>
