@@ -3,7 +3,7 @@
   <osisText xml:lang="he" osisIDWork="WLC">
     <header>
       <revisionDesc resp="dt">
-        <date>2018.1.5</date>
+        <date>2018.4.23</date>
         <p>Release of full morphology (incomplete pre-release)</p>
       </revisionDesc>
       <revisionDesc resp="dt">
@@ -70,7 +70,7 @@
         <contributor role="ctb">Angela Westmoreland</contributor>
         <contributor role="ctb">Ashley Whitlatch</contributor>
         <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
-        <date>2018.1.5</date>
+        <date>2018.4.23</date>
         <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
         <rights type="x-BY">Creative Commons Attribution 4.0</rights>
       </work>
@@ -378,7 +378,7 @@
           <w lemma="4043" morph="HNcbsc">מָגֵ֣ן</w>
           <w lemma="7586" n="0.1" morph="HNp">שָׁא֔וּל</w>
           <w lemma="1097" n="0.0" morph="HTn">בְּלִ֖י</w>
-          <w lemma="4899">מָשִׁ֥יחַ</w>
+          <w lemma="4899" morph="HNcmsa">מָשִׁ֥יחַ</w>
           <w lemma="b/8081" n="0" morph="HRd/Ncmsa">בַּ/שָּֽׁמֶן</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="2Sam.1.22">
@@ -1448,7 +1448,7 @@
           <w lemma="m/1004 b" morph="HR/Ncmsc">מִ/בֵּ֣ית</w>
           <w lemma="3097" n="0.0.0.2" morph="HNp">יוֹאָ֡ב</w>
           <w lemma="2100" n="0.0.0.1" morph="HVqrmsa">זָ֠ב</w>
-          <w lemma="c/6879" n="0.0.0.0">וּ/מְצֹרָ֞ע</w>
+          <w lemma="c/6879" n="0.0.0.0" morph="HC/VPsmsa">וּ/מְצֹרָ֞ע</w>
           <w lemma="c/2388" morph="HC/Vhrmsa">וּ/מַחֲזִ֥יק</w>
           <w lemma="b/6418" n="0.0.0" morph="HRd/Ncmsa">בַּ/פֶּ֛לֶךְ</w>
           <w lemma="c/5307" morph="HC/Vqrmsa">וְ/נֹפֵ֥ל</w>
@@ -1842,7 +1842,7 @@
           <w lemma="2275 a" n="1">חֶבְר֑וֹנָ/ה</w>
           <w lemma="c/559" morph="HC/Vqw3mp">וַ/יֹּאמְר֣וּ</w>
           <w lemma="l/559" n="0.1" morph="HR/Vqc">לֵ/אמֹ֔ר</w>
-          <w lemma="2005" n="0.0.0">הִנְ/נ֛וּ</w>
+          <w lemma="2005" n="0.0.0" morph="HTj/Sp1cp">הִנְ/נ֛וּ</w>
           <w lemma="6106" morph="HNcfsc/Sp2ms">עַצְמְ/ךָ֥</w>
           <w lemma="c/1320" n="0.0" morph="HC/Ncmsc/Sp2ms">וּֽ/בְשָׂרְ/ךָ֖</w>
           <w lemma="587" n="0" morph="HPp1cp">אֲנָֽחְנוּ</w><seg type="x-sof-pasuq">׃</seg>
@@ -2120,7 +2120,7 @@
           <w lemma="3068" morph="HNp">יְהוָ֧ה</w>
           <w lemma="853" morph="HTo">אֶת</w><seg type="x-maqqef">־</seg><w lemma="341" n="1.0.0" morph="HVqrmpc/Sp1cs">אֹיְבַ֛/י</w>
           <w lemma="l/6440" n="1.0" morph="HR/Ncbpc/Sp1cs">לְ/פָנַ֖/י</w>
-          <w lemma="k/6556">כְּ/פֶ֣רֶץ</w>
+          <w lemma="k/6556" morph="HR/Ncmsc">כְּ/פֶ֣רֶץ</w>
           <w lemma="4325" n="1" morph="HNcmpa">מָ֑יִם</w>
           <w lemma="5921 a" morph="HR">עַל</w><seg type="x-maqqef">־</seg><w lemma="3651 c" n="0.0.1" morph="HTm">כֵּ֗ן</w>
           <w lemma="7121" n="0.0.0" morph="HVqp3ms">קָרָ֛א</w>
@@ -2279,7 +2279,7 @@
         </verse>
         <verse osisID="2Sam.6.6">
           <w lemma="c/935" n="1.0" morph="HC/Vqw3mp">וַ/יָּבֹ֖אוּ</w>
-          <w lemma="5704" morph="HR">עַד</w><seg type="x-maqqef">־</seg><w lemma="1637">גֹּ֣רֶן</w>
+          <w lemma="5704" morph="HR">עַד</w><seg type="x-maqqef">־</seg><w lemma="1637" morph="HNcbsc">גֹּ֣רֶן</w>
           <w lemma="5225" n="1" morph="HNp">נָכ֑וֹן</w>
           <w lemma="c/7971" morph="HC/Vqw3ms">וַ/יִּשְׁלַ֨ח</w>
           <w lemma="5798 a" n="0.1.0.0" morph="HNp">עֻזָּ֜א</w>
@@ -2660,7 +2660,7 @@
           <w lemma="834 a" morph="HTr">אֲשֶֽׁר</w><seg type="x-maqqef">־</seg><w lemma="1980" n="1.2.0" morph="HVtp1cs">הִתְהַלַּכְתִּי֮</w>
           <w lemma="b/3605" morph="HR/Ncmsc">בְּ/כָל</w><seg type="x-maqqef">־</seg><w lemma="1121 a" morph="HNcmpc">בְּנֵ֣י</w>
           <w lemma="3478" n="1.2" morph="HNp">יִשְׂרָאֵל֒</w>
-          <w lemma="i/1697">הֲ/דָבָ֣ר</w>
+          <w lemma="i/1697" morph="HTi/Ncmsa">הֲ/דָבָ֣ר</w>
           <w lemma="1696" n="1.1.1" morph="HVpp1cs">דִּבַּ֗רְתִּי</w>
           <w lemma="854" morph="HR">אֶת</w><seg type="x-maqqef">־</seg><w lemma="259" n="1.1.0" morph="HAcmsa">אַחַד֙</w>
           <w lemma="7626" morph="HNcmpc">שִׁבְטֵ֣י</w>
@@ -2688,7 +2688,7 @@
           <w lemma="6635 b" n="1.2" morph="HNcbpa">צְבָא֔וֹת</w>
           <w lemma="589" morph="HPp1cs">אֲנִ֤י</w>
           <w lemma="3947" n="1.1.0" morph="HVqp1cs/Sp2ms">לְקַחְתִּ֨י/ךָ֙</w>
-          <w lemma="4480 a" morph="HR">מִן</w><seg type="x-maqqef">־</seg><w lemma="d/5116 a" n="1.1">הַ/נָּוֶ֔ה</w>
+          <w lemma="4480 a" morph="HR">מִן</w><seg type="x-maqqef">־</seg><w lemma="d/5116 a" n="1.1" morph="HTd/Ncmsa">הַ/נָּוֶ֔ה</w>
           <w lemma="m/310 a" n="1.0">מֵ/אַחַ֖ר</w>
           <w lemma="d/6629" n="1" morph="HTd/Ncbsa">הַ/צֹּ֑אן</w>
           <w lemma="l/1961" morph="HR/Vqc">לִֽ/הְי֣וֹת</w>
@@ -2729,7 +2729,7 @@
           <w lemma="1121 a" morph="HNcmpc">בְנֵֽי</w><seg type="x-maqqef">־</seg><w lemma="5766 b" n="0.1.0" morph="HNcfsa">עַוְלָה֙</w>
           <w lemma="l/6031 b" n="0.1" morph="HR/Vpc/Sp3ms">לְ/עַנּוֹת֔/וֹ</w>
           <w lemma="k/834 d" n="0.0" morph="HR/Tr">כַּ/אֲשֶׁ֖ר</w>
-          <w lemma="b/7223" n="0">בָּ/רִאשׁוֹנָֽה</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="b/7223" n="0" morph="HRd/Aafsa">בָּ/רִאשׁוֹנָֽה</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="2Sam.7.11">
           <w lemma="c/l/4480 a" morph="HC/R/R">וּ/לְ/מִן</w><seg type="x-maqqef">־</seg><w lemma="d/3117" n="1.1.1" morph="HTd/Ncmsa">הַ/יּ֗וֹם</w>
@@ -2878,7 +2878,7 @@
           <w lemma="c/k/3820 a" n="1.2" morph="HC/R/Ncmsc/Sp2ms">וּֽ/כְ/לִבְּ/ךָ֔</w>
           <w lemma="6213 a" n="1.1" morph="HVqp2ms">עָשִׂ֕יתָ</w>
           <w lemma="853" morph="HTo">אֵ֥ת</w>
-          <w lemma="3605" morph="HNcmsc">כָּל</w><seg type="x-maqqef">־</seg><w lemma="d/1420" n="1.0">הַ/גְּדוּלָּ֖ה</w>
+          <w lemma="3605" morph="HNcmsc">כָּל</w><seg type="x-maqqef">־</seg><w lemma="d/1420" n="1.0" morph="HTd/Ncfsa">הַ/גְּדוּלָּ֖ה</w>
           <w lemma="d/2063" n="1" morph="HTd/Pdxfs">הַ/זֹּ֑את</w>
           <w lemma="l/3045" n="0.0" morph="HR/Vhc">לְ/הוֹדִ֖יעַ</w>
           <w lemma="853" morph="HTo">אֶת</w><seg type="x-maqqef">־</seg><w lemma="5650" n="0" morph="HNcmsc/Sp2ms">עַבְדֶּֽ/ךָ</w><seg type="x-sof-pasuq">׃</seg>
@@ -2913,7 +2913,7 @@
           <w lemma="8034" n="0.2.1" morph="HNcmsa">שֵׁ֗ם</w>
           <w lemma="c/l/6213 a" morph="HC/R/Vqc">וְ/לַ/עֲשׂ֨וֹת</w>
           <w lemma="l" n="0.2.0.0" morph="HR/Sp2mp">לָ/כֶ֜ם</w>
-          <w lemma="d/1420">הַ/גְּדוּלָּ֤ה</w>
+          <w lemma="d/1420" morph="HTd/Ncfsa">הַ/גְּדוּלָּ֤ה</w>
           <w lemma="c/3372" n="0.2.0" morph="HC/VNrfpa">וְ/נֹֽרָאוֹת֙</w>
           <w lemma="l/776" n="0.2" morph="HR/Ncbsc/Sp2ms">לְ/אַרְצֶ֔/ךָ</w>
           <w lemma="m/6440" morph="HR/Ncbpc">מִ/פְּנֵ֣י</w>
@@ -3999,7 +3999,7 @@
           <w lemma="c/3478" morph="HC/Np">וְ/יִשְׂרָאֵ֨ל</w>
           <w lemma="c/3063" n="1.1.1.0" morph="HC/Np">וִֽ/יהוּדָ֜ה</w>
           <w lemma="3427" morph="HVqrmpa">יֹשְׁבִ֣ים</w>
-          <w lemma="b/5521" n="1.1.1">בַּ/סֻּכּ֗וֹת</w>
+          <w lemma="b/5521" n="1.1.1" morph="HRd/Ncfpa">בַּ/סֻּכּ֗וֹת</w>
           <w lemma="c/113" morph="HC/Ncmsc/Sp1cs">וַ/אדֹנִ֨/י</w>
           <w lemma="3097" n="1.1.0.0" morph="HNp">יוֹאָ֜ב</w>
           <w lemma="c/5650" morph="HC/Ncmpc">וְ/עַבְדֵ֤י</w>
@@ -4191,7 +4191,7 @@
           <w lemma="c/3318" morph="HC/Vqw3mp">וַ/יֵּצְא֥וּ</w>
           <w lemma="413" n="1.0" morph="HR/Sp1cp">אֵלֵ֖י/נוּ</w>
           <w lemma="d/7704 b" n="1" morph="HTd/Ncmsa">הַ/שָּׂדֶ֑ה</w>
-          <w lemma="c/1961">וַ/נִּהְיֶ֥ה</w>
+          <w lemma="c/1961" morph="HC/Vqw1cp">וַ/נִּהְיֶ֥ה</w>
           <w lemma="5921 a" n="0.0" morph="HR/Sp3mp">עֲלֵי/הֶ֖ם</w>
           <w lemma="5704" morph="HR">עַד</w><seg type="x-maqqef">־</seg><w lemma="6607" morph="HNcmsc">פֶּ֥תַח</w>
           <w lemma="d/8179" n="0" morph="HTd/Ncmsa">הַ/שָּֽׁעַר</w><seg type="x-sof-pasuq">׃</seg>
@@ -4394,7 +4394,7 @@
           <w lemma="853" morph="HTo">אֶת</w><seg type="x-maqqef">־</seg><w lemma="1004 b" morph="HNcmsc">בֵּ֥ית</w>
           <w lemma="3478" n="1.0" morph="HNp">יִשְׂרָאֵ֖ל</w>
           <w lemma="c/3063" n="1" morph="HC/Np">וִֽ/יהוּדָ֑ה</w>
-          <w lemma="c/518 a" morph="HC/C">וְ/אִ֨ם</w><seg type="x-maqqef">־</seg><w lemma="4592" n="0.1">מְעָ֔ט</w>
+          <w lemma="c/518 a" morph="HC/C">וְ/אִ֨ם</w><seg type="x-maqqef">־</seg><w lemma="4592" n="0.1" morph="HNcmsa">מְעָ֔ט</w>
           <w lemma="c/3254" morph="HC/Vhh1cs">וְ/אֹסִ֥פָה</w>
           <w lemma="l" n="0.0" morph="HR/Sp2ms">לְּ/ךָ֖</w>
           <w lemma="k/2007">כָּ/הֵ֥נָּה</w>
@@ -4662,7 +4662,7 @@
           <w lemma="l/4100" morph="HR/Ti">לָ֤/מָּה</w>
           <w lemma="2088" n="1.1.0" morph="HPdxms">זֶּה֙</w>
           <w lemma="589" morph="HPp1cs">אֲנִ֣י</w>
-          <w lemma="6684" n="1.1">צָ֔ם</w>
+          <w lemma="6684" n="1.1" morph="HVqrmsa">צָ֔ם</w>
           <w lemma="i/3201" morph="HTi/Vqi1cs">הַ/אוּכַ֥ל</w>
           <w lemma="l/7725" n="1.0" morph="HR/Vhc/Sp3ms">לַ/הֲשִׁיב֖/וֹ</w>
           <w lemma="5750" n="1" morph="HD">ע֑וֹד</w>
@@ -4758,7 +4758,7 @@
           <w lemma="c/4948">וּ/מִשְׁקָלָ֨/הּ</w>
           <w lemma="3603" morph="HNcbsc">כִּכַּ֤ר</w>
           <w lemma="2091" n="1.1.0" morph="HNcmsa">זָהָב֙</w>
-          <w lemma="c/68">וְ/אֶ֣בֶן</w>
+          <w lemma="c/68" morph="HC/Ncfsa">וְ/אֶ֣בֶן</w>
           <w lemma="3368" n="1.1" morph="HAafsa">יְקָרָ֔ה</w>
           <w lemma="c/1961" n="1.0" morph="HC/Vqw3fs">וַ/תְּהִ֖י</w>
           <w lemma="5921 a" morph="HR">עַל</w><seg type="x-maqqef">־</seg><w lemma="7218 a">רֹ֣אשׁ</w>
@@ -5241,7 +5241,7 @@
           <w lemma="l/559" n="1.1.1" morph="HR/Vqc">לֵ/אמֹ֗ר</w>
           <w lemma="7200" morph="HVqv2mp">רְא֣וּ</w>
           <w lemma="4994" n="1.1.0.0" morph="HTe">נָ֠א</w>
-          <w lemma="k/2896 a">כְּ/ט֨וֹב</w>
+          <w lemma="k/2896 a" morph="HR/Vqc">כְּ/ט֨וֹב</w>
           <w lemma="3820 a" morph="HNcmsc">לֵב</w><seg type="x-maqqef">־</seg><w lemma="550" morph="HNp">אַמְנ֤וֹן</w>
           <w lemma="b/3196" n="1.1.0" morph="HRd/Ncmsa">בַּ/יַּ֨יִן֙</w>
           <w lemma="c/559" morph="HC/Vqq1cs">וְ/אָמַרְתִּ֣י</w>
@@ -5355,7 +5355,7 @@
           <w lemma="c/5375" n="0.1.0.0" morph="HC/Vqw3ms">וַ/יִּשָּׂ֞א</w>
           <w lemma="d/5288" morph="HTd/Ncmsa">הַ/נַּ֤עַר</w>
           <w lemma="d/6822" n="0.1.0" morph="HTd/Vqrmsa">הַ/צֹּפֶה֙</w>
-          <w lemma="853" morph="HTo">אֶת</w><seg type="x-maqqef">־</seg><w lemma="5869 a">עינ/ו</w><note type="variant"><catchWord>עינ/ו</catchWord><rdg type="x-qere"><w lemma="5869 a" n="0.1">עֵינָ֔י/ו</w></rdg></note>
+          <w lemma="853" morph="HTo">אֶת</w><seg type="x-maqqef">־</seg><w lemma="5869 a" morph="HNcbdc/Sp3ms">עינ/ו</w><note type="variant"><catchWord>עינ/ו</catchWord><rdg type="x-qere"><w lemma="5869 a" n="0.1">עֵינָ֔י/ו</w></rdg></note>
           <w lemma="c/7200" n="0.0.1" morph="HC/Vqw3ms">וַ/יַּ֗רְא</w>
           <w lemma="c/2009" morph="HC/Tm">וְ/הִנֵּ֨ה</w>
           <w lemma="5971 a" morph="HNcmsa">עַם</w><seg type="x-maqqef">־</seg><w lemma="7227 a" n="0.0.0.0" morph="HAamsa">רַ֜ב</w>
@@ -7105,7 +7105,7 @@
           <w lemma="d/6354" n="1.1" morph="HTd/Ncmpa">הַ/פְּחָתִ֔ים</w>
           <w lemma="176 a" n="1.0" morph="HC">א֖וֹ</w>
           <w lemma="b/259" morph="HR/Acmsc">בְּ/אַחַ֣ד</w>
-          <w lemma="d/4725" n="1">הַ/מְּקוֹמֹ֑ת</w>
+          <w lemma="d/4725" n="1" morph="HTd/Ncmpa">הַ/מְּקוֹמֹ֑ת</w>
           <w lemma="c/1961" n="0.4.1" morph="HC/Vqq3ms">וְ/הָיָ֗ה</w>
           <w lemma="k/5307" morph="HR/Vqc">כִּ/נְפֹ֤ל</w>
           <w lemma="b" n="0.4.0" morph="HR/Sp3mp">בָּ/הֶם֙</w>
@@ -7158,7 +7158,7 @@
           <w lemma="c/935" morph="HC/Vqq1cp">וּ/בָ֣אנוּ</w>
           <w lemma="413" n="1.2.1" morph="HR/Sp3ms">אֵלָ֗י/ו</w>
           <w lemma="b/259">ב/אחת</w><note type="variant"><catchWord>ב/אחת</catchWord><rdg type="x-qere"><w lemma="b/259" morph="HR/Acmsc">בְּ/אַחַ֤ד</w></rdg></note>
-          <w lemma="d/4725" n="1.2.0">הַ/מְּקוֹמֹת֙</w>
+          <w lemma="d/4725" n="1.2.0" morph="HTd/Ncmpa">הַ/מְּקוֹמֹת֙</w>
           <w lemma="834 a" morph="HTr">אֲשֶׁ֣ר</w>
           <w lemma="4672" morph="HVNp3ms">נִמְצָ֣א</w>
           <w lemma="8033" n="1.2" morph="HD">שָׁ֔ם</w>
@@ -7471,7 +7471,7 @@
           <w lemma="1241" n="1.1" morph="HNcbsa">בָּקָ֔ר</w>
           <w lemma="5066" morph="HVhp3cp">הִגִּ֧ישׁוּ</w>
           <w lemma="l/1732" n="1.0.0" morph="HR/Np">לְ/דָוִ֛ד</w>
-          <w lemma="c/l/5971 a">וְ/לָ/עָ֥ם</w>
+          <w lemma="c/l/5971 a" morph="HC/Rd/Ncmsa">וְ/לָ/עָ֥ם</w>
           <w lemma="834 a" morph="HTr">אֲשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="854" n="1.0" morph="HR/Sp3ms">אִתּ֖/וֹ</w>
           <w lemma="l/398" n="1" morph="HR/Vqc">לֶ/אֱכ֑וֹל</w>
           <w lemma="3588 a" morph="HC">כִּ֣י</w>
@@ -7501,9 +7501,9 @@
           <w lemma="c/7971" morph="HC/Vpw3ms">וַ/יְשַׁלַּ֨ח</w>
           <w lemma="1732" n="1.2.2.0" morph="HNp">דָּוִ֜ד</w>
           <w lemma="853" morph="HTo">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/5971 a" n="1.2.2" morph="HTd/Ncmsa">הָ/עָ֗ם</w>
-          <w lemma="d/7992">הַ/שְּׁלִשִׁ֤ית</w>
+          <w lemma="d/7992" morph="HTd/Ncfsa">הַ/שְּׁלִשִׁ֤ית</w>
           <w lemma="b/3027" morph="HR/Ncbsc">בְּ/יַד</w><seg type="x-maqqef">־</seg><w lemma="3097" n="1.2.1" morph="HNp">יוֹאָב֙</w>
-          <w lemma="c/d/7992" n="1.2.0.0">וְ֠/הַ/שְּׁלִשִׁית</w>
+          <w lemma="c/d/7992" n="1.2.0.0" morph="HC/Td/Ncfsa">וְ֠/הַ/שְּׁלִשִׁית</w>
           <w lemma="b/3027" morph="HR/Ncbsc">בְּ/יַ֨ד</w>
           <w lemma="52" morph="HNp">אֲבִישַׁ֤י</w>
           <w lemma="1121 a" morph="HNcmsc">בֶּן</w><seg type="x-maqqef">־</seg><w lemma="6870" n="1.2.0" morph="HNp">צְרוּיָה֙</w>
@@ -7526,7 +7526,7 @@
           <w lemma="c/559" morph="HC/Vqw3ms">וַ/יֹּ֨אמֶר</w>
           <w lemma="d/5971 a" n="1.1.3.0" morph="HTd/Ncmsa">הָ/עָ֜ם</w>
           <w lemma="3808" morph="HTn">לֹ֣א</w>
-          <w lemma="3318" n="1.1.3">תֵצֵ֗א</w>
+          <w lemma="3318" n="1.1.3" morph="HVqi2ms">תֵצֵ֗א</w>
           <w lemma="3588 b" morph="HC">כִּי֩</w>
           <w lemma="518 b" morph="HC">אִם</w><seg type="x-maqqef">־</seg><w lemma="5127" morph="HVqa">נֹ֨ס</w>
           <w lemma="5127" n="1.1.2.0">נָנ֜וּס</w>
@@ -7852,7 +7852,7 @@
           <w lemma="3097" n="1.1.0" morph="HNp">יוֹאָב֙</w>
           <w lemma="l/3569" n="1.1">לַ/כּוּשִׁ֔י</w>
           <w lemma="3212" n="1.0.0" morph="HVqv2ms">לֵ֛ךְ</w>
-          <w lemma="5046">הַגֵּ֥ד</w>
+          <w lemma="5046" morph="HVhv2ms">הַגֵּ֥ד</w>
           <w lemma="l/4428" n="1.0" morph="HRd/Ncmsa">לַ/מֶּ֖לֶךְ</w>
           <w lemma="834 a" morph="HTr">אֲשֶׁ֣ר</w>
           <w lemma="7200" n="1" morph="HVqp2ms">רָאִ֑יתָה</w>
@@ -8252,7 +8252,7 @@
           <w lemma="5337" n="0.1.1.0" morph="HVhp3ms/Sp1cp">הִצִּילָ֣/נוּ</w>
           <seg type="x-paseq">׀</seg>
           <w lemma="m/3709" morph="HR/Ncfsc">מִ/כַּ֣ף</w>
-          <w lemma="341" n="0.1.1">אֹיְבֵ֗י/נוּ</w>
+          <w lemma="341" n="0.1.1" morph="HVqrmpc/Sp1cp">אֹיְבֵ֗י/נוּ</w>
           <w lemma="c/1931" morph="HC/Pp3ms">וְ/ה֤וּא</w>
           <w lemma="4422" n="0.1.0" morph="HVpp3ms/Sp1cp">מִלְּטָ֨/נוּ֙</w>
           <w lemma="m/3709" morph="HR/Ncfsc">מִ/כַּ֣ף</w>
@@ -8537,7 +8537,7 @@
         <verse osisID="2Sam.19.26">
           <note>KJV:2Sam.19.25</note>
           <w lemma="c/1961" n="1.0.0" morph="HC/Vqw3ms">וַ/יְהִ֛י</w>
-          <w lemma="3588 a" morph="HC">כִּי</w><seg type="x-maqqef">־</seg><w lemma="935">בָ֥א</w>
+          <w lemma="3588 a" morph="HC">כִּי</w><seg type="x-maqqef">־</seg><w lemma="935" morph="HVqp3ms">בָ֥א</w>
           <w lemma="3389" n="1.0" morph="HNp">יְרוּשָׁלִַ֖ם</w>
           <w lemma="l/7125" morph="HR/Vqc">לִ/קְרַ֣את</w>
           <w lemma="d/4428" n="1" morph="HTd/Ncmsa">הַ/מֶּ֑לֶךְ</w>
@@ -8740,7 +8740,7 @@
           <w lemma="c/4191" morph="HC/Vqi1cs">וְ/אָמֻ֣ת</w>
           <w lemma="b/5892 b" n="1.1" morph="HR/Ncfsc/Sp1cs">בְּ/עִירִ֔/י</w>
           <w lemma="5973 a" n="1.0.0" morph="HR">עִ֛ם</w>
-          <w lemma="6913">קֶ֥בֶר</w>
+          <w lemma="6913" morph="HNcmsc">קֶ֥בֶר</w>
           <w lemma="1" n="1.0" morph="HNcmsc/Sp1cs">אָבִ֖/י</w>
           <w lemma="c/517" n="1" morph="HC/Ncfsc/Sp1cs">וְ/אִמִּ֑/י</w>
           <w lemma="c/2009" n="0.2.1.0" morph="HC/Tm">וְ/הִנֵּ֣ה</w>
@@ -8860,7 +8860,7 @@
           <w lemma="c/559" n="1.2.2" morph="HC/Vqw3ms">וַ/יֹּ֗אמֶר</w>
           <w lemma="6235" morph="HAcfsa">עֶֽשֶׂר</w><seg type="x-maqqef">־</seg><w lemma="3027" morph="HNcbpa">יָד֨וֹת</w>
           <w lemma="l" morph="HR/Sp1cs">לִ֣/י</w>
-          <w lemma="b/4428" n="1.2.1">בַ/מֶּלֶךְ֮</w>
+          <w lemma="b/4428" n="1.2.1" morph="HRd/Ncmsa">בַ/מֶּלֶךְ֮</w>
           <w lemma="c/1571" morph="HC/Ta">וְ/גַם</w><seg type="x-maqqef">־</seg><w lemma="b/1732" n="1.2.0" morph="HR/Np">בְּ/דָוִד֮</w>
           <w lemma="589" morph="HPp1cs">אֲנִ֣י</w>
           <w lemma="4480 a" n="1.2" morph="HR/Sp2ms">מִמְּ/ךָ֒</w>
@@ -8940,7 +8940,7 @@
           <w lemma="1004 b" morph="HNcmsc">בֵּית</w><seg type="x-maqqef">־</seg><w lemma="4931" n="1.1.0" morph="HNcfsa">מִשְׁמֶ֨רֶת֙</w>
           <w lemma="c/3557" n="1.1">וַֽ/יְכַלְכְּלֵ֔/ם</w>
           <w lemma="c/413" n="1.0" morph="HC/R/Sp3mp">וַ/אֲלֵי/הֶ֖ם</w>
-          <w lemma="3808" morph="HTn">לֹא</w><seg type="x-maqqef">־</seg><w lemma="935" n="1">בָ֑א</w>
+          <w lemma="3808" morph="HTn">לֹא</w><seg type="x-maqqef">־</seg><w lemma="935" n="1" morph="HVqp3ms">בָ֑א</w>
           <w lemma="c/1961" morph="HC/Vqw3fp">וַ/תִּהְיֶ֧ינָה</w>
           <w lemma="6887 b" n="0.0.0" morph="HVqsfpa">צְרֻר֛וֹת</w>
           <w lemma="5704" morph="HR">עַד</w><seg type="x-maqqef">־</seg><w lemma="3117">י֥וֹם</w>
@@ -9027,7 +9027,7 @@
           <w lemma="c/5921 a" morph="HC/R/Sp3ms">ו/על/ו</w><note type="variant"><catchWord>ו/על/ו</catchWord><rdg type="x-qere"><w lemma="c/5921 a" n="0.1.1.0">וְ/עָלָ֞י/ו</w></rdg></note>
           <w lemma="2290 a" morph="HNcmsc">חֲג֥וֹר</w>
           <w lemma="2719" n="0.1.1" morph="HNcfsa">חֶ֨רֶב֙</w>
-          <w lemma="6775">מְצֻמֶּ֤דֶת</w>
+          <w lemma="6775" morph="HVPsfsa">מְצֻמֶּ֤דֶת</w>
           <w lemma="5921 a" morph="HR">עַל</w><seg type="x-maqqef">־</seg><w lemma="4975" n="0.1.0" morph="HNcmdc/Sp3ms">מָתְנָי/ו֙</w>
           <w lemma="b/8593" n="0.1" morph="HR/Ncbsc/Sp3fs">בְּ/תַעְרָ֔/הּ</w>
           <w lemma="c/1931" morph="HC/Pp3ms">וְ/ה֥וּא</w>
@@ -9255,7 +9255,7 @@
           <w lemma="413" morph="HR">אֶל</w><seg type="x-maqqef">־</seg><w lemma="3097" n="0.1" morph="HNp">יוֹאָ֔ב</w>
           <w lemma="2009" morph="HTm">הִנֵּ֥ה</w>
           <w lemma="7218 a" n="0.0.0" morph="HNcmsc/Sp3ms">רֹאשׁ֛/וֹ</w>
-          <w lemma="7993">מֻשְׁלָ֥ךְ</w>
+          <w lemma="7993" morph="HVHsmsa">מֻשְׁלָ֥ךְ</w>
           <w lemma="413" n="0.0" morph="HR/Sp2ms">אֵלֶ֖י/ךָ</w>
           <w lemma="1157" morph="HR">בְּעַ֥ד</w>
           <w lemma="d/2346" n="0" morph="HTd/Ncfsa">הַ/חוֹמָֽה</w><seg type="x-sof-pasuq">׃</seg>
@@ -9518,7 +9518,7 @@
           <w lemma="834 a" morph="HTr">אֲשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="6213 a" n="0.0.0" morph="HVqp3fs">עָשְׂתָ֛ה</w>
           <w lemma="7532" morph="HNp">רִצְפָּ֥ה</w>
           <w lemma="1323" morph="HNcfsc">בַת</w><seg type="x-maqqef">־</seg><w lemma="345" n="0.0" morph="HNp">אַיָּ֖ה</w>
-          <w lemma="6370">פִּלֶ֥גֶשׁ</w>
+          <w lemma="6370" morph="HNcfsc">פִּלֶ֥גֶשׁ</w>
           <w lemma="7586" n="0" morph="HNp">שָׁאֽוּל</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="2Sam.21.12">
@@ -9559,7 +9559,7 @@
           <w lemma="1121 a" n="1" morph="HNcmsc/Sp3ms">בְּנ֑/וֹ</w>
           <w lemma="c/622" n="0.1" morph="HC/Vqw3mp">וַ/יַּ֣אַסְפ֔וּ</w>
           <w lemma="853" morph="HTo">אֶת</w><seg type="x-maqqef">־</seg><w lemma="6106" n="0.0" morph="HNcfpc">עַצְמ֖וֹת</w>
-          <w lemma="d/3363" n="0">הַ/מּוּקָעִֽים</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="d/3363" n="0" morph="HTd/VHsmpa">הַ/מּוּקָעִֽים</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="2Sam.21.14">
           <w lemma="c/6912" morph="HC/Vqw3mp">וַ/יִּקְבְּר֣וּ</w>
@@ -9627,7 +9627,7 @@
           <w lemma="376" morph="HNcmpc">אַנְשֵׁי</w><seg type="x-maqqef">־</seg><w lemma="1732" morph="HNp">דָוִ֨ד</w>
           <w lemma="l" n="0.1.1.0" morph="HR/Sp3ms">ל֜/וֹ</w>
           <w lemma="l/559" n="0.1.1" morph="HR/Vqc">לֵ/אמֹ֗ר</w>
-          <w lemma="3808" morph="HTn">לֹא</w><seg type="x-maqqef">־</seg><w lemma="3318">תֵצֵ֨א</w>
+          <w lemma="3808" morph="HTn">לֹא</w><seg type="x-maqqef">־</seg><w lemma="3318" morph="HVqi2ms">תֵצֵ֨א</w>
           <w lemma="5750" morph="HD">ע֤וֹד</w>
           <w lemma="854" n="0.1.0" morph="HR/Sp1cp">אִתָּ֨/נוּ֙</w>
           <w lemma="l/4421" n="0.1" morph="HRd/Ncfsa">לַ/מִּלְחָמָ֔ה</w>
@@ -9756,7 +9756,7 @@
           <w lemma="3467" n="0" morph="HVhi2ms/Sp1cs">תֹּשִׁעֵֽ/נִי</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="2Sam.22.4">
-          <w lemma="1984 b" n="1.0">מְהֻלָּ֖ל</w>
+          <w lemma="1984 b" n="1.0" morph="HVPsmsa">מְהֻלָּ֖ל</w>
           <w lemma="7121">אֶקְרָ֣א</w>
           <w lemma="3068" n="1" morph="HNp">יְהוָ֑ה</w>
           <w lemma="c/m/341" n="0.0">וּ/מֵ/אֹיְבַ֖/י</w>
@@ -9774,7 +9774,7 @@
           <w lemma="2256 a" morph="HNcbpc">חֶבְלֵ֥י</w>
           <w lemma="7585" n="1.0" morph="HNp">שְׁא֖וֹל</w>
           <w lemma="5437" n="1" morph="HVqp3cp/Sp1cs">סַבֻּ֑/נִי</w>
-          <w lemma="6923" n="0.0">קִדְּמֻ֖/נִי</w>
+          <w lemma="6923" n="0.0" morph="HVpp3cp/Sp1cs">קִדְּמֻ֖/נִי</w>
           <w lemma="4170" morph="HNcmpc">מֹֽקְשֵׁי</w><seg type="x-maqqef">־</seg><w lemma="4194" n="0" morph="HNcmsa">מָֽוֶת</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="2Sam.22.7">
@@ -9826,7 +9826,7 @@
           <w lemma="5921 a" morph="HR">עַל</w><seg type="x-maqqef">־</seg><w lemma="3742" n="1.0" morph="HNcmsa">כְּר֖וּב</w>
           <w lemma="c/5774 a" n="1" morph="HC/Vqw3ms">וַ/יָּעֹ֑ף</w>
           <w lemma="c/7200" n="0.0" morph="HC/VNw3ms">וַ/יֵּרָ֖א</w>
-          <w lemma="5921 a" morph="HR">עַל</w><seg type="x-maqqef">־</seg><w lemma="3671">כַּנְפֵי</w><seg type="x-maqqef">־</seg><w lemma="7307" n="0" morph="HNcbsa">רֽוּחַ</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="5921 a" morph="HR">עַל</w><seg type="x-maqqef">־</seg><w lemma="3671" morph="HNcfdc">כַּנְפֵי</w><seg type="x-maqqef">־</seg><w lemma="7307" n="0" morph="HNcbsa">רֽוּחַ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="2Sam.22.12">
           <w lemma="c/7896" morph="HC/Vqw3ms">וַ/יָּ֥שֶׁת</w>
@@ -10242,7 +10242,7 @@
         <verse osisID="2Sam.23.6">
           <w lemma="c/1100" n="1.1" morph="HC/Ncmsa">וּ/בְלִיַּ֕עַל</w>
           <w lemma="k/6975" morph="HR/Ncmsa">כְּ/ק֥וֹץ</w>
-          <w lemma="5074" n="1.0">מֻנָ֖ד</w>
+          <w lemma="5074" n="1.0" morph="HVHsmsa">מֻנָ֖ד</w>
           <w lemma="3605" n="1">כֻּלָּ֑/הַם</w>
           <w lemma="3588 a" morph="HC">כִּֽי</w><seg type="x-maqqef">־</seg><w lemma="3808" morph="HTn">לֹ֥א</w>
           <w lemma="b/3027" n="0.0" morph="HR/Ncbsa">בְ/יָ֖ד</w>
@@ -10459,7 +10459,7 @@
           <w lemma="l" n="1.0" morph="HR/Sp3mp">לָ/הֶ֖ם</w>
           <w lemma="l/8269" n="1" morph="HR/Ncmsa">לְ/שָׂ֑ר</w>
           <w lemma="c/5704" morph="HC/R">וְ/עַד</w><seg type="x-maqqef">־</seg><w lemma="d/7969" n="0.0" morph="HTd/Acmsa">הַ/שְּׁלֹשָׁ֖ה</w>
-          <w lemma="3808" morph="HTn">לֹא</w><seg type="x-maqqef">־</seg><w lemma="935" n="0">בָֽא</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="3808" morph="HTn">לֹא</w><seg type="x-maqqef">־</seg><w lemma="935" n="0" morph="HVqp3ms">בָֽא</w><seg type="x-sof-pasuq">׃</seg>
           <seg type="x-samekh">ס</seg>
         </verse>
         <verse osisID="2Sam.23.20">
@@ -10515,7 +10515,7 @@
           <w lemma="4480 a" morph="HR">מִן</w><seg type="x-maqqef">־</seg><w lemma="d/7970" morph="HTd/Acbpa">הַ/שְּׁלֹשִׁ֣ים</w>
           <w lemma="3513" n="1.1" morph="HVNrmsa">נִכְבָּ֔ד</w>
           <w lemma="c/413" morph="HC/R">וְ/אֶל</w><seg type="x-maqqef">־</seg><w lemma="d/7969" n="1.0" morph="HTd/Acmsa">הַ/שְּׁלֹשָׁ֖ה</w>
-          <w lemma="3808" morph="HTn">לֹא</w><seg type="x-maqqef">־</seg><w lemma="935" n="1">בָ֑א</w>
+          <w lemma="3808" morph="HTn">לֹא</w><seg type="x-maqqef">־</seg><w lemma="935" n="1" morph="HVqp3ms">בָ֑א</w>
           <w lemma="c/7760 a" morph="HC/Vqw3ms/Sp3ms">וַ/יְשִׂמֵ֥/הוּ</w>
           <w lemma="1732" n="0.0" morph="HNp">דָוִ֖ד</w>
           <w lemma="413" morph="HR">אֶל</w><seg type="x-maqqef">־</seg><w lemma="4928" n="0" morph="HNcfsc/Sp3ms">מִשְׁמַעְתּֽ/וֹ</w><seg type="x-sof-pasuq">׃</seg>
@@ -10937,7 +10937,7 @@
           <w lemma="c/4397" morph="HC/Ncmsc">וּ/מַלְאַ֤ךְ</w>
           <w lemma="3068" n="0.1.0" morph="HNp">יְהוָה֙</w>
           <w lemma="1961" n="0.1" morph="HVqp3ms">הָיָ֔ה</w>
-          <w lemma="5973 a" morph="HR">עִם</w><seg type="x-maqqef">־</seg><w lemma="1637" n="0.0">גֹּ֖רֶן</w>
+          <w lemma="5973 a" morph="HR">עִם</w><seg type="x-maqqef">־</seg><w lemma="1637" n="0.0" morph="HNcbsc">גֹּ֖רֶן</w>
           <w lemma="d/728" morph="HTd/Np">ה/אורנה</w><note type="variant"><catchWord>ה/אורנה</catchWord><rdg type="x-qere"><w lemma="d/728">הָ/אֲרַ֥וְנָה</w></rdg></note>
           <w lemma="d/2983" n="0">הַ/יְבֻסִֽי</w><seg type="x-sof-pasuq">׃</seg>
           <seg type="x-samekh">ס</seg>
