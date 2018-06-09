@@ -56,9 +56,10 @@
       oReq.send(null);
     }
 // Navigation elements.
-    var bookIndex;
+    var bookText, bookIndex;
     // Sets the options for the chapter dropdown.
     var setChapters = function() {
+		bookText = this.responseText;
         bookIndex = books[elements.book.value].split(' ');
         var i = 1, num = parseInt(bookIndex[0]);
         clearNodes(elements.chapter);
@@ -67,11 +68,13 @@
         }
         elements.chapter[initialChapter].selected = "selected";
         initialChapter = 0;
+		// Test.
+		clearNodes(elements.display);
+		elements.display.innerHTML = "<pre>" + bookText.replace(/</g, "&lt;") + "</pre>";
         setChapterFile();
     };
     // Sets the options for the verse dropdown.
     var setVerses = function() {
-        chapterXml = parseXmlString(this.responseText);
         var i = 1, num = bookIndex[elements.chapter.value];
         clearNodes(elements.verse);
         for (; i <= num; i++) {
@@ -79,12 +82,22 @@
         }
         getVerse();
     };
-    // Sets the XML chapter file to read
+    // Extracts the XML chapter from bookText.
     var setChapterFile = function() {
-        var book = elements.book.value;
-        var chapter = elements.chapter.value;
-        return loadFile("./chapters/"+book+"/"+book+"."+chapter+".xml", setVerses);
+		var xmlString = '<?xml version="1.0" encoding="UTF-8"?>',
+			osisID = elements.book.value + "." + elements.chapter.value,
+			start = bookText.indexOf('<chapter osisID="' + osisID + '"'),
+			end = bookText.indexOf('</chapter>', start) + 10;
+		xmlString += bookText.substring(start, end);
+		chapterXml = parseXmlString(xmlString);
+		setVerses();
     };
+	// Sets the XML book file to read.
+	var setBookFile = function() {
+        var book = elements.book.value;
+		//TODO Adjust path for online.
+        return loadFile("../wlc/" + book + ".xml", setChapters);
+	};
 // Interface elements.
     // Marks up the verse.
     // Interprets the accents.
@@ -96,7 +109,7 @@
         // Set the scope based on the verse ID.
         accentInterpretation.setAccents(verse.getAttribute('osisID'));
         clearNodes(elements.display);
-        if (elements.verseLayout.value.endsWith("-bt")) {
+        if (elements.verseLayout.value.indexOf("-bt") > -1) {
             elements.display.appendChild(markupVerse(verse, true));
         } else {
             elements.display.appendChild(markupVerse(verse, false));
@@ -148,11 +161,10 @@
     // Initialize.
     var initialChapter = elements.chapter.value - 1;
     var markupVerse = window.verseMarkupHorizontal;
-    setChapterFile();
-    elements.book.onchange = setChapters;
+    elements.book.onchange = setBookFile;
     elements.chapter.onchange = setChapterFile;
     elements.verse.onchange = getVerse;
     elements.verseLayout.onchange = getVerseLayout;
     elements.levelDepth.onchange = setLevelDepth;
-    setChapters();
+    setBookFile();
 })();

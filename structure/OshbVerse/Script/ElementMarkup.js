@@ -66,7 +66,7 @@ elementMarkup = function() {
 			addAccent: function(accent) {
 				data.accents += accent;
 			},
-			setHandlers(isDisjunctive) {
+			setHandlers: function(isDisjunctive) {
 				handlers(isDisjunctive);
 			}
 		};

@@ -1,7 +1,7 @@
 #	Cantillation Structure
 
 Structure attributes have been added to the OpenScriptures Hebrew Bible.
-For words with disjunctive accent you will find single numbers under the
+For words with disjunctive accents you will find single numbers under the
 "n" attribute, indicating the major divisions of the verse. Lower
 divisions beneath these are indicated by decimals after the major
 number, etc.
@@ -18,12 +18,9 @@ visualize the verse structure either in "binary tree" form (the default,
 where colors help discern the role of the accent), or in "clean" form.
 
 Many of the files are just scaffolding for the demo. Installing the demo
-requires generating individual files for each chapter of the WLC using
-the following command in the morphhb/structure directory:
-
-```
-python write_wlc_chapters.py
-```
+requires the same relationship between the structure directory and the
+wlc directory.  (Otherwise, the relative path can be changed in
+Script/Structure.js, line 99.)
 
 Several new components have been added to facilitate the popup display, and
 interpretation of the cantillation marks. Altogether, we have:
@@ -53,10 +50,6 @@ interpretation of the cantillation marks. Altogether, we have:
 	It depends on VerseMarkupHorizontal.js or VerseMarkupVertical.js,  
 	and AccentInterpretation.js to set the scope.
 
--	chapters/ directory created after executing `write_wlc_chapters.py`
-    with subdirectories for each book, containing XML files for each
-    chapter.
-
 I have been using the cantillation breakdown for a number of years, and find it
 very beneficial in understanding scripture. I have included it as one of the
 four facets of biblical study we are emphasizing with the OSHB. There is also
@@ -71,6 +64,7 @@ The OshbVerse demo is licensed under a
 license. For attribution purposes, credit the Open Scriptures Hebrew Bible
 Project.
 
+Updated June 9, 2018
 Updated June 22, 2017  
 Updated February 17, 2017  
 February 5, 2017
