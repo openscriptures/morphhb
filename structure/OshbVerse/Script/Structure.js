@@ -68,9 +68,6 @@
         }
         elements.chapter[initialChapter].selected = "selected";
         initialChapter = 0;
-		// Test.
-		clearNodes(elements.display);
-		elements.display.innerHTML = "<pre>" + bookText.replace(/</g, "&lt;") + "</pre>";
         setChapterFile();
     };
     // Sets the options for the verse dropdown.
@@ -95,8 +92,7 @@
 	// Sets the XML book file to read.
 	var setBookFile = function() {
         var book = elements.book.value;
-		//TODO Adjust path for online.
-        return loadFile("../wlc/" + book + ".xml", setChapters);
+        return loadFile("../../wlc/" + book + ".xml", setChapters);
 	};
 // Interface elements.
     // Marks up the verse.
