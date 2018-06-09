@@ -6,11 +6,9 @@ section#work div#foot
 section#display
 {
     padding: 0 1em;
-    background-color: rgba(255, 254, 251, 0.6);
-    border-radius: 1em;
+    background-color: rgba(255, 254, 251, 0.7);
     border: 3px double #217438;
-    max-width: 24em;
-    height: 470px;
+    max-width: 30em;
     direction: rtl;
     overflow: auto;
 }
@@ -18,27 +16,32 @@ section#display
 section#display div
 {
     border: 1px solid transparent;
-    padding: 1px 4px;
+    border-left-width: 0.4em;
+    padding: 0.1em 0.3em;
     margin: 1px;
 }
 section#display div.level0
 {
     border-color: #80c;
-    background-color: rgba(255, 254, 251, 0.6);
+    background-color: rgba(255, 254, 251, 0.7);
 }
 section#display div.level1
 {
-    border-color: #f84;
+    border-color: #2d1;
 }
 section#display div.level2
 {
-    border-color: #ff0;
+    border-color: #d32;
 }
 section#display div.level3
 {
-    border-color: #480;
+    border-color: #48c;
 }
 section#display div.level4
 {
-    border-color: #48c;
+    border-color: #ee3;
+}
+section#display div.level5
+{
+    border-color: #e4a;
 }
