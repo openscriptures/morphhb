@@ -46,3 +46,26 @@ normalization.
 Updated: January 27, 2017
 
 [1]: http://bibletechnologies.net/
+
+## Javascript npm module
+
+There is a perl script which generates a JSON version of the morphology which is published to npm here:
+https://www.npmjs.com/package/morphhb
+
+This JavaScript module is designed to be lightweight, so it is formatted as follows:
+
+- Each book is a key, value pair in the Object.
+- The key is the book name
+- The value is an array of chapters
+- Each chapter is an array of verses
+- Each verse is an array of words
+- Each word is an array of the following
+- [ 'wordString', 'lemma', 'morphology' ]
+
+The perl script which generates this is called morphhbXML-to-JSON.pl. It has several options:
+- stripPointing: This will remove all non-letter characters from the Hebrew words. These characters are a later addition in the history of the text.
+- removeLemmaTypes: Some Strongs numbers have an additional type in the form of a letter. This isn't implemented in the strongs dictionary, so this option will remove them.
+- stripHFromMorph: To keep the output as light as possible we can strip the 'H' from the start of each morph code
+- prefixLemmasWithH: To differentiate Greek and Hebrew strongs numbers we can add an additional H at the start
+- remapVerses: The versification in Hebrew and English bibles is different. This option maps the Hebrew verses to the English ones.
+
