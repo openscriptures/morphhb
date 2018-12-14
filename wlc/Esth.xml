@@ -37,7 +37,7 @@
         <date>2007.9.16</date>
         <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
         <rights type="x-BY">Creative Commons Attribution 4.0</rights>
-		<refSystem>Bible.MT</refSystem>
+        <refSystem>Bible.MT</refSystem>
       </work>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
@@ -45,7 +45,7 @@
         <date>2007.9.16</date>
         <identifier type="URL">http://www.tanach.us/Tanach.xml</identifier>
         <rights>Public Domain</rights>
-		<refSystem>Bible.MT</refSystem>
+        <refSystem>Bible.MT</refSystem>
       </work>
       <work osisWork="BHS" xml:lang="he">
         <title>BHS unaccented with Strongs</title>
@@ -68,23 +68,23 @@
         <identifier type="URL">www.2LetterLookup.com</identifier>
         <source>The exhaustive concordance of the Bible:</source>
         <rights>Public Domain</rights>
-		<refSystem>Dict.Strongs</refSystem>
+        <refSystem>Dict.Strongs</refSystem>
       </work>
       <work osisWork="OSHM" xml:lang="en">
         <title>Open Scriptures Hebrew Morphology</title>
         <contributor role="ctb">Daniel Owens</contributor>
+        <contributor role="ctb">Angela Westmoreland</contributor>
         <contributor role="ctb">Joel Ruark</contributor>
         <contributor role="ctb">Andy Hubert</contributor>
-        <contributor role="ctb">Angela Westmoreland</contributor>
         <contributor role="ctb">Ross Tenneson</contributor>
         <contributor role="ctb">Ben Dwyer</contributor>
         <contributor role="ctb">Peter Ho</contributor>
         <contributor role="ctb">Daniel Bowman</contributor>
         <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
-        <date>2018.4.23</date>
+        <date>2018.12.14</date>
         <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
         <rights type="x-BY">Creative Commons Attribution 4.0</rights>
-		<refSystem>Dict.oshm</refSystem>
+        <refSystem>Dict.oshm</refSystem>
       </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
       <workPrefix path="//w/@morph" osisWork="OSHM"/>
@@ -127,7 +127,7 @@
           <w lemma="4960" n="1.1" morph="HNcmsa">מִשְׁתֶּ֔ה</w>
           <w lemma="l/3605" morph="HR/Ncmsc">לְ/כָל</w><seg type="x-maqqef">־</seg><w lemma="8269" n="1.0" morph="HNcmpc/Sp3ms">שָׂרָ֖י/ו</w>
           <w lemma="c/5650" n="1" morph="HC/Ncmpc/Sp3ms">וַ/עֲבָדָ֑י/ו</w>
-          <w lemma="2428" n="0.0.1.0" morph="HNcmsc">חֵ֣יל</w>
+          <w lemma="2426" n="0.0.1.0" morph="HNcmsc">חֵ֣יל</w>
           <seg type="x-paseq">׀</seg>
           <w lemma="6539" morph="HNp">פָּרַ֣ס</w>
           <w lemma="c/4074" n="0.0.1" morph="HC/Np">וּ/מָדַ֗י</w>
@@ -2396,7 +2396,7 @@
           <w lemma="l/8045" morph="HR/Vhc">לְ/הַשְׁמִיד֩</w>
           <w lemma="c/l/2026" morph="HC/R/Vqc">וְ/לַ/הֲרֹ֨ג</w>
           <w lemma="c/l/6" n="1.0.0.0" morph="HC/R/Vpc">וּ/לְ/אַבֵּ֜ד</w>
-          <w lemma="853" morph="HTo">אֶת</w><seg type="x-maqqef">־</seg><w lemma="3605" morph="HNcmsc">כָּל</w><seg type="x-maqqef">־</seg><w lemma="2428" morph="HNcmsc">חֵ֨יל</w>
+          <w lemma="853" morph="HTo">אֶת</w><seg type="x-maqqef">־</seg><w lemma="3605" morph="HNcmsc">כָּל</w><seg type="x-maqqef">־</seg><w lemma="2426" morph="HNcmsc">חֵ֨יל</w>
           <w lemma="5971 a" morph="HNcmsa">עַ֧ם</w>
           <w lemma="c/4082" n="1.0.0" morph="HC/Ncfsa">וּ/מְדִינָ֛ה</w>
           <w lemma="d/6696 b" morph="HTd/Vqrmpa">הַ/צָּרִ֥ים</w>

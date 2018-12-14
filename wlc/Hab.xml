@@ -37,7 +37,7 @@
         <date>2007.9.16</date>
         <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
         <rights type="x-BY">Creative Commons Attribution 4.0</rights>
-		<refSystem>Bible.MT</refSystem>
+        <refSystem>Bible.MT</refSystem>
       </work>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
@@ -45,7 +45,7 @@
         <date>2007.9.16</date>
         <identifier type="URL">http://www.tanach.us/Tanach.xml</identifier>
         <rights>Public Domain</rights>
-		<refSystem>Bible.MT</refSystem>
+        <refSystem>Bible.MT</refSystem>
       </work>
       <work osisWork="BHS" xml:lang="he">
         <title>BHS unaccented with Strongs</title>
@@ -68,7 +68,7 @@
         <identifier type="URL">www.2LetterLookup.com</identifier>
         <source>The exhaustive concordance of the Bible:</source>
         <rights>Public Domain</rights>
-		<refSystem>Dict.Strongs</refSystem>
+        <refSystem>Dict.Strongs</refSystem>
       </work>
       <work osisWork="OSHM" xml:lang="en">
         <title>Open Scriptures Hebrew Morphology</title>
@@ -76,10 +76,10 @@
         <contributor role="ctb">Andy Hubert</contributor>
         <contributor role="ctb">Joel Ruark</contributor>
         <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
-        <date>2018.4.23</date>
+        <date>2018.12.14</date>
         <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
         <rights type="x-BY">Creative Commons Attribution 4.0</rights>
-		<refSystem>Dict.oshm</refSystem>
+        <refSystem>Dict.oshm</refSystem>
       </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
       <workPrefix path="//w/@morph" osisWork="OSHM"/>
@@ -410,7 +410,7 @@
           <w lemma="2111" n="1" morph="HVlrmpc/Sp2ms">מְזַעְזְעֶ֑י/ךָ</w>
           <w lemma="c/1961" morph="HC/Vqq2ms">וְ/הָיִ֥יתָ</w>
           <w lemma="l/4933" n="0.0" morph="HR/Ncfpa">לִ/מְשִׁסּ֖וֹת</w>
-          <w lemma="l" n="0" morph="HR/Sp3ms">לָֽ/מוֹ</w><seg type="x-sof-pasuq">׃</seg>
+          <w lemma="l" n="0" morph="HR/Sp3mp">לָֽ/מוֹ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Hab.2.8">
           <w lemma="3588 a" morph="HC">כִּֽי</w>

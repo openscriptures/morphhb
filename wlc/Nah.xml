@@ -37,7 +37,7 @@
         <date>2007.9.16</date>
         <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
         <rights type="x-BY">Creative Commons Attribution 4.0</rights>
-		<refSystem>Bible.MT</refSystem>
+        <refSystem>Bible.MT</refSystem>
       </work>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
@@ -45,7 +45,7 @@
         <date>2007.9.16</date>
         <identifier type="URL">http://www.tanach.us/Tanach.xml</identifier>
         <rights>Public Domain</rights>
-		<refSystem>Bible.MT</refSystem>
+        <refSystem>Bible.MT</refSystem>
       </work>
       <work osisWork="BHS" xml:lang="he">
         <title>BHS unaccented with Strongs</title>
@@ -68,7 +68,7 @@
         <identifier type="URL">www.2LetterLookup.com</identifier>
         <source>The exhaustive concordance of the Bible:</source>
         <rights>Public Domain</rights>
-		<refSystem>Dict.Strongs</refSystem>
+        <refSystem>Dict.Strongs</refSystem>
       </work>
       <work osisWork="OSHM" xml:lang="en">
         <title>Open Scriptures Hebrew Morphology</title>
@@ -79,10 +79,10 @@
         <contributor role="ctb">Zsolt Jarai</contributor>
         <contributor role="ctb">Ashley Whitlatch</contributor>
         <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
-        <date>2018.4.23</date>
+        <date>2018.12.14</date>
         <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
         <rights type="x-BY">Creative Commons Attribution 4.0</rights>
-		<refSystem>Dict.oshm</refSystem>
+        <refSystem>Dict.oshm</refSystem>
       </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
       <workPrefix path="//w/@morph" osisWork="OSHM"/>
@@ -580,7 +580,7 @@
         </verse>
         <verse osisID="Nah.3.9">
           <w lemma="3568 a" morph="HNp">כּ֥וּשׁ</w>
-          <w lemma="6109" n="1.0.0" morph="HNcfsc/Sh">עָצְמָ֛/ה</w>
+          <w lemma="6109" n="1.0.0" morph="HNcfsc/Sp3fs">עָצְמָ֛/ה</w>
           <w lemma="c/4714" n="1.0" morph="HC/Np">וּ/מִצְרַ֖יִם</w>
           <w lemma="c/369" morph="HC/Tn">וְ/אֵ֣ין</w>
           <w lemma="7097 b" n="1" morph="HNcbsa">קֵ֑צֶה</w>

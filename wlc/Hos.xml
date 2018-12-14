@@ -37,7 +37,7 @@
         <date>2007.9.16</date>
         <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
         <rights type="x-BY">Creative Commons Attribution 4.0</rights>
-		<refSystem>Bible.MT</refSystem>
+        <refSystem>Bible.MT</refSystem>
       </work>
       <work osisWork="WLC" xml:lang="he">
         <title>Westminster Leningrad Codex</title>
@@ -45,7 +45,7 @@
         <date>2007.9.16</date>
         <identifier type="URL">http://www.tanach.us/Tanach.xml</identifier>
         <rights>Public Domain</rights>
-		<refSystem>Bible.MT</refSystem>
+        <refSystem>Bible.MT</refSystem>
       </work>
       <work osisWork="BHS" xml:lang="he">
         <title>BHS unaccented with Strongs</title>
@@ -68,21 +68,22 @@
         <identifier type="URL">www.2LetterLookup.com</identifier>
         <source>The exhaustive concordance of the Bible:</source>
         <rights>Public Domain</rights>
-		<refSystem>Dict.Strongs</refSystem>
+        <refSystem>Dict.Strongs</refSystem>
       </work>
       <work osisWork="OSHM" xml:lang="en">
         <title>Open Scriptures Hebrew Morphology</title>
         <contributor role="ctb">Daniel Owens</contributor>
         <contributor role="ctb">Andy Hubert</contributor>
         <contributor role="ctb">Joel Ruark</contributor>
+        <contributor role="ctb">Daniel Bowman</contributor>
         <contributor role="ctb">Ashley Whitlatch</contributor>
         <contributor role="ctb">Keith Kresge</contributor>
-        <contributor role="ctb">Daniel Bowman</contributor>
+        <contributor role="ctb">Ramos Simanjuntak</contributor>
         <creator role="edt">Open Scriptures Hebrew Bible Project</creator>
-        <date>2018.4.23</date>
+        <date>2018.12.14</date>
         <identifier type="URL">https://github.com/openscriptures/morphhb</identifier>
         <rights type="x-BY">Creative Commons Attribution 4.0</rights>
-		<refSystem>Dict.oshm</refSystem>
+        <refSystem>Dict.oshm</refSystem>
       </work>
       <workPrefix path="//w/@lemma" osisWork="Strong"/>
       <workPrefix path="//w/@morph" osisWork="OSHM"/>
@@ -1576,7 +1577,7 @@
         </verse>
         <verse osisID="Hos.8.12">
           <w lemma="3789" morph="HVqi1cs">אכתוב</w><note type="variant"><catchWord>אכתוב</catchWord><rdg type="x-qere"><w lemma="3789" morph="HVqi1cs">אֶ֨כְתָּב</w></rdg></note><seg type="x-maqqef">־</seg><w lemma="l/3789" n="1.1" morph="HR/Sp3ms">ל֔/וֹ</w>
-          <w lemma="7239" morph="HNcfsc">רבו</w><note type="variant"><catchWord>רבו</catchWord><rdg type="x-qere"><w lemma="7230" n="1.0" morph="HNcfsc">רֻבֵּ֖י</w></rdg></note>
+          <w lemma="7239" morph="HNcbsc">רבו</w><note type="variant"><catchWord>רבו</catchWord><rdg type="x-qere"><w lemma="7230" n="1.0" morph="HNcfsc">רֻבֵּ֖י</w></rdg></note>
           <w lemma="8451" n="1" morph="HNcfsc/Sp1cs">תּֽוֹרָתִ֑/י</w>
           <w lemma="3644" morph="HR">כְּמוֹ</w><seg type="x-maqqef">־</seg><w lemma="2114 a" n="0.0" morph="HAamsa">זָ֖ר</w>
           <w lemma="2803" n="0" morph="HVNp3cp">נֶחְשָֽׁבוּ</w><seg type="x-sof-pasuq">׃</seg>
