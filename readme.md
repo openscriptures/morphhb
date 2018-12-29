@@ -69,3 +69,5 @@ The perl script which generates this is called morphhbXML-to-JSON.pl. It has sev
 - prefixLemmasWithH: To differentiate Greek and Hebrew strongs numbers we can add an additional H at the start
 - remapVerses: The versification in Hebrew and English bibles is different. This option maps the Hebrew verses to the English ones.
 
+You can run this script like so:
+`perl morphhbXML-to-JSON.pl --stripPointing --removeLemmaTypes --stripHFromMorph --prefixLemmasWithH --remapVerses`
