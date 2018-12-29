@@ -32,20 +32,20 @@ $bookNameData{'Deut'} = 'Deuteronomy';
 $bookNameData{'Josh'} = 'Joshua';
 $bookNameData{'Judg'} = 'Judges';
 $bookNameData{'Ruth'} = 'Ruth';
-$bookNameData{'1Sam'} = '1 Samuel';
-$bookNameData{'2Sam'} = '2 Samuel';
-$bookNameData{'1Kgs'} = '1 Kings';
-$bookNameData{'2Kgs'} = '2 Kings';
-$bookNameData{'1Chr'} = '1 Chronicles';
-$bookNameData{'2Chr'} = '2 Chronicles';
+$bookNameData{'1Sam'} = 'I Samuel';
+$bookNameData{'2Sam'} = 'II Samuel';
+$bookNameData{'1Kgs'} = 'I Kings';
+$bookNameData{'2Kgs'} = 'II Kings';
+$bookNameData{'1Chr'} = 'I Chronicles';
+$bookNameData{'2Chr'} = 'II Chronicles';
 $bookNameData{'Ezra'} = 'Ezra';
 $bookNameData{'Neh'} = 'Nehemiah';
 $bookNameData{'Esth'} = 'Esther';
 $bookNameData{'Job'} = 'Job';
-$bookNameData{'Ps'} = 'Psalm';
+$bookNameData{'Ps'} = 'Psalms';
 $bookNameData{'Prov'} = 'Proverbs';
 $bookNameData{'Eccl'} = 'Ecclesiastes';
-$bookNameData{'Song'} = 'Song of Songs';
+$bookNameData{'Song'} = 'Song of Solomon';
 $bookNameData{'Isa'} = 'Isaiah';
 $bookNameData{'Jer'} = 'Jeremiah';
 $bookNameData{'Lam'} = 'Lamentations';
@@ -241,7 +241,7 @@ foreach my $book (@books) {
 			
 			#if ( $wlcChapter $kjvChapter $wlcVerse $kjvVerse
 
-			if ( $kjvBook eq 'Psalm' && $kjvVerse eq 0 ) {
+			if ( $kjvBook eq 'Psalms' && $kjvVerse eq 0 ) {
 				$remapped{ $kjvBook }[ $kjvChapter ][ $kjvVerse ] = merge($hebrew{ $wlcBook }[ $wlcChapter ][ $wlcVerse - 1 ] , $wlcData);
 				delete $remapped{ $wlcBook }[ $wlcChapter ][ $wlcVerse ];
 			} else {
@@ -255,27 +255,27 @@ foreach my $book (@books) {
 }
 
 # Fix partial verses manually
-$remapped{ '1 Kings' }[ 17 ][ 32 ] = merge( $hebrew{ '1 Kings' }[ 17 ][ 32 ], $hebrew{ '1 Kings' }[ 17 ][ 33 ] );
-splice( $remapped{ '1 Kings' }[ 17 ][ 32 ], 19, 25 );
-splice( $remapped{ '1 Kings' }[ 17 ][ 33 ], 0, 10 );
+$remapped{ 'I Kings' }[ 17 ][ 32 ] = merge( $hebrew{ 'I Kings' }[ 17 ][ 32 ], $hebrew{ 'I Kings' }[ 17 ][ 33 ] );
+splice( $remapped{ 'I Kings' }[ 17 ][ 32 ], 19, 25 );
+splice( $remapped{ 'I Kings' }[ 17 ][ 33 ], 0, 10 );
 
-$remapped{ '1 Kings' }[ 19 ][ 1 ] = merge( $hebrew{ '1 Kings' }[ 19 ][ 1 ], $hebrew{ '1 Kings' }[ 19 ][ 2 ] );
-splice( $remapped{ '1 Kings' }[ 19 ][ 1 ], 13, 21 );
-splice( $remapped{ '1 Kings' }[ 19 ][ 2 ], 0, 6 );
+$remapped{ 'I Kings' }[ 19 ][ 1 ] = merge( $hebrew{ 'I Kings' }[ 19 ][ 1 ], $hebrew{ 'I Kings' }[ 19 ][ 2 ] );
+splice( $remapped{ 'I Kings' }[ 19 ][ 1 ], 13, 21 );
+splice( $remapped{ 'I Kings' }[ 19 ][ 2 ], 0, 6 );
 
-splice( $remapped{ '1 Kings' }[ 21 ][ 20 ], 8, 11 );
-$remapped{ '1 Kings' }[ 21 ][ 21 ] = merge( $hebrew{ '1 Kings' }[ 21 ][ 20 ], $hebrew{ '1 Kings' }[ 21 ][ 21 ] );
-splice( $remapped{ '1 Kings' }[ 21 ][ 21 ], 0, 8 );
+splice( $remapped{ 'I Kings' }[ 21 ][ 20 ], 8, 11 );
+$remapped{ 'I Kings' }[ 21 ][ 21 ] = merge( $hebrew{ 'I Kings' }[ 21 ][ 20 ], $hebrew{ 'I Kings' }[ 21 ][ 21 ] );
+splice( $remapped{ 'I Kings' }[ 21 ][ 21 ], 0, 8 );
 
-$remapped{ '1 Kings' }[ 21 ][ 42 ] = merge($hebrew{ '1 Kings' }[ 21 ][ 42 ], $hebrew{ '1 Kings' }[ 21 ][ 43 ]);
+$remapped{ 'I Kings' }[ 21 ][ 42 ] = merge($hebrew{ 'I Kings' }[ 21 ][ 42 ], $hebrew{ 'I Kings' }[ 21 ][ 43 ]);
 
 $remapped{ 'Isaiah' }[ 63 ][ 0 ] = $hebrew{ 'Isaiah' }[ 62 ][ 18 ];
 splice ( $remapped{ 'Isaiah' }[ 62 ][ 18 ], 8, 15 );
 splice ( $remapped{ 'Isaiah' }[ 63 ][ 0 ], 0, 8 );
 
-$remapped{ 'Psalm' }[ 12 ][ 4 ] = $hebrew{ 'Psalm' }[ 12 ][ 5 ];
-splice( $remapped{ 'Psalm' }[ 12 ][ 4 ], 6, 10 );
-splice( $remapped{ 'Psalm' }[ 12 ][ 5 ], 0, 6 );
+$remapped{ 'Psalms' }[ 12 ][ 4 ] = $hebrew{ 'Psalms' }[ 12 ][ 5 ];
+splice( $remapped{ 'Psalms' }[ 12 ][ 4 ], 6, 10 );
+splice( $remapped{ 'Psalms' }[ 12 ][ 5 ], 0, 6 );
 
 #print Dumper \%hebrew;
 
