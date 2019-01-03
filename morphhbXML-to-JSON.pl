@@ -288,5 +288,5 @@ $json =~ s/(?<=\},)/\n/g;
 if ( $stripPointing ) {
 	$json = stripPointing($json);
 }
-print OUT "module.exports = $json;";
+print OUT "var morphhb=$json;module.exports=morphhb;";
 close OUT;
