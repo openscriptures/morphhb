@@ -12,6 +12,16 @@ license. For attribution purposes, credit the Open Scriptures Hebrew Bible
 Project. The text of the WLC remains in the
 [Public Domain](http://creativecommons.org/publicdomain/mark/1.0/).  See the [LICENSE](LICENSE.md) file for more information.
 
+##	Word tag attributes
+
+Word tags each contain three attributes:
+
+-	`lemma` - Eg. `c/m/6529`
+
+-	`morph` - Eg. `HC/R/Ncmsc`
+
+-	`id` - Eg. `018xz`. This is a unique, immutable id for every word in the Hebrew Bible. The first two digits represent the KJV book number, and the last three are random. (Likewise will be done for the BHP and UGNT versions of the Greek New Testment.) The purpose of this id is two-fold. First, it allows software to easily associate other data with particular words in the original texts. Second, it helps facilitate textual criticsm. That is, another Hebrew Bible codex could utilize the same ids wherever words align, and create new ids where new words are found. Then, a software program can both highlight the discrepencies and maintain data associations build for another codex where words are consistent.
+
 ##	Additional Resources
 
 -	`HomeFiles`, along with `index.html` provide a simple home page for the project,
