@@ -8,7 +8,7 @@ body
 header
 {
     background-color: rgba(255, 238, 187, 0.75);
-    padding: 1em;
+    padding: 0.5em 1em;
     border-bottom: 3px double #77250f;
 }
 header img
@@ -35,8 +35,8 @@ h1 span
 /* Passage Styles. */
 section.passage
 {
-	background-color: #fffefb;
     border-bottom: 3px double #77250f;
+	text-align: center;
 }
 section.passage img
 {

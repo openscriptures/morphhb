@@ -12,6 +12,16 @@ license. For attribution purposes, credit the Open Scriptures Hebrew Bible
 Project. The text of the WLC remains in the
 [Public Domain](http://creativecommons.org/publicdomain/mark/1.0/).  See the [LICENSE](LICENSE.md) file for more information.
 
+##	Word tag attributes
+
+Word tags each contain three attributes:
+
+-	`lemma` - Eg. `c/m/6529`
+
+-	`morph` - Eg. `HC/R/Ncmsc`
+
+-	`id` - Eg. `018xz`. This is a unique, immutable id for every word in the Hebrew Bible. The first two digits represent the KJV book number, and the last three are random. (Likewise will be done for the BHP and UGNT versions of the Greek New Testment.) The purpose of this id is two-fold. First, it allows software to easily associate other data with particular words in the original texts. Second, it helps facilitate textual criticsm. That is, another Hebrew Bible codex could utilize the same ids wherever words align, and create new ids where new words are found. Then, a software program can both highlight the discrepencies and maintain data associations build for another codex where words are consistent.
+
 ##	Additional Resources
 
 -	`HomeFiles`, along with `index.html` provide a simple home page for the project,
@@ -46,3 +56,28 @@ normalization.
 Updated: January 27, 2017
 
 [1]: http://bibletechnologies.net/
+
+## Javascript npm module
+
+There is a perl script which generates a JSON version of the morphology which is published to npm here:
+https://www.npmjs.com/package/morphhb
+
+This JavaScript module is designed to be lightweight, so it is formatted as follows:
+
+- Each book is a key, value pair in the Object.
+- The key is the book name
+- The value is an array of chapters
+- Each chapter is an array of verses
+- Each verse is an array of words
+- Each word is an array of the following
+- [ 'wordString', 'lemma', 'morphology' ]
+
+The perl script which generates this is called morphhbXML-to-JSON.pl. It has several options:
+- stripPointing: This will remove all non-letter characters from the Hebrew words. These characters are a later addition in the history of the text.
+- removeLemmaTypes: Some Strongs numbers have an additional type in the form of a letter. This isn't implemented in the strongs dictionary, so this option will remove them.
+- stripHFromMorph: To keep the output as light as possible we can strip the 'H' from the start of each morph code
+- prefixLemmasWithH: To differentiate Greek and Hebrew strongs numbers we can add an additional H at the start
+- remapVerses: The versification in Hebrew and English bibles is different. This option maps the Hebrew verses to the English ones.
+
+You can run this script like so:
+`perl morphhbXML-to-JSON.pl --stripPointing --removeLemmaTypes --stripHFromMorph --prefixLemmasWithH --remapVerses`
