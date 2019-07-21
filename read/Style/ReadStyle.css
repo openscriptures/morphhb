@@ -1,0 +1,143 @@
+/* Styles for OSHB Read */
+body
+{
+    margin: 0;
+    background-image: url(../Image/Signal.svg);
+    font-family: "Palatino Linotype", Palatino, serif;
+    line-height: 1.5em;
+}
+header
+{
+    background-color: rgba(255, 253, 208, 0.75);
+    padding: 1em;
+    border-bottom: 3px double #213874;
+}
+h1
+{
+    font: 2em/0.75em "Palatino Linotype", Palatino, serif;
+    color: #3c14dc;
+    margin: 0;
+    padding: 0.15em 0 0.25em 4.5em;
+}
+h1 span
+{
+    font-size: 60%;
+}
+h1 span.logo
+{
+    float: left;
+    font-size: 60%;
+    position: absolute;
+    top: 0.75em;
+    left: 1.75em;
+    line-height: 0.8em;
+}
+h2
+{
+    color: #3c14dc;
+}
+h3
+{
+    color: #3c14dc;
+    font-size: 1.2em;
+    direction: initial;
+}
+/* Navigation styles. */
+nav
+{
+    background-color: rgba(170, 173, 218, 0.75);
+    border-bottom: 3px double #213874;
+    padding: 0.5ex 0.5em;
+    color: #3c14dc;
+}
+nav select
+{
+    font-family: "Palatino Linotype", Palatino, serif;
+}
+/* Interface styles. */
+section#work
+{
+	margin: 0.5em;
+}
+/* Passage Styles */
+section.passage
+{
+    padding: 0 1em 0.5em 1em;
+    background-color: rgba(255, 254, 251, 0.7);
+    border: 3px double #213874;
+    max-width: 32em;
+	max-height: 500px;
+    overflow: auto;
+}
+section.passage p
+{
+	direction: rtl;
+}
+/* Chapter display. */
+span.Hebrew, span.punctuation
+{
+    font: 1.5em/1.6em "SBL Hebrew", "Ezra SIL SR", "Ezra SIL", Cardo, "Times New Roman", David, serif;
+    direction: rtl;
+}
+span.Hebrew:hover
+{
+    cursor: pointer;
+    background-color: rgb(242, 166, 153);
+}
+span.qere
+{
+    color: blue;
+}
+span.mark
+{
+    font: 1.2em/1.6em "SBL Hebrew", "Ezra SIL SR", "Ezra SIL", Cardo, "Times New Roman", David, serif;
+    direction: rtl;
+    color: green;
+}
+sup.note
+{
+    color: blue;
+    cursor: pointer;
+    direction: ltr;
+}
+sup.verseNumber
+{
+	font-weight: bold;
+}
+/* Popup Styles. */
+section#work div#popup
+{
+    position: absolute;
+    background-color: rgb(255, 253, 208);
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #77250f;
+    box-shadow: 2px 2px 2px rgba(64, 64, 64, 0.5);
+    display: none;
+}
+section#work div#popup ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+section#work div#popup ul li.lemma
+{
+	color: #b22234;
+}
+section#work div#popup ul li.morph
+{
+	color: #3c3b6e;
+}
+section#work div#popup ul li.accent
+{
+	color: #556b2f;
+}
+/* Footer Styles. */
+div.footer
+{
+    margin: 20% auto 1em 1em;
+    width: 30em;
+	clear: left;
+}

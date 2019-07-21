@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>OSHB Read</title>
+        <link rel="stylesheet" type="text/css" href="Style/ReadStyle.css" />
+        <link rel="shortcut icon" href="Image/OSHB.ico" />
+    </head>
+    <body>
+        <header>
+            <h1><span class="logo"><span>The OpenScriptures</span><br />Hebrew Bible</span> – Read</h1>
+        </header>
+        <nav>
+            <form>
+                <label for="book">Book</label>
+                <select id="book">
+					<!-- Haggai selected for testing. -->
+                    <option value="Gen">Genesis</option>
+                    <option value="Exod">Exodus</option>
+                    <option value="Lev">Leviticus</option>
+                    <option value="Num">Numbers</option>
+                    <option value="Deut">Deuteronomy</option>
+                    <option value="Josh">Joshua</option>
+                    <option value="Judg">Judges</option>
+                    <option value="1Sam">1 Samuel</option>
+                    <option value="2Sam">2 Samuel</option>
+                    <option value="1Kgs">1 Kings</option>
+                    <option value="2Kgs">2 Kings</option>
+                    <option value="Isa">Isaiah</option>
+                    <option value="Jer">Jeremiah</option>
+                    <option value="Ezek">Ezekiel</option>
+                    <option value="Hos">Hosea</option>
+                    <option value="Joel">Joel</option>
+                    <option value="Amos">Amos</option>
+                    <option value="Obad">Obadiah</option>
+                    <option value="Jonah">Jonah</option>
+                    <option value="Mic">Micah</option>
+                    <option value="Nah">Nahum</option>
+                    <option value="Hab">Habakkuk</option>
+                    <option value="Zeph">Zephaniah</option>
+                    <option value="Hag" selected="selected">Haggai</option>
+                    <option value="Zech">Zechariah</option>
+                    <option value="Mal">Malachi</option>
+                    <option value="Ps">Psalms</option>
+                    <option value="Prov">Proverbs</option>
+                    <option value="Job">Job</option>
+                    <option value="Song">Song of songs</option>
+                    <option value="Ruth">Ruth</option>
+                    <option value="Lam">Lamentations</option>
+                    <option value="Eccl">Ecclesiastes</option>
+                    <option value="Esth">Esther</option>
+                    <option value="Dan">Daniel</option>
+                    <option value="Ezra">Ezra</option>
+                    <option value="Neh">Nehemiah</option>
+                    <option value="1Chr">1 Chronicles</option>
+                    <option value="2Chr">1 Chronicles</option>
+                </select>
+                <label for="chapter">Chapter</label>
+                <select id="chapter">
+                    <option selected="selected">1</option>
+                </select>
+                <label for="verse">Verse</label>
+                <select id="verse">
+                    <option selected="selected">1</option>
+                </select>
+            </form>
+        </nav>
+        <section id="work">
+            <section id="display" class="passage">
+                <h2>Chapter Display</h2>
+            </section>
+        </section>
+        <div class="footer">
+            Read is part of the
+            <a href="https://openscriptures.github.io/morphhb/index.html">Open Scriptures Hebrew Bible</a> project.<br/>
+            This demo allows reading a chapter of the Hebrew bible. You can hover over a specific word for more information.<br/>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+               alt="Creative Commons License" style="border-width:0; margin:0.3ex" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+        </div>
+        <script src="Script/AccentCatalog.js"></script>
+        <script src="Script/Books.js"></script>
+        <script src="Script/ReferenceConversion.js"></script>
+        <script src="Script/AccentInterpretation.js"></script>
+        <script src="Script/Popup.js"></script>
+        <script src="Script/ElementMarkup.js"></script>
+        <script src="Script/ChapterMarkup.js"></script>
+        <script src="Script/Read.js"></script>
+    </body>
+</html>

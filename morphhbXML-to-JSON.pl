@@ -77,7 +77,7 @@ sub getBookData {
 		my @verses = $xpc->findnodes('.//osis:verse', $chapter );
 		my @verseArray = ();
 		foreach my $verse (@verses){
-			my @words = $xpc->findnodes('.//osis:w', $verse );
+			my @words = $xpc->findnodes('./osis:w', $verse );
 			my @wordArray = ();
 			foreach my $word (@words){
 				my @singleWordArray = ();
