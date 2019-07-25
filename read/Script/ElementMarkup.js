@@ -111,6 +111,7 @@ elementMarkup = function() {
 	function verseElement(verse) {
 		var node = spanElement('verse'),
 			fields = verse.getAttribute('osisID').split('.');
+		node.id = "v." + fields[2]; // Adds an id for verse selection.
 		node.appendChild(supElement('verseNumber', '', fields[2]));
 		node.appendChild(document.createTextNode('\u00A0'));
 		return node;

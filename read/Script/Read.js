@@ -97,11 +97,16 @@
         var chapter = chapterXml.getElementsByTagName('chapter')[0];
         clearNodes(elements.display);
 		elements.display.appendChild(chapterMarkup(chapter));
+		// Highlight the selected verse.
+		selectVerse(document.getElementById("v." + elements.verse.value));
 	}
     // Initialize.
-    var initialChapter = elements.chapter.value - 1;
+    var initialChapter = elements.chapter.value - 1,
+		selectVerse = window.selectVerse;
     elements.book.onchange = setBookFile;
     elements.chapter.onchange = setChapterFile;
-    // elements.verse.onchange = getVerse;
+    elements.verse.onchange = function() {
+		selectVerse(document.getElementById("v." + elements.verse.value));
+	};
     setBookFile();
 })();
