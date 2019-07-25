@@ -73,12 +73,15 @@ section.passage p
 {
 	direction: rtl;
 }
-/* Chapter display. */
-span.Hebrew, span.punctuation
+section.passage span.verse
 {
     font: 1.5em/1.6em "SBL Hebrew", "Ezra SIL SR", "Ezra SIL", Cardo, "Times New Roman", David, serif;
-    direction: rtl;
 }
+section.passage span.selectedVerse
+{
+	background-color: rgba(170, 173, 218, 0.50);
+}
+/* Chapter display. */
 span.Hebrew:hover
 {
     cursor: pointer;
@@ -90,18 +93,20 @@ span.qere
 }
 span.mark
 {
-    font: 1.2em/1.6em "SBL Hebrew", "Ezra SIL SR", "Ezra SIL", Cardo, "Times New Roman", David, serif;
+	font-size: 0.8em;
     direction: rtl;
     color: green;
 }
 sup.note
 {
+    font: 0.7em/1em "Palatino Linotype", Palatino, serif;
     color: blue;
     cursor: pointer;
     direction: ltr;
 }
 sup.verseNumber
 {
+    font: 0.7em/1em "Palatino Linotype", Palatino, serif;
 	font-weight: bold;
 }
 /* Popup Styles. */

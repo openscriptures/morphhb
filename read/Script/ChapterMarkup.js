@@ -27,7 +27,7 @@ chapterMarkup = function() {
 		sec.appendChild(verseElements(verses));
 		return sec;
 	}
-	return function(chapterXML) {
-		return chapterElement(chapterXML);
+	return function(chapter) {
+		return chapterElement(chapter);
 	};
 }();

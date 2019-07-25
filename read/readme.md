@@ -11,6 +11,9 @@ requires the same relationship between the read directory and the wlc
 directory.  (Otherwise, the relative path can be changed in
 Script/Read.js, line 91.)
 
+The latest update implements the verse selector. This highlights the
+selected verse, and scrolls it into view.
+
 Several components have been adapted from OSHB Verse, we have:
 
 -	AccentCatalog.js catalogs the accents by type and scope.
@@ -34,6 +37,9 @@ Several components have been adapted from OSHB Verse, we have:
 -	Read.js in the controller for OSHB Read.  
 	It depends on ChapterMarkup.js.
 
+-	SelectVerse.js (added 7/24/2019) adds a class name to the selected
+	verse and scrolls it into view.
+
 For more information on the project, see our website
 [OpenScriptures Hebrew Bible](https://hb.openscriptures.org/).
 
@@ -41,5 +47,6 @@ OSHB Read is licensed under a
 [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/)
 license. For attribution purposes, credit the Open Scriptures Hebrew Bible
 Project.
- 
+
+Updated July 24, 2019
 July 21, 2019
