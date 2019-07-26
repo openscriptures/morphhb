@@ -79,7 +79,7 @@ section.passage span.verse
 }
 section.passage span.selectedVerse
 {
-	background-color: rgba(170, 173, 218, 0.50);
+	background-color: rgb(255, 251, 161);
 }
 /* Chapter display. */
 span.Hebrew:hover
@@ -94,7 +94,6 @@ span.qere
 span.mark
 {
 	font-size: 0.8em;
-    direction: rtl;
     color: green;
 }
 sup.note
