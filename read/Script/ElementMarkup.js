@@ -5,7 +5,8 @@
  */
 elementMarkup = function() {
 	popup = window.popup;
-	clickWord = window.clickWord;
+	clickWord = window.clickWord,
+	accentInterpretation = window.accentInterpretation;
 	// Sets up a span element.
 	function spanElement(className) {
 		var span = document.createElement('span');
@@ -45,7 +46,8 @@ elementMarkup = function() {
 	}
 	// Maintains the word data while setting up the handlers.
 	var wordData = function() {
-		var data = {};
+		var data = {},
+			accentForm = "prose";
 		// Sets the word data.
 		function setData(word) {
 			data = {};
@@ -53,6 +55,7 @@ elementMarkup = function() {
 			data.lemma = word.getAttribute('lemma');
 			data.morph = word.hasAttribute('morph') ? word.getAttribute('morph') : "";
 			data.accents = data.node.textContent.replace(/[\u05AF-\u05F4\/]/g, "");
+			data.form = accentForm;
 			return data.node;
 		}
 		// Event handlers for the word.
@@ -70,6 +73,9 @@ elementMarkup = function() {
 			})(data);
 		}
 		return {
+			setForm: function(form) {
+				accentForm = form;
+			},
 			element: function(word) {
 				return setData(word);
 			},
@@ -114,7 +120,10 @@ elementMarkup = function() {
 	// Starts a verse node & adds the verse number.
 	function verseElement(verse) {
 		var node = spanElement('verse'),
-			fields = verse.getAttribute('osisID').split('.');
+			osisID = verse.getAttribute('osisID'),
+			fields = osisID.split('.');
+		// Set the accent form for the verse.
+		wordData.setForm(accentInterpretation.getForm(osisID));
 		node.id = "v." + fields[2]; // Adds an id for verse selection.
 		node.appendChild(supElement('verseNumber', '', fields[2]));
 		node.appendChild(document.createTextNode('\u00A0'));

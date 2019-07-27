@@ -19,6 +19,9 @@ codes in the popups. For anyone interested in using the parser in their
 own project, the functionality has been encapsulated in
 MorphologyParser.js.
 
+Correction: It was also necessary to refactor the accent interpretation
+for chapter markup. Chapters 3 and 42 of Job change form in mid-chapter.
+
 Several components have been adapted from OSHB Verse, we have:
 
 -	AccentCatalog.js catalogs the accents by type and scope.
@@ -27,7 +30,8 @@ Several components have been adapted from OSHB Verse, we have:
 
 -	ReferenceConversion.js converts an osisID to a scripture reference.
 
--	AccentInterpretation.js interprets a string of cantillation marks.  
+-	AccentInterpretation.js interprets a string of cantillation marks.
+	(Refactored 7/27/2019 for chapter markup.) 
 	It depends on AccentCatalog.js
 	
 -	Popup.js marks up the popup for each word.  

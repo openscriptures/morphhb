@@ -25,7 +25,7 @@ popup = function() {
 		var markup = "<ul>";
 		markup += "<li class='lemma'>" + data.lemma + "</li>";
 		markup += "<li class='morph'>" + data.morph + "</li>";
-		markup += "<li class='accent'>" + accentInterpretation.interpret(data.accents, data.accentType) + "</li>";
+		markup += "<li class='accent'>" + accentInterpretation.interpret(data.accents, data.form, data.accentType) + "</li>";
 		markup += "</ul>";
 		pop.innerHTML = markup;
 		var pos = position(data.node);
