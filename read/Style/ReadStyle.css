@@ -66,7 +66,7 @@ section.passage
     background-color: rgba(255, 254, 251, 0.7);
     border: 3px double #213874;
     max-width: 32em;
-	max-height: 500px;
+	max-height: 400px;
     overflow: auto;
 }
 section.passage p
@@ -81,11 +81,24 @@ section.passage span.selectedVerse
 {
 	background-color: rgb(255, 251, 161);
 }
+section.passage span.selectedWord
+{
+	background-color: #6f6;
+}
+/* Morphology Styles */
+section#morphDisplay
+{
+    padding: 0 1em 0.5em 1em;
+    background-color: rgba(255, 254, 251, 0.7);
+    border: 3px double #213874;
+    max-width: 32em;
+	display: none;
+}
 /* Chapter display. */
 span.Hebrew:hover
 {
     cursor: pointer;
-    background-color: rgb(242, 166, 153);
+    background-color: #fbb;
 }
 span.qere
 {
@@ -107,6 +120,7 @@ sup.verseNumber
 {
     font: 0.7em/1em "Palatino Linotype", Palatino, serif;
 	font-weight: bold;
+    color: #3c14dc;
 }
 /* Popup Styles. */
 section#work div#popup
