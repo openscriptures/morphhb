@@ -5,7 +5,8 @@
  */
 chapterMarkup = function() {
 	// Convert an osisID to a scripture reference.
-	var refConvert = window.referenceConversion;
+	var refConvert = window.referenceConversion,
+		accentInterpretation = window.accentInterpretation;
 	// Marks up the sequence of verses.
 	function verseElements(verses) {
 		var para = document.createElement('p'),
@@ -14,6 +15,8 @@ chapterMarkup = function() {
 			// Send verses to ElementMarkup.
 			para.appendChild(elementMarkup(verses[i]));
 		}
+        // Set the scope based on the verse ID.
+        accentInterpretation.setAccents(verses[lim - 1].getAttribute('osisID'));
 		return para;
 	}
     // Marks up the chapter.
