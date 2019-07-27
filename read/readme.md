@@ -9,10 +9,15 @@ OSHB Read is a prototype for that application. This initial release is
 for testing purposes. Comments are welcome. Installing the app
 requires the same relationship between the read directory and the wlc
 directory.  (Otherwise, the relative path can be changed in
-Script/Read.js, line 91.)
+Script/Read.js, line 93.)
 
-The latest update implements the verse selector. This highlights the
+The first update implements the verse selector. This highlights the
 selected verse, and scrolls it into view.
+
+The latest update adds the morphology parser to interpret the morphology
+codes in the popups. For anyone interested in using the parser in their
+own project, the functionality has been encapsulated in
+MorphologyParser.js.
 
 Several components have been adapted from OSHB Verse, we have:
 
@@ -40,6 +45,14 @@ Several components have been adapted from OSHB Verse, we have:
 -	SelectVerse.js (added 7/24/2019) adds a class name to the selected
 	verse and scrolls it into view.
 
+-	MorphologyParser.js (added 7/27/2019) encapsulates the morphology
+	parser. It returns an object, for the purpose of verifying and
+	providing hints for partial results. In clickWord we use
+	morphologyParser(data.morph).
+
+-	ClickWord.js (Added 7/27/2019) provides the click handler for
+	words. It depends on MorphologyParser.js.
+
 For more information on the project, see our website
 [OpenScriptures Hebrew Bible](https://hb.openscriptures.org/).
 
@@ -48,5 +61,6 @@ OSHB Read is licensed under a
 license. For attribution purposes, credit the Open Scriptures Hebrew Bible
 Project.
 
+Updated July 27, 2019
 Updated July 24, 2019
 July 21, 2019

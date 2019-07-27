@@ -5,6 +5,7 @@
  */
 elementMarkup = function() {
 	popup = window.popup;
+	clickWord = window.clickWord;
 	// Sets up a span element.
 	function spanElement(className) {
 		var span = document.createElement('span');
@@ -63,6 +64,9 @@ elementMarkup = function() {
 					popup.show(thisData);
 				};
 				data.node.onmouseout = popup.hide;
+				data.node.onclick = function() {
+					clickWord.show(thisData);
+				}
 			})(data);
 		}
 		return {

@@ -4,8 +4,6 @@
  * @author David
  */
 selectVerse = function() {
-    // Interprets the accents.
-    var accentInterpretation = window.accentInterpretation;
 	var display = document.getElementById('display');
     // Utility to find the position of an element.
     function position(element) {
@@ -19,7 +17,7 @@ selectVerse = function() {
     }
 	// Scroll the node into view.
 	var scrollToVerse = function(node) {
-		display.scrollTop = position(node).top - position(display).top - 64;
+		display.scrollTop = position(node).top - position(display).top - 65;
 	};
 	// Maintains the selected verse.
 	var selectedVerse = function() {
@@ -29,7 +27,6 @@ selectVerse = function() {
 				currentNode.className = node.className.replace(' selectedVerse', '');
 			}
 			currentNode = node;
-			//TODO Scroll to verse.
 			scrollToVerse(node);
 			node.className += " selectedVerse";
 		};

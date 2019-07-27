@@ -52,7 +52,8 @@
       oReq.send(null);
     }
 // Navigation elements.
-    var bookText, bookIndex;
+    var bookText, bookIndex,
+		clickWord = window.clickWord;
     // Sets the options for the chapter dropdown.
     var setChapters = function() {
 		bookText = this.responseText;
@@ -83,6 +84,7 @@
 			end = bookText.indexOf('</chapter>', start) + 10;
 		xmlString += bookText.substring(start, end);
 		chapterXml = parseXmlString(xmlString);
+		clickWord.hide();
 		setVerses();
     };
 	// Sets the XML book file to read.
