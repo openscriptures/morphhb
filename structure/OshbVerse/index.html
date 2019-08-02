@@ -16,7 +16,7 @@
             <form>
                 <label for="book">Book</label>
                 <select id="book">
-                    <option value="Gen" selected="selected">Genesis</option>
+                    <option value="Gen">Genesis</option>
                     <option value="Exod">Exodus</option>
                     <option value="Lev">Leviticus</option>
                     <option value="Num">Numbers</option>
@@ -86,6 +86,12 @@
             <section id="display" class="passage">
                 <h2>Verse Display</h2>
             </section>
+			<aside>
+				<p><strong>Link to this verse:</strong><br />
+				<code><span id="link"></span></code><br />
+				(<em>Right-click</em> on the link, and Copy.<br />
+				You can paste the link into an email, or make a bookmark for it.)</p>
+			</aside>
         </section>
         <div class="footer">
             Verse is part of the
@@ -94,6 +100,7 @@
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
                alt="Creative Commons License" style="border-width:0; margin:0.3ex" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
         </div>
+        <script src="Script/ReferenceLocation.js"></script>
         <script src="Script/AccentCatalog.js"></script>
         <script src="Script/Books.js"></script>
         <script src="Script/ReferenceConversion.js"></script>

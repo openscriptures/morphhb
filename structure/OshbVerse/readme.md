@@ -17,6 +17,9 @@ display is the layout of the old demo app.  Each of these layouts can
 visualize the verse structure either in "binary tree" form (the default,
 where colors help discern the role of the accent), or in "clean" form.
 
+We have now added the capability to link to the current verse. This will
+allow sharing a link or making a bookmark, to return to the same location.
+
 Many of the files are just scaffolding for the demo. Installing the demo
 requires the same relationship between the structure directory and the
 wlc directory.  (Otherwise, the relative path can be changed in
@@ -24,6 +27,9 @@ Script/Structure.js, line 99.)
 
 Several new components have been added to facilitate the popup display, and
 interpretation of the cantillation marks. Altogether, we have:
+
+-	ReferenceLocation.js (Added 8/2/2019) manages URL locations, to
+	make and process the link.
 
 -	AccentCatalog.js catalogs the accents by type and scope.
 
@@ -64,7 +70,8 @@ The OshbVerse demo is licensed under a
 license. For attribution purposes, credit the Open Scriptures Hebrew Bible
 Project.
 
-Updated June 9, 2018
+Updated August 2, 2019  
+Updated June 9, 2018  
 Updated June 22, 2017  
 Updated February 17, 2017  
 February 5, 2017

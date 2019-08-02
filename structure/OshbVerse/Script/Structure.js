@@ -1,6 +1,7 @@
 /**
  * @fileOverview Structure is the JavaScript controller for OSHB structure.
- * @version 1.3
+ * @version 1.4
+ * Version 1.4: Factored in Reference Location, to link to the current verse.
  * Version 1.3: Updated for entire WLC, verse layout and depth.
  * Version 1.2: Updated for popup display.
  * @author David
@@ -12,6 +13,7 @@
         "chapter": document.getElementById('chapter'),
         "verse": document.getElementById('verse'),
         "display": document.getElementById('display'),
+        "link": document.getElementById('link'),
         "verseLayout": document.getElementById('verseLayout'),
         "levelDepth": document.getElementById('levelDepth')
     };
@@ -77,6 +79,8 @@
         for (; i <= num; i++) {
             elements.verse.options[elements.verse.options.length] = new Option(i);
         }
+        elements.verse[initialVerse].selected = "selected";
+        initialVerse = 0;
         getVerse();
     };
     // Extracts the XML chapter from bookText.
@@ -95,6 +99,11 @@
         return loadFile("../../wlc/" + book + ".xml", setChapters);
 	};
 // Interface elements.
+    // Marks up the link.
+	function linkMark() {
+		var address = refLocation.getLocation(elements.book.value, elements.chapter.value, elements.verse.value);
+		return '<a href="' + address + '">' + address + '</a>'
+	}
     // Marks up the verse.
     // Interprets the accents.
     var accentInterpretation = window.accentInterpretation;
@@ -111,6 +120,8 @@
             elements.display.appendChild(markupVerse(verse, false));
         }
         setLevelDepth();
+		// Set the link.
+		elements.link.innerHTML = linkMark();
     }
     // Gets the selected verse layout stylesheet.
     function getVerseLayout() {
@@ -155,7 +166,9 @@
         }
     }
     // Initialize.
-    var initialChapter = elements.chapter.value - 1;
+    var refLocation = window.refLocation,
+		initialChapter = refLocation.chapterIndex(),
+		initialVerse = refLocation.verseIndex();
     var markupVerse = window.verseMarkupHorizontal;
     elements.book.onchange = setBookFile;
     elements.chapter.onchange = setChapterFile;
