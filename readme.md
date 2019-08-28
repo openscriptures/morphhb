@@ -1,6 +1,6 @@
 #	Open Scriptures Hebrew Bible
 
-The Open Scripures Hebrew Bible (OSHB) is a project to analyze the Hebrew Bible 
+The Open Scriptures Hebrew Bible (OSHB) is a project to analyze the Hebrew Bible 
 by lemma and morphology. The project is marked up in [OSIS][1] XML and currently 
 contains lemma attributes for most words (using an augmentation of Strong’s
 numbers). We are in the process of adding morphology attributes as well.  These
