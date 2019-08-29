@@ -31,7 +31,7 @@ Several components have been adapted from OSHB Verse, we have:
 -	ReferenceConversion.js converts an osisID to a scripture reference.
 
 -	AccentInterpretation.js interprets a string of cantillation marks.
-	(Refactored 7/27/2019 for chapter markup.) 
+	(Refactored 7/27/2019 for chapter markup.)  
 	It depends on AccentCatalog.js
 	
 -	Popup.js marks up the popup for each word.  
@@ -55,7 +55,8 @@ Several components have been adapted from OSHB Verse, we have:
 	morphologyParser(data.morph).
 
 -	ClickWord.js (Added 7/27/2019) provides the click handler for
-	words. It depends on MorphologyParser.js.
+	words.  
+	It depends on MorphologyParser.js.
 
 For more information on the project, see our website
 [OpenScriptures Hebrew Bible](https://hb.openscriptures.org/).
@@ -65,6 +66,6 @@ OSHB Read is licensed under a
 license. For attribution purposes, credit the Open Scriptures Hebrew Bible
 Project.
 
-Updated July 27, 2019
-Updated July 24, 2019
+Updated July 27, 2019  
+Updated July 24, 2019  
 July 21, 2019
