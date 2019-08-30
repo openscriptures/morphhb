@@ -69,7 +69,7 @@ OSHB Read is licensed under a
 license. For attribution purposes, credit the Open Scriptures Hebrew Bible
 Project.
 
-Updated August 30, 2019
+Updated August 30, 2019  
 Updated July 27, 2019  
 Updated July 24, 2019  
 July 21, 2019
