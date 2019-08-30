@@ -1,28 +1,30 @@
 #	OSHB Read
 
-Now that the parsing project has completed the first pass of adding
-morphology to the OpenScriptures Hebrew Bible, there is a need for a
-way to present the text in a readable form. This will provide access
-to the morphology, for reference purposes.
+OSHB Read is an application for reading the Open Scriptures Hebrew
+Bible, direct from the source text. You always get the latest version
+we have available. This includes the completed morphology, from the
+first pass.
 
-OSHB Read is a prototype for that application. This initial release is
-for testing purposes. Comments are welcome. Installing the app
-requires the same relationship between the read directory and the wlc
-directory.  (Otherwise, the relative path can be changed in
-Script/Read.js, line 93.)
+Open the app and select a book. Once it loads, you can choose a
+chapter to read. The entire chapter is in front of you. The verse
+selector simply provides a way to zero in on a specific passage
+quickly. It will highlight the selected verse, and scroll it into view.
 
-The first update implements the verse selector. This highlights the
-selected verse, and scrolls it into view.
+The words you see are actually divided into prefixes, main word and
+suffix. Hovering over a part of the word yields a popup showing the
+lemma (for lookup in the
+[OSHB Hebrew Lexicon](http://openscriptures.github.io/HebrewLexicon/)),
+the morphology code and the accent of the word in general. If you
+want to view a readable rendering of the morphology code, click on that
+part of the word, and it will be shown in a box below the text.
 
-The latest update adds the morphology parser to interpret the morphology
-codes in the popups. For anyone interested in using the parser in their
-own project, the functionality has been encapsulated in
+For anyone interested in using the morphology parser in their own
+project, the functionality has been encapsulated in
 MorphologyParser.js.
 
-Correction: It was also necessary to refactor the accent interpretation
-for chapter markup. Chapters 3 and 42 of Job change form in mid-chapter.
-
-Several components have been adapted from OSHB Verse, we have:
+Several components have been adapted from
+[OSHB Verse](https://hb.openscriptures.org/structure/OshbVerse/),
+we have:
 
 -	AccentCatalog.js catalogs the accents by type and scope.
 
@@ -31,13 +33,14 @@ Several components have been adapted from OSHB Verse, we have:
 -	ReferenceConversion.js converts an osisID to a scripture reference.
 
 -	AccentInterpretation.js interprets a string of cantillation marks.
-	(Refactored 7/27/2019 for chapter markup.) 
+	(Refactored 7/27/2019 for chapter markup.)  
 	It depends on AccentCatalog.js
 	
 -	Popup.js marks up the popup for each word.  
 	It depends on AccentInterpretation.js
 	
--	ElementMarkup.js marks up the words, punctuation and notes.  
+-	ElementMarkup.js marks up the words, punctuation and notes.
+	(Refactored 8/30/2019 for segmentation.)
 	It depends on Popup.js
 	
 -	ChapterMarkup.js marks up the chapter to be viewed.  
@@ -52,10 +55,11 @@ Several components have been adapted from OSHB Verse, we have:
 -	MorphologyParser.js (added 7/27/2019) encapsulates the morphology
 	parser. It returns an object, for the purpose of verifying and
 	providing hints for partial results. In clickWord we use
-	morphologyParser(data.morph).
+	morphologyParser(data.lang + data.morph).
 
 -	ClickWord.js (Added 7/27/2019) provides the click handler for
-	words. It depends on MorphologyParser.js.
+	words.  
+	It depends on MorphologyParser.js.
 
 For more information on the project, see our website
 [OpenScriptures Hebrew Bible](https://hb.openscriptures.org/).
@@ -65,6 +69,7 @@ OSHB Read is licensed under a
 license. For attribution purposes, credit the Open Scriptures Hebrew Bible
 Project.
 
-Updated July 27, 2019
-Updated July 24, 2019
+Updated August 30, 2019
+Updated July 27, 2019  
+Updated July 24, 2019  
 July 21, 2019
