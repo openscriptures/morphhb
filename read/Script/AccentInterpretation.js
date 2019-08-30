@@ -1,12 +1,12 @@
 /**
  * @fileOverview AccentInterpretation is a component for OshbRead,
  * to interpret cantillation marks.
+ * @version 1.1 Refactored for chapter markup.
  * @version 1.0
  * @author David
  */
 accentInterpretation = function() {
-	var accentCatalog = window.accentCatalog,
-		accentForm = "prose";
+	var accentCatalog = window.accentCatalog;
 	// Set the scope.
 	function setScope(osisID) {
 		var fields = osisID.split(".");

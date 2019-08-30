@@ -19,7 +19,7 @@ clickWord = function() {
 	}();
 	// Shows the morphology display.
 	function showMorphology(data) {
-		var parsing = morphologyParser(data.morph);
+		var parsing = morphologyParser(data.lang + data.morph);
 		morphDisplay.innerHTML = "<p>" + parsing.morph + "</p>";
 		morphDisplay.style.display = 'block';
 		selectedWord(data.node);

@@ -95,14 +95,26 @@ section#morphDisplay
 	display: none;
 }
 /* Chapter display. */
-span.Hebrew:hover
+span.Hebrew span:hover
 {
     cursor: pointer;
     background-color: #fbb;
 }
+span.Hebrew span.prefix
+{
+	color: blue;
+}
+span.Hebrew span.suffix
+{
+	color: gray;
+}
 span.qere
 {
     color: blue;
+}
+span.qere span.prefix
+{
+	color: black;
 }
 span.mark
 {

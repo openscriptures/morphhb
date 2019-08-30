@@ -50,7 +50,8 @@ accentCatalog = {
 			"\u059E": {"name": "Gershayim", "rank": "3", "final": "true"},
 			"\u05A0\u059E": {"name": "Telisha Gedola with Gershayim", "rank": "3", "final": "true"},
 			"\u059E\u05A0": {"name": "Gershayim with Telisha Gedola", "rank": "3", "final": "true"},
-			"\u05A3\u05C0": {"name": "Legarmeh", "rank": "3", "final": "true"}
+			"\u05A3\u05C0": {"name": "Legarmeh", "rank": "3", "final": "true"},
+			"": {"name": "None", "rank": "5"}
 		},
 		"conjunctive": {
 			"\u05C0": {"name": "Paseq", "rank": "4"},

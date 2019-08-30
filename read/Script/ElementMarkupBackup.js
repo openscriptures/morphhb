@@ -28,82 +28,49 @@ elementMarkup = function() {
 		sup.appendChild(document.createTextNode(content));
 		return sup;
 	}
-	// Constructs the element array for a word.
-	function wordElement(word, lemmas) {
-		var nodes = [], parts, i, place = 0,
-			regex = /^[a-z]$/,
-			span = document.createElement('span');
+	// Constructs the element for a word.
+	function wordElement(word) {
+		var span = document.createElement('span');
+		span.className = "Hebrew";
 		// Content for the span. (11 instances of large, small or suspended letters.)
 		var child = word.firstChild;
 		while (child) {
 			if (child.nodeType === 3) {
-				parts = child.nodeValue.split("/");
-				i = 0;
-				while (i < parts.length) {
-					if (lemmas[i]) {
-						span.className = regex.test(lemmas[i]) ? "prefix" : "main";
-					} else {
-						span.className = "suffix";
-					}
-					span.appendChild(document.createTextNode(parts[i]));
-					nodes.push(span);
-					i++;
-					place++;
-					span = document.createElement('span');
-				}
-				
+				span.appendChild(document.createTextNode(child.nodeValue));
 			} else {
 				span.appendChild(segElement(child.getAttribute('type'), child.firstChild.nodeValue));
 			}
 			child = child.nextSibling;
 		}
-		nodes.push(span);
-		return nodes;
+		return span;
 	}
 	// Maintains the word data while setting up the handlers.
 	var wordData = function() {
-		var data = [], lim,
+		var data = {},
 			accentForm = "prose";
 		// Sets the word data.
 		function setData(word) {
-			var span = document.createElement('span'),
-				lemmas = word.getAttribute('lemma').split("/"),
-				words = wordElement(word, lemmas),
-				morphs = "", langCode = "", i;
-			span.className = "Hebrew";
-			lim = words.length - 1;
-			if (word.hasAttribute('morph')) {
-				langCode = word.getAttribute('morph').charAt(0);
-				morphs = word.getAttribute('morph').substr(1).split("/");
-			}
-			for (i = 0; i < lim; i++) {
-				data[i] = {};
-				data[i].node = words[i];
-				data[i].lemma = lemmas[i] ? lemmas[i] : "None";
-				data[i].lang = langCode;
-				data[i].morph = (morphs && morphs[i]) ? morphs[i] : "";
-				data[i].accents = word.textContent.replace(/[\u05AF-\u05F4\/]/g, "");
-				data[i].form = accentForm;
-				span.appendChild(data[i].node);
-			}
-			return span;
+			data = {};
+			data.node = wordElement(word);
+			data.lemma = word.getAttribute('lemma');
+			data.morph = word.hasAttribute('morph') ? word.getAttribute('morph') : "";
+			data.accents = data.node.textContent.replace(/[\u05AF-\u05F4\/]/g, "");
+			data.form = accentForm;
+			return data.node;
 		}
 		// Event handlers for the word.
 		function handlers(isDisjunctive) {
-			var i;
-			for (i = 0; i < lim; i++) {
-				data[i].accentType = isDisjunctive ? "disjunctive" : "conjunctive";
-				// Bypass the closure.
-				(function(thisData) {
-					data[i].node.onmouseover = function() {
-						popup.show(thisData);
-					};
-					data[i].node.onmouseout = popup.hide;
-					data[i].node.onclick = function() {
-						clickWord.show(thisData);
-					}
-				})(data[i]);
-			}
+			data.accentType = isDisjunctive ? "disjunctive" : "conjunctive";
+			// Bypass the closure.
+			(function(thisData) {
+				data.node.onmouseover = function() {
+					popup.show(thisData);
+				};
+				data.node.onmouseout = popup.hide;
+				data.node.onclick = function() {
+					clickWord.show(thisData);
+				}
+			})(data);
 		}
 		return {
 			setForm: function(form) {
@@ -113,9 +80,7 @@ elementMarkup = function() {
 				return setData(word);
 			},
 			addAccent: function(accent) {
-				for (var i = 0; i < lim; i++) {
-					data[i].accents += accent;
-				}
+				data.accents += accent;
 			},
 			setHandlers: function(isDisjunctive) {
 				handlers(isDisjunctive);
