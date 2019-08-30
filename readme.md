@@ -1,75 +1,48 @@
-#	OSHB Read
+#	Open Scriptures Hebrew Bible
 
-OSHB Read is an application for reading the Open Scriptures Hebrew
-Bible, direct from the source text. You always get the latest version
-we have available. This includes the completed morphology, from the
-first pass.
+The Open Scriptures Hebrew Bible (OSHB) is a project to analyze the Hebrew Bible 
+by lemma and morphology. The project is marked up in [OSIS][1] XML and currently 
+contains lemma attributes for most words (using an augmentation of Strong’s
+numbers). We are in the process of adding morphology attributes as well.  These
+files are found in the `wlc` directory.
 
-Open the app and select a book. Once it loads, you can choose a
-chapter to read. The entire chapter is in front of you. The verse
-selector simply provides a way to zero in on a specific passage
-quickly. It will highlight the selected verse, and scroll it into view.
-
-The words you see are actually divided into prefixes, main word and
-suffix. Hovering over a part of the word yields a popup showing the
-lemma (for lookup in the
-[OSHB Hebrew Lexicon](http://openscriptures.github.io/HebrewLexicon/)),
-the morphology code and the accent of the word in general. If you
-want to view a readable rendering of the morphology code, click on that
-part of the word, and it will be shown in a box below the text.
-
-For anyone interested in using the morphology parser in their own
-project, the functionality has been encapsulated in
-MorphologyParser.js.
-
-Several components have been adapted from
-[OSHB Verse](https://hb.openscriptures.org/structure/OshbVerse/),
-we have:
-
--	AccentCatalog.js catalogs the accents by type and scope.
-
--	Books.js records book data for navigation.
-
--	ReferenceConversion.js converts an osisID to a scripture reference.
-
--	AccentInterpretation.js interprets a string of cantillation marks.
-	(Refactored 7/27/2019 for chapter markup.)  
-	It depends on AccentCatalog.js
-	
--	Popup.js marks up the popup for each word.  
-	It depends on AccentInterpretation.js
-	
--	ElementMarkup.js marks up the words, punctuation and notes.
-	(Refactored 8/30/2019 for segmentation.)
-	It depends on Popup.js
-	
--	ChapterMarkup.js marks up the chapter to be viewed.  
-	It depends on ReferenceConversion.js and ElementMarkup.js
-	
--	Read.js in the controller for OSHB Read.  
-	It depends on ChapterMarkup.js.
-
--	SelectVerse.js (added 7/24/2019) adds a class name to the selected
-	verse and scrolls it into view.
-
--	MorphologyParser.js (added 7/27/2019) encapsulates the morphology
-	parser. It returns an object, for the purpose of verifying and
-	providing hints for partial results. In clickWord we use
-	morphologyParser(data.lang + data.morph).
-
--	ClickWord.js (Added 7/27/2019) provides the click handler for
-	words.  
-	It depends on MorphologyParser.js.
-
-For more information on the project, see our website
-[OpenScriptures Hebrew Bible](https://hb.openscriptures.org/).
-
-OSHB Read is licensed under a
+Lemma and morphology data are licensed under a
 [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/)
 license. For attribution purposes, credit the Open Scriptures Hebrew Bible
-Project.
+Project. The text of the WLC remains in the
+[Public Domain](http://creativecommons.org/publicdomain/mark/1.0/).
 
-Updated August 30, 2019  
-Updated July 27, 2019  
-Updated July 24, 2019  
-July 21, 2019
+##	Additional Resources
+
+-	`HomeFiles`, along with `index.html` provide a simple home page for the project,
+see [The OpenScriptures Hebrew Bible](http://openscriptures.github.io/morphhb/)
+
+-	`MAPM` contains our work with the
+[Miqra according to the Mesorah](https://he.wikisource.org/wiki/%D7%9E%D7%A9%D7%AA%D7%9E%D7%A9:Dovi/%D7%9E%D7%A7%D7%A8%D7%90_%D7%A2%D7%9C_%D7%A4%D7%99_%D7%94%D7%9E%D7%A1%D7%95%D7%A8%D7%94)
+These were done in cooperation with Rabbi Kadish, for comparison with the OSHB.
+The MapM has since progressed, so our files may not be up to date.
+
+-	`OSHB Graphics` contains the OSHB logo graphics, for crediting or linking to
+our resources.  See the `readme` in that directory for more details.
+
+-	`structure` contains a demo of OSHB Verse, for displaying verses of the Hebrew
+Bible divided by the cantillation hierarchy.  This is a simple implementation
+for using the `n` attributes that have been added, for recording and editing
+the cantillation divisions.
+
+##	Hebrew Normalization
+
+The [SBL Hebrew User Manual](http://www.sbl-site.org/Fonts/SBLHebrewUserManual1.5x.pdf)
+has a section entitled, The normalisation issue, pp. 8 ff.
+
+>	Normalisation is a process by which sequences of characters in text that
+can be variously encoded but are _semantically identical_ are treated as
+identically encoded. (p. 8)
+
+Because of the warnings in that manual, along with my experiences dealing
+with the MapM text from WikiSource, any uses of the OSHB should avoid NFC
+normalization.
+
+Updated: January 27, 2017
+
+[1]: http://bibletechnologies.net/
