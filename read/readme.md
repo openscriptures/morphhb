@@ -40,7 +40,7 @@ we have:
 	It depends on AccentInterpretation.js
 	
 -	ElementMarkup.js marks up the words, punctuation and notes.
-	(Refactored 8/30/2019 for segmentation.)
+	(Refactored 8/30/2019 for segmentation. Corrected 9/18/2019.)  
 	It depends on Popup.js
 	
 -	ChapterMarkup.js marks up the chapter to be viewed.  
@@ -69,6 +69,7 @@ OSHB Read is licensed under a
 license. For attribution purposes, credit the Open Scriptures Hebrew Bible
 Project.
 
+Updated September 18, 2019  
 Updated August 30, 2019  
 Updated July 27, 2019  
 Updated July 24, 2019  

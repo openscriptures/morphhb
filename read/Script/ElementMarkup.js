@@ -40,16 +40,20 @@ elementMarkup = function() {
 				parts = child.nodeValue.split("/");
 				i = 0;
 				while (i < parts.length) {
-					if (lemmas[i]) {
-						span.className = regex.test(lemmas[i]) ? "prefix" : "main";
+					if (lemmas[place]) {
+						span.className = regex.test(lemmas[place]) ? "prefix" : "main";
 					} else {
 						span.className = "suffix";
 					}
-					span.appendChild(document.createTextNode(parts[i]));
-					nodes.push(span);
+					if (parts[i]) {
+						span.appendChild(document.createTextNode(parts[i]));
+					}
 					i++;
-					place++;
-					span = document.createElement('span');
+					if (i < parts.length) {
+						place++;
+						nodes.push(span);
+						span = document.createElement('span');
+					}
 				}
 				
 			} else {
@@ -71,7 +75,7 @@ elementMarkup = function() {
 				words = wordElement(word, lemmas),
 				morphs = "", langCode = "", i;
 			span.className = "Hebrew";
-			lim = words.length - 1;
+			lim = words.length;
 			if (word.hasAttribute('morph')) {
 				langCode = word.getAttribute('morph').charAt(0);
 				morphs = word.getAttribute('morph').substr(1).split("/");
