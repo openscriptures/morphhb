@@ -271,6 +271,10 @@ if ( $remapVerses ) {
 	$json = NFC to_json(\%remapped);
 }
 
+if ( $stripPointing ) {
+	$json = stripPointing($json);
+}
+
 $json =~ s/(?<=\},)/\n/g;
 print OUT "var morphhb=$json;module.exports=morphhb;";
 close OUT;
