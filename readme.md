@@ -1,7 +1,7 @@
 #	Open Scriptures Hebrew Bible
 
-The Open Scriptures Hebrew Bible (OSHB) is a project to analyze the Hebrew Bible 
-by lemma and morphology. The project is marked up in [OSIS][1] XML and currently 
+The Open Scriptures Hebrew Bible (OSHB) is a project to analyze the Hebrew Bible
+by lemma and morphology. The project is marked up in [OSIS][1] XML and currently
 contains lemma attributes for most words (using an augmentation of Strong’s
 numbers). We are in the process of adding morphology attributes as well.  These
 files are found in the `wlc` directory.
@@ -75,9 +75,8 @@ This JavaScript module is designed to be lightweight, so it is formatted as foll
 The perl script which generates this is called morphhbXML-to-JSON.pl. It has several options:
 - stripPointing: This will remove all non-letter characters from the Hebrew words. These characters are a later addition in the history of the text.
 - removeLemmaTypes: Some Strongs numbers have an additional type in the form of a letter. This isn't implemented in the strongs dictionary, so this option will remove them.
-- stripHFromMorph: To keep the output as light as possible we can strip the 'H' from the start of each morph code
 - prefixLemmasWithH: To differentiate Greek and Hebrew strongs numbers we can add an additional H at the start
 - remapVerses: The versification in Hebrew and English bibles is different. This option maps the Hebrew verses to the English ones.
 
 You can run this script like so:
-`perl morphhbXML-to-JSON.pl --stripPointing --removeLemmaTypes --stripHFromMorph --prefixLemmasWithH --remapVerses`
+`perl morphhbXML-to-JSON.pl --stripPointing --removeLemmaTypes --prefixLemmasWithH --remapVerses`

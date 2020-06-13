@@ -19,7 +19,6 @@ HEAD
 #options
 my $stripPointing = 'true';
 my $removeLemmaTypes = 'true';
-my $stripHFromMorph = 'true';
 my $prefixLemmasWithH = 'true';
 my $remapVerses = 'true';
 
@@ -89,9 +88,6 @@ sub getBookData {
 					$lemma = prefixLemmasWithH($lemma);
 				}
 				my $morph = $word->getAttribute('morph');
-				if ( $morph && $stripHFromMorph ) {
-					$morph = stripHFromMorph($morph);
-				}
 
 				push @singleWordArray, $word->textContent;
 				push @singleWordArray, $lemma;
@@ -102,7 +98,7 @@ sub getBookData {
 		}
 		push @bookData, \@verseArray;
 	}
-	
+
 	return \@bookData;
 }
 
@@ -115,15 +111,6 @@ sub prefixLemmasWithH {
 	}
 	my $returnString = join '/', @returnArray;
 	return $returnString;
-}
-
-sub stripHFromMorph {
-	my ( $string ) = @_;
-	if ( index($string, 'H') == 0 ) {
-		return substr $string, 1;
-	}
-	
-	return $string;
 }
 
 sub removeLemmaTypes {
@@ -140,69 +127,13 @@ sub removeLemmaTypes {
 
 sub stripPointing {
 	my ( $string ) = @_;
-	$string =~ s/֑//g;
-	$string =~ s/֓//g;
-	$string =~ s/֕//g;
-	$string =~ s/֖//g;
-	$string =~ s/֘//g;
-	$string =~ s/֙//g;
-	$string =~ s/֚//g;
-	$string =~ s/֛//g;
-	$string =~ s/֜//g;
-	$string =~ s/֝//g;
-	$string =~ s/֞//g;
-	$string =~ s/֟//g;
-	$string =~ s/֠//g;
-	$string =~ s/֡//g;
-	$string =~ s/֢//g;
-	$string =~ s/֣//g;
-	$string =~ s/֤//g;
-	$string =~ s/֥//g;
-	$string =~ s/֦//g;
-	$string =~ s/֧//g;
-	$string =~ s/֩//g;
-	$string =~ s/֪//g;
-	$string =~ s/֫//g;
-	$string =~ s/֬//g;
-	$string =~ s/֭//g;
-	$string =~ s/֮//g;
-	$string =~ s/֯//g;
-	$string =~ s/ֱ//g;
-	$string =~ s/ֲ//g;
-	$string =~ s/ֳ//g;
-	$string =~ s/ֵ//g;
-	$string =~ s/ֶ//g;
-	$string =~ s/ַ//g;
-	$string =~ s/ָ//g;
-	$string =~ s/ֹ//g;
-	$string =~ s/ֺ//g;
-	$string =~ s/ֻ//g;
-	$string =~ s/ּ//g;
-	$string =~ s/ֽ//g;
-	$string =~ s/־//g;
-	$string =~ s/׀//g;
-	$string =~ s/ׂ//g;
-	$string =~ s/׃//g;
-	$string =~ s/ׄ//g;
-	$string =~ s/ׇ//g;
-	$string =~ s/ׁ//g;
-	$string =~ s/ִ//g;
-	$string =~ s/ְ//g;
-	$string =~ s/ְ//g;
-	$string =~ s/ְ//g;
-	$string =~ s/ְ//g;
-	$string =~ s/֗//g;
-	$string =~ s/ְ//g;
-	$string =~ s/ְ//g;
-	$string =~ s/֔//g;
-	$string =~ s/ְ//g;
-	$string =~ s/ְ//g;
-	$string =~ s/֨//g;
-	$string =~ s/֑//g;
-	$string =~ s/֗//g;
-	$string =~ s/֨//g;
-	$string =~ s/֔//g;
-	$string =~ s/֒//g;
+	$string =~ s/[\x{0590}-\x{05AF}\x{05BD}]//g;
+	$string =~ s/[\x{05B0}-\x{05BB}]//g;
+	$string =~ s/[\x{05BC}]//g;
+	$string =~ s/[\x{05C1}]//g;
+	$string =~ s/[\x{05C2}]//g;
+	$string =~ s/[\x{05C4}]//g;
+	$string =~ s/[\x{05C5}]//g;
 	return $string;
 }
 
@@ -229,16 +160,16 @@ foreach my $book (@books) {
 			my @wlcVerseArray = split(/\./, $wlcRef);
 			my $kjvRef = $verse->getAttribute('kjv');
 			my @kjvVerseArray = split(/\./, $kjvRef);
-			
+
 			my $kjvBook = $bookNameData{ $kjvVerseArray[ 0 ] };
 			my $kjvChapter = $kjvVerseArray[ 1 ] - 1;
 			my $kjvVerse = $kjvVerseArray[ 2 ] - 1;
-			
+
 			my $wlcBook = $bookNameData{ $wlcVerseArray[ 0 ] };
 			my $wlcChapter = $wlcVerseArray[ 1 ] - 1;
 			my $wlcVerse = $wlcVerseArray[ 2 ] - 1;
 			my $wlcData = $hebrew{ $wlcBook }[ $wlcChapter ][ $wlcVerse ];
-			
+
 			#if ( $wlcChapter $kjvChapter $wlcVerse $kjvVerse
 
 			if ( $kjvBook eq 'Psalms' && $kjvVerse eq 0 ) {
@@ -249,7 +180,7 @@ foreach my $book (@books) {
 				if ( $wlcChapter < $kjvChapter || ( $wlcChapter eq $kjvChapter && $wlcVerse > $kjvVerse ) || $wlcChapter > $kjvChapter ) {
 					delete $remapped{ $wlcBook }[ $wlcChapter ][ $wlcVerse ];
 				}
-			}			
+			}
 		}
 	}
 }
@@ -284,9 +215,10 @@ if ( $remapVerses ) {
 	$json = NFC to_json(\%remapped);
 }
 
-$json =~ s/(?<=\},)/\n/g;
 if ( $stripPointing ) {
 	$json = stripPointing($json);
 }
+
+$json =~ s/(?<=\},)/\n/g;
 print OUT "var morphhb=$json;module.exports=morphhb;";
 close OUT;
