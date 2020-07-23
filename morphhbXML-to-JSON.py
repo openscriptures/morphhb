@@ -267,16 +267,9 @@ def main():
     if stripPointing:
         jsonStr = stripPointingFunc(jsonStr)
 
-    # print(remapped['Psalms'][12][5])
-    # print(remapped['I Kings'][21][42])
-    # print(remapped['Psalms'][22][3])
-    # print(remapped['Genesis'][31][0])
-    # print(hebrew['Genesis'][31][0])
-
-
-"""     print("var morphhb={};".format(jsonStr))
+    print("var morphhb={};".format(jsonStr))
     print('')
-    print('module.exports=morphhb;') """
+    print('module.exports=morphhb;')
 
 
 if __name__ == "__main__":
