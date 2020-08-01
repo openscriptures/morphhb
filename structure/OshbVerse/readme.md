@@ -29,7 +29,8 @@ Several new components have been added to facilitate the popup display, and
 interpretation of the cantillation marks. Altogether, we have:
 
 -	ReferenceLocation.js (Added 8/2/2019) manages URL locations, to
-	make and process the link.
+	make and process the link. Expanded 8/1/2020, to accept the MT book
+	number, as well as the SBL abbreviation, in the URL.
 
 -	AccentCatalog.js catalogs the accents by type and scope.
 
@@ -70,6 +71,7 @@ The OshbVerse demo is licensed under a
 license. For attribution purposes, credit the Open Scriptures Hebrew Bible
 Project.
 
+Updated August 1, 2020  
 Updated August 2, 2019  
 Updated June 9, 2018  
 Updated June 22, 2017  
