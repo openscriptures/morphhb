@@ -18,8 +18,17 @@ refLocation = function() {
 			results;
 		if (url.length > 75) {return parts;} // Excessively long URL.
 		results = url.search.match(/b=(\w+)/);
-		if (results && results[1] && sblNames.indexOf(results[1]) >= 0) {
-			parts.book = results[1];
+		if (results && results[1]) {
+			if (sblNames.indexOf(results[1]) >= 0) {
+				parts.book = results[1];
+			} else {
+				mtNum = parseInt(results[1]);
+				if (mtNum > 0 && mtNum < 40) {
+					parts.book = sblNames[mtNum - 1];
+				} else {
+					return parts; // Unknown book number.
+				}
+			}
 		} else {
 			return parts; // Unknown book abbreviation.
 		}
