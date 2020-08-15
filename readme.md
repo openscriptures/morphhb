@@ -80,3 +80,13 @@ The perl script which generates this is called morphhbXML-to-JSON.pl. It has sev
 
 You can run this script like so:
 `perl morphhbXML-to-JSON.pl --stripPointing --removeLemmaTypes --prefixLemmasWithH --remapVerses`
+
+## Updated
+
+The Python script has been updated to reflect contemporary data practices and to promote cross-platform cooperation.
+
+Use `--splitByBook` to create a JSON file per book.
+
+This is usable directly or via Docker:
+
+    docker build . -t local/morphhb && docker run -it -v `pwd`:/var/app local/morphhb
