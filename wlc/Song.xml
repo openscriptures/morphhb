@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<osis xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd">
   <osisText xml:lang="he" osisIDWork="OSHB" osisRefWork="Bible">
     <header>
       <revisionDesc resp="dt">
@@ -494,7 +494,7 @@
           <w lemma="6982" morph="HNcfpc" id="229Hv">קֹר֤וֹת</w>
           <w lemma="1004 b" n="0.1.0" morph="HNcmpc/Sp1cp" id="22j1i">בָּתֵּ֨י/נוּ֙</w>
           <w lemma="730" n="0.1" morph="HNcmpa" id="22J9J">אֲרָזִ֔ים</w>
-          <w lemma="7351" morph="HNcmsc/Sp1cp" id="22U4n">רחיט/נו</w><note type="variant"><catchWord>רחיט/נו</catchWord><rdg type="x-qere"><w lemma="7351" n="0.0" morph="HNcmsc/Sp1cp" id="222Kt">רַהִיטֵ֖/נוּ</w></rdg></note>
+          <w type="x-ketiv" lemma="7351" morph="HNcmsc/Sp1cp" id="22U4n">רחיט/נו</w><note type="variant"><catchWord>רחיט/נו</catchWord><rdg type="x-qere"><w lemma="7351" n="0.0" morph="HNcmsc/Sp1cp" id="222Kt">רַהִיטֵ֖/נוּ</w></rdg></note>
           <w lemma="1266" n="0" morph="HNcmpa" id="22RmH">בְּרוֹתִֽים</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
       </chapter>
@@ -610,7 +610,7 @@
         </verse>
         <verse osisID="Song.2.11">
           <w lemma="3588 a" morph="HC" id="22qg1">כִּֽי</w><seg type="x-maqqef">־</seg><w lemma="2009" morph="HTm" id="226w9">הִנֵּ֥ה</w>
-          <w lemma="d/5638" morph="HTd/Ncmsa" id="22wA4">ה/סתו</w><note type="variant"><catchWord>ה/סתו</catchWord><rdg type="x-qere"><w lemma="d/5638" n="1.0" morph="HTd/Ncmsa" id="22ibe">הַ/סְּתָ֖יו</w></rdg></note>
+          <w type="x-ketiv" lemma="d/5638" morph="HTd/Ncmsa" id="22wA4">ה/סתו</w><note type="variant"><catchWord>ה/סתו</catchWord><rdg type="x-qere"><w lemma="d/5638" n="1.0" morph="HTd/Ncmsa" id="22ibe">הַ/סְּתָ֖יו</w></rdg></note>
           <w lemma="5674 a" n="1" morph="HVqp3ms" id="22v8V">עָבָ֑ר</w>
           <w lemma="d/1653" n="0.1" morph="HTd/Ncmsa" id="22T2S">הַ/גֶּ֕שֶׁם</w>
           <w lemma="2498" n="0.0" morph="HVqp3ms" id="22tkJ">חָלַ֖ף</w>
@@ -639,7 +639,7 @@
           <w lemma="5414" morph="HVqp3cp" id="22qVd">נָ֣תְנוּ</w>
           <w lemma="7381" n="1" morph="HNcmsa" id="22koG">רֵ֑יחַ</w>
           <w lemma="6965 b" morph="HVqv2fs" id="22e6B">ק֥וּמִי</w>
-          <w lemma="3212" morph="HVqv2fs" id="228GY">לכי</w><note type="variant"><catchWord>לכי</catchWord><rdg type="x-qere"><w lemma="l" n="0.0.0" morph="HR/Sp2fs" id="22GpK">לָ֛/ךְ</w></rdg></note>
+          <w type="x-ketiv" lemma="3212" morph="HVqv2fs" id="228GY">לכי</w><note type="variant"><catchWord>לכי</catchWord><rdg type="x-qere"><w lemma="l" n="0.0.0" morph="HR/Sp2fs" id="22GpK">לָ֛/ךְ</w></rdg></note>
           <w lemma="7474" morph="HNcfsc/Sp1cs" id="2268C">רַעְיָתִ֥/י</w>
           <w lemma="3303" n="0.0" morph="HAafsc/Sp1cs" id="22CMz">יָפָתִ֖/י</w>
           <w lemma="c/3212" morph="HC/Vqv2fs" id="22D4c">וּ/לְכִי</w><seg type="x-maqqef">־</seg><w lemma="l" n="0" morph="HR/Sp2fs" id="22ta1">לָֽ/ךְ</w><seg type="x-sof-pasuq">׃</seg>
@@ -970,7 +970,7 @@
           <w lemma="269" morph="HNcfsc/Sp1cs" id="22qTT">אֲחֹתִ֣/י</w>
           <w lemma="3618" n="1" morph="HNcfsa" id="22m55">כַלָּ֑ה</w>
           <w lemma="3823 a" n="0.1.0" morph="HVpp2fs/Sp1cs" id="22AF1">לִבַּבְתִּ֨י/נִי֙</w>
-          <w lemma="b/259" morph="HR/Acmsa" id="225ED">ב/אחד</w><note type="variant"><catchWord>ב/אחד</catchWord><rdg type="x-qere"><w lemma="b/259" morph="HR/Acfsa" id="22zCS">בְּ/אַחַ֣ת</w></rdg></note>
+          <w type="x-ketiv" lemma="b/259" morph="HR/Acmsa" id="225ED">ב/אחד</w><note type="variant"><catchWord>ב/אחד</catchWord><rdg type="x-qere"><w lemma="b/259" morph="HR/Acfsa" id="22zCS">בְּ/אַחַ֣ת</w></rdg></note>
           <w lemma="m/5869 a" n="0.1" morph="HR/Ncbdc/Sp2fs" id="22LsC">מֵ/עֵינַ֔יִ/ךְ</w>
           <w lemma="b/259" morph="HR/Acmsc" id="22B4x">בְּ/אַחַ֥ד</w>
           <w lemma="6060 b" n="0.0" morph="HNcmsa" id="22JB6">עֲנָ֖ק</w>
