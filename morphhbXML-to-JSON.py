@@ -6,6 +6,7 @@ import copy
 import sys
 import getopt
 import json
+import os
 from xml.etree import ElementTree as ET
 
 bookNameData = {}
@@ -55,6 +56,7 @@ removeLemmaTypes = False
 stripHFromMorph = False
 prefixLemmasWithH = False
 remapVerses = False
+splitByBook = False
 
 
 def getBookData(filename):
@@ -134,6 +136,7 @@ def getCommandOptions(argv):
     global stripHFromMorph
     global prefixLemmasWithH
     global remapVerses
+    global splitByBook
 
     try:
         opts, args = getopt.getopt(argv, "h:",
@@ -142,14 +145,15 @@ def getCommandOptions(argv):
                                        "removeLemmaTypes",
                                        "stripHFromMorph",
                                        "prefixLemmasWithH",
-                                       "remapVerses"
+                                       "remapVerses",
+                                       "splitByBook"
                                    ])
     except getopt.GetoptError:
-        print('python3 morphhb.py --stripPointing --removeLemmaTypes --stripHFromMorph --prefixLemmasWithH --remapVerses')
+        print('python3 morphhb.py --stripPointing --removeLemmaTypes --stripHFromMorph --prefixLemmasWithH --remapVerses --splitByBook')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print('python3 morphhb.py --stripPointing --removeLemmaTypes --stripHFromMorph --prefixLemmasWithH --remapVerses')
+            print('python3 morphhb.py --stripPointing --removeLemmaTypes --stripHFromMorph --prefixLemmasWithH --remapVerses --splitByBook')
             sys.exit()
         elif opt in ("--stripPointing"):
             print('stripPointing')
@@ -166,6 +170,9 @@ def getCommandOptions(argv):
         elif opt in ("--remapVerses"):
             print('remapVerses')
             remapVerses = True
+        elif opt in ("--splitByBook"):
+            print('splitByBook')
+            splitByBook = True
 
 
 def main():
@@ -259,17 +266,25 @@ def main():
     remapped['Psalms'][12][4][6:16] = []
     remapped['Psalms'][12][5][0: 6] = []
 
-    jsonStr = str(hebrew)
     if remapVerses:
-        jsonStr = str(remapped)
+        final = remapped
+    else:
+        final = hebrew
 
-    jsonStr = re.sub(r'(?<=\},)', '\n', jsonStr)
-    if stripPointing:
-        jsonStr = stripPointingFunc(jsonStr)
+    name = 'remapped' if remapVerses else 'hebrew'
 
-    print("var morphhb={};".format(jsonStr))
-    print('')
-    print('module.exports=morphhb;')
+    if splitByBook:
+        output_dir = os.path.join('./json', name)
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+
+        for book in final:
+            target_file = os.path.join(output_dir, book.replace(" ", "").lower())
+            with open(target_file + '.json', 'w', encoding='utf8') as f:
+                json.dump(final[book], f, ensure_ascii=False)
+    else:
+        with open(name + '.json', 'w', encoding='utf8') as f:
+            json.dump(final, f, ensure_ascii=False)
 
 
 if __name__ == "__main__":
