@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<osis xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd">
   <osisText xml:lang="he" osisIDWork="OSHB" osisRefWork="Bible">
     <header>
       <revisionDesc resp="dt">
@@ -357,7 +357,7 @@
           <w lemma="m/4725" n="1" morph="HR/Ncmsc/Sp3ms" id="33XR4">מִ/מְּקוֹמ֑/וֹ</w>
           <w lemma="c/3381" morph="HC/Vqp3ms" id="33KvS">וְ/יָרַ֥ד</w>
           <w lemma="c/1869" n="0.0" morph="HC/Vqp3ms" id="33dBc">וְ/דָרַ֖ךְ</w>
-          <w lemma="5921 a" morph="HR" id="33nAB">עַל</w><seg type="x-maqqef">־</seg><w lemma="1116" morph="HNcfpc" id="33kfX">במותי</w><note type="variant"><catchWord>במותי</catchWord><rdg type="x-qere"><w lemma="1116" morph="HNcfpc" id="33Wkf">בָּ֥מֳתֵי</w></rdg></note>
+          <w lemma="5921 a" morph="HR" id="33nAB">עַל</w><seg type="x-maqqef">־</seg><w type="x-ketiv" lemma="1116" morph="HNcfpc" id="33kfX">במותי</w><note type="variant"><catchWord>במותי</catchWord><rdg type="x-qere"><w lemma="1116" morph="HNcfpc" id="33Wkf">בָּ֥מֳתֵי</w></rdg></note>
           <w lemma="776" n="0" morph="HNcbsa" id="33wrL">אָֽרֶץ</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Mic.1.4">
@@ -425,7 +425,7 @@
           <w lemma="5594" morph="HVqi1cs" id="33BU7">אֶסְפְּדָ֣ה</w>
           <w lemma="c/3213" n="1.1" morph="HC/Vhh1cs" id="33iy2">וְ/אֵילִ֔ילָה</w>
           <w lemma="3212" morph="HVqi1cs" id="33zQ2">אֵילְכָ֥ה</w>
-          <w lemma="7758" morph="HAamsa" id="33Wxx">שילל</w><note type="variant"><catchWord>שילל</catchWord><rdg type="x-qere"><w lemma="7758" n="1.0" morph="HAamsa" id="33jQ8">שׁוֹלָ֖ל</w></rdg></note>
+          <w type="x-ketiv" lemma="7758" morph="HAamsa" id="33Wxx">שילל</w><note type="variant"><catchWord>שילל</catchWord><rdg type="x-qere"><w lemma="7758" n="1.0" morph="HAamsa" id="33jQ8">שׁוֹלָ֖ל</w></rdg></note>
           <w lemma="c/6174" n="1" morph="HC/Aamsa" id="33Haa">וְ/עָר֑וֹם</w>
           <w lemma="6213 a" morph="HVqh1cs" id="33fJN">אֶעֱשֶׂ֤ה</w>
           <w lemma="4553" n="0.1.0" morph="HNcmsa" id="339KV">מִסְפֵּד֙</w>
@@ -453,7 +453,7 @@
           <w lemma="b/1036+" morph="HR/Ncmsc" id="333y8">בְּ/בֵ֣ית</w>
           <w lemma="1036" n="0.1" morph="HNp" id="33TXw">לְעַפְרָ֔ה</w>
           <w lemma="6083" n="0.0" morph="HNcmsa" id="33Y4K">עָפָ֖ר</w>
-          <w lemma="6428" morph="HVtp1cs" id="33C32">התפלשתי</w><note type="variant"><catchWord>התפלשתי</catchWord><rdg type="x-qere"><w lemma="6428" n="0" morph="HVtv2fs" id="33aMT">הִתְפַּלָּֽשִׁי</w></rdg></note><seg type="x-sof-pasuq">׃</seg>
+          <w type="x-ketiv" lemma="6428" morph="HVtp1cs" id="33C32">התפלשתי</w><note type="variant"><catchWord>התפלשתי</catchWord><rdg type="x-qere"><w lemma="6428" n="0" morph="HVtv2fs" id="33aMT">הִתְפַּלָּֽשִׁי</w></rdg></note><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Mic.1.11">
           <w lemma="5674 a" morph="HVqv2fs" id="33Cof">עִבְרִ֥י</w>
@@ -753,7 +753,7 @@
           <w lemma="8130" morph="HVqrmpc" id="33gBW">שֹׂ֥נְאֵי</w>
           <w lemma="2896 b" n="1.0" morph="HAamsa" id="33eLD">ט֖וֹב</w>
           <w lemma="c/157" morph="HC/Vqrmpc" id="3393F">וְ/אֹ֣הֲבֵי</w>
-          <w lemma="7451 b" morph="HAafsa" id="33eyL">רעה</w><note type="variant"><catchWord>רעה</catchWord><rdg type="x-qere"><w lemma="7451 b" n="1" morph="HAamsa" id="33pm7">רָ֑ע</w></rdg></note>
+          <w type="x-ketiv" lemma="7451 b" morph="HAafsa" id="33eyL">רעה</w><note type="variant"><catchWord>רעה</catchWord><rdg type="x-qere"><w lemma="7451 b" n="1" morph="HAamsa" id="33pm7">רָ֑ע</w></rdg></note>
           <w lemma="1497" morph="HVqrmpc" id="33teU">גֹּזְלֵ֤י</w>
           <w lemma="5785" n="0.1.0" morph="HNcmsc/Sp3mp" id="33c58">עוֹרָ/ם֙</w>
           <w lemma="m/5921 a" n="0.1" morph="HR/R/Sp3mp" id="33MRA">מֵֽ/עֲלֵי/הֶ֔ם</w>

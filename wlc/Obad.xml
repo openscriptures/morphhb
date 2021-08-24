@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<osis xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd">
   <osisText xml:lang="he" osisIDWork="OSHB" osisRefWork="Bible">
     <header>
       <revisionDesc resp="dt">
@@ -457,7 +457,7 @@
           <w lemma="2428" n="1" morph="HNcmsc/Sp3ms" id="31V27">חֵיל֑/וֹ</w>
           <w lemma="c/5237" n="0.1.1.0" morph="HC/Aampa" id="31ifp">וְ/נָכְרִ֞ים</w>
           <w lemma="935" morph="HVqp3cp" id="317ZG">בָּ֣אוּ</w>
-          <w lemma="8179" morph="HNcmsc/Sp3ms" id="31B2d">שער/ו</w><note type="variant"><catchWord>שער/ו</catchWord><rdg type="x-qere"><w lemma="8179" n="0.1.1" morph="HNcmpc/Sp3ms" id="31ewe">שְׁעָרָ֗י/ו</w></rdg></note>
+          <w type="x-ketiv" lemma="8179" morph="HNcmsc/Sp3ms" id="31B2d">שער/ו</w><note type="variant"><catchWord>שער/ו</catchWord><rdg type="x-qere"><w lemma="8179" n="0.1.1" morph="HNcmpc/Sp3ms" id="31ewe">שְׁעָרָ֗י/ו</w></rdg></note>
           <w lemma="c/5921 a" morph="HC/R" id="31SV6">וְ/עַל</w><seg type="x-maqqef">־</seg><w lemma="3389" n="0.1.0" morph="HNp" id="31G83">יְרוּשָׁלִַ֨ם֙</w>
           <w lemma="3032" morph="HVqp3cp" id="31vzS">יַדּ֣וּ</w>
           <w lemma="1486" n="0.1" morph="HNcmsa" id="31Gq9">גוֹרָ֔ל</w>

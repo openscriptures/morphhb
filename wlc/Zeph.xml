@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<osis xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.bibletechnologies.net/osisCore.2.1.1.xsd">
   <osisText xml:lang="he" osisIDWork="OSHB" osisRefWork="Bible">
     <header>
       <revisionDesc resp="dt">
@@ -679,7 +679,7 @@
           <w lemma="3068" morph="HNp" id="36Q2u">יְהוָ֥ה</w>
           <w lemma="430" n="0.0" morph="HNcmpc/Sp3mp" id="36yT5">אֱלֹהֵי/הֶ֖ם</w>
           <w lemma="c/7725" morph="HC/Vqq3ms" id="36b5Q">וְ/שָׁ֥ב</w>
-          <w lemma="7622" morph="HNcfsc/Sp3mp" id="36F88">שבות/ם</w><note type="variant"><catchWord>שבות/ם</catchWord><rdg type="x-qere"><w lemma="7622" n="0" morph="HNcfsc/Sp3mp" id="36AXb">שְׁבִיתָֽ/ם</w></rdg></note><seg type="x-sof-pasuq">׃</seg>
+          <w type="x-ketiv" lemma="7622" morph="HNcfsc/Sp3mp" id="36F88">שבות/ם</w><note type="variant"><catchWord>שבות/ם</catchWord><rdg type="x-qere"><w lemma="7622" n="0" morph="HNcfsc/Sp3mp" id="36AXb">שְׁבִיתָֽ/ם</w></rdg></note><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Zeph.2.8">
           <w lemma="8085" n="1.1.0" morph="HVqp1cs" id="36Wjz">שָׁמַ֨עְתִּי֙</w>
@@ -717,7 +717,7 @@
           <w lemma="5971 a" n="0.1.0" morph="HNcmsc/Sp1cs" id="36rGa">עַמִּ/י֙</w>
           <w lemma="962" n="0.1" morph="HVqi3mp/Sp3mp" id="36fp1">יְבָזּ֔וּ/ם</w>
           <w lemma="c/3499 a" morph="HC/Ncmsc" id="36Y9g">וְ/יֶ֥תֶר</w>
-          <w lemma="1471 a" morph="HNcmsa" id="36mGU">גוי</w><note type="variant"><catchWord>גוי</catchWord><rdg type="x-qere"><w lemma="1471 a" n="0.0" morph="HNcmsc/Sp1cs" id="36gBW">גּוֹיִ֖/י</w></rdg></note>
+          <w type="x-ketiv" lemma="1471 a" morph="HNcmsa" id="36mGU">גוי</w><note type="variant"><catchWord>גוי</catchWord><rdg type="x-qere"><w lemma="1471 a" n="0.0" morph="HNcmsc/Sp1cs" id="36gBW">גּוֹיִ֖/י</w></rdg></note>
           <w lemma="5157" n="0" morph="HVqi3mp/Sp3mp" id="36eLD">יִנְחָלֽוּ/ם</w><seg type="x-sof-pasuq">׃</seg>
         </verse>
         <verse osisID="Zeph.2.10">
