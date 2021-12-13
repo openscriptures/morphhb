@@ -57,7 +57,7 @@ Updated: January 27, 2017
 
 [1]: http://bibletechnologies.net/
 
-## Javascript npm module
+## Perl script for JSON output
 
 There is a perl script which generates a JSON version of the morphology which is published to npm here:
 https://www.npmjs.com/package/morphhb
@@ -79,14 +79,19 @@ The perl script which generates this is called morphhbXML-to-JSON.pl. It has sev
 - remapVerses: The versification in Hebrew and English bibles is different. This option maps the Hebrew verses to the English ones.
 
 You can run this script like so:
-`perl morphhbXML-to-JSON.pl --stripPointing --removeLemmaTypes --prefixLemmasWithH --remapVerses`
 
-## Updated
+    `perl morphhbXML-to-JSON.pl --stripPointing --removeLemmaTypes --prefixLemmasWithH --remapVerses`
 
-The Python script has been updated to reflect contemporary data practices and to promote cross-platform cooperation.
+
+## Python script with Docker
+
+There is also a Python script to transform the data into a JSON file. 
+
+It has similar arguments as the perl script above, but it has the argument `--splitByBook`.
 
 Use `--splitByBook` to create a JSON file per book.
 
-This is usable directly or via Docker:
+The python script can be run in a Docker container based on the `Dockerfile` in the main directory. To build the docker image
+and run the container, use the following commands (possibly as root):
 
     docker build . -t local/morphhb && docker run -it -v `pwd`:/var/app local/morphhb
