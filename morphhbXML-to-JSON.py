@@ -56,7 +56,7 @@ removeLemmaTypes = False
 stripHFromMorph = False
 prefixLemmasWithH = False
 remapVerses = False
-splitByBook = False
+splitByBook = True
 
 
 def getBookData(filename):
