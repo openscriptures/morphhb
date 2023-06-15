@@ -46,7 +46,7 @@ export const books = {
     "36 18 17 17 22 14 42 22 18 31 19 23 16 23 14 19 14 19 34 11 37 20 12 21 27 28 23 9 27 36 27 21 33 25 33 27 23",
 };
 
-export const bookNames = {
+export const bookNamesMap = {
   Gen: "Genesis",
   Exod: "Exodus",
   Lev: "Leviticus",
@@ -87,3 +87,9 @@ export const bookNames = {
   "1Chr": "1 Chronicles",
   "2Chr": "2 Chronicles",
 };
+
+export type TBookName = keyof typeof bookNamesMap;
+
+export const bookList = Object.keys(bookNamesMap).map((key: string) => {
+  return [key, bookNamesMap[key as TBookName]] as const;
+});
