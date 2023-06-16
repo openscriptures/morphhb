@@ -20,17 +20,16 @@ function App() {
 
   const chapterCount = +books[book].split(" ")[0];
 
+  const handleBookChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setBook(e.target.value as TBookName);
+    setChapter(1);
+  };
   return (
     <div className="wrapper">
       <div className="header">
         <div className="selectorWrapper">
           <label>Books</label>
-          <select
-            onChange={(e) => {
-              if (book !== e.target.value) setChapter(1);
-              setBook(e.target.value as TBookName);
-            }}
-          >
+          <select onChange={handleBookChange}>
             {bookList.map(([key, name]) => (
               <option value={key}>{name}</option>
             ))}
