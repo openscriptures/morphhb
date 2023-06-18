@@ -1,15 +1,15 @@
-const SERVER_URL = '/';
+const SERVER_URL = "/";
 
 const jsonRequest = (url: string, options = {}) => {
   return fetch(SERVER_URL + url, {
-    headers: { 'content-type': 'application/json' },
+    headers: { "content-type": "application/json" },
     ...options,
   }).then((response) => response.json());
 };
 
 export const getRequest = (url: string, o = {}) => {
   const options = {
-    method: 'GET',
+    method: "GET",
     ...o,
   };
 
@@ -20,7 +20,7 @@ export const getRequest = (url: string, o = {}) => {
 
 export const postRequest = (url: string, data: any) => {
   const options = {
-    method: 'POST',
+    method: "POST",
     body: JSON.stringify(data),
   };
 
@@ -31,7 +31,7 @@ export const postRequest = (url: string, data: any) => {
 
 export const putRequest = (url: string, data: any) => {
   const options = {
-    method: 'PUT',
+    method: "PUT",
     body: JSON.stringify(data),
   };
 
@@ -42,7 +42,7 @@ export const putRequest = (url: string, data: any) => {
 
 export const deleteRequest = (url: string, o = {}) => {
   const options = {
-    method: 'DELETE',
+    method: "DELETE",
     ...o,
   };
 
@@ -53,6 +53,13 @@ export const deleteRequest = (url: string, o = {}) => {
 
 export const fetchBook = (book: string) => {
   const req = getRequest(`data\\${book}.json`);
+
+  return req;
+};
+
+export const fetchStrongsNumbers = () => {
+  // source: https://github.com/eliranwong/unabridged-BDB-Hebrew-lexicon/tree/master
+  const req = getRequest("data\\DictBDB.json");
 
   return req;
 };

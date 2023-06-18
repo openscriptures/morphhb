@@ -10,8 +10,6 @@
   align-items: flex-start;
   padding: 32px;
   background: #ffffff;
-  box-shadow: 0px 8px 15px -3px rgba(0, 0, 0, 0.1),
-    0px 4px 6px -4px rgba(0, 0, 0, 0.1);
   border-radius: 1px;
 }
 
@@ -39,9 +37,11 @@ hr {
 .text {
   direction: rtl;
   text-align: right;
-  height: calc(100vh - 256px);
+  height: calc(100vh - 148px);
   font-size: 32px;
   overflow: scroll;
+  line-height: 52px;
+  padding: 16px;
 }
 
 select {
@@ -59,3 +59,101 @@ select {
 .selectorWrapper {
   width: 100%;
 }
+
+.word {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.word:hover {
+  background-color: #f5f5f5;
+}
+
+.word-parts {
+  /* not wrap */
+  white-space: nowrap;
+}
+
+.verse {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.verse::after {
+  content: ": ";
+}
+
+.meaning {
+  position: absolute;
+  display: block;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  padding: 4px;
+  font-size: 1rem;
+  z-index: 2;
+  top: -16px;
+}
+
+.verseNumber {
+  border-radius: 3px;
+  padding: 4px;
+  font-size: 1rem;
+  z-index: 2;
+  font-weight: 800;
+  color: #555555;
+  display: inline-block;
+  vertical-align: super;
+  margin-left: -8px;
+  cursor: default;
+}
+
+.popoverDialog {
+  display: block;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  padding: 4px;
+  font-size: 1rem;
+  z-index: 2;
+  width: calc(100% - 64px);
+  height: calc(100% - 64px);
+  position: fixed;
+  text-align: initial;
+  padding: 4px;
+}
+
+.popoverDialog .body {
+  overflow: auto;
+  height: 100%;
+  display: inline-block;
+  padding: 16px;
+}
+
+.popoverDialog .close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.popoverOverlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #cccccc;
+  background: #000000;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  /*blur*/ 
+  opacity: 0.5;
+}
+
