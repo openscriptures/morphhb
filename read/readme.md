@@ -26,6 +26,9 @@ Several components have been adapted from
 [OSHB Verse](https://hb.openscriptures.org/structure/OshbVerse/),
 we have:
 
+-	ReferenceLocation.js (Added 4/19/2024) manages URL locations, to
+	make and process the link.
+	
 -	AccentCatalog.js catalogs the accents by type and scope.
 
 -	Books.js records book data for navigation.
@@ -69,6 +72,7 @@ OSHB Read is licensed under a
 license. For attribution purposes, credit the Open Scriptures Hebrew Bible
 Project.
 
+Updated April 19, 2024 (marcstober)
 Updated September 18, 2019  
 Updated August 30, 2019  
 Updated July 27, 2019  
