@@ -1,6 +1,7 @@
 /**
  * @fileOverview Read is the JavaScript controller for OSHB Read.
- * @version 1.0
+ * @version 1.1
+ * Version 1.1: Factored in Reference Location, to link to the current verse (marcstober).
  * @author David
  */
 (function() {
@@ -9,7 +10,8 @@
         "book": document.getElementById('book'),
         "chapter": document.getElementById('chapter'),
         "verse": document.getElementById('verse'),
-        "display": document.getElementById('display')
+        "display": document.getElementById('display'),
+        "link": document.getElementById('link')
     };
 // Utility functions.
     // Utility function to clear child nodes from an element.
@@ -74,7 +76,9 @@
         for (; i <= num; i++) {
             elements.verse.options[elements.verse.options.length] = new Option(i);
         }
-		getChapter();
+        elements.verse[initialVerse].selected = "selected";
+        initialVerse = 0; 
+        getChapter();
     };
     // Extracts the XML chapter from bookText.
     var setChapterFile = function() {
@@ -93,6 +97,11 @@
         return loadFile("../wlc/" + book + ".xml", setChapters);
 	};
 // Interface elements.
+    // Marks up the link.
+	function linkMark() {
+		var address = refLocation.getLocation(elements.book.value, elements.chapter.value, elements.verse.value);
+		return '<a href="' + address + '">' + address + '</a>'
+	}
 	var chapterMarkup = window.chapterMarkup;
     // Marks up the chapter.
 	function getChapter() {
@@ -101,14 +110,18 @@
 		elements.display.appendChild(chapterMarkup(chapter));
 		// Highlight the selected verse.
 		selectVerse(document.getElementById("v." + elements.verse.value));
+        elements.link.innerHTML = linkMark();
 	}
     // Initialize.
-    var initialChapter = elements.chapter.value - 1,
+    var refLocation = window.refLocation,
+		initialChapter = refLocation.chapterIndex(),
+		initialVerse = refLocation.verseIndex(),
 		selectVerse = window.selectVerse;
     elements.book.onchange = setBookFile;
     elements.chapter.onchange = setChapterFile;
     elements.verse.onchange = function() {
 		selectVerse(document.getElementById("v." + elements.verse.value));
+        elements.link.innerHTML = linkMark();
 	};
     setBookFile();
 })();
