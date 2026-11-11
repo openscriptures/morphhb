@@ -30,7 +30,8 @@ see [The OpenScriptures Hebrew Bible](http://openscriptures.github.io/morphhb/)
 -	`MAPM` contains our work with the
 [Miqra according to the Mesorah](https://he.wikisource.org/wiki/%D7%9E%D7%A9%D7%AA%D7%9E%D7%A9:Dovi/%D7%9E%D7%A7%D7%A8%D7%90_%D7%A2%D7%9C_%D7%A4%D7%99_%D7%94%D7%9E%D7%A1%D7%95%D7%A8%D7%94)
 These were done in cooperation with Rabbi Kadish, for comparison with the OSHB.
-The MapM has since progressed, so our files may not be up to date.
+In November 2026 `MAPM/MAPM.xml` was regenerated from the MapM of that date by
+[MAM-basics](https://github.com/bdenckla/MAM-basics/tree/main/MAM-morphhb), which may have a newer version; see `MAPM/readme.txt`.
 
 -	`OSHB Graphics` contains the OSHB logo graphics, for crediting or linking to
 our resources.  See the `readme` in that directory for more details.
