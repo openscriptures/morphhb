@@ -1,0 +1,31 @@
+name: Validate data
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check out the base revision for comparison
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: git worktree add --detach ../base "$BASE_SHA"
+
+      - name: Validate (pull request)
+        if: github.event_name == 'pull_request'
+        run: python3 .github/scripts/validate_data.py --base ../base
+
+      - name: Validate (push)
+        if: github.event_name != 'pull_request'
+        run: python3 .github/scripts/validate_data.py
